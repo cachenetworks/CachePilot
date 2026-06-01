@@ -1,0 +1,1112 @@
+{
+  "ship mode": [
+    "Switching to ship, Captain!",
+    "Sure thing, Captain. Switching to ship.",
+    "On it, Captain. Switching to ship.",
+    "Right away. Switching to ship."
+  ],
+  "fps mode": [
+    "Switching to fps, Captain!",
+    "Sure thing, Captain. Switching to fps.",
+    "On it, Captain. Switching to fps.",
+    "Right away. Switching to fps."
+  ],
+  "request landing": [
+    "Requesting landing, Captain!",
+    "Sure thing, Captain. Requesting landing.",
+    "On it, Captain. Requesting landing.",
+    "Right away. Requesting landing."
+  ],
+  "request takeoff": [
+    "Requesting takeoff, Captain!",
+    "Sure thing, Captain. Requesting takeoff.",
+    "On it, Captain. Requesting takeoff.",
+    "Right away. Requesting takeoff."
+  ],
+  "hail atc": [
+    "Hailing control, Captain!",
+    "Sure thing, Captain. Hailing control.",
+    "On it, Captain. Hailing control.",
+    "Right away. Hailing control."
+  ],
+  "open hangar": [
+    "Opening hangar, Captain!",
+    "Sure thing, Captain. Opening hangar.",
+    "On it, Captain. Opening hangar.",
+    "Right away. Opening hangar."
+  ],
+  "camera cycle": [
+    "Cycling camera, Captain!",
+    "Sure thing, Captain. Cycling camera.",
+    "On it, Captain. Cycling camera.",
+    "Right away. Cycling camera."
+  ],
+  "look around": [
+    "Free look toggled, Captain!",
+    "Sure thing, Captain. Free look toggled.",
+    "On it, Captain. Free look toggled.",
+    "Right away. Free look toggled."
+  ],
+  "camera move right": [
+    "Panning right, Captain!",
+    "Sure thing, Captain. Panning right.",
+    "On it, Captain. Panning right.",
+    "Right away. Panning right."
+  ],
+  "camera move left": [
+    "Panning left, Captain!",
+    "Sure thing, Captain. Panning left.",
+    "On it, Captain. Panning left.",
+    "Right away. Panning left."
+  ],
+  "camera move forward": [
+    "Panning in, Captain!",
+    "Sure thing, Captain. Panning in.",
+    "On it, Captain. Panning in.",
+    "Right away. Panning in."
+  ],
+  "camera move backward": [
+    "Panning out, Captain!",
+    "Sure thing, Captain. Panning out.",
+    "On it, Captain. Panning out.",
+    "Right away. Panning out."
+  ],
+  "camera move up": [
+    "Panning up, Captain!",
+    "Sure thing, Captain. Panning up.",
+    "On it, Captain. Panning up.",
+    "Right away. Panning up."
+  ],
+  "camera move down": [
+    "Panning down, Captain!",
+    "Sure thing, Captain. Panning down.",
+    "On it, Captain. Panning down.",
+    "Right away. Panning down."
+  ],
+  "save camera one": [
+    "Saving camera one, Captain!",
+    "Sure thing, Captain. Saving camera one.",
+    "On it, Captain. Saving camera one.",
+    "Right away. Saving camera one."
+  ],
+  "save camera two": [
+    "Saving camera two, Captain!",
+    "Sure thing, Captain. Saving camera two.",
+    "On it, Captain. Saving camera two.",
+    "Right away. Saving camera two."
+  ],
+  "save camera three": [
+    "Saving camera three, Captain!",
+    "Sure thing, Captain. Saving camera three.",
+    "On it, Captain. Saving camera three.",
+    "Right away. Saving camera three."
+  ],
+  "save camera four": [
+    "Saving camera four, Captain!",
+    "Sure thing, Captain. Saving camera four.",
+    "On it, Captain. Saving camera four.",
+    "Right away. Saving camera four."
+  ],
+  "save camera five": [
+    "Saving camera five, Captain!",
+    "Sure thing, Captain. Saving camera five.",
+    "On it, Captain. Saving camera five.",
+    "Right away. Saving camera five."
+  ],
+  "save camera six": [
+    "Saving camera six, Captain!",
+    "Sure thing, Captain. Saving camera six.",
+    "On it, Captain. Saving camera six.",
+    "Right away. Saving camera six."
+  ],
+  "save camera seven": [
+    "Saving camera seven, Captain!",
+    "Sure thing, Captain. Saving camera seven.",
+    "On it, Captain. Saving camera seven.",
+    "Right away. Saving camera seven."
+  ],
+  "save camera eight": [
+    "Saving camera eight, Captain!",
+    "Sure thing, Captain. Saving camera eight.",
+    "On it, Captain. Saving camera eight.",
+    "Right away. Saving camera eight."
+  ],
+  "save camera nine": [
+    "Saving camera nine, Captain!",
+    "Sure thing, Captain. Saving camera nine.",
+    "On it, Captain. Saving camera nine.",
+    "Right away. Saving camera nine."
+  ],
+  "load camera one": [
+    "Loading camera one, Captain!",
+    "Sure thing, Captain. Loading camera one.",
+    "On it, Captain. Loading camera one.",
+    "Right away. Loading camera one."
+  ],
+  "load camera two": [
+    "Loading camera two, Captain!",
+    "Sure thing, Captain. Loading camera two.",
+    "On it, Captain. Loading camera two.",
+    "Right away. Loading camera two."
+  ],
+  "load camera three": [
+    "Loading camera three, Captain!",
+    "Sure thing, Captain. Loading camera three.",
+    "On it, Captain. Loading camera three.",
+    "Right away. Loading camera three."
+  ],
+  "load camera four": [
+    "Loading camera four, Captain!",
+    "Sure thing, Captain. Loading camera four.",
+    "On it, Captain. Loading camera four.",
+    "Right away. Loading camera four."
+  ],
+  "load camera five": [
+    "Loading camera five, Captain!",
+    "Sure thing, Captain. Loading camera five.",
+    "On it, Captain. Loading camera five.",
+    "Right away. Loading camera five."
+  ],
+  "load camera six": [
+    "Loading camera six, Captain!",
+    "Sure thing, Captain. Loading camera six.",
+    "On it, Captain. Loading camera six.",
+    "Right away. Loading camera six."
+  ],
+  "load camera seven": [
+    "Loading camera seven, Captain!",
+    "Sure thing, Captain. Loading camera seven.",
+    "On it, Captain. Loading camera seven.",
+    "Right away. Loading camera seven."
+  ],
+  "load camera eight": [
+    "Loading camera eight, Captain!",
+    "Sure thing, Captain. Loading camera eight.",
+    "On it, Captain. Loading camera eight.",
+    "Right away. Loading camera eight."
+  ],
+  "load camera nine": [
+    "Loading camera nine, Captain!",
+    "Sure thing, Captain. Loading camera nine.",
+    "On it, Captain. Loading camera nine.",
+    "Right away. Loading camera nine."
+  ],
+  "reset camera": [
+    "Camera reset, Captain!",
+    "Sure thing, Captain. Camera reset.",
+    "On it, Captain. Camera reset.",
+    "Right away. Camera reset."
+  ],
+  "landing checklist": [
+    "Running landing checklist, Captain!",
+    "Sure thing, Captain. Running landing checklist.",
+    "On it, Captain. Running landing checklist.",
+    "Right away. Running landing checklist."
+  ],
+  "takeoff checklist": [
+    "Running takeoff checklist, Captain!",
+    "Sure thing, Captain. Running takeoff checklist.",
+    "On it, Captain. Running takeoff checklist.",
+    "Right away. Running takeoff checklist."
+  ],
+  "combat mode": [
+    "Going hot, Captain!",
+    "Sure thing, Captain. Going hot.",
+    "On it, Captain. Going hot.",
+    "Right away. Going hot."
+  ],
+  "panic": [
+    "Panic protocol, Captain!",
+    "Sure thing, Captain. Panic protocol.",
+    "On it, Captain. Panic protocol.",
+    "Right away. Panic protocol."
+  ],
+  "hello": [
+    "Hi, Captain!",
+    "Hello there, Captain.",
+    "Hey Captain!",
+    "Hi! Good to see you."
+  ],
+  "hey": [
+    "Yes, Captain?",
+    "Hi! What's up?",
+    "Right here, Captain.",
+    "Yeah, what is it?"
+  ],
+  "good morning": [
+    "Morning, Captain!",
+    "Good morning! Sleep alright?",
+    "Hi, morning!",
+    "Morning! Let's have a good one."
+  ],
+  "good evening": [
+    "Evening, Captain!",
+    "Good evening!",
+    "Hi, evening!",
+    "Evening! Cosy out there."
+  ],
+  "thank you": [
+    "No worries, Captain!",
+    "Anytime!",
+    "Of course, Captain.",
+    "Happy to help."
+  ],
+  "good job": [
+    "Thanks, Captain!",
+    "Aw, cheers!",
+    "Thank you!",
+    "Means a lot, Captain."
+  ],
+  "status": [
+    "All good here, Captain.",
+    "Everything's fine!",
+    "Nothing to worry about, Captain.",
+    "Looking great."
+  ],
+  "report": [
+    "All clear, Captain!",
+    "Nothing to say, really.",
+    "Quiet as anything.",
+    "Sky's all yours."
+  ],
+  "ready": [
+    "Ready, Captain!",
+    "All set!",
+    "Good to go!",
+    "Whenever you are."
+  ],
+  "shut up": [
+    "Sure thing.",
+    "Okay, quiet now.",
+    "Got it!",
+    "Alright, hushing."
+  ],
+  "quiet": [
+    "Going quiet!",
+    "Comms off!",
+    "Lips zipped!",
+    "Quiet mode!"
+  ],
+  "who are you": [
+    "I'm the ship AI, Captain!",
+    "Your friendly onboard.",
+    "Just me, the ship.",
+    "Hi, I'm the ship."
+  ],
+  "where are we": [
+    "Not sure, Captain — check the map!",
+    "Map'll tell you, Captain.",
+    "Couldn't say! Try the starmap.",
+    "Beats me. Map?"
+  ],
+  "eva forward": [
+    "Eva forward, Captain!",
+    "Sure thing, Captain. Eva forward.",
+    "On it, Captain. Eva forward.",
+    "Right away. Eva forward."
+  ],
+  "eva back": [
+    "Eva back, Captain!",
+    "Sure thing, Captain. Eva back.",
+    "On it, Captain. Eva back.",
+    "Right away. Eva back."
+  ],
+  "eva strafe left": [
+    "Eva strafe port, Captain!",
+    "Sure thing, Captain. Eva strafe port.",
+    "On it, Captain. Eva strafe port.",
+    "Right away. Eva strafe port."
+  ],
+  "eva strafe right": [
+    "Eva strafe starboard, Captain!",
+    "Sure thing, Captain. Eva strafe starboard.",
+    "On it, Captain. Eva strafe starboard.",
+    "Right away. Eva strafe starboard."
+  ],
+  "eva roll left": [
+    "Eva roll port, Captain!",
+    "Sure thing, Captain. Eva roll port.",
+    "On it, Captain. Eva roll port.",
+    "Right away. Eva roll port."
+  ],
+  "eva roll right": [
+    "Eva roll starboard, Captain!",
+    "Sure thing, Captain. Eva roll starboard.",
+    "On it, Captain. Eva roll starboard.",
+    "Right away. Eva roll starboard."
+  ],
+  "flight ready": [
+    "Flight ready, Captain!",
+    "Sure thing, Captain. Flight ready.",
+    "On it, Captain. Flight ready.",
+    "Right away. Flight ready."
+  ],
+  "engines on": [
+    "Engines online, Captain!",
+    "Sure thing, Captain. Engines online.",
+    "On it, Captain. Engines online.",
+    "Right away. Engines online."
+  ],
+  "engines off": [
+    "Engines offline, Captain!",
+    "Sure thing, Captain. Engines offline.",
+    "On it, Captain. Engines offline.",
+    "Right away. Engines offline."
+  ],
+  "toggle engines": [
+    "Toggling engines, Captain!",
+    "Sure thing, Captain. Toggling engines.",
+    "On it, Captain. Toggling engines.",
+    "Right away. Toggling engines."
+  ],
+  "systems on": [
+    "Systems online, Captain!",
+    "Sure thing, Captain. Systems online.",
+    "On it, Captain. Systems online.",
+    "Right away. Systems online."
+  ],
+  "systems off": [
+    "Systems offline, Captain!",
+    "Sure thing, Captain. Systems offline.",
+    "On it, Captain. Systems offline.",
+    "Right away. Systems offline."
+  ],
+  "toggle systems": [
+    "Toggling systems, Captain!",
+    "Sure thing, Captain. Toggling systems.",
+    "On it, Captain. Toggling systems.",
+    "Right away. Toggling systems."
+  ],
+  "throttle up": [
+    "Throttle up, Captain!",
+    "Sure thing, Captain. Throttle up.",
+    "On it, Captain. Throttle up.",
+    "Right away. Throttle up."
+  ],
+  "throttle down": [
+    "Throttle down, Captain!",
+    "Sure thing, Captain. Throttle down.",
+    "On it, Captain. Throttle down.",
+    "Right away. Throttle down."
+  ],
+  "ship strafe left": [
+    "Strafing port, Captain!",
+    "Sure thing, Captain. Strafing port.",
+    "On it, Captain. Strafing port.",
+    "Right away. Strafing port."
+  ],
+  "ship strafe right": [
+    "Strafing starboard, Captain!",
+    "Sure thing, Captain. Strafing starboard.",
+    "On it, Captain. Strafing starboard.",
+    "Right away. Strafing starboard."
+  ],
+  "roll left": [
+    "Rolling port, Captain!",
+    "Sure thing, Captain. Rolling port.",
+    "On it, Captain. Rolling port.",
+    "Right away. Rolling port."
+  ],
+  "roll right": [
+    "Rolling starboard, Captain!",
+    "Sure thing, Captain. Rolling starboard.",
+    "On it, Captain. Rolling starboard.",
+    "Right away. Rolling starboard."
+  ],
+  "boost": [
+    "Boost engaged, Captain!",
+    "Sure thing, Captain. Boost engaged.",
+    "On it, Captain. Boost engaged.",
+    "Right away. Boost engaged."
+  ],
+  "boost hard": [
+    "Full boost, Captain!",
+    "Sure thing, Captain. Full boost.",
+    "On it, Captain. Full boost.",
+    "Right away. Full boost."
+  ],
+  "space brake": [
+    "Braking, Captain!",
+    "Sure thing, Captain. Braking.",
+    "On it, Captain. Braking.",
+    "Right away. Braking."
+  ],
+  "full stop": [
+    "Full stop, Captain!",
+    "Sure thing, Captain. Full stop.",
+    "On it, Captain. Full stop.",
+    "Right away. Full stop."
+  ],
+  "cruise control": [
+    "Cruise control toggled, Captain!",
+    "Sure thing, Captain. Cruise control toggled.",
+    "On it, Captain. Cruise control toggled.",
+    "Right away. Cruise control toggled."
+  ],
+  "quantum mode": [
+    "Spinning up quantum drive, Captain!",
+    "Sure thing, Captain. Spinning up quantum drive.",
+    "On it, Captain. Spinning up quantum drive.",
+    "Right away. Spinning up quantum drive."
+  ],
+  "jump": [
+    "Jumping, Captain!",
+    "Sure thing, Captain. Jumping.",
+    "On it, Captain. Jumping.",
+    "Right away. Jumping."
+  ],
+  "exit seat": [
+    "Leaving seat, Captain!",
+    "Sure thing, Captain. Leaving seat.",
+    "On it, Captain. Leaving seat.",
+    "Right away. Leaving seat."
+  ],
+  "landing mode": [
+    "Toggling landing mode, Captain!",
+    "Sure thing, Captain. Toggling landing mode.",
+    "On it, Captain. Toggling landing mode.",
+    "Right away. Toggling landing mode."
+  ],
+  "auto land": [
+    "Auto landing, Captain!",
+    "Sure thing, Captain. Auto landing.",
+    "On it, Captain. Auto landing.",
+    "Right away. Auto landing."
+  ],
+  "decoupled mode": [
+    "Toggling decoupled mode, Captain!",
+    "Sure thing, Captain. Toggling decoupled mode.",
+    "On it, Captain. Toggling decoupled mode.",
+    "Right away. Toggling decoupled mode."
+  ],
+  "speed limiter up": [
+    "Raising speed limiter, Captain!",
+    "Sure thing, Captain. Raising speed limiter.",
+    "On it, Captain. Raising speed limiter.",
+    "Right away. Raising speed limiter."
+  ],
+  "speed limiter down": [
+    "Lowering speed limiter, Captain!",
+    "Sure thing, Captain. Lowering speed limiter.",
+    "On it, Captain. Lowering speed limiter.",
+    "Right away. Lowering speed limiter."
+  ],
+  "lock pitch yaw": [
+    "Axis lock toggled, Captain!",
+    "Sure thing, Captain. Axis lock toggled.",
+    "On it, Captain. Axis lock toggled.",
+    "Right away. Axis lock toggled."
+  ],
+  "vtol": [
+    "Toggling vtol, Captain!",
+    "Sure thing, Captain. Toggling vtol.",
+    "On it, Captain. Toggling vtol.",
+    "Right away. Toggling vtol."
+  ],
+  "lights": [
+    "Toggling lights, Captain!",
+    "Sure thing, Captain. Toggling lights.",
+    "On it, Captain. Toggling lights.",
+    "Right away. Toggling lights."
+  ],
+  "drive forward": [
+    "Driving forward, Captain!",
+    "Sure thing, Captain. Driving forward.",
+    "On it, Captain. Driving forward.",
+    "Right away. Driving forward."
+  ],
+  "drive backward": [
+    "Reversing, Captain!",
+    "Sure thing, Captain. Reversing.",
+    "On it, Captain. Reversing.",
+    "Right away. Reversing."
+  ],
+  "turn left": [
+    "Steering port, Captain!",
+    "Sure thing, Captain. Steering port.",
+    "On it, Captain. Steering port.",
+    "Right away. Steering port."
+  ],
+  "turn right": [
+    "Steering starboard, Captain!",
+    "Sure thing, Captain. Steering starboard.",
+    "On it, Captain. Steering starboard.",
+    "Right away. Steering starboard."
+  ],
+  "vehicle brake": [
+    "Braking, Captain!",
+    "Sure thing, Captain. Braking.",
+    "On it, Captain. Braking.",
+    "Right away. Braking."
+  ],
+  "vehicle boost": [
+    "Vehicle boost, Captain!",
+    "Sure thing, Captain. Vehicle boost.",
+    "On it, Captain. Vehicle boost.",
+    "Right away. Vehicle boost."
+  ],
+  "vehicle exit seat": [
+    "Dismounting, Captain!",
+    "Sure thing, Captain. Dismounting.",
+    "On it, Captain. Dismounting.",
+    "Right away. Dismounting."
+  ],
+  "mining mode": [
+    "Mining mode, Captain!",
+    "Sure thing, Captain. Mining mode.",
+    "On it, Captain. Mining mode.",
+    "Right away. Mining mode."
+  ],
+  "fire mining laser": [
+    "Mining laser firing, Captain!",
+    "Sure thing, Captain. Mining laser firing.",
+    "On it, Captain. Mining laser firing.",
+    "Right away. Mining laser firing."
+  ],
+  "switch mining laser": [
+    "Laser switched, Captain!",
+    "Sure thing, Captain. Laser switched.",
+    "On it, Captain. Laser switched.",
+    "Right away. Laser switched."
+  ],
+  "increase mining laser power": [
+    "Mining power up, Captain!",
+    "Sure thing, Captain. Mining power up.",
+    "On it, Captain. Mining power up.",
+    "Right away. Mining power up."
+  ],
+  "decrease mining laser power": [
+    "Mining power down, Captain!",
+    "Sure thing, Captain. Mining power down.",
+    "On it, Captain. Mining power down.",
+    "Right away. Mining power down."
+  ],
+  "cycle mining gimbal": [
+    "Mining gimbal cycled, Captain!",
+    "Sure thing, Captain. Mining gimbal cycled.",
+    "On it, Captain. Mining gimbal cycled.",
+    "Right away. Mining gimbal cycled."
+  ],
+  "mining consumable one": [
+    "Consumable one active, Captain!",
+    "Sure thing, Captain. Consumable one active.",
+    "On it, Captain. Consumable one active.",
+    "Right away. Consumable one active."
+  ],
+  "mining consumable two": [
+    "Consumable two active, Captain!",
+    "Sure thing, Captain. Consumable two active.",
+    "On it, Captain. Consumable two active.",
+    "Right away. Consumable two active."
+  ],
+  "mining consumable three": [
+    "Consumable three active, Captain!",
+    "Sure thing, Captain. Consumable three active.",
+    "On it, Captain. Consumable three active.",
+    "Right away. Consumable three active."
+  ],
+  "jettison cargo": [
+    "Jettisoning cargo, Captain!",
+    "Sure thing, Captain. Jettisoning cargo.",
+    "On it, Captain. Jettisoning cargo.",
+    "Right away. Jettisoning cargo."
+  ],
+  "open mobiglas": [
+    "Opening mobiglas, Captain!",
+    "Sure thing, Captain. Opening mobiglas.",
+    "On it, Captain. Opening mobiglas.",
+    "Right away. Opening mobiglas."
+  ],
+  "open starmap": [
+    "Opening starmap, Captain!",
+    "Sure thing, Captain. Opening starmap.",
+    "On it, Captain. Opening starmap.",
+    "Right away. Opening starmap."
+  ],
+  "open contacts": [
+    "Opening contacts, Captain!",
+    "Sure thing, Captain. Opening contacts.",
+    "On it, Captain. Opening contacts.",
+    "Right away. Opening contacts."
+  ],
+  "move forward": [
+    "Moving forward, Captain!",
+    "Sure thing, Captain. Moving forward.",
+    "On it, Captain. Moving forward.",
+    "Right away. Moving forward."
+  ],
+  "move forward short": [
+    "Quick step forward, Captain!",
+    "Sure thing, Captain. Quick step forward.",
+    "On it, Captain. Quick step forward.",
+    "Right away. Quick step forward."
+  ],
+  "move forward long": [
+    "Sustained forward, Captain!",
+    "Sure thing, Captain. Sustained forward.",
+    "On it, Captain. Sustained forward.",
+    "Right away. Sustained forward."
+  ],
+  "move backward": [
+    "Moving back, Captain!",
+    "Sure thing, Captain. Moving back.",
+    "On it, Captain. Moving back.",
+    "Right away. Moving back."
+  ],
+  "move backward short": [
+    "Quick step back, Captain!",
+    "Sure thing, Captain. Quick step back.",
+    "On it, Captain. Quick step back.",
+    "Right away. Quick step back."
+  ],
+  "move backward long": [
+    "Sustained back, Captain!",
+    "Sure thing, Captain. Sustained back.",
+    "On it, Captain. Sustained back.",
+    "Right away. Sustained back."
+  ],
+  "strafe left": [
+    "Strafing left, Captain!",
+    "Sure thing, Captain. Strafing left.",
+    "On it, Captain. Strafing left.",
+    "Right away. Strafing left."
+  ],
+  "strafe left short": [
+    "Quick step left, Captain!",
+    "Sure thing, Captain. Quick step left.",
+    "On it, Captain. Quick step left.",
+    "Right away. Quick step left."
+  ],
+  "strafe right": [
+    "Strafing right, Captain!",
+    "Sure thing, Captain. Strafing right.",
+    "On it, Captain. Strafing right.",
+    "Right away. Strafing right."
+  ],
+  "strafe right short": [
+    "Quick step right, Captain!",
+    "Sure thing, Captain. Quick step right.",
+    "On it, Captain. Quick step right.",
+    "Right away. Quick step right."
+  ],
+  "player jump": [
+    "Jumping, Captain!",
+    "Sure thing, Captain. Jumping.",
+    "On it, Captain. Jumping.",
+    "Right away. Jumping."
+  ],
+  "run": [
+    "Running, Captain!",
+    "Sure thing, Captain. Running.",
+    "On it, Captain. Running.",
+    "Right away. Running."
+  ],
+  "run short": [
+    "Quick sprint, Captain!",
+    "Sure thing, Captain. Quick sprint.",
+    "On it, Captain. Quick sprint.",
+    "Right away. Quick sprint."
+  ],
+  "lean left": [
+    "Leaning port, Captain!",
+    "Sure thing, Captain. Leaning port.",
+    "On it, Captain. Leaning port.",
+    "Right away. Leaning port."
+  ],
+  "lean right": [
+    "Leaning starboard, Captain!",
+    "Sure thing, Captain. Leaning starboard.",
+    "On it, Captain. Leaning starboard.",
+    "Right away. Leaning starboard."
+  ],
+  "crouch": [
+    "Toggling crouch, Captain!",
+    "Sure thing, Captain. Toggling crouch.",
+    "On it, Captain. Toggling crouch.",
+    "Right away. Toggling crouch."
+  ],
+  "prone": [
+    "Toggling prone, Captain!",
+    "Sure thing, Captain. Toggling prone.",
+    "On it, Captain. Toggling prone.",
+    "Right away. Toggling prone."
+  ],
+  "interact": [
+    "Interact, Captain!",
+    "Sure thing, Captain. Interact.",
+    "On it, Captain. Interact.",
+    "Right away. Interact."
+  ],
+  "equip sidearm": [
+    "Sidearm out, Captain!",
+    "Sure thing, Captain. Sidearm out.",
+    "On it, Captain. Sidearm out.",
+    "Right away. Sidearm out."
+  ],
+  "equip primary": [
+    "Primary out, Captain!",
+    "Sure thing, Captain. Primary out.",
+    "On it, Captain. Primary out.",
+    "Right away. Primary out."
+  ],
+  "equip secondary": [
+    "Secondary out, Captain!",
+    "Sure thing, Captain. Secondary out.",
+    "On it, Captain. Secondary out.",
+    "Right away. Secondary out."
+  ],
+  "equip gadget": [
+    "Gadget out, Captain!",
+    "Sure thing, Captain. Gadget out.",
+    "On it, Captain. Gadget out.",
+    "Right away. Gadget out."
+  ],
+  "equip melee": [
+    "Melee out, Captain!",
+    "Sure thing, Captain. Melee out.",
+    "On it, Captain. Melee out.",
+    "Right away. Melee out."
+  ],
+  "unarmed combat": [
+    "Fists up, Captain!",
+    "Sure thing, Captain. Fists up.",
+    "On it, Captain. Fists up.",
+    "Right away. Fists up."
+  ],
+  "reload weapon": [
+    "Reloading, Captain!",
+    "Sure thing, Captain. Reloading.",
+    "On it, Captain. Reloading.",
+    "Right away. Reloading."
+  ],
+  "holster weapon": [
+    "Holstering, Captain!",
+    "Sure thing, Captain. Holstering.",
+    "On it, Captain. Holstering.",
+    "Right away. Holstering."
+  ],
+  "equip grenade": [
+    "Grenade out, Captain!",
+    "Sure thing, Captain. Grenade out.",
+    "On it, Captain. Grenade out.",
+    "Right away. Grenade out."
+  ],
+  "equip medpen": [
+    "Med pen ready, Captain!",
+    "Sure thing, Captain. Med pen ready.",
+    "On it, Captain. Med pen ready.",
+    "Right away. Med pen ready."
+  ],
+  "wipe visor": [
+    "Wiping visor, Captain!",
+    "Sure thing, Captain. Wiping visor.",
+    "On it, Captain. Wiping visor.",
+    "Right away. Wiping visor."
+  ],
+  "suit light": [
+    "Toggling suit light, Captain!",
+    "Sure thing, Captain. Toggling suit light.",
+    "On it, Captain. Toggling suit light.",
+    "Right away. Toggling suit light."
+  ],
+  "power all": [
+    "Cycling all power, Captain!",
+    "Sure thing, Captain. Cycling all power.",
+    "On it, Captain. Cycling all power.",
+    "Right away. Cycling all power."
+  ],
+  "power thrusters": [
+    "Cycling thruster power, Captain!",
+    "Sure thing, Captain. Cycling thruster power.",
+    "On it, Captain. Cycling thruster power.",
+    "Right away. Cycling thruster power."
+  ],
+  "power shields": [
+    "Cycling shield power, Captain!",
+    "Sure thing, Captain. Cycling shield power.",
+    "On it, Captain. Cycling shield power.",
+    "Right away. Cycling shield power."
+  ],
+  "power weapons": [
+    "Cycling weapon power, Captain!",
+    "Sure thing, Captain. Cycling weapon power.",
+    "On it, Captain. Cycling weapon power.",
+    "Right away. Cycling weapon power."
+  ],
+  "raise power weapons": [
+    "More to weapons, Captain!",
+    "Sure thing, Captain. More to weapons.",
+    "On it, Captain. More to weapons.",
+    "Right away. More to weapons."
+  ],
+  "raise power thrusters": [
+    "More to thrusters, Captain!",
+    "Sure thing, Captain. More to thrusters.",
+    "On it, Captain. More to thrusters.",
+    "Right away. More to thrusters."
+  ],
+  "raise power shields": [
+    "More to shields, Captain!",
+    "Sure thing, Captain. More to shields.",
+    "On it, Captain. More to shields.",
+    "Right away. More to shields."
+  ],
+  "reset power": [
+    "Power balanced, Captain!",
+    "Sure thing, Captain. Power balanced.",
+    "On it, Captain. Power balanced.",
+    "Right away. Power balanced."
+  ],
+  "salvage mode": [
+    "Salvage mode, Captain!",
+    "Sure thing, Captain. Salvage mode.",
+    "On it, Captain. Salvage mode.",
+    "Right away. Salvage mode."
+  ],
+  "salvage gimbal": [
+    "Salvage gimbal cycled, Captain!",
+    "Sure thing, Captain. Salvage gimbal cycled.",
+    "On it, Captain. Salvage gimbal cycled.",
+    "Right away. Salvage gimbal cycled."
+  ],
+  "cycle salvage modifiers": [
+    "Cycling salvage mods, Captain!",
+    "Sure thing, Captain. Cycling salvage mods.",
+    "On it, Captain. Cycling salvage mods.",
+    "Right away. Cycling salvage mods."
+  ],
+  "relative beam spacing": [
+    "Beam spacing adjusted, Captain!",
+    "Sure thing, Captain. Beam spacing adjusted.",
+    "On it, Captain. Beam spacing adjusted.",
+    "Right away. Beam spacing adjusted."
+  ],
+  "salvage beam axis": [
+    "Axis toggled, Captain!",
+    "Sure thing, Captain. Axis toggled.",
+    "On it, Captain. Axis toggled.",
+    "Right away. Axis toggled."
+  ],
+  "increase beam spacing": [
+    "Unable, that's unbound, Captain!",
+    "Sure thing, Captain. Unable, that's unbound.",
+    "On it, Captain. Unable, that's unbound.",
+    "Right away. Unable, that's unbound."
+  ],
+  "scanning mode": [
+    "Scanner online, Captain!",
+    "Sure thing, Captain. Scanner online.",
+    "On it, Captain. Scanner online.",
+    "Right away. Scanner online."
+  ],
+  "activate scanning": [
+    "Scanning, Captain!",
+    "Sure thing, Captain. Scanning.",
+    "On it, Captain. Scanning.",
+    "Right away. Scanning."
+  ],
+  "scanning ping": [
+    "Ping out, Captain!",
+    "Sure thing, Captain. Ping out.",
+    "On it, Captain. Ping out.",
+    "Right away. Ping out."
+  ],
+  "increase scanning angle": [
+    "Widening scan, Captain!",
+    "Sure thing, Captain. Widening scan.",
+    "On it, Captain. Widening scan.",
+    "Right away. Widening scan."
+  ],
+  "decrease scanning angle": [
+    "Narrowing scan, Captain!",
+    "Sure thing, Captain. Narrowing scan.",
+    "On it, Captain. Narrowing scan.",
+    "Right away. Narrowing scan."
+  ],
+  "increase ping angle": [
+    "Unable, that's unbound, Captain!",
+    "Sure thing, Captain. Unable, that's unbound.",
+    "On it, Captain. Unable, that's unbound.",
+    "Right away. Unable, that's unbound."
+  ],
+  "decrease ping angle": [
+    "Unable, that's unbound, Captain!",
+    "Sure thing, Captain. Unable, that's unbound.",
+    "On it, Captain. Unable, that's unbound.",
+    "Right away. Unable, that's unbound."
+  ],
+  "shields front": [
+    "Front shield up, Captain!",
+    "Sure thing, Captain. Front shield up.",
+    "On it, Captain. Front shield up.",
+    "Right away. Front shield up."
+  ],
+  "shields back": [
+    "Rear shield up, Captain!",
+    "Sure thing, Captain. Rear shield up.",
+    "On it, Captain. Rear shield up.",
+    "Right away. Rear shield up."
+  ],
+  "shields left": [
+    "Port shield up, Captain!",
+    "Sure thing, Captain. Port shield up.",
+    "On it, Captain. Port shield up.",
+    "Right away. Port shield up."
+  ],
+  "shields right": [
+    "Starboard shield up, Captain!",
+    "Sure thing, Captain. Starboard shield up.",
+    "On it, Captain. Starboard shield up.",
+    "Right away. Starboard shield up."
+  ],
+  "shields top": [
+    "Dorsal shield up, Captain!",
+    "Sure thing, Captain. Dorsal shield up.",
+    "On it, Captain. Dorsal shield up.",
+    "Right away. Dorsal shield up."
+  ],
+  "shields bottom": [
+    "Ventral shield up, Captain!",
+    "Sure thing, Captain. Ventral shield up.",
+    "On it, Captain. Ventral shield up.",
+    "Right away. Ventral shield up."
+  ],
+  "reset shields": [
+    "Shields balanced, Captain!",
+    "Sure thing, Captain. Shields balanced.",
+    "On it, Captain. Shields balanced.",
+    "Right away. Shields balanced."
+  ],
+  "deploy noise": [
+    "Noise out, Captain!",
+    "Sure thing, Captain. Noise out.",
+    "On it, Captain. Noise out.",
+    "Right away. Noise out."
+  ],
+  "deploy decoy": [
+    "Decoy out, Captain!",
+    "Sure thing, Captain. Decoy out.",
+    "On it, Captain. Decoy out.",
+    "Right away. Decoy out."
+  ],
+  "lock target": [
+    "Locking target, Captain!",
+    "Sure thing, Captain. Locking target.",
+    "On it, Captain. Locking target.",
+    "Right away. Locking target."
+  ],
+  "unlock target": [
+    "Releasing target, Captain!",
+    "Sure thing, Captain. Releasing target.",
+    "On it, Captain. Releasing target.",
+    "Right away. Releasing target."
+  ],
+  "select pin one": [
+    "Pin one active, Captain!",
+    "Sure thing, Captain. Pin one active.",
+    "On it, Captain. Pin one active.",
+    "Right away. Pin one active."
+  ],
+  "select pin two": [
+    "Pin two active, Captain!",
+    "Sure thing, Captain. Pin two active.",
+    "On it, Captain. Pin two active.",
+    "Right away. Pin two active."
+  ],
+  "select pin three": [
+    "Pin three active, Captain!",
+    "Sure thing, Captain. Pin three active.",
+    "On it, Captain. Pin three active.",
+    "Right away. Pin three active."
+  ],
+  "pin target one": [
+    "Pinning target one, Captain!",
+    "Sure thing, Captain. Pinning target one.",
+    "On it, Captain. Pinning target one.",
+    "Right away. Pinning target one."
+  ],
+  "pin target two": [
+    "Pinning target two, Captain!",
+    "Sure thing, Captain. Pinning target two.",
+    "On it, Captain. Pinning target two.",
+    "Right away. Pinning target two."
+  ],
+  "pin target three": [
+    "Pinning target three, Captain!",
+    "Sure thing, Captain. Pinning target three.",
+    "On it, Captain. Pinning target three.",
+    "Right away. Pinning target three."
+  ],
+  "cycle attackers": [
+    "Cycling attackers, Captain!",
+    "Sure thing, Captain. Cycling attackers.",
+    "On it, Captain. Cycling attackers.",
+    "Right away. Cycling attackers."
+  ],
+  "cycle hostiles": [
+    "Cycling hostiles, Captain!",
+    "Sure thing, Captain. Cycling hostiles.",
+    "On it, Captain. Cycling hostiles.",
+    "Right away. Cycling hostiles."
+  ],
+  "cycle friendlies": [
+    "Cycling friendlies, Captain!",
+    "Sure thing, Captain. Cycling friendlies.",
+    "On it, Captain. Cycling friendlies.",
+    "Right away. Cycling friendlies."
+  ],
+  "toggle chat": [
+    "Toggling chat, Captain!",
+    "Sure thing, Captain. Toggling chat.",
+    "On it, Captain. Toggling chat.",
+    "Right away. Toggling chat."
+  ],
+  "fire weapon group one": [
+    "Group one firing, Captain!",
+    "Sure thing, Captain. Group one firing.",
+    "On it, Captain. Group one firing.",
+    "Right away. Group one firing."
+  ],
+  "fire weapon group two": [
+    "Group two firing, Captain!",
+    "Sure thing, Captain. Group two firing.",
+    "On it, Captain. Group two firing.",
+    "Right away. Group two firing."
+  ],
+  "launch missile": [
+    "Missile away, Captain!",
+    "Sure thing, Captain. Missile away.",
+    "On it, Captain. Missile away.",
+    "Right away. Missile away."
+  ],
+  "cycle missile type": [
+    "Cycling missiles, Captain!",
+    "Sure thing, Captain. Cycling missiles.",
+    "On it, Captain. Cycling missiles.",
+    "Right away. Cycling missiles."
+  ],
+  "cycle gimbal assist": [
+    "Gimbal cycled, Captain!",
+    "Sure thing, Captain. Gimbal cycled.",
+    "On it, Captain. Gimbal cycled.",
+    "Right away. Gimbal cycled."
+  ],
+  "missile mode": [
+    "Missile mode, Captain!",
+    "Sure thing, Captain. Missile mode.",
+    "On it, Captain. Missile mode.",
+    "Right away. Missile mode."
+  ],
+  "arm more missiles": [
+    "More missiles armed, Captain!",
+    "Sure thing, Captain. More missiles armed.",
+    "On it, Captain. More missiles armed.",
+    "Right away. More missiles armed."
+  ],
+  "reset missiles": [
+    "Missiles reset, Captain!",
+    "Sure thing, Captain. Missiles reset.",
+    "On it, Captain. Missiles reset.",
+    "Right away. Missiles reset."
+  ]
+}

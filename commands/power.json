@@ -1,0 +1,83 @@
+{
+  "_meta": { "category": "power" },
+  "power all": {
+    "type": "key", "key": "u",
+    "response": [
+      "Toggling all ship power.",
+      "Cycling all power systems.",
+      "Master power toggle, Captain.",
+      "All power cycled."
+    ],
+    "aliases": ["toggle all power"]
+  },
+  "power thrusters": {
+    "type": "key", "key": "i",
+    "response": [
+      "Toggling thruster power.",
+      "Thruster power cycled.",
+      "Drives toggled.",
+      "Switching thruster state."
+    ],
+    "aliases": ["thruster power"]
+  },
+  "power shields": {
+    "type": "key", "key": "o",
+    "response": [
+      "Toggling shield power.",
+      "Shield bus cycled.",
+      "Shields switched, Captain.",
+      "Shield power toggled."
+    ],
+    "aliases": ["shield power"]
+  },
+  "power weapons": {
+    "type": "key", "key": "p",
+    "response": [
+      "Toggling weapon power.",
+      "Weapon bus cycled.",
+      "Weapons switched, Captain.",
+      "Weapon power toggled."
+    ],
+    "aliases": ["weapon power"]
+  },
+  "raise power weapons": {
+    "type": "key", "key": "f5",
+    "response": [
+      "Routing power to weapons.",
+      "Boosting weapon energy.",
+      "Weapons priority, Captain.",
+      "Diverting to guns."
+    ],
+    "aliases": ["power to weapons"]
+  },
+  "raise power thrusters": {
+    "type": "key", "key": "f6",
+    "response": [
+      "Routing power to thrusters.",
+      "Boosting drive output.",
+      "Thrusters priority, Captain.",
+      "Diverting to engines."
+    ],
+    "aliases": ["power to thrusters"]
+  },
+  "raise power shields": {
+    "type": "key", "key": "f7",
+    "response": [
+      "Routing power to shields.",
+      "Boosting shield output.",
+      "Shields priority, Captain.",
+      "Diverting to barriers."
+    ],
+    "aliases": ["power to shields"]
+  },
+  "reset power": {
+    "type": "key", "key": "f8",
+    "response": [
+      "Resetting power distribution.",
+      "Power balanced.",
+      "Triangle reset, Captain.",
+      "Even distribution restored."
+    ],
+    "aliases": ["reset power distribution"]
+  }
+}

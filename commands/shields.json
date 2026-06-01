@@ -1,0 +1,87 @@
+{
+  "_meta": { "category": "shields_countermeasures" },
+  "shields front": {
+    "type": "key", "key": "num8",
+    "response": [
+      "Raising front shield.",
+      "Forward shield up, Captain.",
+      "Boosting bow shield.",
+      "Front barrier reinforced."
+    ]
+  },
+  "shields back": {
+    "type": "key", "key": "num2",
+    "response": [
+      "Raising rear shield.",
+      "Aft shield up, Captain.",
+      "Boosting stern shield.",
+      "Rear barrier reinforced."
+    ]
+  },
+  "shields left": {
+    "type": "key", "key": "num4",
+    "response": [
+      "Raising left shield.",
+      "Port shield up, Captain.",
+      "Boosting port shield.",
+      "Left barrier reinforced."
+    ]
+  },
+  "shields right": {
+    "type": "key", "key": "num6",
+    "response": [
+      "Raising right shield.",
+      "Starboard shield up, Captain.",
+      "Boosting starboard shield.",
+      "Right barrier reinforced."
+    ]
+  },
+  "shields top": {
+    "type": "key", "key": "num7",
+    "response": [
+      "Raising top shield.",
+      "Dorsal shield up, Captain.",
+      "Boosting top shield.",
+      "Upper barrier reinforced."
+    ]
+  },
+  "shields bottom": {
+    "type": "key", "key": "num1",
+    "response": [
+      "Raising bottom shield.",
+      "Ventral shield up, Captain.",
+      "Boosting underside shield.",
+      "Lower barrier reinforced."
+    ]
+  },
+  "reset shields": {
+    "type": "key", "key": "num5",
+    "response": [
+      "Resetting shield levels.",
+      "Shields balanced, Captain.",
+      "Shield distribution reset.",
+      "Even shield levels restored."
+    ]
+  },
+
+  "deploy noise": {
+    "type": "key", "key": "j",
+    "response": [
+      "Deploying noise.",
+      "Noise out, Captain.",
+      "Jammer launched.",
+      "Noise countermeasure away."
+    ],
+    "aliases": ["noise"]
+  },
+  "deploy decoy": {
+    "type": "hold", "key": "h", "duration": 0.5,
+    "response": [
+      "Deploying decoy.",
+      "Flares away.",
+      "Countermeasure released.",
+      "Decoy out."
+    ],
+    "aliases": ["decoy", "flare", "countermeasures"]
+  }
+}

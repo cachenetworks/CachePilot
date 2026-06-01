@@ -1,0 +1,13 @@
+{
+  "_meta": { "category": "ui" },
+  "toggle chat": {
+    "type": "key", "key": "f12",
+    "response": [
+      "Toggling chat.",
+      "Chat window toggled.",
+      "Chat visibility cycled.",
+      "Chat switched, Captain."
+    ],
+    "aliases": ["hide chat", "show chat", "chat"]
+  }
+}

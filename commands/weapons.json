@@ -1,0 +1,81 @@
+{
+  "_meta": { "category": "ship_weapons" },
+  "fire weapon group one": {
+    "type": "mouse", "button": "left",
+    "response": [
+      "Firing weapon group one.",
+      "Group one engaging.",
+      "Primaries hot.",
+      "Group one firing, Captain."
+    ],
+    "aliases": ["fire", "fire weapon"]
+  },
+  "fire weapon group two": {
+    "type": "mouse", "button": "right",
+    "response": [
+      "Firing weapon group two.",
+      "Group two engaging.",
+      "Secondaries hot.",
+      "Group two firing, Captain."
+    ],
+    "aliases": ["secondary fire"]
+  },
+  "launch missile": {
+    "type": "mouse", "button": "left",
+    "response": [
+      "Launching missile.",
+      "Missile away.",
+      "Missile fired, Captain.",
+      "Bird in the air."
+    ],
+    "aliases": ["fire missile"]
+  },
+  "cycle missile type": {
+    "type": "mouse", "button": "right",
+    "response": [
+      "Cycling missile type.",
+      "Next ordnance, Captain.",
+      "Switching missile loadout.",
+      "Cycling warhead."
+    ]
+  },
+  "cycle gimbal assist": {
+    "type": "key", "key": "g",
+    "response": [
+      "Cycling gimbal assist.",
+      "Gimbal mode switched.",
+      "Assist mode cycled, Captain.",
+      "Gimbal cycled."
+    ],
+    "aliases": ["cycle gimbal"]
+  },
+  "missile mode": {
+    "type": "mouse", "button": "middle",
+    "response": [
+      "Missile operator mode.",
+      "Missile lock active.",
+      "Switching to missile control.",
+      "Missile mode engaged."
+    ],
+    "aliases": ["missiles", "missile operator mode"]
+  },
+  "arm more missiles": {
+    "type": "key", "key": "g",
+    "response": [
+      "Arming more missiles.",
+      "More tubes loaded, Captain.",
+      "Salvo size increased.",
+      "Adding to the volley."
+    ],
+    "aliases": ["increase missiles", "arm missiles"]
+  },
+  "reset missiles": {
+    "type": "hotkey", "keys": ["leftalt", "g"],
+    "response": [
+      "Resetting missiles.",
+      "Salvo cleared.",
+      "Tube count reset, Captain.",
+      "Missile lock reset."
+    ]
+  }
+}

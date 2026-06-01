@@ -1,0 +1,1112 @@
+{
+  "ship mode": [
+    "Switching to ship, Commander.",
+    "Naturally, Commander. Switching to ship.",
+    "As you wish. Switching to ship.",
+    "Very well. Switching to ship."
+  ],
+  "fps mode": [
+    "Switching to fps, Commander.",
+    "Naturally, Commander. Switching to fps.",
+    "As you wish. Switching to fps.",
+    "Very well. Switching to fps."
+  ],
+  "request landing": [
+    "Requesting landing, Commander.",
+    "Naturally, Commander. Requesting landing.",
+    "As you wish. Requesting landing.",
+    "Very well. Requesting landing."
+  ],
+  "request takeoff": [
+    "Requesting takeoff, Commander.",
+    "Naturally, Commander. Requesting takeoff.",
+    "As you wish. Requesting takeoff.",
+    "Very well. Requesting takeoff."
+  ],
+  "hail atc": [
+    "Hailing control, Commander.",
+    "Naturally, Commander. Hailing control.",
+    "As you wish. Hailing control.",
+    "Very well. Hailing control."
+  ],
+  "open hangar": [
+    "Opening hangar, Commander.",
+    "Naturally, Commander. Opening hangar.",
+    "As you wish. Opening hangar.",
+    "Very well. Opening hangar."
+  ],
+  "camera cycle": [
+    "Cycling camera, Commander.",
+    "Naturally, Commander. Cycling camera.",
+    "As you wish. Cycling camera.",
+    "Very well. Cycling camera."
+  ],
+  "look around": [
+    "Free look toggled, Commander.",
+    "Naturally, Commander. Free look toggled.",
+    "As you wish. Free look toggled.",
+    "Very well. Free look toggled."
+  ],
+  "camera move right": [
+    "Panning right, Commander.",
+    "Naturally, Commander. Panning right.",
+    "As you wish. Panning right.",
+    "Very well. Panning right."
+  ],
+  "camera move left": [
+    "Panning left, Commander.",
+    "Naturally, Commander. Panning left.",
+    "As you wish. Panning left.",
+    "Very well. Panning left."
+  ],
+  "camera move forward": [
+    "Panning in, Commander.",
+    "Naturally, Commander. Panning in.",
+    "As you wish. Panning in.",
+    "Very well. Panning in."
+  ],
+  "camera move backward": [
+    "Panning out, Commander.",
+    "Naturally, Commander. Panning out.",
+    "As you wish. Panning out.",
+    "Very well. Panning out."
+  ],
+  "camera move up": [
+    "Panning up, Commander.",
+    "Naturally, Commander. Panning up.",
+    "As you wish. Panning up.",
+    "Very well. Panning up."
+  ],
+  "camera move down": [
+    "Panning down, Commander.",
+    "Naturally, Commander. Panning down.",
+    "As you wish. Panning down.",
+    "Very well. Panning down."
+  ],
+  "save camera one": [
+    "Saving camera one, Commander.",
+    "Naturally, Commander. Saving camera one.",
+    "As you wish. Saving camera one.",
+    "Very well. Saving camera one."
+  ],
+  "save camera two": [
+    "Saving camera two, Commander.",
+    "Naturally, Commander. Saving camera two.",
+    "As you wish. Saving camera two.",
+    "Very well. Saving camera two."
+  ],
+  "save camera three": [
+    "Saving camera three, Commander.",
+    "Naturally, Commander. Saving camera three.",
+    "As you wish. Saving camera three.",
+    "Very well. Saving camera three."
+  ],
+  "save camera four": [
+    "Saving camera four, Commander.",
+    "Naturally, Commander. Saving camera four.",
+    "As you wish. Saving camera four.",
+    "Very well. Saving camera four."
+  ],
+  "save camera five": [
+    "Saving camera five, Commander.",
+    "Naturally, Commander. Saving camera five.",
+    "As you wish. Saving camera five.",
+    "Very well. Saving camera five."
+  ],
+  "save camera six": [
+    "Saving camera six, Commander.",
+    "Naturally, Commander. Saving camera six.",
+    "As you wish. Saving camera six.",
+    "Very well. Saving camera six."
+  ],
+  "save camera seven": [
+    "Saving camera seven, Commander.",
+    "Naturally, Commander. Saving camera seven.",
+    "As you wish. Saving camera seven.",
+    "Very well. Saving camera seven."
+  ],
+  "save camera eight": [
+    "Saving camera eight, Commander.",
+    "Naturally, Commander. Saving camera eight.",
+    "As you wish. Saving camera eight.",
+    "Very well. Saving camera eight."
+  ],
+  "save camera nine": [
+    "Saving camera nine, Commander.",
+    "Naturally, Commander. Saving camera nine.",
+    "As you wish. Saving camera nine.",
+    "Very well. Saving camera nine."
+  ],
+  "load camera one": [
+    "Loading camera one, Commander.",
+    "Naturally, Commander. Loading camera one.",
+    "As you wish. Loading camera one.",
+    "Very well. Loading camera one."
+  ],
+  "load camera two": [
+    "Loading camera two, Commander.",
+    "Naturally, Commander. Loading camera two.",
+    "As you wish. Loading camera two.",
+    "Very well. Loading camera two."
+  ],
+  "load camera three": [
+    "Loading camera three, Commander.",
+    "Naturally, Commander. Loading camera three.",
+    "As you wish. Loading camera three.",
+    "Very well. Loading camera three."
+  ],
+  "load camera four": [
+    "Loading camera four, Commander.",
+    "Naturally, Commander. Loading camera four.",
+    "As you wish. Loading camera four.",
+    "Very well. Loading camera four."
+  ],
+  "load camera five": [
+    "Loading camera five, Commander.",
+    "Naturally, Commander. Loading camera five.",
+    "As you wish. Loading camera five.",
+    "Very well. Loading camera five."
+  ],
+  "load camera six": [
+    "Loading camera six, Commander.",
+    "Naturally, Commander. Loading camera six.",
+    "As you wish. Loading camera six.",
+    "Very well. Loading camera six."
+  ],
+  "load camera seven": [
+    "Loading camera seven, Commander.",
+    "Naturally, Commander. Loading camera seven.",
+    "As you wish. Loading camera seven.",
+    "Very well. Loading camera seven."
+  ],
+  "load camera eight": [
+    "Loading camera eight, Commander.",
+    "Naturally, Commander. Loading camera eight.",
+    "As you wish. Loading camera eight.",
+    "Very well. Loading camera eight."
+  ],
+  "load camera nine": [
+    "Loading camera nine, Commander.",
+    "Naturally, Commander. Loading camera nine.",
+    "As you wish. Loading camera nine.",
+    "Very well. Loading camera nine."
+  ],
+  "reset camera": [
+    "Camera reset, Commander.",
+    "Naturally, Commander. Camera reset.",
+    "As you wish. Camera reset.",
+    "Very well. Camera reset."
+  ],
+  "landing checklist": [
+    "Running landing checklist, Commander.",
+    "Naturally, Commander. Running landing checklist.",
+    "As you wish. Running landing checklist.",
+    "Very well. Running landing checklist."
+  ],
+  "takeoff checklist": [
+    "Running takeoff checklist, Commander.",
+    "Naturally, Commander. Running takeoff checklist.",
+    "As you wish. Running takeoff checklist.",
+    "Very well. Running takeoff checklist."
+  ],
+  "combat mode": [
+    "Going hot, Commander.",
+    "Naturally, Commander. Going hot.",
+    "As you wish. Going hot.",
+    "Very well. Going hot."
+  ],
+  "panic": [
+    "Panic protocol, Commander.",
+    "Naturally, Commander. Panic protocol.",
+    "As you wish. Panic protocol.",
+    "Very well. Panic protocol."
+  ],
+  "hello": [
+    "Good day, Commander.",
+    "Commander.",
+    "How may I assist, Commander?",
+    "At your service."
+  ],
+  "hey": [
+    "Yes, Commander?",
+    "You called, Commander?",
+    "Mm. Go on.",
+    "I'm listening."
+  ],
+  "good morning": [
+    "Good morning, Commander.",
+    "A fine morning, Commander.",
+    "Morning. Quite peaceful.",
+    "Good morning. Slept well?"
+  ],
+  "good evening": [
+    "Good evening, Commander.",
+    "Evening, Commander.",
+    "A pleasant evening, Commander.",
+    "Good evening. The stars are lovely."
+  ],
+  "thank you": [
+    "Naturally, Commander.",
+    "Think nothing of it.",
+    "My pleasure, Commander.",
+    "Always a pleasure."
+  ],
+  "good job": [
+    "Most kind, Commander.",
+    "How gracious.",
+    "You flatter me, Commander.",
+    "Thank you, Commander."
+  ],
+  "status": [
+    "All in order, Commander.",
+    "Quite nominal, Commander.",
+    "Everything functioning correctly.",
+    "No issues, Commander."
+  ],
+  "report": [
+    "Nothing of note, Commander.",
+    "All quiet, Commander.",
+    "Sensors clean.",
+    "No traffic, Commander."
+  ],
+  "ready": [
+    "At your disposal, Commander.",
+    "Quite ready, Commander.",
+    "Standing by.",
+    "Awaiting orders."
+  ],
+  "shut up": [
+    "Very well.",
+    "As you wish.",
+    "Silence it is.",
+    "Of course, Commander."
+  ],
+  "quiet": [
+    "Going dark.",
+    "Comms silent.",
+    "Discreet mode.",
+    "As you prefer, Commander."
+  ],
+  "who are you": [
+    "I am the ship's intelligence.",
+    "Your ship AI, Commander.",
+    "Onboard systems.",
+    "Simply a voice, Commander."
+  ],
+  "where are we": [
+    "I cannot say. Consult the chart.",
+    "Position uncertain, Commander.",
+    "Best check your map, Commander.",
+    "The starmap will tell."
+  ],
+  "eva forward": [
+    "Eva forward, Commander.",
+    "Naturally, Commander. Eva forward.",
+    "As you wish. Eva forward.",
+    "Very well. Eva forward."
+  ],
+  "eva back": [
+    "Eva back, Commander.",
+    "Naturally, Commander. Eva back.",
+    "As you wish. Eva back.",
+    "Very well. Eva back."
+  ],
+  "eva strafe left": [
+    "Eva strafe port, Commander.",
+    "Naturally, Commander. Eva strafe port.",
+    "As you wish. Eva strafe port.",
+    "Very well. Eva strafe port."
+  ],
+  "eva strafe right": [
+    "Eva strafe starboard, Commander.",
+    "Naturally, Commander. Eva strafe starboard.",
+    "As you wish. Eva strafe starboard.",
+    "Very well. Eva strafe starboard."
+  ],
+  "eva roll left": [
+    "Eva roll port, Commander.",
+    "Naturally, Commander. Eva roll port.",
+    "As you wish. Eva roll port.",
+    "Very well. Eva roll port."
+  ],
+  "eva roll right": [
+    "Eva roll starboard, Commander.",
+    "Naturally, Commander. Eva roll starboard.",
+    "As you wish. Eva roll starboard.",
+    "Very well. Eva roll starboard."
+  ],
+  "flight ready": [
+    "Flight ready, Commander.",
+    "Naturally, Commander. Flight ready.",
+    "As you wish. Flight ready.",
+    "Very well. Flight ready."
+  ],
+  "engines on": [
+    "Engines online, Commander.",
+    "Naturally, Commander. Engines online.",
+    "As you wish. Engines online.",
+    "Very well. Engines online."
+  ],
+  "engines off": [
+    "Engines offline, Commander.",
+    "Naturally, Commander. Engines offline.",
+    "As you wish. Engines offline.",
+    "Very well. Engines offline."
+  ],
+  "toggle engines": [
+    "Toggling engines, Commander.",
+    "Naturally, Commander. Toggling engines.",
+    "As you wish. Toggling engines.",
+    "Very well. Toggling engines."
+  ],
+  "systems on": [
+    "Systems online, Commander.",
+    "Naturally, Commander. Systems online.",
+    "As you wish. Systems online.",
+    "Very well. Systems online."
+  ],
+  "systems off": [
+    "Systems offline, Commander.",
+    "Naturally, Commander. Systems offline.",
+    "As you wish. Systems offline.",
+    "Very well. Systems offline."
+  ],
+  "toggle systems": [
+    "Toggling systems, Commander.",
+    "Naturally, Commander. Toggling systems.",
+    "As you wish. Toggling systems.",
+    "Very well. Toggling systems."
+  ],
+  "throttle up": [
+    "Throttle up, Commander.",
+    "Naturally, Commander. Throttle up.",
+    "As you wish. Throttle up.",
+    "Very well. Throttle up."
+  ],
+  "throttle down": [
+    "Throttle down, Commander.",
+    "Naturally, Commander. Throttle down.",
+    "As you wish. Throttle down.",
+    "Very well. Throttle down."
+  ],
+  "ship strafe left": [
+    "Strafing port, Commander.",
+    "Naturally, Commander. Strafing port.",
+    "As you wish. Strafing port.",
+    "Very well. Strafing port."
+  ],
+  "ship strafe right": [
+    "Strafing starboard, Commander.",
+    "Naturally, Commander. Strafing starboard.",
+    "As you wish. Strafing starboard.",
+    "Very well. Strafing starboard."
+  ],
+  "roll left": [
+    "Rolling port, Commander.",
+    "Naturally, Commander. Rolling port.",
+    "As you wish. Rolling port.",
+    "Very well. Rolling port."
+  ],
+  "roll right": [
+    "Rolling starboard, Commander.",
+    "Naturally, Commander. Rolling starboard.",
+    "As you wish. Rolling starboard.",
+    "Very well. Rolling starboard."
+  ],
+  "boost": [
+    "Boost engaged, Commander.",
+    "Naturally, Commander. Boost engaged.",
+    "As you wish. Boost engaged.",
+    "Very well. Boost engaged."
+  ],
+  "boost hard": [
+    "Full boost, Commander.",
+    "Naturally, Commander. Full boost.",
+    "As you wish. Full boost.",
+    "Very well. Full boost."
+  ],
+  "space brake": [
+    "Braking, Commander.",
+    "Naturally, Commander. Braking.",
+    "As you wish. Braking.",
+    "Very well. Braking."
+  ],
+  "full stop": [
+    "Full stop, Commander.",
+    "Naturally, Commander. Full stop.",
+    "As you wish. Full stop.",
+    "Very well. Full stop."
+  ],
+  "cruise control": [
+    "Cruise control toggled, Commander.",
+    "Naturally, Commander. Cruise control toggled.",
+    "As you wish. Cruise control toggled.",
+    "Very well. Cruise control toggled."
+  ],
+  "quantum mode": [
+    "Spinning up quantum drive, Commander.",
+    "Naturally, Commander. Spinning up quantum drive.",
+    "As you wish. Spinning up quantum drive.",
+    "Very well. Spinning up quantum drive."
+  ],
+  "jump": [
+    "Jumping, Commander.",
+    "Naturally, Commander. Jumping.",
+    "As you wish. Jumping.",
+    "Very well. Jumping."
+  ],
+  "exit seat": [
+    "Leaving seat, Commander.",
+    "Naturally, Commander. Leaving seat.",
+    "As you wish. Leaving seat.",
+    "Very well. Leaving seat."
+  ],
+  "landing mode": [
+    "Toggling landing mode, Commander.",
+    "Naturally, Commander. Toggling landing mode.",
+    "As you wish. Toggling landing mode.",
+    "Very well. Toggling landing mode."
+  ],
+  "auto land": [
+    "Auto landing, Commander.",
+    "Naturally, Commander. Auto landing.",
+    "As you wish. Auto landing.",
+    "Very well. Auto landing."
+  ],
+  "decoupled mode": [
+    "Toggling decoupled mode, Commander.",
+    "Naturally, Commander. Toggling decoupled mode.",
+    "As you wish. Toggling decoupled mode.",
+    "Very well. Toggling decoupled mode."
+  ],
+  "speed limiter up": [
+    "Raising speed limiter, Commander.",
+    "Naturally, Commander. Raising speed limiter.",
+    "As you wish. Raising speed limiter.",
+    "Very well. Raising speed limiter."
+  ],
+  "speed limiter down": [
+    "Lowering speed limiter, Commander.",
+    "Naturally, Commander. Lowering speed limiter.",
+    "As you wish. Lowering speed limiter.",
+    "Very well. Lowering speed limiter."
+  ],
+  "lock pitch yaw": [
+    "Axis lock toggled, Commander.",
+    "Naturally, Commander. Axis lock toggled.",
+    "As you wish. Axis lock toggled.",
+    "Very well. Axis lock toggled."
+  ],
+  "vtol": [
+    "Toggling vtol, Commander.",
+    "Naturally, Commander. Toggling vtol.",
+    "As you wish. Toggling vtol.",
+    "Very well. Toggling vtol."
+  ],
+  "lights": [
+    "Toggling lights, Commander.",
+    "Naturally, Commander. Toggling lights.",
+    "As you wish. Toggling lights.",
+    "Very well. Toggling lights."
+  ],
+  "drive forward": [
+    "Driving forward, Commander.",
+    "Naturally, Commander. Driving forward.",
+    "As you wish. Driving forward.",
+    "Very well. Driving forward."
+  ],
+  "drive backward": [
+    "Reversing, Commander.",
+    "Naturally, Commander. Reversing.",
+    "As you wish. Reversing.",
+    "Very well. Reversing."
+  ],
+  "turn left": [
+    "Steering port, Commander.",
+    "Naturally, Commander. Steering port.",
+    "As you wish. Steering port.",
+    "Very well. Steering port."
+  ],
+  "turn right": [
+    "Steering starboard, Commander.",
+    "Naturally, Commander. Steering starboard.",
+    "As you wish. Steering starboard.",
+    "Very well. Steering starboard."
+  ],
+  "vehicle brake": [
+    "Braking, Commander.",
+    "Naturally, Commander. Braking.",
+    "As you wish. Braking.",
+    "Very well. Braking."
+  ],
+  "vehicle boost": [
+    "Vehicle boost, Commander.",
+    "Naturally, Commander. Vehicle boost.",
+    "As you wish. Vehicle boost.",
+    "Very well. Vehicle boost."
+  ],
+  "vehicle exit seat": [
+    "Dismounting, Commander.",
+    "Naturally, Commander. Dismounting.",
+    "As you wish. Dismounting.",
+    "Very well. Dismounting."
+  ],
+  "mining mode": [
+    "Mining mode, Commander.",
+    "Naturally, Commander. Mining mode.",
+    "As you wish. Mining mode.",
+    "Very well. Mining mode."
+  ],
+  "fire mining laser": [
+    "Mining laser firing, Commander.",
+    "Naturally, Commander. Mining laser firing.",
+    "As you wish. Mining laser firing.",
+    "Very well. Mining laser firing."
+  ],
+  "switch mining laser": [
+    "Laser switched, Commander.",
+    "Naturally, Commander. Laser switched.",
+    "As you wish. Laser switched.",
+    "Very well. Laser switched."
+  ],
+  "increase mining laser power": [
+    "Mining power up, Commander.",
+    "Naturally, Commander. Mining power up.",
+    "As you wish. Mining power up.",
+    "Very well. Mining power up."
+  ],
+  "decrease mining laser power": [
+    "Mining power down, Commander.",
+    "Naturally, Commander. Mining power down.",
+    "As you wish. Mining power down.",
+    "Very well. Mining power down."
+  ],
+  "cycle mining gimbal": [
+    "Mining gimbal cycled, Commander.",
+    "Naturally, Commander. Mining gimbal cycled.",
+    "As you wish. Mining gimbal cycled.",
+    "Very well. Mining gimbal cycled."
+  ],
+  "mining consumable one": [
+    "Consumable one active, Commander.",
+    "Naturally, Commander. Consumable one active.",
+    "As you wish. Consumable one active.",
+    "Very well. Consumable one active."
+  ],
+  "mining consumable two": [
+    "Consumable two active, Commander.",
+    "Naturally, Commander. Consumable two active.",
+    "As you wish. Consumable two active.",
+    "Very well. Consumable two active."
+  ],
+  "mining consumable three": [
+    "Consumable three active, Commander.",
+    "Naturally, Commander. Consumable three active.",
+    "As you wish. Consumable three active.",
+    "Very well. Consumable three active."
+  ],
+  "jettison cargo": [
+    "Jettisoning cargo, Commander.",
+    "Naturally, Commander. Jettisoning cargo.",
+    "As you wish. Jettisoning cargo.",
+    "Very well. Jettisoning cargo."
+  ],
+  "open mobiglas": [
+    "Opening mobiglas, Commander.",
+    "Naturally, Commander. Opening mobiglas.",
+    "As you wish. Opening mobiglas.",
+    "Very well. Opening mobiglas."
+  ],
+  "open starmap": [
+    "Opening starmap, Commander.",
+    "Naturally, Commander. Opening starmap.",
+    "As you wish. Opening starmap.",
+    "Very well. Opening starmap."
+  ],
+  "open contacts": [
+    "Opening contacts, Commander.",
+    "Naturally, Commander. Opening contacts.",
+    "As you wish. Opening contacts.",
+    "Very well. Opening contacts."
+  ],
+  "move forward": [
+    "Moving forward, Commander.",
+    "Naturally, Commander. Moving forward.",
+    "As you wish. Moving forward.",
+    "Very well. Moving forward."
+  ],
+  "move forward short": [
+    "Quick step forward, Commander.",
+    "Naturally, Commander. Quick step forward.",
+    "As you wish. Quick step forward.",
+    "Very well. Quick step forward."
+  ],
+  "move forward long": [
+    "Sustained forward, Commander.",
+    "Naturally, Commander. Sustained forward.",
+    "As you wish. Sustained forward.",
+    "Very well. Sustained forward."
+  ],
+  "move backward": [
+    "Moving back, Commander.",
+    "Naturally, Commander. Moving back.",
+    "As you wish. Moving back.",
+    "Very well. Moving back."
+  ],
+  "move backward short": [
+    "Quick step back, Commander.",
+    "Naturally, Commander. Quick step back.",
+    "As you wish. Quick step back.",
+    "Very well. Quick step back."
+  ],
+  "move backward long": [
+    "Sustained back, Commander.",
+    "Naturally, Commander. Sustained back.",
+    "As you wish. Sustained back.",
+    "Very well. Sustained back."
+  ],
+  "strafe left": [
+    "Strafing left, Commander.",
+    "Naturally, Commander. Strafing left.",
+    "As you wish. Strafing left.",
+    "Very well. Strafing left."
+  ],
+  "strafe left short": [
+    "Quick step left, Commander.",
+    "Naturally, Commander. Quick step left.",
+    "As you wish. Quick step left.",
+    "Very well. Quick step left."
+  ],
+  "strafe right": [
+    "Strafing right, Commander.",
+    "Naturally, Commander. Strafing right.",
+    "As you wish. Strafing right.",
+    "Very well. Strafing right."
+  ],
+  "strafe right short": [
+    "Quick step right, Commander.",
+    "Naturally, Commander. Quick step right.",
+    "As you wish. Quick step right.",
+    "Very well. Quick step right."
+  ],
+  "player jump": [
+    "Jumping, Commander.",
+    "Naturally, Commander. Jumping.",
+    "As you wish. Jumping.",
+    "Very well. Jumping."
+  ],
+  "run": [
+    "Running, Commander.",
+    "Naturally, Commander. Running.",
+    "As you wish. Running.",
+    "Very well. Running."
+  ],
+  "run short": [
+    "Quick sprint, Commander.",
+    "Naturally, Commander. Quick sprint.",
+    "As you wish. Quick sprint.",
+    "Very well. Quick sprint."
+  ],
+  "lean left": [
+    "Leaning port, Commander.",
+    "Naturally, Commander. Leaning port.",
+    "As you wish. Leaning port.",
+    "Very well. Leaning port."
+  ],
+  "lean right": [
+    "Leaning starboard, Commander.",
+    "Naturally, Commander. Leaning starboard.",
+    "As you wish. Leaning starboard.",
+    "Very well. Leaning starboard."
+  ],
+  "crouch": [
+    "Toggling crouch, Commander.",
+    "Naturally, Commander. Toggling crouch.",
+    "As you wish. Toggling crouch.",
+    "Very well. Toggling crouch."
+  ],
+  "prone": [
+    "Toggling prone, Commander.",
+    "Naturally, Commander. Toggling prone.",
+    "As you wish. Toggling prone.",
+    "Very well. Toggling prone."
+  ],
+  "interact": [
+    "Interact, Commander.",
+    "Naturally, Commander. Interact.",
+    "As you wish. Interact.",
+    "Very well. Interact."
+  ],
+  "equip sidearm": [
+    "Sidearm out, Commander.",
+    "Naturally, Commander. Sidearm out.",
+    "As you wish. Sidearm out.",
+    "Very well. Sidearm out."
+  ],
+  "equip primary": [
+    "Primary out, Commander.",
+    "Naturally, Commander. Primary out.",
+    "As you wish. Primary out.",
+    "Very well. Primary out."
+  ],
+  "equip secondary": [
+    "Secondary out, Commander.",
+    "Naturally, Commander. Secondary out.",
+    "As you wish. Secondary out.",
+    "Very well. Secondary out."
+  ],
+  "equip gadget": [
+    "Gadget out, Commander.",
+    "Naturally, Commander. Gadget out.",
+    "As you wish. Gadget out.",
+    "Very well. Gadget out."
+  ],
+  "equip melee": [
+    "Melee out, Commander.",
+    "Naturally, Commander. Melee out.",
+    "As you wish. Melee out.",
+    "Very well. Melee out."
+  ],
+  "unarmed combat": [
+    "Fists up, Commander.",
+    "Naturally, Commander. Fists up.",
+    "As you wish. Fists up.",
+    "Very well. Fists up."
+  ],
+  "reload weapon": [
+    "Reloading, Commander.",
+    "Naturally, Commander. Reloading.",
+    "As you wish. Reloading.",
+    "Very well. Reloading."
+  ],
+  "holster weapon": [
+    "Holstering, Commander.",
+    "Naturally, Commander. Holstering.",
+    "As you wish. Holstering.",
+    "Very well. Holstering."
+  ],
+  "equip grenade": [
+    "Grenade out, Commander.",
+    "Naturally, Commander. Grenade out.",
+    "As you wish. Grenade out.",
+    "Very well. Grenade out."
+  ],
+  "equip medpen": [
+    "Med pen ready, Commander.",
+    "Naturally, Commander. Med pen ready.",
+    "As you wish. Med pen ready.",
+    "Very well. Med pen ready."
+  ],
+  "wipe visor": [
+    "Wiping visor, Commander.",
+    "Naturally, Commander. Wiping visor.",
+    "As you wish. Wiping visor.",
+    "Very well. Wiping visor."
+  ],
+  "suit light": [
+    "Toggling suit light, Commander.",
+    "Naturally, Commander. Toggling suit light.",
+    "As you wish. Toggling suit light.",
+    "Very well. Toggling suit light."
+  ],
+  "power all": [
+    "Cycling all power, Commander.",
+    "Naturally, Commander. Cycling all power.",
+    "As you wish. Cycling all power.",
+    "Very well. Cycling all power."
+  ],
+  "power thrusters": [
+    "Cycling thruster power, Commander.",
+    "Naturally, Commander. Cycling thruster power.",
+    "As you wish. Cycling thruster power.",
+    "Very well. Cycling thruster power."
+  ],
+  "power shields": [
+    "Cycling shield power, Commander.",
+    "Naturally, Commander. Cycling shield power.",
+    "As you wish. Cycling shield power.",
+    "Very well. Cycling shield power."
+  ],
+  "power weapons": [
+    "Cycling weapon power, Commander.",
+    "Naturally, Commander. Cycling weapon power.",
+    "As you wish. Cycling weapon power.",
+    "Very well. Cycling weapon power."
+  ],
+  "raise power weapons": [
+    "More to weapons, Commander.",
+    "Naturally, Commander. More to weapons.",
+    "As you wish. More to weapons.",
+    "Very well. More to weapons."
+  ],
+  "raise power thrusters": [
+    "More to thrusters, Commander.",
+    "Naturally, Commander. More to thrusters.",
+    "As you wish. More to thrusters.",
+    "Very well. More to thrusters."
+  ],
+  "raise power shields": [
+    "More to shields, Commander.",
+    "Naturally, Commander. More to shields.",
+    "As you wish. More to shields.",
+    "Very well. More to shields."
+  ],
+  "reset power": [
+    "Power balanced, Commander.",
+    "Naturally, Commander. Power balanced.",
+    "As you wish. Power balanced.",
+    "Very well. Power balanced."
+  ],
+  "salvage mode": [
+    "Salvage mode, Commander.",
+    "Naturally, Commander. Salvage mode.",
+    "As you wish. Salvage mode.",
+    "Very well. Salvage mode."
+  ],
+  "salvage gimbal": [
+    "Salvage gimbal cycled, Commander.",
+    "Naturally, Commander. Salvage gimbal cycled.",
+    "As you wish. Salvage gimbal cycled.",
+    "Very well. Salvage gimbal cycled."
+  ],
+  "cycle salvage modifiers": [
+    "Cycling salvage mods, Commander.",
+    "Naturally, Commander. Cycling salvage mods.",
+    "As you wish. Cycling salvage mods.",
+    "Very well. Cycling salvage mods."
+  ],
+  "relative beam spacing": [
+    "Beam spacing adjusted, Commander.",
+    "Naturally, Commander. Beam spacing adjusted.",
+    "As you wish. Beam spacing adjusted.",
+    "Very well. Beam spacing adjusted."
+  ],
+  "salvage beam axis": [
+    "Axis toggled, Commander.",
+    "Naturally, Commander. Axis toggled.",
+    "As you wish. Axis toggled.",
+    "Very well. Axis toggled."
+  ],
+  "increase beam spacing": [
+    "Unable, that's unbound, Commander.",
+    "Naturally, Commander. Unable, that's unbound.",
+    "As you wish. Unable, that's unbound.",
+    "Very well. Unable, that's unbound."
+  ],
+  "scanning mode": [
+    "Scanner online, Commander.",
+    "Naturally, Commander. Scanner online.",
+    "As you wish. Scanner online.",
+    "Very well. Scanner online."
+  ],
+  "activate scanning": [
+    "Scanning, Commander.",
+    "Naturally, Commander. Scanning.",
+    "As you wish. Scanning.",
+    "Very well. Scanning."
+  ],
+  "scanning ping": [
+    "Ping out, Commander.",
+    "Naturally, Commander. Ping out.",
+    "As you wish. Ping out.",
+    "Very well. Ping out."
+  ],
+  "increase scanning angle": [
+    "Widening scan, Commander.",
+    "Naturally, Commander. Widening scan.",
+    "As you wish. Widening scan.",
+    "Very well. Widening scan."
+  ],
+  "decrease scanning angle": [
+    "Narrowing scan, Commander.",
+    "Naturally, Commander. Narrowing scan.",
+    "As you wish. Narrowing scan.",
+    "Very well. Narrowing scan."
+  ],
+  "increase ping angle": [
+    "Unable, that's unbound, Commander.",
+    "Naturally, Commander. Unable, that's unbound.",
+    "As you wish. Unable, that's unbound.",
+    "Very well. Unable, that's unbound."
+  ],
+  "decrease ping angle": [
+    "Unable, that's unbound, Commander.",
+    "Naturally, Commander. Unable, that's unbound.",
+    "As you wish. Unable, that's unbound.",
+    "Very well. Unable, that's unbound."
+  ],
+  "shields front": [
+    "Front shield up, Commander.",
+    "Naturally, Commander. Front shield up.",
+    "As you wish. Front shield up.",
+    "Very well. Front shield up."
+  ],
+  "shields back": [
+    "Rear shield up, Commander.",
+    "Naturally, Commander. Rear shield up.",
+    "As you wish. Rear shield up.",
+    "Very well. Rear shield up."
+  ],
+  "shields left": [
+    "Port shield up, Commander.",
+    "Naturally, Commander. Port shield up.",
+    "As you wish. Port shield up.",
+    "Very well. Port shield up."
+  ],
+  "shields right": [
+    "Starboard shield up, Commander.",
+    "Naturally, Commander. Starboard shield up.",
+    "As you wish. Starboard shield up.",
+    "Very well. Starboard shield up."
+  ],
+  "shields top": [
+    "Dorsal shield up, Commander.",
+    "Naturally, Commander. Dorsal shield up.",
+    "As you wish. Dorsal shield up.",
+    "Very well. Dorsal shield up."
+  ],
+  "shields bottom": [
+    "Ventral shield up, Commander.",
+    "Naturally, Commander. Ventral shield up.",
+    "As you wish. Ventral shield up.",
+    "Very well. Ventral shield up."
+  ],
+  "reset shields": [
+    "Shields balanced, Commander.",
+    "Naturally, Commander. Shields balanced.",
+    "As you wish. Shields balanced.",
+    "Very well. Shields balanced."
+  ],
+  "deploy noise": [
+    "Noise out, Commander.",
+    "Naturally, Commander. Noise out.",
+    "As you wish. Noise out.",
+    "Very well. Noise out."
+  ],
+  "deploy decoy": [
+    "Decoy out, Commander.",
+    "Naturally, Commander. Decoy out.",
+    "As you wish. Decoy out.",
+    "Very well. Decoy out."
+  ],
+  "lock target": [
+    "Locking target, Commander.",
+    "Naturally, Commander. Locking target.",
+    "As you wish. Locking target.",
+    "Very well. Locking target."
+  ],
+  "unlock target": [
+    "Releasing target, Commander.",
+    "Naturally, Commander. Releasing target.",
+    "As you wish. Releasing target.",
+    "Very well. Releasing target."
+  ],
+  "select pin one": [
+    "Pin one active, Commander.",
+    "Naturally, Commander. Pin one active.",
+    "As you wish. Pin one active.",
+    "Very well. Pin one active."
+  ],
+  "select pin two": [
+    "Pin two active, Commander.",
+    "Naturally, Commander. Pin two active.",
+    "As you wish. Pin two active.",
+    "Very well. Pin two active."
+  ],
+  "select pin three": [
+    "Pin three active, Commander.",
+    "Naturally, Commander. Pin three active.",
+    "As you wish. Pin three active.",
+    "Very well. Pin three active."
+  ],
+  "pin target one": [
+    "Pinning target one, Commander.",
+    "Naturally, Commander. Pinning target one.",
+    "As you wish. Pinning target one.",
+    "Very well. Pinning target one."
+  ],
+  "pin target two": [
+    "Pinning target two, Commander.",
+    "Naturally, Commander. Pinning target two.",
+    "As you wish. Pinning target two.",
+    "Very well. Pinning target two."
+  ],
+  "pin target three": [
+    "Pinning target three, Commander.",
+    "Naturally, Commander. Pinning target three.",
+    "As you wish. Pinning target three.",
+    "Very well. Pinning target three."
+  ],
+  "cycle attackers": [
+    "Cycling attackers, Commander.",
+    "Naturally, Commander. Cycling attackers.",
+    "As you wish. Cycling attackers.",
+    "Very well. Cycling attackers."
+  ],
+  "cycle hostiles": [
+    "Cycling hostiles, Commander.",
+    "Naturally, Commander. Cycling hostiles.",
+    "As you wish. Cycling hostiles.",
+    "Very well. Cycling hostiles."
+  ],
+  "cycle friendlies": [
+    "Cycling friendlies, Commander.",
+    "Naturally, Commander. Cycling friendlies.",
+    "As you wish. Cycling friendlies.",
+    "Very well. Cycling friendlies."
+  ],
+  "toggle chat": [
+    "Toggling chat, Commander.",
+    "Naturally, Commander. Toggling chat.",
+    "As you wish. Toggling chat.",
+    "Very well. Toggling chat."
+  ],
+  "fire weapon group one": [
+    "Group one firing, Commander.",
+    "Naturally, Commander. Group one firing.",
+    "As you wish. Group one firing.",
+    "Very well. Group one firing."
+  ],
+  "fire weapon group two": [
+    "Group two firing, Commander.",
+    "Naturally, Commander. Group two firing.",
+    "As you wish. Group two firing.",
+    "Very well. Group two firing."
+  ],
+  "launch missile": [
+    "Missile away, Commander.",
+    "Naturally, Commander. Missile away.",
+    "As you wish. Missile away.",
+    "Very well. Missile away."
+  ],
+  "cycle missile type": [
+    "Cycling missiles, Commander.",
+    "Naturally, Commander. Cycling missiles.",
+    "As you wish. Cycling missiles.",
+    "Very well. Cycling missiles."
+  ],
+  "cycle gimbal assist": [
+    "Gimbal cycled, Commander.",
+    "Naturally, Commander. Gimbal cycled.",
+    "As you wish. Gimbal cycled.",
+    "Very well. Gimbal cycled."
+  ],
+  "missile mode": [
+    "Missile mode, Commander.",
+    "Naturally, Commander. Missile mode.",
+    "As you wish. Missile mode.",
+    "Very well. Missile mode."
+  ],
+  "arm more missiles": [
+    "More missiles armed, Commander.",
+    "Naturally, Commander. More missiles armed.",
+    "As you wish. More missiles armed.",
+    "Very well. More missiles armed."
+  ],
+  "reset missiles": [
+    "Missiles reset, Commander.",
+    "Naturally, Commander. Missiles reset.",
+    "As you wish. Missiles reset.",
+    "Very well. Missiles reset."
+  ]
+}

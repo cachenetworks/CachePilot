@@ -1,0 +1,10 @@
+SpeechRecognition
+PyAudio
+pyttsx3
+pydirectinput
+interception-python
+numpy
+scipy
+sounddevice
+piper-tts
+customtkinter

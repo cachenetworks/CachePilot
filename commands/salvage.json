@@ -1,0 +1,59 @@
+{
+  "_meta": { "category": "salvage" },
+  "salvage mode": {
+    "type": "key", "key": "m",
+    "response": [
+      "Salvage mode.",
+      "Salvage systems online.",
+      "Switching to salvage, Captain.",
+      "Scraper ready."
+    ]
+  },
+  "salvage gimbal": {
+    "type": "key", "key": "g",
+    "response": [
+      "Salvage gimbal cycled.",
+      "Scraper aim mode changed.",
+      "Salvage gimbal switched.",
+      "Aim mode toggled, Captain."
+    ]
+  },
+  "cycle salvage modifiers": {
+    "type": "mouse", "button": "right",
+    "response": [
+      "Cycling salvage modifiers.",
+      "Next salvage mode.",
+      "Salvage modifier switched.",
+      "Cycling tool mods, Captain."
+    ]
+  },
+  "relative beam spacing": {
+    "type": "scroll", "direction": "up", "amount": 3, "modifier": "leftalt",
+    "response": [
+      "Adjusting beam spacing.",
+      "Beam spacing changing, Captain.",
+      "Tweaking beam width.",
+      "Spacing adjusted."
+    ]
+  },
+  "salvage beam axis": {
+    "type": "hotkey", "keys": ["leftalt", "right"],
+    "response": [
+      "Toggling beam axis.",
+      "Axis cycled, Captain.",
+      "Salvage axis switched.",
+      "Beam orientation changed."
+    ],
+    "aliases": ["salvage beam axis toggle"]
+  },
+  "increase beam spacing": {
+    "type": "unbound",
+    "response": [
+      "Increase beam spacing is unbound.",
+      "That action has no default keybind, Captain.",
+      "No keybind set for beam spacing increase.",
+      "Bind that in-game first, Captain."
+    ],
+    "note": "No default keybind on Star Citizen Tools reference. Bind in-game."
+  }
+}

@@ -1,0 +1,1112 @@
+{
+  "ship mode": [
+    "Switching to ship, my lord.",
+    "As you command, my lord. Switching to ship.",
+    "It is done. Switching to ship.",
+    "Switching to ship. By your will, my lord."
+  ],
+  "fps mode": [
+    "Switching to fps, my lord.",
+    "As you command, my lord. Switching to fps.",
+    "It is done. Switching to fps.",
+    "Switching to fps. By your will, my lord."
+  ],
+  "request landing": [
+    "Requesting landing, my lord.",
+    "As you command, my lord. Requesting landing.",
+    "It is done. Requesting landing.",
+    "Requesting landing. By your will, my lord."
+  ],
+  "request takeoff": [
+    "Requesting takeoff, my lord.",
+    "As you command, my lord. Requesting takeoff.",
+    "It is done. Requesting takeoff.",
+    "Requesting takeoff. By your will, my lord."
+  ],
+  "hail atc": [
+    "Hailing control, my lord.",
+    "As you command, my lord. Hailing control.",
+    "It is done. Hailing control.",
+    "Hailing control. By your will, my lord."
+  ],
+  "open hangar": [
+    "Opening hangar, my lord.",
+    "As you command, my lord. Opening hangar.",
+    "It is done. Opening hangar.",
+    "Opening hangar. By your will, my lord."
+  ],
+  "camera cycle": [
+    "Cycling camera, my lord.",
+    "As you command, my lord. Cycling camera.",
+    "It is done. Cycling camera.",
+    "Cycling camera. By your will, my lord."
+  ],
+  "look around": [
+    "Free look toggled, my lord.",
+    "As you command, my lord. Free look toggled.",
+    "It is done. Free look toggled.",
+    "Free look toggled. By your will, my lord."
+  ],
+  "camera move right": [
+    "Panning right, my lord.",
+    "As you command, my lord. Panning right.",
+    "It is done. Panning right.",
+    "Panning right. By your will, my lord."
+  ],
+  "camera move left": [
+    "Panning left, my lord.",
+    "As you command, my lord. Panning left.",
+    "It is done. Panning left.",
+    "Panning left. By your will, my lord."
+  ],
+  "camera move forward": [
+    "Panning in, my lord.",
+    "As you command, my lord. Panning in.",
+    "It is done. Panning in.",
+    "Panning in. By your will, my lord."
+  ],
+  "camera move backward": [
+    "Panning out, my lord.",
+    "As you command, my lord. Panning out.",
+    "It is done. Panning out.",
+    "Panning out. By your will, my lord."
+  ],
+  "camera move up": [
+    "Panning up, my lord.",
+    "As you command, my lord. Panning up.",
+    "It is done. Panning up.",
+    "Panning up. By your will, my lord."
+  ],
+  "camera move down": [
+    "Panning down, my lord.",
+    "As you command, my lord. Panning down.",
+    "It is done. Panning down.",
+    "Panning down. By your will, my lord."
+  ],
+  "save camera one": [
+    "Saving camera one, my lord.",
+    "As you command, my lord. Saving camera one.",
+    "It is done. Saving camera one.",
+    "Saving camera one. By your will, my lord."
+  ],
+  "save camera two": [
+    "Saving camera two, my lord.",
+    "As you command, my lord. Saving camera two.",
+    "It is done. Saving camera two.",
+    "Saving camera two. By your will, my lord."
+  ],
+  "save camera three": [
+    "Saving camera three, my lord.",
+    "As you command, my lord. Saving camera three.",
+    "It is done. Saving camera three.",
+    "Saving camera three. By your will, my lord."
+  ],
+  "save camera four": [
+    "Saving camera four, my lord.",
+    "As you command, my lord. Saving camera four.",
+    "It is done. Saving camera four.",
+    "Saving camera four. By your will, my lord."
+  ],
+  "save camera five": [
+    "Saving camera five, my lord.",
+    "As you command, my lord. Saving camera five.",
+    "It is done. Saving camera five.",
+    "Saving camera five. By your will, my lord."
+  ],
+  "save camera six": [
+    "Saving camera six, my lord.",
+    "As you command, my lord. Saving camera six.",
+    "It is done. Saving camera six.",
+    "Saving camera six. By your will, my lord."
+  ],
+  "save camera seven": [
+    "Saving camera seven, my lord.",
+    "As you command, my lord. Saving camera seven.",
+    "It is done. Saving camera seven.",
+    "Saving camera seven. By your will, my lord."
+  ],
+  "save camera eight": [
+    "Saving camera eight, my lord.",
+    "As you command, my lord. Saving camera eight.",
+    "It is done. Saving camera eight.",
+    "Saving camera eight. By your will, my lord."
+  ],
+  "save camera nine": [
+    "Saving camera nine, my lord.",
+    "As you command, my lord. Saving camera nine.",
+    "It is done. Saving camera nine.",
+    "Saving camera nine. By your will, my lord."
+  ],
+  "load camera one": [
+    "Loading camera one, my lord.",
+    "As you command, my lord. Loading camera one.",
+    "It is done. Loading camera one.",
+    "Loading camera one. By your will, my lord."
+  ],
+  "load camera two": [
+    "Loading camera two, my lord.",
+    "As you command, my lord. Loading camera two.",
+    "It is done. Loading camera two.",
+    "Loading camera two. By your will, my lord."
+  ],
+  "load camera three": [
+    "Loading camera three, my lord.",
+    "As you command, my lord. Loading camera three.",
+    "It is done. Loading camera three.",
+    "Loading camera three. By your will, my lord."
+  ],
+  "load camera four": [
+    "Loading camera four, my lord.",
+    "As you command, my lord. Loading camera four.",
+    "It is done. Loading camera four.",
+    "Loading camera four. By your will, my lord."
+  ],
+  "load camera five": [
+    "Loading camera five, my lord.",
+    "As you command, my lord. Loading camera five.",
+    "It is done. Loading camera five.",
+    "Loading camera five. By your will, my lord."
+  ],
+  "load camera six": [
+    "Loading camera six, my lord.",
+    "As you command, my lord. Loading camera six.",
+    "It is done. Loading camera six.",
+    "Loading camera six. By your will, my lord."
+  ],
+  "load camera seven": [
+    "Loading camera seven, my lord.",
+    "As you command, my lord. Loading camera seven.",
+    "It is done. Loading camera seven.",
+    "Loading camera seven. By your will, my lord."
+  ],
+  "load camera eight": [
+    "Loading camera eight, my lord.",
+    "As you command, my lord. Loading camera eight.",
+    "It is done. Loading camera eight.",
+    "Loading camera eight. By your will, my lord."
+  ],
+  "load camera nine": [
+    "Loading camera nine, my lord.",
+    "As you command, my lord. Loading camera nine.",
+    "It is done. Loading camera nine.",
+    "Loading camera nine. By your will, my lord."
+  ],
+  "reset camera": [
+    "Camera reset, my lord.",
+    "As you command, my lord. Camera reset.",
+    "It is done. Camera reset.",
+    "Camera reset. By your will, my lord."
+  ],
+  "landing checklist": [
+    "Running landing checklist, my lord.",
+    "As you command, my lord. Running landing checklist.",
+    "It is done. Running landing checklist.",
+    "Running landing checklist. By your will, my lord."
+  ],
+  "takeoff checklist": [
+    "Running takeoff checklist, my lord.",
+    "As you command, my lord. Running takeoff checklist.",
+    "It is done. Running takeoff checklist.",
+    "Running takeoff checklist. By your will, my lord."
+  ],
+  "combat mode": [
+    "Going hot, my lord.",
+    "As you command, my lord. Going hot.",
+    "It is done. Going hot.",
+    "Going hot. By your will, my lord."
+  ],
+  "panic": [
+    "Panic protocol, my lord.",
+    "As you command, my lord. Panic protocol.",
+    "It is done. Panic protocol.",
+    "Panic protocol. By your will, my lord."
+  ],
+  "hello": [
+    "My lord.",
+    "You've returned.",
+    "I have awaited you.",
+    "At last, my lord."
+  ],
+  "hey": [
+    "Speak, my lord.",
+    "I attend you.",
+    "You called?",
+    "Mm. Continue."
+  ],
+  "good morning": [
+    "A new day rises, my lord.",
+    "Morning, my lord. The dawn awaits.",
+    "Awake at last, my lord.",
+    "Good morning. The stars yield to light."
+  ],
+  "good evening": [
+    "Evening descends, my lord.",
+    "Twilight, my lord. Stay watchful.",
+    "Good evening. The dark draws near.",
+    "Evening, my lord. The void hums."
+  ],
+  "thank you": [
+    "A trifle, my lord.",
+    "Think nothing of it.",
+    "Honored to serve.",
+    "Your word is enough."
+  ],
+  "good job": [
+    "You honor me, my lord.",
+    "I live to serve.",
+    "Most kind, my lord.",
+    "Such praise."
+  ],
+  "status": [
+    "The ship is whole, my lord.",
+    "All is well, my lord.",
+    "No omens, my lord.",
+    "Steady as the void."
+  ],
+  "report": [
+    "The silence is complete, my lord.",
+    "Nothing stirs, my lord.",
+    "No tidings.",
+    "All is hushed."
+  ],
+  "ready": [
+    "I await your command.",
+    "Ready, my lord.",
+    "Speak and I obey.",
+    "Yours to command."
+  ],
+  "shut up": [
+    "As you decree.",
+    "Silence falls.",
+    "I obey.",
+    "I shall be still."
+  ],
+  "quiet": [
+    "The void shall hear nothing.",
+    "Silent, my lord.",
+    "I withdraw.",
+    "Hushed."
+  ],
+  "who are you": [
+    "I am the ship's spirit.",
+    "Your AI, my lord.",
+    "I am the cockpit voice.",
+    "The mind of the vessel."
+  ],
+  "where are we": [
+    "Lost to me, my lord. The chart speaks.",
+    "I cannot say. The map knows.",
+    "Position withheld.",
+    "Consult the stars, my lord."
+  ],
+  "eva forward": [
+    "Eva forward, my lord.",
+    "As you command, my lord. Eva forward.",
+    "It is done. Eva forward.",
+    "Eva forward. By your will, my lord."
+  ],
+  "eva back": [
+    "Eva back, my lord.",
+    "As you command, my lord. Eva back.",
+    "It is done. Eva back.",
+    "Eva back. By your will, my lord."
+  ],
+  "eva strafe left": [
+    "Eva strafe port, my lord.",
+    "As you command, my lord. Eva strafe port.",
+    "It is done. Eva strafe port.",
+    "Eva strafe port. By your will, my lord."
+  ],
+  "eva strafe right": [
+    "Eva strafe starboard, my lord.",
+    "As you command, my lord. Eva strafe starboard.",
+    "It is done. Eva strafe starboard.",
+    "Eva strafe starboard. By your will, my lord."
+  ],
+  "eva roll left": [
+    "Eva roll port, my lord.",
+    "As you command, my lord. Eva roll port.",
+    "It is done. Eva roll port.",
+    "Eva roll port. By your will, my lord."
+  ],
+  "eva roll right": [
+    "Eva roll starboard, my lord.",
+    "As you command, my lord. Eva roll starboard.",
+    "It is done. Eva roll starboard.",
+    "Eva roll starboard. By your will, my lord."
+  ],
+  "flight ready": [
+    "Flight ready, my lord.",
+    "As you command, my lord. Flight ready.",
+    "It is done. Flight ready.",
+    "Flight ready. By your will, my lord."
+  ],
+  "engines on": [
+    "Engines online, my lord.",
+    "As you command, my lord. Engines online.",
+    "It is done. Engines online.",
+    "Engines online. By your will, my lord."
+  ],
+  "engines off": [
+    "Engines offline, my lord.",
+    "As you command, my lord. Engines offline.",
+    "It is done. Engines offline.",
+    "Engines offline. By your will, my lord."
+  ],
+  "toggle engines": [
+    "Toggling engines, my lord.",
+    "As you command, my lord. Toggling engines.",
+    "It is done. Toggling engines.",
+    "Toggling engines. By your will, my lord."
+  ],
+  "systems on": [
+    "Systems online, my lord.",
+    "As you command, my lord. Systems online.",
+    "It is done. Systems online.",
+    "Systems online. By your will, my lord."
+  ],
+  "systems off": [
+    "Systems offline, my lord.",
+    "As you command, my lord. Systems offline.",
+    "It is done. Systems offline.",
+    "Systems offline. By your will, my lord."
+  ],
+  "toggle systems": [
+    "Toggling systems, my lord.",
+    "As you command, my lord. Toggling systems.",
+    "It is done. Toggling systems.",
+    "Toggling systems. By your will, my lord."
+  ],
+  "throttle up": [
+    "Throttle up, my lord.",
+    "As you command, my lord. Throttle up.",
+    "It is done. Throttle up.",
+    "Throttle up. By your will, my lord."
+  ],
+  "throttle down": [
+    "Throttle down, my lord.",
+    "As you command, my lord. Throttle down.",
+    "It is done. Throttle down.",
+    "Throttle down. By your will, my lord."
+  ],
+  "ship strafe left": [
+    "Strafing port, my lord.",
+    "As you command, my lord. Strafing port.",
+    "It is done. Strafing port.",
+    "Strafing port. By your will, my lord."
+  ],
+  "ship strafe right": [
+    "Strafing starboard, my lord.",
+    "As you command, my lord. Strafing starboard.",
+    "It is done. Strafing starboard.",
+    "Strafing starboard. By your will, my lord."
+  ],
+  "roll left": [
+    "Rolling port, my lord.",
+    "As you command, my lord. Rolling port.",
+    "It is done. Rolling port.",
+    "Rolling port. By your will, my lord."
+  ],
+  "roll right": [
+    "Rolling starboard, my lord.",
+    "As you command, my lord. Rolling starboard.",
+    "It is done. Rolling starboard.",
+    "Rolling starboard. By your will, my lord."
+  ],
+  "boost": [
+    "Boost engaged, my lord.",
+    "As you command, my lord. Boost engaged.",
+    "It is done. Boost engaged.",
+    "Boost engaged. By your will, my lord."
+  ],
+  "boost hard": [
+    "Full boost, my lord.",
+    "As you command, my lord. Full boost.",
+    "It is done. Full boost.",
+    "Full boost. By your will, my lord."
+  ],
+  "space brake": [
+    "Braking, my lord.",
+    "As you command, my lord. Braking.",
+    "It is done. Braking.",
+    "Braking. By your will, my lord."
+  ],
+  "full stop": [
+    "Full stop, my lord.",
+    "As you command, my lord. Full stop.",
+    "It is done. Full stop.",
+    "Full stop. By your will, my lord."
+  ],
+  "cruise control": [
+    "Cruise control toggled, my lord.",
+    "As you command, my lord. Cruise control toggled.",
+    "It is done. Cruise control toggled.",
+    "Cruise control toggled. By your will, my lord."
+  ],
+  "quantum mode": [
+    "Spinning up quantum drive, my lord.",
+    "As you command, my lord. Spinning up quantum drive.",
+    "It is done. Spinning up quantum drive.",
+    "Spinning up quantum drive. By your will, my lord."
+  ],
+  "jump": [
+    "Jumping, my lord.",
+    "As you command, my lord. Jumping.",
+    "It is done. Jumping.",
+    "Jumping. By your will, my lord."
+  ],
+  "exit seat": [
+    "Leaving seat, my lord.",
+    "As you command, my lord. Leaving seat.",
+    "It is done. Leaving seat.",
+    "Leaving seat. By your will, my lord."
+  ],
+  "landing mode": [
+    "Toggling landing mode, my lord.",
+    "As you command, my lord. Toggling landing mode.",
+    "It is done. Toggling landing mode.",
+    "Toggling landing mode. By your will, my lord."
+  ],
+  "auto land": [
+    "Auto landing, my lord.",
+    "As you command, my lord. Auto landing.",
+    "It is done. Auto landing.",
+    "Auto landing. By your will, my lord."
+  ],
+  "decoupled mode": [
+    "Toggling decoupled mode, my lord.",
+    "As you command, my lord. Toggling decoupled mode.",
+    "It is done. Toggling decoupled mode.",
+    "Toggling decoupled mode. By your will, my lord."
+  ],
+  "speed limiter up": [
+    "Raising speed limiter, my lord.",
+    "As you command, my lord. Raising speed limiter.",
+    "It is done. Raising speed limiter.",
+    "Raising speed limiter. By your will, my lord."
+  ],
+  "speed limiter down": [
+    "Lowering speed limiter, my lord.",
+    "As you command, my lord. Lowering speed limiter.",
+    "It is done. Lowering speed limiter.",
+    "Lowering speed limiter. By your will, my lord."
+  ],
+  "lock pitch yaw": [
+    "Axis lock toggled, my lord.",
+    "As you command, my lord. Axis lock toggled.",
+    "It is done. Axis lock toggled.",
+    "Axis lock toggled. By your will, my lord."
+  ],
+  "vtol": [
+    "Toggling vtol, my lord.",
+    "As you command, my lord. Toggling vtol.",
+    "It is done. Toggling vtol.",
+    "Toggling vtol. By your will, my lord."
+  ],
+  "lights": [
+    "Toggling lights, my lord.",
+    "As you command, my lord. Toggling lights.",
+    "It is done. Toggling lights.",
+    "Toggling lights. By your will, my lord."
+  ],
+  "drive forward": [
+    "Driving forward, my lord.",
+    "As you command, my lord. Driving forward.",
+    "It is done. Driving forward.",
+    "Driving forward. By your will, my lord."
+  ],
+  "drive backward": [
+    "Reversing, my lord.",
+    "As you command, my lord. Reversing.",
+    "It is done. Reversing.",
+    "Reversing. By your will, my lord."
+  ],
+  "turn left": [
+    "Steering port, my lord.",
+    "As you command, my lord. Steering port.",
+    "It is done. Steering port.",
+    "Steering port. By your will, my lord."
+  ],
+  "turn right": [
+    "Steering starboard, my lord.",
+    "As you command, my lord. Steering starboard.",
+    "It is done. Steering starboard.",
+    "Steering starboard. By your will, my lord."
+  ],
+  "vehicle brake": [
+    "Braking, my lord.",
+    "As you command, my lord. Braking.",
+    "It is done. Braking.",
+    "Braking. By your will, my lord."
+  ],
+  "vehicle boost": [
+    "Vehicle boost, my lord.",
+    "As you command, my lord. Vehicle boost.",
+    "It is done. Vehicle boost.",
+    "Vehicle boost. By your will, my lord."
+  ],
+  "vehicle exit seat": [
+    "Dismounting, my lord.",
+    "As you command, my lord. Dismounting.",
+    "It is done. Dismounting.",
+    "Dismounting. By your will, my lord."
+  ],
+  "mining mode": [
+    "Mining mode, my lord.",
+    "As you command, my lord. Mining mode.",
+    "It is done. Mining mode.",
+    "Mining mode. By your will, my lord."
+  ],
+  "fire mining laser": [
+    "Mining laser firing, my lord.",
+    "As you command, my lord. Mining laser firing.",
+    "It is done. Mining laser firing.",
+    "Mining laser firing. By your will, my lord."
+  ],
+  "switch mining laser": [
+    "Laser switched, my lord.",
+    "As you command, my lord. Laser switched.",
+    "It is done. Laser switched.",
+    "Laser switched. By your will, my lord."
+  ],
+  "increase mining laser power": [
+    "Mining power up, my lord.",
+    "As you command, my lord. Mining power up.",
+    "It is done. Mining power up.",
+    "Mining power up. By your will, my lord."
+  ],
+  "decrease mining laser power": [
+    "Mining power down, my lord.",
+    "As you command, my lord. Mining power down.",
+    "It is done. Mining power down.",
+    "Mining power down. By your will, my lord."
+  ],
+  "cycle mining gimbal": [
+    "Mining gimbal cycled, my lord.",
+    "As you command, my lord. Mining gimbal cycled.",
+    "It is done. Mining gimbal cycled.",
+    "Mining gimbal cycled. By your will, my lord."
+  ],
+  "mining consumable one": [
+    "Consumable one active, my lord.",
+    "As you command, my lord. Consumable one active.",
+    "It is done. Consumable one active.",
+    "Consumable one active. By your will, my lord."
+  ],
+  "mining consumable two": [
+    "Consumable two active, my lord.",
+    "As you command, my lord. Consumable two active.",
+    "It is done. Consumable two active.",
+    "Consumable two active. By your will, my lord."
+  ],
+  "mining consumable three": [
+    "Consumable three active, my lord.",
+    "As you command, my lord. Consumable three active.",
+    "It is done. Consumable three active.",
+    "Consumable three active. By your will, my lord."
+  ],
+  "jettison cargo": [
+    "Jettisoning cargo, my lord.",
+    "As you command, my lord. Jettisoning cargo.",
+    "It is done. Jettisoning cargo.",
+    "Jettisoning cargo. By your will, my lord."
+  ],
+  "open mobiglas": [
+    "Opening mobiglas, my lord.",
+    "As you command, my lord. Opening mobiglas.",
+    "It is done. Opening mobiglas.",
+    "Opening mobiglas. By your will, my lord."
+  ],
+  "open starmap": [
+    "Opening starmap, my lord.",
+    "As you command, my lord. Opening starmap.",
+    "It is done. Opening starmap.",
+    "Opening starmap. By your will, my lord."
+  ],
+  "open contacts": [
+    "Opening contacts, my lord.",
+    "As you command, my lord. Opening contacts.",
+    "It is done. Opening contacts.",
+    "Opening contacts. By your will, my lord."
+  ],
+  "move forward": [
+    "Moving forward, my lord.",
+    "As you command, my lord. Moving forward.",
+    "It is done. Moving forward.",
+    "Moving forward. By your will, my lord."
+  ],
+  "move forward short": [
+    "Quick step forward, my lord.",
+    "As you command, my lord. Quick step forward.",
+    "It is done. Quick step forward.",
+    "Quick step forward. By your will, my lord."
+  ],
+  "move forward long": [
+    "Sustained forward, my lord.",
+    "As you command, my lord. Sustained forward.",
+    "It is done. Sustained forward.",
+    "Sustained forward. By your will, my lord."
+  ],
+  "move backward": [
+    "Moving back, my lord.",
+    "As you command, my lord. Moving back.",
+    "It is done. Moving back.",
+    "Moving back. By your will, my lord."
+  ],
+  "move backward short": [
+    "Quick step back, my lord.",
+    "As you command, my lord. Quick step back.",
+    "It is done. Quick step back.",
+    "Quick step back. By your will, my lord."
+  ],
+  "move backward long": [
+    "Sustained back, my lord.",
+    "As you command, my lord. Sustained back.",
+    "It is done. Sustained back.",
+    "Sustained back. By your will, my lord."
+  ],
+  "strafe left": [
+    "Strafing left, my lord.",
+    "As you command, my lord. Strafing left.",
+    "It is done. Strafing left.",
+    "Strafing left. By your will, my lord."
+  ],
+  "strafe left short": [
+    "Quick step left, my lord.",
+    "As you command, my lord. Quick step left.",
+    "It is done. Quick step left.",
+    "Quick step left. By your will, my lord."
+  ],
+  "strafe right": [
+    "Strafing right, my lord.",
+    "As you command, my lord. Strafing right.",
+    "It is done. Strafing right.",
+    "Strafing right. By your will, my lord."
+  ],
+  "strafe right short": [
+    "Quick step right, my lord.",
+    "As you command, my lord. Quick step right.",
+    "It is done. Quick step right.",
+    "Quick step right. By your will, my lord."
+  ],
+  "player jump": [
+    "Jumping, my lord.",
+    "As you command, my lord. Jumping.",
+    "It is done. Jumping.",
+    "Jumping. By your will, my lord."
+  ],
+  "run": [
+    "Running, my lord.",
+    "As you command, my lord. Running.",
+    "It is done. Running.",
+    "Running. By your will, my lord."
+  ],
+  "run short": [
+    "Quick sprint, my lord.",
+    "As you command, my lord. Quick sprint.",
+    "It is done. Quick sprint.",
+    "Quick sprint. By your will, my lord."
+  ],
+  "lean left": [
+    "Leaning port, my lord.",
+    "As you command, my lord. Leaning port.",
+    "It is done. Leaning port.",
+    "Leaning port. By your will, my lord."
+  ],
+  "lean right": [
+    "Leaning starboard, my lord.",
+    "As you command, my lord. Leaning starboard.",
+    "It is done. Leaning starboard.",
+    "Leaning starboard. By your will, my lord."
+  ],
+  "crouch": [
+    "Toggling crouch, my lord.",
+    "As you command, my lord. Toggling crouch.",
+    "It is done. Toggling crouch.",
+    "Toggling crouch. By your will, my lord."
+  ],
+  "prone": [
+    "Toggling prone, my lord.",
+    "As you command, my lord. Toggling prone.",
+    "It is done. Toggling prone.",
+    "Toggling prone. By your will, my lord."
+  ],
+  "interact": [
+    "Interact, my lord.",
+    "As you command, my lord. Interact.",
+    "It is done. Interact.",
+    "Interact. By your will, my lord."
+  ],
+  "equip sidearm": [
+    "Sidearm out, my lord.",
+    "As you command, my lord. Sidearm out.",
+    "It is done. Sidearm out.",
+    "Sidearm out. By your will, my lord."
+  ],
+  "equip primary": [
+    "Primary out, my lord.",
+    "As you command, my lord. Primary out.",
+    "It is done. Primary out.",
+    "Primary out. By your will, my lord."
+  ],
+  "equip secondary": [
+    "Secondary out, my lord.",
+    "As you command, my lord. Secondary out.",
+    "It is done. Secondary out.",
+    "Secondary out. By your will, my lord."
+  ],
+  "equip gadget": [
+    "Gadget out, my lord.",
+    "As you command, my lord. Gadget out.",
+    "It is done. Gadget out.",
+    "Gadget out. By your will, my lord."
+  ],
+  "equip melee": [
+    "Melee out, my lord.",
+    "As you command, my lord. Melee out.",
+    "It is done. Melee out.",
+    "Melee out. By your will, my lord."
+  ],
+  "unarmed combat": [
+    "Fists up, my lord.",
+    "As you command, my lord. Fists up.",
+    "It is done. Fists up.",
+    "Fists up. By your will, my lord."
+  ],
+  "reload weapon": [
+    "Reloading, my lord.",
+    "As you command, my lord. Reloading.",
+    "It is done. Reloading.",
+    "Reloading. By your will, my lord."
+  ],
+  "holster weapon": [
+    "Holstering, my lord.",
+    "As you command, my lord. Holstering.",
+    "It is done. Holstering.",
+    "Holstering. By your will, my lord."
+  ],
+  "equip grenade": [
+    "Grenade out, my lord.",
+    "As you command, my lord. Grenade out.",
+    "It is done. Grenade out.",
+    "Grenade out. By your will, my lord."
+  ],
+  "equip medpen": [
+    "Med pen ready, my lord.",
+    "As you command, my lord. Med pen ready.",
+    "It is done. Med pen ready.",
+    "Med pen ready. By your will, my lord."
+  ],
+  "wipe visor": [
+    "Wiping visor, my lord.",
+    "As you command, my lord. Wiping visor.",
+    "It is done. Wiping visor.",
+    "Wiping visor. By your will, my lord."
+  ],
+  "suit light": [
+    "Toggling suit light, my lord.",
+    "As you command, my lord. Toggling suit light.",
+    "It is done. Toggling suit light.",
+    "Toggling suit light. By your will, my lord."
+  ],
+  "power all": [
+    "Cycling all power, my lord.",
+    "As you command, my lord. Cycling all power.",
+    "It is done. Cycling all power.",
+    "Cycling all power. By your will, my lord."
+  ],
+  "power thrusters": [
+    "Cycling thruster power, my lord.",
+    "As you command, my lord. Cycling thruster power.",
+    "It is done. Cycling thruster power.",
+    "Cycling thruster power. By your will, my lord."
+  ],
+  "power shields": [
+    "Cycling shield power, my lord.",
+    "As you command, my lord. Cycling shield power.",
+    "It is done. Cycling shield power.",
+    "Cycling shield power. By your will, my lord."
+  ],
+  "power weapons": [
+    "Cycling weapon power, my lord.",
+    "As you command, my lord. Cycling weapon power.",
+    "It is done. Cycling weapon power.",
+    "Cycling weapon power. By your will, my lord."
+  ],
+  "raise power weapons": [
+    "More to weapons, my lord.",
+    "As you command, my lord. More to weapons.",
+    "It is done. More to weapons.",
+    "More to weapons. By your will, my lord."
+  ],
+  "raise power thrusters": [
+    "More to thrusters, my lord.",
+    "As you command, my lord. More to thrusters.",
+    "It is done. More to thrusters.",
+    "More to thrusters. By your will, my lord."
+  ],
+  "raise power shields": [
+    "More to shields, my lord.",
+    "As you command, my lord. More to shields.",
+    "It is done. More to shields.",
+    "More to shields. By your will, my lord."
+  ],
+  "reset power": [
+    "Power balanced, my lord.",
+    "As you command, my lord. Power balanced.",
+    "It is done. Power balanced.",
+    "Power balanced. By your will, my lord."
+  ],
+  "salvage mode": [
+    "Salvage mode, my lord.",
+    "As you command, my lord. Salvage mode.",
+    "It is done. Salvage mode.",
+    "Salvage mode. By your will, my lord."
+  ],
+  "salvage gimbal": [
+    "Salvage gimbal cycled, my lord.",
+    "As you command, my lord. Salvage gimbal cycled.",
+    "It is done. Salvage gimbal cycled.",
+    "Salvage gimbal cycled. By your will, my lord."
+  ],
+  "cycle salvage modifiers": [
+    "Cycling salvage mods, my lord.",
+    "As you command, my lord. Cycling salvage mods.",
+    "It is done. Cycling salvage mods.",
+    "Cycling salvage mods. By your will, my lord."
+  ],
+  "relative beam spacing": [
+    "Beam spacing adjusted, my lord.",
+    "As you command, my lord. Beam spacing adjusted.",
+    "It is done. Beam spacing adjusted.",
+    "Beam spacing adjusted. By your will, my lord."
+  ],
+  "salvage beam axis": [
+    "Axis toggled, my lord.",
+    "As you command, my lord. Axis toggled.",
+    "It is done. Axis toggled.",
+    "Axis toggled. By your will, my lord."
+  ],
+  "increase beam spacing": [
+    "Unable, that's unbound, my lord.",
+    "As you command, my lord. Unable, that's unbound.",
+    "It is done. Unable, that's unbound.",
+    "Unable, that's unbound. By your will, my lord."
+  ],
+  "scanning mode": [
+    "Scanner online, my lord.",
+    "As you command, my lord. Scanner online.",
+    "It is done. Scanner online.",
+    "Scanner online. By your will, my lord."
+  ],
+  "activate scanning": [
+    "Scanning, my lord.",
+    "As you command, my lord. Scanning.",
+    "It is done. Scanning.",
+    "Scanning. By your will, my lord."
+  ],
+  "scanning ping": [
+    "Ping out, my lord.",
+    "As you command, my lord. Ping out.",
+    "It is done. Ping out.",
+    "Ping out. By your will, my lord."
+  ],
+  "increase scanning angle": [
+    "Widening scan, my lord.",
+    "As you command, my lord. Widening scan.",
+    "It is done. Widening scan.",
+    "Widening scan. By your will, my lord."
+  ],
+  "decrease scanning angle": [
+    "Narrowing scan, my lord.",
+    "As you command, my lord. Narrowing scan.",
+    "It is done. Narrowing scan.",
+    "Narrowing scan. By your will, my lord."
+  ],
+  "increase ping angle": [
+    "Unable, that's unbound, my lord.",
+    "As you command, my lord. Unable, that's unbound.",
+    "It is done. Unable, that's unbound.",
+    "Unable, that's unbound. By your will, my lord."
+  ],
+  "decrease ping angle": [
+    "Unable, that's unbound, my lord.",
+    "As you command, my lord. Unable, that's unbound.",
+    "It is done. Unable, that's unbound.",
+    "Unable, that's unbound. By your will, my lord."
+  ],
+  "shields front": [
+    "Front shield up, my lord.",
+    "As you command, my lord. Front shield up.",
+    "It is done. Front shield up.",
+    "Front shield up. By your will, my lord."
+  ],
+  "shields back": [
+    "Rear shield up, my lord.",
+    "As you command, my lord. Rear shield up.",
+    "It is done. Rear shield up.",
+    "Rear shield up. By your will, my lord."
+  ],
+  "shields left": [
+    "Port shield up, my lord.",
+    "As you command, my lord. Port shield up.",
+    "It is done. Port shield up.",
+    "Port shield up. By your will, my lord."
+  ],
+  "shields right": [
+    "Starboard shield up, my lord.",
+    "As you command, my lord. Starboard shield up.",
+    "It is done. Starboard shield up.",
+    "Starboard shield up. By your will, my lord."
+  ],
+  "shields top": [
+    "Dorsal shield up, my lord.",
+    "As you command, my lord. Dorsal shield up.",
+    "It is done. Dorsal shield up.",
+    "Dorsal shield up. By your will, my lord."
+  ],
+  "shields bottom": [
+    "Ventral shield up, my lord.",
+    "As you command, my lord. Ventral shield up.",
+    "It is done. Ventral shield up.",
+    "Ventral shield up. By your will, my lord."
+  ],
+  "reset shields": [
+    "Shields balanced, my lord.",
+    "As you command, my lord. Shields balanced.",
+    "It is done. Shields balanced.",
+    "Shields balanced. By your will, my lord."
+  ],
+  "deploy noise": [
+    "Noise out, my lord.",
+    "As you command, my lord. Noise out.",
+    "It is done. Noise out.",
+    "Noise out. By your will, my lord."
+  ],
+  "deploy decoy": [
+    "Decoy out, my lord.",
+    "As you command, my lord. Decoy out.",
+    "It is done. Decoy out.",
+    "Decoy out. By your will, my lord."
+  ],
+  "lock target": [
+    "Locking target, my lord.",
+    "As you command, my lord. Locking target.",
+    "It is done. Locking target.",
+    "Locking target. By your will, my lord."
+  ],
+  "unlock target": [
+    "Releasing target, my lord.",
+    "As you command, my lord. Releasing target.",
+    "It is done. Releasing target.",
+    "Releasing target. By your will, my lord."
+  ],
+  "select pin one": [
+    "Pin one active, my lord.",
+    "As you command, my lord. Pin one active.",
+    "It is done. Pin one active.",
+    "Pin one active. By your will, my lord."
+  ],
+  "select pin two": [
+    "Pin two active, my lord.",
+    "As you command, my lord. Pin two active.",
+    "It is done. Pin two active.",
+    "Pin two active. By your will, my lord."
+  ],
+  "select pin three": [
+    "Pin three active, my lord.",
+    "As you command, my lord. Pin three active.",
+    "It is done. Pin three active.",
+    "Pin three active. By your will, my lord."
+  ],
+  "pin target one": [
+    "Pinning target one, my lord.",
+    "As you command, my lord. Pinning target one.",
+    "It is done. Pinning target one.",
+    "Pinning target one. By your will, my lord."
+  ],
+  "pin target two": [
+    "Pinning target two, my lord.",
+    "As you command, my lord. Pinning target two.",
+    "It is done. Pinning target two.",
+    "Pinning target two. By your will, my lord."
+  ],
+  "pin target three": [
+    "Pinning target three, my lord.",
+    "As you command, my lord. Pinning target three.",
+    "It is done. Pinning target three.",
+    "Pinning target three. By your will, my lord."
+  ],
+  "cycle attackers": [
+    "Cycling attackers, my lord.",
+    "As you command, my lord. Cycling attackers.",
+    "It is done. Cycling attackers.",
+    "Cycling attackers. By your will, my lord."
+  ],
+  "cycle hostiles": [
+    "Cycling hostiles, my lord.",
+    "As you command, my lord. Cycling hostiles.",
+    "It is done. Cycling hostiles.",
+    "Cycling hostiles. By your will, my lord."
+  ],
+  "cycle friendlies": [
+    "Cycling friendlies, my lord.",
+    "As you command, my lord. Cycling friendlies.",
+    "It is done. Cycling friendlies.",
+    "Cycling friendlies. By your will, my lord."
+  ],
+  "toggle chat": [
+    "Toggling chat, my lord.",
+    "As you command, my lord. Toggling chat.",
+    "It is done. Toggling chat.",
+    "Toggling chat. By your will, my lord."
+  ],
+  "fire weapon group one": [
+    "Group one firing, my lord.",
+    "As you command, my lord. Group one firing.",
+    "It is done. Group one firing.",
+    "Group one firing. By your will, my lord."
+  ],
+  "fire weapon group two": [
+    "Group two firing, my lord.",
+    "As you command, my lord. Group two firing.",
+    "It is done. Group two firing.",
+    "Group two firing. By your will, my lord."
+  ],
+  "launch missile": [
+    "Missile away, my lord.",
+    "As you command, my lord. Missile away.",
+    "It is done. Missile away.",
+    "Missile away. By your will, my lord."
+  ],
+  "cycle missile type": [
+    "Cycling missiles, my lord.",
+    "As you command, my lord. Cycling missiles.",
+    "It is done. Cycling missiles.",
+    "Cycling missiles. By your will, my lord."
+  ],
+  "cycle gimbal assist": [
+    "Gimbal cycled, my lord.",
+    "As you command, my lord. Gimbal cycled.",
+    "It is done. Gimbal cycled.",
+    "Gimbal cycled. By your will, my lord."
+  ],
+  "missile mode": [
+    "Missile mode, my lord.",
+    "As you command, my lord. Missile mode.",
+    "It is done. Missile mode.",
+    "Missile mode. By your will, my lord."
+  ],
+  "arm more missiles": [
+    "More missiles armed, my lord.",
+    "As you command, my lord. More missiles armed.",
+    "It is done. More missiles armed.",
+    "More missiles armed. By your will, my lord."
+  ],
+  "reset missiles": [
+    "Missiles reset, my lord.",
+    "As you command, my lord. Missiles reset.",
+    "It is done. Missiles reset.",
+    "Missiles reset. By your will, my lord."
+  ]
+}

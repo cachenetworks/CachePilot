@@ -1,0 +1,29 @@
+{
+  "_meta": { "category": "eva" },
+  "eva forward": {
+    "type": "hold", "key": "w", "duration": 1.0,
+    "response": ["EVA forward.", "Thrusters forward, Captain.", "Drifting ahead.", "Forward in EVA."],
+    "aliases": ["fly forward eva"]
+  },
+  "eva back": {
+    "type": "hold", "key": "s", "duration": 1.0,
+    "response": ["EVA backward.", "Reversing thrusters, Captain.", "Backing up in EVA.", "Aft in EVA."],
+    "aliases": ["eva backward"]
+  },
+  "eva strafe left": {
+    "type": "hold", "key": "a", "duration": 1.0,
+    "response": ["EVA strafe left.", "Sliding port, Captain.", "Drifting left.", "EVA left."]
+  },
+  "eva strafe right": {
+    "type": "hold", "key": "d", "duration": 1.0,
+    "response": ["EVA strafe right.", "Sliding starboard, Captain.", "Drifting right.", "EVA right."]
+  },
+  "eva roll left": {
+    "type": "hold", "key": "q", "duration": 0.8,
+    "response": ["EVA roll left.", "Rolling port, Captain.", "Spinning left.", "EVA roll port."]
+  },
+  "eva roll right": {
+    "type": "hold", "key": "e", "duration": 0.8,
+    "response": ["EVA roll right.", "Rolling starboard, Captain.", "Spinning right.", "EVA roll starboard."]
+  }
+}

@@ -1,0 +1,47 @@
+# --- Python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Virtual environments --------------------------------------------------
+venv/
+.venv/
+env/
+.env/
+
+# --- IDEs ------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS --------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- CachePilot runtime artifacts ------------------------------------------
+# User's saved voice assignments — local to each install
+voice_assignments.json
+
+# Legacy single-file commands (kept locally as a backup)
+commands.json.legacy
+commands.json.bak
+
+# Logs / crash dumps
+*.log
+
+# --- Piper voice models (downloaded via setup.bat) -------------------------
+# Each voice is ~63MB; we ship a script to fetch them instead of committing.
+voices/*.onnx
+voices/*.onnx.json

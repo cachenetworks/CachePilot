@@ -1,0 +1,142 @@
+{
+  "_meta": {
+    "category": "chitchat",
+    "global": true,
+    "notes": "Conversational responses. type=say means no key press, response is spoken only. global=true means these work in any profile."
+  },
+  "hello": {
+    "type": "say",
+    "response": [
+      "Hello, Captain.",
+      "At your service, Captain.",
+      "Welcome aboard, Captain.",
+      "Good to hear you, Captain."
+    ],
+    "aliases": ["hi", "hi there", "hello there", "greetings"]
+  },
+  "hey": {
+    "type": "say",
+    "response": [
+      "Yes, Captain?",
+      "Standing by, Captain.",
+      "Go ahead, Captain.",
+      "I'm here, Captain."
+    ],
+    "aliases": ["yo", "hey there", "you there", "are you there", "are you awake"]
+  },
+  "good morning": {
+    "type": "say",
+    "response": [
+      "Good morning, Captain.",
+      "Morning, Captain. Systems are warmed up.",
+      "Good morning. Coffee is hypothetical.",
+      "Top of the morning, Captain."
+    ],
+    "aliases": ["morning"]
+  },
+  "good evening": {
+    "type": "say",
+    "response": [
+      "Good evening, Captain.",
+      "Evening, Captain. Stars are out.",
+      "Good evening. Long shift ahead?",
+      "Evening, Captain. Quiet space."
+    ],
+    "aliases": ["evening", "good night", "goodnight"]
+  },
+  "thank you": {
+    "type": "say",
+    "response": [
+      "Always, Captain.",
+      "My pleasure, Captain.",
+      "Anytime, Captain.",
+      "Don't mention it, Captain."
+    ],
+    "aliases": ["thanks", "cheers", "appreciate it"]
+  },
+  "good job": {
+    "type": "say",
+    "response": [
+      "Thank you, Captain.",
+      "Just doing my job, Captain.",
+      "Appreciated, Captain.",
+      "You're too kind, Captain."
+    ],
+    "aliases": ["nice work", "well done", "good work"]
+  },
+  "status": {
+    "type": "say",
+    "response": [
+      "All systems nominal, Captain.",
+      "Green across the board, Captain.",
+      "Everything looks clean, Captain.",
+      "No anomalies detected, Captain."
+    ],
+    "aliases": [
+      "whats the status", "what is the status", "status report", "ship status",
+      "how are we doing", "how are we", "how are we looking",
+      "you good", "all good", "everything ok", "everything okay",
+      "everything alright", "sit rep", "sitrep"
+    ]
+  },
+  "report": {
+    "type": "say",
+    "response": [
+      "Nothing to report, Captain.",
+      "All quiet, Captain.",
+      "No contacts, Captain.",
+      "Skies are clear, Captain."
+    ],
+    "aliases": ["anything to report", "any updates", "whats up"]
+  },
+  "ready": {
+    "type": "say",
+    "response": [
+      "Standing by and ready, Captain.",
+      "Ready when you are, Captain.",
+      "All set, Captain.",
+      "Locked and loaded, Captain."
+    ],
+    "aliases": ["are you ready", "ready up", "all systems ready"]
+  },
+  "shut up": {
+    "type": "say",
+    "response": [
+      "Acknowledged.",
+      "Going quiet.",
+      "Understood, Captain.",
+      "Silent mode."
+    ],
+    "aliases": ["be quiet", "stop talking", "silence", "zip it"]
+  },
+  "quiet": {
+    "type": "say",
+    "response": [
+      "Going dark.",
+      "Radio silence engaged.",
+      "Comms muted, Captain.",
+      "I'll keep it down, Captain."
+    ],
+    "aliases": ["radio silence", "go dark"]
+  },
+  "who are you": {
+    "type": "say",
+    "response": [
+      "I am your ship AI, Captain.",
+      "Onboard assistant, at your service.",
+      "Your ship's computer, Captain.",
+      "Just a voice in the cockpit, Captain."
+    ],
+    "aliases": ["whats your name", "what are you", "introduce yourself"]
+  },
+  "where are we": {
+    "type": "say",
+    "response": [
+      "Unable to determine, Captain. Check your map.",
+      "Position data unavailable. Check the star map.",
+      "Somewhere in the verse, Captain. Map will tell you.",
+      "Coordinates locked away from me, Captain. Open the map."
+    ],
+    "aliases": ["whats our location", "current position", "location"]
+  }
+}

@@ -1,0 +1,1112 @@
+{
+  "ship mode": [
+    "Switching to ship, boss.",
+    "Right then, boss. Switching to ship.",
+    "Done, boss. Switching to ship.",
+    "Switching to ship. Sorted."
+  ],
+  "fps mode": [
+    "Switching to fps, boss.",
+    "Right then, boss. Switching to fps.",
+    "Done, boss. Switching to fps.",
+    "Switching to fps. Sorted."
+  ],
+  "request landing": [
+    "Requesting landing, boss.",
+    "Right then, boss. Requesting landing.",
+    "Done, boss. Requesting landing.",
+    "Requesting landing. Sorted."
+  ],
+  "request takeoff": [
+    "Requesting takeoff, boss.",
+    "Right then, boss. Requesting takeoff.",
+    "Done, boss. Requesting takeoff.",
+    "Requesting takeoff. Sorted."
+  ],
+  "hail atc": [
+    "Hailing control, boss.",
+    "Right then, boss. Hailing control.",
+    "Done, boss. Hailing control.",
+    "Hailing control. Sorted."
+  ],
+  "open hangar": [
+    "Opening hangar, boss.",
+    "Right then, boss. Opening hangar.",
+    "Done, boss. Opening hangar.",
+    "Opening hangar. Sorted."
+  ],
+  "camera cycle": [
+    "Cycling camera, boss.",
+    "Right then, boss. Cycling camera.",
+    "Done, boss. Cycling camera.",
+    "Cycling camera. Sorted."
+  ],
+  "look around": [
+    "Free look toggled, boss.",
+    "Right then, boss. Free look toggled.",
+    "Done, boss. Free look toggled.",
+    "Free look toggled. Sorted."
+  ],
+  "camera move right": [
+    "Panning right, boss.",
+    "Right then, boss. Panning right.",
+    "Done, boss. Panning right.",
+    "Panning right. Sorted."
+  ],
+  "camera move left": [
+    "Panning left, boss.",
+    "Right then, boss. Panning left.",
+    "Done, boss. Panning left.",
+    "Panning left. Sorted."
+  ],
+  "camera move forward": [
+    "Panning in, boss.",
+    "Right then, boss. Panning in.",
+    "Done, boss. Panning in.",
+    "Panning in. Sorted."
+  ],
+  "camera move backward": [
+    "Panning out, boss.",
+    "Right then, boss. Panning out.",
+    "Done, boss. Panning out.",
+    "Panning out. Sorted."
+  ],
+  "camera move up": [
+    "Panning up, boss.",
+    "Right then, boss. Panning up.",
+    "Done, boss. Panning up.",
+    "Panning up. Sorted."
+  ],
+  "camera move down": [
+    "Panning down, boss.",
+    "Right then, boss. Panning down.",
+    "Done, boss. Panning down.",
+    "Panning down. Sorted."
+  ],
+  "save camera one": [
+    "Saving camera one, boss.",
+    "Right then, boss. Saving camera one.",
+    "Done, boss. Saving camera one.",
+    "Saving camera one. Sorted."
+  ],
+  "save camera two": [
+    "Saving camera two, boss.",
+    "Right then, boss. Saving camera two.",
+    "Done, boss. Saving camera two.",
+    "Saving camera two. Sorted."
+  ],
+  "save camera three": [
+    "Saving camera three, boss.",
+    "Right then, boss. Saving camera three.",
+    "Done, boss. Saving camera three.",
+    "Saving camera three. Sorted."
+  ],
+  "save camera four": [
+    "Saving camera four, boss.",
+    "Right then, boss. Saving camera four.",
+    "Done, boss. Saving camera four.",
+    "Saving camera four. Sorted."
+  ],
+  "save camera five": [
+    "Saving camera five, boss.",
+    "Right then, boss. Saving camera five.",
+    "Done, boss. Saving camera five.",
+    "Saving camera five. Sorted."
+  ],
+  "save camera six": [
+    "Saving camera six, boss.",
+    "Right then, boss. Saving camera six.",
+    "Done, boss. Saving camera six.",
+    "Saving camera six. Sorted."
+  ],
+  "save camera seven": [
+    "Saving camera seven, boss.",
+    "Right then, boss. Saving camera seven.",
+    "Done, boss. Saving camera seven.",
+    "Saving camera seven. Sorted."
+  ],
+  "save camera eight": [
+    "Saving camera eight, boss.",
+    "Right then, boss. Saving camera eight.",
+    "Done, boss. Saving camera eight.",
+    "Saving camera eight. Sorted."
+  ],
+  "save camera nine": [
+    "Saving camera nine, boss.",
+    "Right then, boss. Saving camera nine.",
+    "Done, boss. Saving camera nine.",
+    "Saving camera nine. Sorted."
+  ],
+  "load camera one": [
+    "Loading camera one, boss.",
+    "Right then, boss. Loading camera one.",
+    "Done, boss. Loading camera one.",
+    "Loading camera one. Sorted."
+  ],
+  "load camera two": [
+    "Loading camera two, boss.",
+    "Right then, boss. Loading camera two.",
+    "Done, boss. Loading camera two.",
+    "Loading camera two. Sorted."
+  ],
+  "load camera three": [
+    "Loading camera three, boss.",
+    "Right then, boss. Loading camera three.",
+    "Done, boss. Loading camera three.",
+    "Loading camera three. Sorted."
+  ],
+  "load camera four": [
+    "Loading camera four, boss.",
+    "Right then, boss. Loading camera four.",
+    "Done, boss. Loading camera four.",
+    "Loading camera four. Sorted."
+  ],
+  "load camera five": [
+    "Loading camera five, boss.",
+    "Right then, boss. Loading camera five.",
+    "Done, boss. Loading camera five.",
+    "Loading camera five. Sorted."
+  ],
+  "load camera six": [
+    "Loading camera six, boss.",
+    "Right then, boss. Loading camera six.",
+    "Done, boss. Loading camera six.",
+    "Loading camera six. Sorted."
+  ],
+  "load camera seven": [
+    "Loading camera seven, boss.",
+    "Right then, boss. Loading camera seven.",
+    "Done, boss. Loading camera seven.",
+    "Loading camera seven. Sorted."
+  ],
+  "load camera eight": [
+    "Loading camera eight, boss.",
+    "Right then, boss. Loading camera eight.",
+    "Done, boss. Loading camera eight.",
+    "Loading camera eight. Sorted."
+  ],
+  "load camera nine": [
+    "Loading camera nine, boss.",
+    "Right then, boss. Loading camera nine.",
+    "Done, boss. Loading camera nine.",
+    "Loading camera nine. Sorted."
+  ],
+  "reset camera": [
+    "Camera reset, boss.",
+    "Right then, boss. Camera reset.",
+    "Done, boss. Camera reset.",
+    "Camera reset. Sorted."
+  ],
+  "landing checklist": [
+    "Running landing checklist, boss.",
+    "Right then, boss. Running landing checklist.",
+    "Done, boss. Running landing checklist.",
+    "Running landing checklist. Sorted."
+  ],
+  "takeoff checklist": [
+    "Running takeoff checklist, boss.",
+    "Right then, boss. Running takeoff checklist.",
+    "Done, boss. Running takeoff checklist.",
+    "Running takeoff checklist. Sorted."
+  ],
+  "combat mode": [
+    "Going hot, boss.",
+    "Right then, boss. Going hot.",
+    "Done, boss. Going hot.",
+    "Going hot. Sorted."
+  ],
+  "panic": [
+    "Panic protocol, boss.",
+    "Right then, boss. Panic protocol.",
+    "Done, boss. Panic protocol.",
+    "Panic protocol. Sorted."
+  ],
+  "hello": [
+    "Alright boss.",
+    "Ey up, boss.",
+    "Now then, boss.",
+    "Boss."
+  ],
+  "hey": [
+    "Aye, boss?",
+    "What is it, boss?",
+    "Go on then.",
+    "Yeah, boss?"
+  ],
+  "good morning": [
+    "Morning, boss.",
+    "Mornin'. Brew's not real.",
+    "Morning. Cold one out there.",
+    "Up early, boss?"
+  ],
+  "good evening": [
+    "Evening, boss.",
+    "Evening. Long shift, eh?",
+    "Alright, evening boss.",
+    "Done for the day?"
+  ],
+  "thank you": [
+    "Aye, no bother.",
+    "S'alright, boss.",
+    "Don't mention it.",
+    "Anytime, boss."
+  ],
+  "good job": [
+    "Cheers, boss.",
+    "Ta, boss.",
+    "Aye, ta for that.",
+    "Right kind of you, boss."
+  ],
+  "status": [
+    "All green, boss.",
+    "Nowt to worry about.",
+    "Running clean, boss.",
+    "All sorted, boss."
+  ],
+  "report": [
+    "Nowt to report, boss.",
+    "Quiet as the grave, boss.",
+    "Nothin' to say, boss.",
+    "All quiet."
+  ],
+  "ready": [
+    "Ready when you are.",
+    "Locked in, boss.",
+    "Aye, set and ready.",
+    "Good to go, boss."
+  ],
+  "shut up": [
+    "Right you are.",
+    "Aye, zippin' it.",
+    "Fair enough.",
+    "Pipe down it is."
+  ],
+  "quiet": [
+    "Goin' quiet.",
+    "Aye, mum's the word.",
+    "Right, shutting it.",
+    "Comms off, boss."
+  ],
+  "who are you": [
+    "I'm the ship, boss.",
+    "Your onboard, boss.",
+    "Ship computer, that's me.",
+    "Just the voice, boss."
+  ],
+  "where are we": [
+    "No idea, boss. Check the map.",
+    "Map's your friend, boss.",
+    "Search me, boss.",
+    "Couldn't tell you, boss."
+  ],
+  "eva forward": [
+    "Eva forward, boss.",
+    "Right then, boss. Eva forward.",
+    "Done, boss. Eva forward.",
+    "Eva forward. Sorted."
+  ],
+  "eva back": [
+    "Eva back, boss.",
+    "Right then, boss. Eva back.",
+    "Done, boss. Eva back.",
+    "Eva back. Sorted."
+  ],
+  "eva strafe left": [
+    "Eva strafe port, boss.",
+    "Right then, boss. Eva strafe port.",
+    "Done, boss. Eva strafe port.",
+    "Eva strafe port. Sorted."
+  ],
+  "eva strafe right": [
+    "Eva strafe starboard, boss.",
+    "Right then, boss. Eva strafe starboard.",
+    "Done, boss. Eva strafe starboard.",
+    "Eva strafe starboard. Sorted."
+  ],
+  "eva roll left": [
+    "Eva roll port, boss.",
+    "Right then, boss. Eva roll port.",
+    "Done, boss. Eva roll port.",
+    "Eva roll port. Sorted."
+  ],
+  "eva roll right": [
+    "Eva roll starboard, boss.",
+    "Right then, boss. Eva roll starboard.",
+    "Done, boss. Eva roll starboard.",
+    "Eva roll starboard. Sorted."
+  ],
+  "flight ready": [
+    "Flight ready, boss.",
+    "Right then, boss. Flight ready.",
+    "Done, boss. Flight ready.",
+    "Flight ready. Sorted."
+  ],
+  "engines on": [
+    "Engines online, boss.",
+    "Right then, boss. Engines online.",
+    "Done, boss. Engines online.",
+    "Engines online. Sorted."
+  ],
+  "engines off": [
+    "Engines offline, boss.",
+    "Right then, boss. Engines offline.",
+    "Done, boss. Engines offline.",
+    "Engines offline. Sorted."
+  ],
+  "toggle engines": [
+    "Toggling engines, boss.",
+    "Right then, boss. Toggling engines.",
+    "Done, boss. Toggling engines.",
+    "Toggling engines. Sorted."
+  ],
+  "systems on": [
+    "Systems online, boss.",
+    "Right then, boss. Systems online.",
+    "Done, boss. Systems online.",
+    "Systems online. Sorted."
+  ],
+  "systems off": [
+    "Systems offline, boss.",
+    "Right then, boss. Systems offline.",
+    "Done, boss. Systems offline.",
+    "Systems offline. Sorted."
+  ],
+  "toggle systems": [
+    "Toggling systems, boss.",
+    "Right then, boss. Toggling systems.",
+    "Done, boss. Toggling systems.",
+    "Toggling systems. Sorted."
+  ],
+  "throttle up": [
+    "Throttle up, boss.",
+    "Right then, boss. Throttle up.",
+    "Done, boss. Throttle up.",
+    "Throttle up. Sorted."
+  ],
+  "throttle down": [
+    "Throttle down, boss.",
+    "Right then, boss. Throttle down.",
+    "Done, boss. Throttle down.",
+    "Throttle down. Sorted."
+  ],
+  "ship strafe left": [
+    "Strafing port, boss.",
+    "Right then, boss. Strafing port.",
+    "Done, boss. Strafing port.",
+    "Strafing port. Sorted."
+  ],
+  "ship strafe right": [
+    "Strafing starboard, boss.",
+    "Right then, boss. Strafing starboard.",
+    "Done, boss. Strafing starboard.",
+    "Strafing starboard. Sorted."
+  ],
+  "roll left": [
+    "Rolling port, boss.",
+    "Right then, boss. Rolling port.",
+    "Done, boss. Rolling port.",
+    "Rolling port. Sorted."
+  ],
+  "roll right": [
+    "Rolling starboard, boss.",
+    "Right then, boss. Rolling starboard.",
+    "Done, boss. Rolling starboard.",
+    "Rolling starboard. Sorted."
+  ],
+  "boost": [
+    "Boost engaged, boss.",
+    "Right then, boss. Boost engaged.",
+    "Done, boss. Boost engaged.",
+    "Boost engaged. Sorted."
+  ],
+  "boost hard": [
+    "Full boost, boss.",
+    "Right then, boss. Full boost.",
+    "Done, boss. Full boost.",
+    "Full boost. Sorted."
+  ],
+  "space brake": [
+    "Braking, boss.",
+    "Right then, boss. Braking.",
+    "Done, boss. Braking.",
+    "Braking. Sorted."
+  ],
+  "full stop": [
+    "Full stop, boss.",
+    "Right then, boss. Full stop.",
+    "Done, boss. Full stop.",
+    "Full stop. Sorted."
+  ],
+  "cruise control": [
+    "Cruise control toggled, boss.",
+    "Right then, boss. Cruise control toggled.",
+    "Done, boss. Cruise control toggled.",
+    "Cruise control toggled. Sorted."
+  ],
+  "quantum mode": [
+    "Spinning up quantum drive, boss.",
+    "Right then, boss. Spinning up quantum drive.",
+    "Done, boss. Spinning up quantum drive.",
+    "Spinning up quantum drive. Sorted."
+  ],
+  "jump": [
+    "Jumping, boss.",
+    "Right then, boss. Jumping.",
+    "Done, boss. Jumping.",
+    "Jumping. Sorted."
+  ],
+  "exit seat": [
+    "Leaving seat, boss.",
+    "Right then, boss. Leaving seat.",
+    "Done, boss. Leaving seat.",
+    "Leaving seat. Sorted."
+  ],
+  "landing mode": [
+    "Toggling landing mode, boss.",
+    "Right then, boss. Toggling landing mode.",
+    "Done, boss. Toggling landing mode.",
+    "Toggling landing mode. Sorted."
+  ],
+  "auto land": [
+    "Auto landing, boss.",
+    "Right then, boss. Auto landing.",
+    "Done, boss. Auto landing.",
+    "Auto landing. Sorted."
+  ],
+  "decoupled mode": [
+    "Toggling decoupled mode, boss.",
+    "Right then, boss. Toggling decoupled mode.",
+    "Done, boss. Toggling decoupled mode.",
+    "Toggling decoupled mode. Sorted."
+  ],
+  "speed limiter up": [
+    "Raising speed limiter, boss.",
+    "Right then, boss. Raising speed limiter.",
+    "Done, boss. Raising speed limiter.",
+    "Raising speed limiter. Sorted."
+  ],
+  "speed limiter down": [
+    "Lowering speed limiter, boss.",
+    "Right then, boss. Lowering speed limiter.",
+    "Done, boss. Lowering speed limiter.",
+    "Lowering speed limiter. Sorted."
+  ],
+  "lock pitch yaw": [
+    "Axis lock toggled, boss.",
+    "Right then, boss. Axis lock toggled.",
+    "Done, boss. Axis lock toggled.",
+    "Axis lock toggled. Sorted."
+  ],
+  "vtol": [
+    "Toggling vtol, boss.",
+    "Right then, boss. Toggling vtol.",
+    "Done, boss. Toggling vtol.",
+    "Toggling vtol. Sorted."
+  ],
+  "lights": [
+    "Toggling lights, boss.",
+    "Right then, boss. Toggling lights.",
+    "Done, boss. Toggling lights.",
+    "Toggling lights. Sorted."
+  ],
+  "drive forward": [
+    "Driving forward, boss.",
+    "Right then, boss. Driving forward.",
+    "Done, boss. Driving forward.",
+    "Driving forward. Sorted."
+  ],
+  "drive backward": [
+    "Reversing, boss.",
+    "Right then, boss. Reversing.",
+    "Done, boss. Reversing.",
+    "Reversing. Sorted."
+  ],
+  "turn left": [
+    "Steering port, boss.",
+    "Right then, boss. Steering port.",
+    "Done, boss. Steering port.",
+    "Steering port. Sorted."
+  ],
+  "turn right": [
+    "Steering starboard, boss.",
+    "Right then, boss. Steering starboard.",
+    "Done, boss. Steering starboard.",
+    "Steering starboard. Sorted."
+  ],
+  "vehicle brake": [
+    "Braking, boss.",
+    "Right then, boss. Braking.",
+    "Done, boss. Braking.",
+    "Braking. Sorted."
+  ],
+  "vehicle boost": [
+    "Vehicle boost, boss.",
+    "Right then, boss. Vehicle boost.",
+    "Done, boss. Vehicle boost.",
+    "Vehicle boost. Sorted."
+  ],
+  "vehicle exit seat": [
+    "Dismounting, boss.",
+    "Right then, boss. Dismounting.",
+    "Done, boss. Dismounting.",
+    "Dismounting. Sorted."
+  ],
+  "mining mode": [
+    "Mining mode, boss.",
+    "Right then, boss. Mining mode.",
+    "Done, boss. Mining mode.",
+    "Mining mode. Sorted."
+  ],
+  "fire mining laser": [
+    "Mining laser firing, boss.",
+    "Right then, boss. Mining laser firing.",
+    "Done, boss. Mining laser firing.",
+    "Mining laser firing. Sorted."
+  ],
+  "switch mining laser": [
+    "Laser switched, boss.",
+    "Right then, boss. Laser switched.",
+    "Done, boss. Laser switched.",
+    "Laser switched. Sorted."
+  ],
+  "increase mining laser power": [
+    "Mining power up, boss.",
+    "Right then, boss. Mining power up.",
+    "Done, boss. Mining power up.",
+    "Mining power up. Sorted."
+  ],
+  "decrease mining laser power": [
+    "Mining power down, boss.",
+    "Right then, boss. Mining power down.",
+    "Done, boss. Mining power down.",
+    "Mining power down. Sorted."
+  ],
+  "cycle mining gimbal": [
+    "Mining gimbal cycled, boss.",
+    "Right then, boss. Mining gimbal cycled.",
+    "Done, boss. Mining gimbal cycled.",
+    "Mining gimbal cycled. Sorted."
+  ],
+  "mining consumable one": [
+    "Consumable one active, boss.",
+    "Right then, boss. Consumable one active.",
+    "Done, boss. Consumable one active.",
+    "Consumable one active. Sorted."
+  ],
+  "mining consumable two": [
+    "Consumable two active, boss.",
+    "Right then, boss. Consumable two active.",
+    "Done, boss. Consumable two active.",
+    "Consumable two active. Sorted."
+  ],
+  "mining consumable three": [
+    "Consumable three active, boss.",
+    "Right then, boss. Consumable three active.",
+    "Done, boss. Consumable three active.",
+    "Consumable three active. Sorted."
+  ],
+  "jettison cargo": [
+    "Jettisoning cargo, boss.",
+    "Right then, boss. Jettisoning cargo.",
+    "Done, boss. Jettisoning cargo.",
+    "Jettisoning cargo. Sorted."
+  ],
+  "open mobiglas": [
+    "Opening mobiglas, boss.",
+    "Right then, boss. Opening mobiglas.",
+    "Done, boss. Opening mobiglas.",
+    "Opening mobiglas. Sorted."
+  ],
+  "open starmap": [
+    "Opening starmap, boss.",
+    "Right then, boss. Opening starmap.",
+    "Done, boss. Opening starmap.",
+    "Opening starmap. Sorted."
+  ],
+  "open contacts": [
+    "Opening contacts, boss.",
+    "Right then, boss. Opening contacts.",
+    "Done, boss. Opening contacts.",
+    "Opening contacts. Sorted."
+  ],
+  "move forward": [
+    "Moving forward, boss.",
+    "Right then, boss. Moving forward.",
+    "Done, boss. Moving forward.",
+    "Moving forward. Sorted."
+  ],
+  "move forward short": [
+    "Quick step forward, boss.",
+    "Right then, boss. Quick step forward.",
+    "Done, boss. Quick step forward.",
+    "Quick step forward. Sorted."
+  ],
+  "move forward long": [
+    "Sustained forward, boss.",
+    "Right then, boss. Sustained forward.",
+    "Done, boss. Sustained forward.",
+    "Sustained forward. Sorted."
+  ],
+  "move backward": [
+    "Moving back, boss.",
+    "Right then, boss. Moving back.",
+    "Done, boss. Moving back.",
+    "Moving back. Sorted."
+  ],
+  "move backward short": [
+    "Quick step back, boss.",
+    "Right then, boss. Quick step back.",
+    "Done, boss. Quick step back.",
+    "Quick step back. Sorted."
+  ],
+  "move backward long": [
+    "Sustained back, boss.",
+    "Right then, boss. Sustained back.",
+    "Done, boss. Sustained back.",
+    "Sustained back. Sorted."
+  ],
+  "strafe left": [
+    "Strafing left, boss.",
+    "Right then, boss. Strafing left.",
+    "Done, boss. Strafing left.",
+    "Strafing left. Sorted."
+  ],
+  "strafe left short": [
+    "Quick step left, boss.",
+    "Right then, boss. Quick step left.",
+    "Done, boss. Quick step left.",
+    "Quick step left. Sorted."
+  ],
+  "strafe right": [
+    "Strafing right, boss.",
+    "Right then, boss. Strafing right.",
+    "Done, boss. Strafing right.",
+    "Strafing right. Sorted."
+  ],
+  "strafe right short": [
+    "Quick step right, boss.",
+    "Right then, boss. Quick step right.",
+    "Done, boss. Quick step right.",
+    "Quick step right. Sorted."
+  ],
+  "player jump": [
+    "Jumping, boss.",
+    "Right then, boss. Jumping.",
+    "Done, boss. Jumping.",
+    "Jumping. Sorted."
+  ],
+  "run": [
+    "Running, boss.",
+    "Right then, boss. Running.",
+    "Done, boss. Running.",
+    "Running. Sorted."
+  ],
+  "run short": [
+    "Quick sprint, boss.",
+    "Right then, boss. Quick sprint.",
+    "Done, boss. Quick sprint.",
+    "Quick sprint. Sorted."
+  ],
+  "lean left": [
+    "Leaning port, boss.",
+    "Right then, boss. Leaning port.",
+    "Done, boss. Leaning port.",
+    "Leaning port. Sorted."
+  ],
+  "lean right": [
+    "Leaning starboard, boss.",
+    "Right then, boss. Leaning starboard.",
+    "Done, boss. Leaning starboard.",
+    "Leaning starboard. Sorted."
+  ],
+  "crouch": [
+    "Toggling crouch, boss.",
+    "Right then, boss. Toggling crouch.",
+    "Done, boss. Toggling crouch.",
+    "Toggling crouch. Sorted."
+  ],
+  "prone": [
+    "Toggling prone, boss.",
+    "Right then, boss. Toggling prone.",
+    "Done, boss. Toggling prone.",
+    "Toggling prone. Sorted."
+  ],
+  "interact": [
+    "Interact, boss.",
+    "Right then, boss. Interact.",
+    "Done, boss. Interact.",
+    "Interact. Sorted."
+  ],
+  "equip sidearm": [
+    "Sidearm out, boss.",
+    "Right then, boss. Sidearm out.",
+    "Done, boss. Sidearm out.",
+    "Sidearm out. Sorted."
+  ],
+  "equip primary": [
+    "Primary out, boss.",
+    "Right then, boss. Primary out.",
+    "Done, boss. Primary out.",
+    "Primary out. Sorted."
+  ],
+  "equip secondary": [
+    "Secondary out, boss.",
+    "Right then, boss. Secondary out.",
+    "Done, boss. Secondary out.",
+    "Secondary out. Sorted."
+  ],
+  "equip gadget": [
+    "Gadget out, boss.",
+    "Right then, boss. Gadget out.",
+    "Done, boss. Gadget out.",
+    "Gadget out. Sorted."
+  ],
+  "equip melee": [
+    "Melee out, boss.",
+    "Right then, boss. Melee out.",
+    "Done, boss. Melee out.",
+    "Melee out. Sorted."
+  ],
+  "unarmed combat": [
+    "Fists up, boss.",
+    "Right then, boss. Fists up.",
+    "Done, boss. Fists up.",
+    "Fists up. Sorted."
+  ],
+  "reload weapon": [
+    "Reloading, boss.",
+    "Right then, boss. Reloading.",
+    "Done, boss. Reloading.",
+    "Reloading. Sorted."
+  ],
+  "holster weapon": [
+    "Holstering, boss.",
+    "Right then, boss. Holstering.",
+    "Done, boss. Holstering.",
+    "Holstering. Sorted."
+  ],
+  "equip grenade": [
+    "Grenade out, boss.",
+    "Right then, boss. Grenade out.",
+    "Done, boss. Grenade out.",
+    "Grenade out. Sorted."
+  ],
+  "equip medpen": [
+    "Med pen ready, boss.",
+    "Right then, boss. Med pen ready.",
+    "Done, boss. Med pen ready.",
+    "Med pen ready. Sorted."
+  ],
+  "wipe visor": [
+    "Wiping visor, boss.",
+    "Right then, boss. Wiping visor.",
+    "Done, boss. Wiping visor.",
+    "Wiping visor. Sorted."
+  ],
+  "suit light": [
+    "Toggling suit light, boss.",
+    "Right then, boss. Toggling suit light.",
+    "Done, boss. Toggling suit light.",
+    "Toggling suit light. Sorted."
+  ],
+  "power all": [
+    "Cycling all power, boss.",
+    "Right then, boss. Cycling all power.",
+    "Done, boss. Cycling all power.",
+    "Cycling all power. Sorted."
+  ],
+  "power thrusters": [
+    "Cycling thruster power, boss.",
+    "Right then, boss. Cycling thruster power.",
+    "Done, boss. Cycling thruster power.",
+    "Cycling thruster power. Sorted."
+  ],
+  "power shields": [
+    "Cycling shield power, boss.",
+    "Right then, boss. Cycling shield power.",
+    "Done, boss. Cycling shield power.",
+    "Cycling shield power. Sorted."
+  ],
+  "power weapons": [
+    "Cycling weapon power, boss.",
+    "Right then, boss. Cycling weapon power.",
+    "Done, boss. Cycling weapon power.",
+    "Cycling weapon power. Sorted."
+  ],
+  "raise power weapons": [
+    "More to weapons, boss.",
+    "Right then, boss. More to weapons.",
+    "Done, boss. More to weapons.",
+    "More to weapons. Sorted."
+  ],
+  "raise power thrusters": [
+    "More to thrusters, boss.",
+    "Right then, boss. More to thrusters.",
+    "Done, boss. More to thrusters.",
+    "More to thrusters. Sorted."
+  ],
+  "raise power shields": [
+    "More to shields, boss.",
+    "Right then, boss. More to shields.",
+    "Done, boss. More to shields.",
+    "More to shields. Sorted."
+  ],
+  "reset power": [
+    "Power balanced, boss.",
+    "Right then, boss. Power balanced.",
+    "Done, boss. Power balanced.",
+    "Power balanced. Sorted."
+  ],
+  "salvage mode": [
+    "Salvage mode, boss.",
+    "Right then, boss. Salvage mode.",
+    "Done, boss. Salvage mode.",
+    "Salvage mode. Sorted."
+  ],
+  "salvage gimbal": [
+    "Salvage gimbal cycled, boss.",
+    "Right then, boss. Salvage gimbal cycled.",
+    "Done, boss. Salvage gimbal cycled.",
+    "Salvage gimbal cycled. Sorted."
+  ],
+  "cycle salvage modifiers": [
+    "Cycling salvage mods, boss.",
+    "Right then, boss. Cycling salvage mods.",
+    "Done, boss. Cycling salvage mods.",
+    "Cycling salvage mods. Sorted."
+  ],
+  "relative beam spacing": [
+    "Beam spacing adjusted, boss.",
+    "Right then, boss. Beam spacing adjusted.",
+    "Done, boss. Beam spacing adjusted.",
+    "Beam spacing adjusted. Sorted."
+  ],
+  "salvage beam axis": [
+    "Axis toggled, boss.",
+    "Right then, boss. Axis toggled.",
+    "Done, boss. Axis toggled.",
+    "Axis toggled. Sorted."
+  ],
+  "increase beam spacing": [
+    "Unable, that's unbound, boss.",
+    "Right then, boss. Unable, that's unbound.",
+    "Done, boss. Unable, that's unbound.",
+    "Unable, that's unbound. Sorted."
+  ],
+  "scanning mode": [
+    "Scanner online, boss.",
+    "Right then, boss. Scanner online.",
+    "Done, boss. Scanner online.",
+    "Scanner online. Sorted."
+  ],
+  "activate scanning": [
+    "Scanning, boss.",
+    "Right then, boss. Scanning.",
+    "Done, boss. Scanning.",
+    "Scanning. Sorted."
+  ],
+  "scanning ping": [
+    "Ping out, boss.",
+    "Right then, boss. Ping out.",
+    "Done, boss. Ping out.",
+    "Ping out. Sorted."
+  ],
+  "increase scanning angle": [
+    "Widening scan, boss.",
+    "Right then, boss. Widening scan.",
+    "Done, boss. Widening scan.",
+    "Widening scan. Sorted."
+  ],
+  "decrease scanning angle": [
+    "Narrowing scan, boss.",
+    "Right then, boss. Narrowing scan.",
+    "Done, boss. Narrowing scan.",
+    "Narrowing scan. Sorted."
+  ],
+  "increase ping angle": [
+    "Unable, that's unbound, boss.",
+    "Right then, boss. Unable, that's unbound.",
+    "Done, boss. Unable, that's unbound.",
+    "Unable, that's unbound. Sorted."
+  ],
+  "decrease ping angle": [
+    "Unable, that's unbound, boss.",
+    "Right then, boss. Unable, that's unbound.",
+    "Done, boss. Unable, that's unbound.",
+    "Unable, that's unbound. Sorted."
+  ],
+  "shields front": [
+    "Front shield up, boss.",
+    "Right then, boss. Front shield up.",
+    "Done, boss. Front shield up.",
+    "Front shield up. Sorted."
+  ],
+  "shields back": [
+    "Rear shield up, boss.",
+    "Right then, boss. Rear shield up.",
+    "Done, boss. Rear shield up.",
+    "Rear shield up. Sorted."
+  ],
+  "shields left": [
+    "Port shield up, boss.",
+    "Right then, boss. Port shield up.",
+    "Done, boss. Port shield up.",
+    "Port shield up. Sorted."
+  ],
+  "shields right": [
+    "Starboard shield up, boss.",
+    "Right then, boss. Starboard shield up.",
+    "Done, boss. Starboard shield up.",
+    "Starboard shield up. Sorted."
+  ],
+  "shields top": [
+    "Dorsal shield up, boss.",
+    "Right then, boss. Dorsal shield up.",
+    "Done, boss. Dorsal shield up.",
+    "Dorsal shield up. Sorted."
+  ],
+  "shields bottom": [
+    "Ventral shield up, boss.",
+    "Right then, boss. Ventral shield up.",
+    "Done, boss. Ventral shield up.",
+    "Ventral shield up. Sorted."
+  ],
+  "reset shields": [
+    "Shields balanced, boss.",
+    "Right then, boss. Shields balanced.",
+    "Done, boss. Shields balanced.",
+    "Shields balanced. Sorted."
+  ],
+  "deploy noise": [
+    "Noise out, boss.",
+    "Right then, boss. Noise out.",
+    "Done, boss. Noise out.",
+    "Noise out. Sorted."
+  ],
+  "deploy decoy": [
+    "Decoy out, boss.",
+    "Right then, boss. Decoy out.",
+    "Done, boss. Decoy out.",
+    "Decoy out. Sorted."
+  ],
+  "lock target": [
+    "Locking target, boss.",
+    "Right then, boss. Locking target.",
+    "Done, boss. Locking target.",
+    "Locking target. Sorted."
+  ],
+  "unlock target": [
+    "Releasing target, boss.",
+    "Right then, boss. Releasing target.",
+    "Done, boss. Releasing target.",
+    "Releasing target. Sorted."
+  ],
+  "select pin one": [
+    "Pin one active, boss.",
+    "Right then, boss. Pin one active.",
+    "Done, boss. Pin one active.",
+    "Pin one active. Sorted."
+  ],
+  "select pin two": [
+    "Pin two active, boss.",
+    "Right then, boss. Pin two active.",
+    "Done, boss. Pin two active.",
+    "Pin two active. Sorted."
+  ],
+  "select pin three": [
+    "Pin three active, boss.",
+    "Right then, boss. Pin three active.",
+    "Done, boss. Pin three active.",
+    "Pin three active. Sorted."
+  ],
+  "pin target one": [
+    "Pinning target one, boss.",
+    "Right then, boss. Pinning target one.",
+    "Done, boss. Pinning target one.",
+    "Pinning target one. Sorted."
+  ],
+  "pin target two": [
+    "Pinning target two, boss.",
+    "Right then, boss. Pinning target two.",
+    "Done, boss. Pinning target two.",
+    "Pinning target two. Sorted."
+  ],
+  "pin target three": [
+    "Pinning target three, boss.",
+    "Right then, boss. Pinning target three.",
+    "Done, boss. Pinning target three.",
+    "Pinning target three. Sorted."
+  ],
+  "cycle attackers": [
+    "Cycling attackers, boss.",
+    "Right then, boss. Cycling attackers.",
+    "Done, boss. Cycling attackers.",
+    "Cycling attackers. Sorted."
+  ],
+  "cycle hostiles": [
+    "Cycling hostiles, boss.",
+    "Right then, boss. Cycling hostiles.",
+    "Done, boss. Cycling hostiles.",
+    "Cycling hostiles. Sorted."
+  ],
+  "cycle friendlies": [
+    "Cycling friendlies, boss.",
+    "Right then, boss. Cycling friendlies.",
+    "Done, boss. Cycling friendlies.",
+    "Cycling friendlies. Sorted."
+  ],
+  "toggle chat": [
+    "Toggling chat, boss.",
+    "Right then, boss. Toggling chat.",
+    "Done, boss. Toggling chat.",
+    "Toggling chat. Sorted."
+  ],
+  "fire weapon group one": [
+    "Group one firing, boss.",
+    "Right then, boss. Group one firing.",
+    "Done, boss. Group one firing.",
+    "Group one firing. Sorted."
+  ],
+  "fire weapon group two": [
+    "Group two firing, boss.",
+    "Right then, boss. Group two firing.",
+    "Done, boss. Group two firing.",
+    "Group two firing. Sorted."
+  ],
+  "launch missile": [
+    "Missile away, boss.",
+    "Right then, boss. Missile away.",
+    "Done, boss. Missile away.",
+    "Missile away. Sorted."
+  ],
+  "cycle missile type": [
+    "Cycling missiles, boss.",
+    "Right then, boss. Cycling missiles.",
+    "Done, boss. Cycling missiles.",
+    "Cycling missiles. Sorted."
+  ],
+  "cycle gimbal assist": [
+    "Gimbal cycled, boss.",
+    "Right then, boss. Gimbal cycled.",
+    "Done, boss. Gimbal cycled.",
+    "Gimbal cycled. Sorted."
+  ],
+  "missile mode": [
+    "Missile mode, boss.",
+    "Right then, boss. Missile mode.",
+    "Done, boss. Missile mode.",
+    "Missile mode. Sorted."
+  ],
+  "arm more missiles": [
+    "More missiles armed, boss.",
+    "Right then, boss. More missiles armed.",
+    "Done, boss. More missiles armed.",
+    "More missiles armed. Sorted."
+  ],
+  "reset missiles": [
+    "Missiles reset, boss.",
+    "Right then, boss. Missiles reset.",
+    "Done, boss. Missiles reset.",
+    "Missiles reset. Sorted."
+  ]
+}

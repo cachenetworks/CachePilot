@@ -1,0 +1,296 @@
+{
+  "_meta": { "category": "ship_flight" },
+
+  "flight ready": {
+    "type": "key", "key": "r",
+    "response": [
+      "Flight ready, Captain.",
+      "Ship is hot.",
+      "Powering up, all green.",
+      "Flight systems online."
+    ],
+    "aliases": ["ship ready", "power on", "start ship"]
+  },
+  "engines on": {
+    "type": "key", "key": "i",
+    "response": [
+      "Engines online.",
+      "Engines spinning up, Captain.",
+      "Main drives engaged.",
+      "Engines hot, Captain."
+    ],
+    "aliases": ["engine on", "start engines", "fire up engines", "engines online", "engines up"]
+  },
+  "engines off": {
+    "type": "key", "key": "i",
+    "response": [
+      "Engines offline.",
+      "Cutting engines, Captain.",
+      "Main drives shutting down.",
+      "Engines dark."
+    ],
+    "aliases": ["engine off", "stop engines", "kill engines", "engines offline", "engines down"]
+  },
+  "toggle engines": {
+    "type": "key", "key": "i",
+    "response": [
+      "Toggling engines.",
+      "Engines toggled, Captain.",
+      "Switching engine state.",
+      "Cycling engine power."
+    ],
+    "aliases": ["engine toggle"]
+  },
+  "systems on": {
+    "type": "key", "key": "u",
+    "response": [
+      "Systems online.",
+      "Bringing systems up, Captain.",
+      "All systems booting.",
+      "Systems hot."
+    ],
+    "aliases": ["system on", "power systems", "systems online", "systems up", "boot systems"]
+  },
+  "systems off": {
+    "type": "key", "key": "u",
+    "response": [
+      "Systems offline.",
+      "Cutting all systems, Captain.",
+      "Going dark.",
+      "Shutting systems down."
+    ],
+    "aliases": ["system off", "kill systems", "systems offline", "systems down", "shut down systems"]
+  },
+  "toggle systems": {
+    "type": "key", "key": "u",
+    "response": [
+      "Toggling systems.",
+      "Systems toggled.",
+      "Cycling system power.",
+      "Switching system state, Captain."
+    ],
+    "aliases": ["system toggle"]
+  },
+
+  "throttle up": {
+    "type": "hold", "key": "w", "duration": 1.0,
+    "response": [
+      "Throttle up.",
+      "Pushing the throttle, Captain.",
+      "Accelerating.",
+      "Throttle increasing."
+    ],
+    "aliases": ["ship forward", "increase throttle"]
+  },
+  "throttle down": {
+    "type": "hold", "key": "s", "duration": 1.0,
+    "response": [
+      "Throttle down.",
+      "Easing off, Captain.",
+      "Decelerating.",
+      "Reducing throttle."
+    ],
+    "aliases": ["ship back", "decrease throttle"]
+  },
+  "ship strafe left": {
+    "type": "hold", "key": "a", "duration": 1.0,
+    "response": [
+      "Strafing left.",
+      "Lateral thrusters port.",
+      "Sliding left, Captain.",
+      "Drifting port."
+    ]
+  },
+  "ship strafe right": {
+    "type": "hold", "key": "d", "duration": 1.0,
+    "response": [
+      "Strafing right.",
+      "Lateral thrusters starboard.",
+      "Sliding right, Captain.",
+      "Drifting starboard."
+    ]
+  },
+  "roll left": {
+    "type": "hold", "key": "q", "duration": 0.8,
+    "response": [
+      "Rolling left.",
+      "Port roll, Captain.",
+      "Rolling to port.",
+      "Banking left."
+    ],
+    "aliases": ["ship roll left"]
+  },
+  "roll right": {
+    "type": "hold", "key": "e", "duration": 0.8,
+    "response": [
+      "Rolling right.",
+      "Starboard roll, Captain.",
+      "Rolling to starboard.",
+      "Banking right."
+    ],
+    "aliases": ["ship roll right"]
+  },
+  "boost": {
+    "type": "hold", "key": "shift", "duration": 1.0,
+    "response": [
+      "Boosting.",
+      "Burning hard.",
+      "Afterburners hot.",
+      "Boost engaged."
+    ]
+  },
+  "boost hard": {
+    "type": "hold", "key": "shift", "duration": 2.5,
+    "response": [
+      "Boosting hard.",
+      "Full afterburn, Captain.",
+      "Pushing it.",
+      "Long burn engaged."
+    ]
+  },
+
+  "space brake": {
+    "type": "key", "key": "x",
+    "response": [
+      "Space brake.",
+      "Brakes applied.",
+      "Slowing down, Captain.",
+      "Brake engaged."
+    ],
+    "aliases": ["brake"]
+  },
+  "full stop": {
+    "type": "hold", "key": "x", "duration": 1.5,
+    "response": [
+      "Full stop.",
+      "All stop, Captain.",
+      "Killing all velocity.",
+      "Bringing us to rest."
+    ],
+    "aliases": ["emergency brake", "panic brake"]
+  },
+
+  "cruise control": {
+    "type": "key", "key": "c",
+    "response": [
+      "Toggling cruise control.",
+      "Cruise control cycled.",
+      "Speed hold toggled.",
+      "Adjusting cruise mode."
+    ],
+    "aliases": ["cruise"]
+  },
+  "quantum mode": {
+    "type": "hold", "key": "b", "duration": 1.0,
+    "response": [
+      "Spinning up the quantum drive.",
+      "Quantum spooling, Captain.",
+      "QT online and ready.",
+      "Quantum primed."
+    ],
+    "aliases": ["quantum", "spool quantum", "engage quantum", "activate quantum"]
+  },
+  "jump": {
+    "type": "mouse", "button": "left",
+    "response": [
+      "Jumping.",
+      "Quantum jump.",
+      "Punching it, Captain.",
+      "We are away."
+    ],
+    "aliases": ["jump now", "quantum jump"]
+  },
+
+  "exit seat": {
+    "type": "hold", "key": "y", "duration": 0.8,
+    "response": [
+      "Exiting seat.",
+      "Getting up, Captain.",
+      "Leaving the cockpit.",
+      "Standing up."
+    ],
+    "aliases": ["leave seat", "get up"]
+  },
+
+  "landing mode": {
+    "type": "key", "key": "n",
+    "response": [
+      "Toggling landing mode.",
+      "Landing mode cycled.",
+      "Gear and lights toggled.",
+      "Switching to landing configuration."
+    ],
+    "aliases": ["landing gear", "gear", "gear up", "gear down"]
+  },
+  "auto land": {
+    "type": "hold", "key": "ctrl", "duration": 1.2,
+    "response": [
+      "Attempting auto land.",
+      "Auto-landing sequence, Captain.",
+      "Letting the ship take it.",
+      "Auto-pilot landing."
+    ],
+    "aliases": ["autoland"]
+  },
+  "decoupled mode": {
+    "type": "hotkey", "keys": ["leftalt", "c"],
+    "response": [
+      "Toggling decoupled mode.",
+      "Decoupled, Captain.",
+      "Switching coupling state.",
+      "Coupling toggled."
+    ],
+    "aliases": ["decoupled", "decouple", "coupled"]
+  },
+  "speed limiter up": {
+    "type": "scroll", "direction": "up", "amount": 3,
+    "response": [
+      "Increasing speed limiter.",
+      "Limiter up.",
+      "Raising the cap, Captain.",
+      "Speed cap rising."
+    ],
+    "aliases": ["increase speed limiter"]
+  },
+  "speed limiter down": {
+    "type": "scroll", "direction": "down", "amount": 3,
+    "response": [
+      "Decreasing speed limiter.",
+      "Limiter down.",
+      "Lowering the cap, Captain.",
+      "Speed cap falling."
+    ],
+    "aliases": ["decrease speed limiter"]
+  },
+  "lock pitch yaw": {
+    "type": "key", "key": "rightshift",
+    "response": [
+      "Toggling pitch and yaw lock.",
+      "Axis lock cycled.",
+      "Flight axis lock toggled.",
+      "Pitch-yaw lock switched."
+    ],
+    "aliases": ["lock movement", "pitch yaw lock"]
+  },
+
+  "vtol": {
+    "type": "key", "key": "k",
+    "response": [
+      "Toggling VTOL.",
+      "VTOL mode cycled.",
+      "Vertical thrust toggled.",
+      "VTOL switched."
+    ],
+    "aliases": ["vtol mode", "vertical mode"]
+  },
+  "lights": {
+    "type": "key", "key": "l",
+    "response": [
+      "Toggling ship lights.",
+      "Lights cycled.",
+      "Running lights toggled.",
+      "Lights switched."
+    ],
+    "aliases": ["lights on", "lights off", "headlights"]
+  }
+}

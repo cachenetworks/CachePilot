@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "category": "global",
+    "notes": "Commands that ignore the active profile (mute, profile switching, etc)."
+  },
+  "ship mode": {
+    "type": "profile_switch",
+    "profile": "ship",
+    "global": true,
+    "response": [
+      "Switching to ship mode, Captain.",
+      "Ship profile active.",
+      "Cockpit commands enabled.",
+      "Flight mode engaged."
+    ],
+    "aliases": ["switch to ship", "pilot mode", "cockpit mode"]
+  },
+  "fps mode": {
+    "type": "profile_switch",
+    "profile": "fps",
+    "global": true,
+    "response": [
+      "Switching to FPS mode, Captain.",
+      "On-foot profile active.",
+      "Ground commands enabled.",
+      "Boots on the deck."
+    ],
+    "aliases": ["switch to fps", "on foot mode", "ground mode", "boots mode"]
+  }
+}

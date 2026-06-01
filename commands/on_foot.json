@@ -1,0 +1,151 @@
+{
+  "_meta": { "category": "on_foot" },
+  "move forward": {
+    "type": "hold", "key": "w", "duration": 1.0,
+    "response": ["Moving forward.", "Stepping forward, Captain.", "Forward.", "Walking up."],
+    "aliases": ["walk forward", "forward"]
+  },
+  "move forward short": {
+    "type": "hold", "key": "w", "duration": 0.35,
+    "response": ["Quick step forward.", "Brief forward step.", "Tiny step ahead.", "Short forward."],
+    "aliases": ["forward short"]
+  },
+  "move forward long": {
+    "type": "hold", "key": "w", "duration": 2.5,
+    "response": ["Long walk forward.", "Pushing ahead, Captain.", "Sustained forward.", "Long forward run."],
+    "aliases": ["forward long"]
+  },
+  "move backward": {
+    "type": "hold", "key": "s", "duration": 1.0,
+    "response": ["Moving backward.", "Stepping back, Captain.", "Backing up.", "Walking back."],
+    "aliases": ["walk backward", "back", "move back", "walk back"]
+  },
+  "move backward short": {
+    "type": "hold", "key": "s", "duration": 0.35,
+    "response": ["Quick step back.", "Brief step back.", "Tiny step rearward.", "Short back."],
+    "aliases": ["back short"]
+  },
+  "move backward long": {
+    "type": "hold", "key": "s", "duration": 2.5,
+    "response": ["Long walk back.", "Backing up far, Captain.", "Sustained reverse.", "Long backward."],
+    "aliases": ["back long"]
+  },
+  "strafe left": {
+    "type": "hold", "key": "a", "duration": 1.0,
+    "response": ["Strafing left.", "Sliding left, Captain.", "Side step left.", "Moving left."],
+    "aliases": ["move left", "left"]
+  },
+  "strafe left short": {
+    "type": "hold", "key": "a", "duration": 0.35,
+    "response": ["Quick step left.", "Brief left.", "Tiny left.", "Short left."],
+    "aliases": ["left short"]
+  },
+  "strafe right": {
+    "type": "hold", "key": "d", "duration": 1.0,
+    "response": ["Strafing right.", "Sliding right, Captain.", "Side step right.", "Moving right."],
+    "aliases": ["move right", "right"]
+  },
+  "strafe right short": {
+    "type": "hold", "key": "d", "duration": 0.35,
+    "response": ["Quick step right.", "Brief right.", "Tiny right.", "Short right."],
+    "aliases": ["right short"]
+  },
+  "player jump": {
+    "type": "key", "key": "space",
+    "response": ["Jump.", "Up we go.", "Hop.", "Off the ground."],
+    "aliases": ["hop", "leap"]
+  },
+  "run": {
+    "type": "hold", "key": "shift", "duration": 1.2,
+    "response": ["Running.", "Sprinting, Captain.", "Picking up the pace.", "Going fast."],
+    "aliases": ["sprint"]
+  },
+  "run short": {
+    "type": "hold", "key": "shift", "duration": 0.5,
+    "response": ["Quick sprint.", "Brief run.", "Short burst.", "Quick dash."],
+    "aliases": ["sprint short"]
+  },
+  "lean left": {
+    "type": "key", "key": "q",
+    "response": ["Leaning left.", "Tilting port.", "Lean to port, Captain.", "Left lean."]
+  },
+  "lean right": {
+    "type": "key", "key": "e",
+    "response": ["Leaning right.", "Tilting starboard.", "Lean to starboard, Captain.", "Right lean."]
+  },
+  "crouch": {
+    "type": "key", "key": "ctrl",
+    "response": ["Toggling crouch.", "Crouching, Captain.", "Down low.", "Crouch toggled."],
+    "aliases": ["crouch toggle"]
+  },
+  "prone": {
+    "type": "key", "key": "x",
+    "response": ["Toggling prone.", "Going prone, Captain.", "Hit the dirt.", "Prone toggled."],
+    "aliases": ["go prone", "prone toggle"]
+  },
+  "interact": {
+    "type": "key", "key": "f",
+    "response": ["Interact.", "Engaging interaction, Captain.", "Hands on.", "Using."],
+    "aliases": ["use", "interaction", "inner thought"]
+  },
+  "equip sidearm": {
+    "type": "key", "key": "1",
+    "response": ["Sidearm out.", "Drawing sidearm, Captain.", "Pistol ready.", "Sidearm equipped."],
+    "aliases": ["sidearm", "pistol"]
+  },
+  "equip primary": {
+    "type": "key", "key": "2",
+    "response": ["Primary weapon out.", "Drawing primary, Captain.", "Primary ready.", "Long arm equipped."],
+    "aliases": ["primary weapon", "weapon one"]
+  },
+  "equip secondary": {
+    "type": "key", "key": "3",
+    "response": ["Secondary weapon out.", "Drawing secondary, Captain.", "Secondary ready.", "Backup equipped."],
+    "aliases": ["secondary weapon", "weapon two"]
+  },
+  "equip gadget": {
+    "type": "key", "key": "4",
+    "response": ["Gadget out.", "Tool ready, Captain.", "Gadget equipped.", "Multi-tool up."],
+    "aliases": ["gadget", "tool"]
+  },
+  "equip melee": {
+    "type": "key", "key": "5",
+    "response": ["Melee out.", "Blade ready, Captain.", "Melee equipped.", "Knife out."],
+    "aliases": ["melee weapon"]
+  },
+  "unarmed combat": {
+    "type": "key", "key": "0",
+    "response": ["Fists up.", "Going unarmed, Captain.", "Putting them away.", "Hands only."],
+    "aliases": ["fists", "unarmed"]
+  },
+  "reload weapon": {
+    "type": "key", "key": "r",
+    "response": ["Reloading.", "Fresh mag, Captain.", "Reload up.", "Topping off."],
+    "aliases": ["reload"]
+  },
+  "holster weapon": {
+    "type": "hold", "key": "r", "duration": 0.8,
+    "response": ["Holstering.", "Stowing weapon, Captain.", "Putting it away.", "Holster engaged."],
+    "aliases": ["holster", "put weapon away"]
+  },
+  "equip grenade": {
+    "type": "key", "key": "g",
+    "response": ["Grenade out.", "Cooking one, Captain.", "Grenade ready.", "Frag equipped."],
+    "aliases": ["grenade"]
+  },
+  "equip medpen": {
+    "type": "key", "key": "c",
+    "response": ["MedPen ready.", "First aid out, Captain.", "Patching up.", "MedPen equipped."],
+    "aliases": ["medpen", "medical pen"]
+  },
+  "wipe visor": {
+    "type": "hotkey", "keys": ["leftalt", "x"],
+    "response": ["Wiping visor.", "Cleaning the glass, Captain.", "Helmet cleared.", "Visor wiped."],
+    "aliases": ["wipe helmet", "clean visor"]
+  },
+  "suit light": {
+    "type": "key", "key": "t",
+    "response": ["Toggling suit light.", "Light switched, Captain.", "Helmet lamp toggled.", "Torch cycled."],
+    "aliases": ["flashlight", "torch", "suit light toggle"]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "_meta": { "category": "mobiglas" },
+  "open mobiglas": {
+    "type": "key", "key": "f1",
+    "response": [
+      "Opening MobiGlas.",
+      "MobiGlas up, Captain.",
+      "Pulling up your MobiGlas.",
+      "MobiGlas active."
+    ],
+    "aliases": ["open mobi", "mobi", "mobiglas", "contracts", "missions"]
+  },
+  "open starmap": {
+    "type": "key", "key": "f2",
+    "response": [
+      "Opening Starmap.",
+      "Star map up, Captain.",
+      "Pulling up the starmap.",
+      "Starmap active."
+    ],
+    "aliases": ["star map", "open map", "map"]
+  },
+  "open contacts": {
+    "type": "key", "key": "f11",
+    "response": [
+      "Opening contacts.",
+      "Comms list up, Captain.",
+      "Pulling up contacts.",
+      "Contacts panel active."
+    ],
+    "aliases": ["contacts", "comms", "open comms"]
+  }
+}

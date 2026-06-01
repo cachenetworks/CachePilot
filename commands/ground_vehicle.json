@@ -1,0 +1,38 @@
+{
+  "_meta": { "category": "ground_vehicle" },
+  "drive forward": {
+    "type": "hold", "key": "w", "duration": 1.0,
+    "response": ["Driving forward.", "Rolling forward, Captain.", "Throttle on.", "Forward drive."],
+    "aliases": ["rover forward"]
+  },
+  "drive backward": {
+    "type": "hold", "key": "s", "duration": 1.0,
+    "response": ["Driving backward.", "Reversing, Captain.", "Backing up.", "Reverse drive."],
+    "aliases": ["rover back", "drive back"]
+  },
+  "turn left": {
+    "type": "hold", "key": "a", "duration": 1.0,
+    "response": ["Turning left.", "Steering port, Captain.", "Left turn.", "Wheel left."],
+    "aliases": ["rover left"]
+  },
+  "turn right": {
+    "type": "hold", "key": "d", "duration": 1.0,
+    "response": ["Turning right.", "Steering starboard, Captain.", "Right turn.", "Wheel right."],
+    "aliases": ["rover right"]
+  },
+  "vehicle brake": {
+    "type": "key", "key": "x",
+    "response": ["Vehicle brake.", "Brakes applied, Captain.", "Stopping.", "Hand brake."],
+    "aliases": ["rover brake"]
+  },
+  "vehicle boost": {
+    "type": "hold", "key": "shift", "duration": 1.0,
+    "response": ["Vehicle boost.", "Boosting, Captain.", "Burning hard.", "Boost engaged."],
+    "aliases": ["rover boost"]
+  },
+  "vehicle exit seat": {
+    "type": "hold", "key": "y", "duration": 0.8,
+    "response": ["Exiting vehicle.", "Getting out, Captain.", "Dismounting.", "Leaving vehicle seat."],
+    "aliases": ["exit rover", "leave rover"]
+  }
+}

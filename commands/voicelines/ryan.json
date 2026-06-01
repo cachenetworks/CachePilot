@@ -1,0 +1,1112 @@
+{
+  "ship mode": [
+    "Switching to ship, Captain.",
+    "Roger, Captain. Switching to ship.",
+    "Copy. Switching to ship.",
+    "Switching to ship. Acknowledged."
+  ],
+  "fps mode": [
+    "Switching to fps, Captain.",
+    "Roger, Captain. Switching to fps.",
+    "Copy. Switching to fps.",
+    "Switching to fps. Acknowledged."
+  ],
+  "request landing": [
+    "Requesting landing, Captain.",
+    "Roger, Captain. Requesting landing.",
+    "Copy. Requesting landing.",
+    "Requesting landing. Acknowledged."
+  ],
+  "request takeoff": [
+    "Requesting takeoff, Captain.",
+    "Roger, Captain. Requesting takeoff.",
+    "Copy. Requesting takeoff.",
+    "Requesting takeoff. Acknowledged."
+  ],
+  "hail atc": [
+    "Hailing control, Captain.",
+    "Roger, Captain. Hailing control.",
+    "Copy. Hailing control.",
+    "Hailing control. Acknowledged."
+  ],
+  "open hangar": [
+    "Opening hangar, Captain.",
+    "Roger, Captain. Opening hangar.",
+    "Copy. Opening hangar.",
+    "Opening hangar. Acknowledged."
+  ],
+  "camera cycle": [
+    "Cycling camera, Captain.",
+    "Roger, Captain. Cycling camera.",
+    "Copy. Cycling camera.",
+    "Cycling camera. Acknowledged."
+  ],
+  "look around": [
+    "Free look toggled, Captain.",
+    "Roger, Captain. Free look toggled.",
+    "Copy. Free look toggled.",
+    "Free look toggled. Acknowledged."
+  ],
+  "camera move right": [
+    "Panning right, Captain.",
+    "Roger, Captain. Panning right.",
+    "Copy. Panning right.",
+    "Panning right. Acknowledged."
+  ],
+  "camera move left": [
+    "Panning left, Captain.",
+    "Roger, Captain. Panning left.",
+    "Copy. Panning left.",
+    "Panning left. Acknowledged."
+  ],
+  "camera move forward": [
+    "Panning in, Captain.",
+    "Roger, Captain. Panning in.",
+    "Copy. Panning in.",
+    "Panning in. Acknowledged."
+  ],
+  "camera move backward": [
+    "Panning out, Captain.",
+    "Roger, Captain. Panning out.",
+    "Copy. Panning out.",
+    "Panning out. Acknowledged."
+  ],
+  "camera move up": [
+    "Panning up, Captain.",
+    "Roger, Captain. Panning up.",
+    "Copy. Panning up.",
+    "Panning up. Acknowledged."
+  ],
+  "camera move down": [
+    "Panning down, Captain.",
+    "Roger, Captain. Panning down.",
+    "Copy. Panning down.",
+    "Panning down. Acknowledged."
+  ],
+  "save camera one": [
+    "Saving camera one, Captain.",
+    "Roger, Captain. Saving camera one.",
+    "Copy. Saving camera one.",
+    "Saving camera one. Acknowledged."
+  ],
+  "save camera two": [
+    "Saving camera two, Captain.",
+    "Roger, Captain. Saving camera two.",
+    "Copy. Saving camera two.",
+    "Saving camera two. Acknowledged."
+  ],
+  "save camera three": [
+    "Saving camera three, Captain.",
+    "Roger, Captain. Saving camera three.",
+    "Copy. Saving camera three.",
+    "Saving camera three. Acknowledged."
+  ],
+  "save camera four": [
+    "Saving camera four, Captain.",
+    "Roger, Captain. Saving camera four.",
+    "Copy. Saving camera four.",
+    "Saving camera four. Acknowledged."
+  ],
+  "save camera five": [
+    "Saving camera five, Captain.",
+    "Roger, Captain. Saving camera five.",
+    "Copy. Saving camera five.",
+    "Saving camera five. Acknowledged."
+  ],
+  "save camera six": [
+    "Saving camera six, Captain.",
+    "Roger, Captain. Saving camera six.",
+    "Copy. Saving camera six.",
+    "Saving camera six. Acknowledged."
+  ],
+  "save camera seven": [
+    "Saving camera seven, Captain.",
+    "Roger, Captain. Saving camera seven.",
+    "Copy. Saving camera seven.",
+    "Saving camera seven. Acknowledged."
+  ],
+  "save camera eight": [
+    "Saving camera eight, Captain.",
+    "Roger, Captain. Saving camera eight.",
+    "Copy. Saving camera eight.",
+    "Saving camera eight. Acknowledged."
+  ],
+  "save camera nine": [
+    "Saving camera nine, Captain.",
+    "Roger, Captain. Saving camera nine.",
+    "Copy. Saving camera nine.",
+    "Saving camera nine. Acknowledged."
+  ],
+  "load camera one": [
+    "Loading camera one, Captain.",
+    "Roger, Captain. Loading camera one.",
+    "Copy. Loading camera one.",
+    "Loading camera one. Acknowledged."
+  ],
+  "load camera two": [
+    "Loading camera two, Captain.",
+    "Roger, Captain. Loading camera two.",
+    "Copy. Loading camera two.",
+    "Loading camera two. Acknowledged."
+  ],
+  "load camera three": [
+    "Loading camera three, Captain.",
+    "Roger, Captain. Loading camera three.",
+    "Copy. Loading camera three.",
+    "Loading camera three. Acknowledged."
+  ],
+  "load camera four": [
+    "Loading camera four, Captain.",
+    "Roger, Captain. Loading camera four.",
+    "Copy. Loading camera four.",
+    "Loading camera four. Acknowledged."
+  ],
+  "load camera five": [
+    "Loading camera five, Captain.",
+    "Roger, Captain. Loading camera five.",
+    "Copy. Loading camera five.",
+    "Loading camera five. Acknowledged."
+  ],
+  "load camera six": [
+    "Loading camera six, Captain.",
+    "Roger, Captain. Loading camera six.",
+    "Copy. Loading camera six.",
+    "Loading camera six. Acknowledged."
+  ],
+  "load camera seven": [
+    "Loading camera seven, Captain.",
+    "Roger, Captain. Loading camera seven.",
+    "Copy. Loading camera seven.",
+    "Loading camera seven. Acknowledged."
+  ],
+  "load camera eight": [
+    "Loading camera eight, Captain.",
+    "Roger, Captain. Loading camera eight.",
+    "Copy. Loading camera eight.",
+    "Loading camera eight. Acknowledged."
+  ],
+  "load camera nine": [
+    "Loading camera nine, Captain.",
+    "Roger, Captain. Loading camera nine.",
+    "Copy. Loading camera nine.",
+    "Loading camera nine. Acknowledged."
+  ],
+  "reset camera": [
+    "Camera reset, Captain.",
+    "Roger, Captain. Camera reset.",
+    "Copy. Camera reset.",
+    "Camera reset. Acknowledged."
+  ],
+  "landing checklist": [
+    "Running landing checklist, Captain.",
+    "Roger, Captain. Running landing checklist.",
+    "Copy. Running landing checklist.",
+    "Running landing checklist. Acknowledged."
+  ],
+  "takeoff checklist": [
+    "Running takeoff checklist, Captain.",
+    "Roger, Captain. Running takeoff checklist.",
+    "Copy. Running takeoff checklist.",
+    "Running takeoff checklist. Acknowledged."
+  ],
+  "combat mode": [
+    "Going hot, Captain.",
+    "Roger, Captain. Going hot.",
+    "Copy. Going hot.",
+    "Going hot. Acknowledged."
+  ],
+  "panic": [
+    "Panic protocol, Captain.",
+    "Roger, Captain. Panic protocol.",
+    "Copy. Panic protocol.",
+    "Panic protocol. Acknowledged."
+  ],
+  "hello": [
+    "Hello, Captain.",
+    "Captain.",
+    "Hey Captain.",
+    "Welcome back, Captain."
+  ],
+  "hey": [
+    "Yes, Captain?",
+    "Copy, Captain.",
+    "Go ahead.",
+    "Reading you, Captain."
+  ],
+  "good morning": [
+    "Morning, Captain.",
+    "Good morning, Captain.",
+    "Morning. Ready to fly?",
+    "Morning. Coffee not included."
+  ],
+  "good evening": [
+    "Evening, Captain.",
+    "Good evening, Captain.",
+    "Evening. Clear skies.",
+    "Evening. Long one ahead?"
+  ],
+  "thank you": [
+    "Anytime, Captain.",
+    "Copy that.",
+    "You got it.",
+    "No problem."
+  ],
+  "good job": [
+    "Thanks, Captain.",
+    "Roger that.",
+    "Appreciate it.",
+    "Means a lot."
+  ],
+  "status": [
+    "All systems green, Captain.",
+    "Nominal, Captain.",
+    "Five by five, Captain.",
+    "All good here."
+  ],
+  "report": [
+    "No traffic, Captain.",
+    "All clear, Captain.",
+    "Quiet, Captain.",
+    "Nothing on sensors."
+  ],
+  "ready": [
+    "Ready, Captain.",
+    "Standing by.",
+    "Locked in.",
+    "Set and ready."
+  ],
+  "shut up": [
+    "Copy.",
+    "Going quiet.",
+    "Understood.",
+    "Roger that."
+  ],
+  "quiet": [
+    "Comms off.",
+    "Going dark.",
+    "Silent mode.",
+    "Radio silence."
+  ],
+  "who are you": [
+    "Ship AI, Captain.",
+    "Your onboard, Captain.",
+    "Just the ship, Captain.",
+    "Ship computer."
+  ],
+  "where are we": [
+    "Unable to confirm, Captain.",
+    "Check your map, Captain.",
+    "Couldn't say, Captain.",
+    "Starmap'll have it."
+  ],
+  "eva forward": [
+    "Eva forward, Captain.",
+    "Roger, Captain. Eva forward.",
+    "Copy. Eva forward.",
+    "Eva forward. Acknowledged."
+  ],
+  "eva back": [
+    "Eva back, Captain.",
+    "Roger, Captain. Eva back.",
+    "Copy. Eva back.",
+    "Eva back. Acknowledged."
+  ],
+  "eva strafe left": [
+    "Eva strafe port, Captain.",
+    "Roger, Captain. Eva strafe port.",
+    "Copy. Eva strafe port.",
+    "Eva strafe port. Acknowledged."
+  ],
+  "eva strafe right": [
+    "Eva strafe starboard, Captain.",
+    "Roger, Captain. Eva strafe starboard.",
+    "Copy. Eva strafe starboard.",
+    "Eva strafe starboard. Acknowledged."
+  ],
+  "eva roll left": [
+    "Eva roll port, Captain.",
+    "Roger, Captain. Eva roll port.",
+    "Copy. Eva roll port.",
+    "Eva roll port. Acknowledged."
+  ],
+  "eva roll right": [
+    "Eva roll starboard, Captain.",
+    "Roger, Captain. Eva roll starboard.",
+    "Copy. Eva roll starboard.",
+    "Eva roll starboard. Acknowledged."
+  ],
+  "flight ready": [
+    "Flight ready, Captain.",
+    "Roger, Captain. Flight ready.",
+    "Copy. Flight ready.",
+    "Flight ready. Acknowledged."
+  ],
+  "engines on": [
+    "Engines online, Captain.",
+    "Roger, Captain. Engines online.",
+    "Copy. Engines online.",
+    "Engines online. Acknowledged."
+  ],
+  "engines off": [
+    "Engines offline, Captain.",
+    "Roger, Captain. Engines offline.",
+    "Copy. Engines offline.",
+    "Engines offline. Acknowledged."
+  ],
+  "toggle engines": [
+    "Toggling engines, Captain.",
+    "Roger, Captain. Toggling engines.",
+    "Copy. Toggling engines.",
+    "Toggling engines. Acknowledged."
+  ],
+  "systems on": [
+    "Systems online, Captain.",
+    "Roger, Captain. Systems online.",
+    "Copy. Systems online.",
+    "Systems online. Acknowledged."
+  ],
+  "systems off": [
+    "Systems offline, Captain.",
+    "Roger, Captain. Systems offline.",
+    "Copy. Systems offline.",
+    "Systems offline. Acknowledged."
+  ],
+  "toggle systems": [
+    "Toggling systems, Captain.",
+    "Roger, Captain. Toggling systems.",
+    "Copy. Toggling systems.",
+    "Toggling systems. Acknowledged."
+  ],
+  "throttle up": [
+    "Throttle up, Captain.",
+    "Roger, Captain. Throttle up.",
+    "Copy. Throttle up.",
+    "Throttle up. Acknowledged."
+  ],
+  "throttle down": [
+    "Throttle down, Captain.",
+    "Roger, Captain. Throttle down.",
+    "Copy. Throttle down.",
+    "Throttle down. Acknowledged."
+  ],
+  "ship strafe left": [
+    "Strafing port, Captain.",
+    "Roger, Captain. Strafing port.",
+    "Copy. Strafing port.",
+    "Strafing port. Acknowledged."
+  ],
+  "ship strafe right": [
+    "Strafing starboard, Captain.",
+    "Roger, Captain. Strafing starboard.",
+    "Copy. Strafing starboard.",
+    "Strafing starboard. Acknowledged."
+  ],
+  "roll left": [
+    "Rolling port, Captain.",
+    "Roger, Captain. Rolling port.",
+    "Copy. Rolling port.",
+    "Rolling port. Acknowledged."
+  ],
+  "roll right": [
+    "Rolling starboard, Captain.",
+    "Roger, Captain. Rolling starboard.",
+    "Copy. Rolling starboard.",
+    "Rolling starboard. Acknowledged."
+  ],
+  "boost": [
+    "Boost engaged, Captain.",
+    "Roger, Captain. Boost engaged.",
+    "Copy. Boost engaged.",
+    "Boost engaged. Acknowledged."
+  ],
+  "boost hard": [
+    "Full boost, Captain.",
+    "Roger, Captain. Full boost.",
+    "Copy. Full boost.",
+    "Full boost. Acknowledged."
+  ],
+  "space brake": [
+    "Braking, Captain.",
+    "Roger, Captain. Braking.",
+    "Copy. Braking.",
+    "Braking. Acknowledged."
+  ],
+  "full stop": [
+    "Full stop, Captain.",
+    "Roger, Captain. Full stop.",
+    "Copy. Full stop.",
+    "Full stop. Acknowledged."
+  ],
+  "cruise control": [
+    "Cruise control toggled, Captain.",
+    "Roger, Captain. Cruise control toggled.",
+    "Copy. Cruise control toggled.",
+    "Cruise control toggled. Acknowledged."
+  ],
+  "quantum mode": [
+    "Spinning up quantum drive, Captain.",
+    "Roger, Captain. Spinning up quantum drive.",
+    "Copy. Spinning up quantum drive.",
+    "Spinning up quantum drive. Acknowledged."
+  ],
+  "jump": [
+    "Jumping, Captain.",
+    "Roger, Captain. Jumping.",
+    "Copy. Jumping.",
+    "Jumping. Acknowledged."
+  ],
+  "exit seat": [
+    "Leaving seat, Captain.",
+    "Roger, Captain. Leaving seat.",
+    "Copy. Leaving seat.",
+    "Leaving seat. Acknowledged."
+  ],
+  "landing mode": [
+    "Toggling landing mode, Captain.",
+    "Roger, Captain. Toggling landing mode.",
+    "Copy. Toggling landing mode.",
+    "Toggling landing mode. Acknowledged."
+  ],
+  "auto land": [
+    "Auto landing, Captain.",
+    "Roger, Captain. Auto landing.",
+    "Copy. Auto landing.",
+    "Auto landing. Acknowledged."
+  ],
+  "decoupled mode": [
+    "Toggling decoupled mode, Captain.",
+    "Roger, Captain. Toggling decoupled mode.",
+    "Copy. Toggling decoupled mode.",
+    "Toggling decoupled mode. Acknowledged."
+  ],
+  "speed limiter up": [
+    "Raising speed limiter, Captain.",
+    "Roger, Captain. Raising speed limiter.",
+    "Copy. Raising speed limiter.",
+    "Raising speed limiter. Acknowledged."
+  ],
+  "speed limiter down": [
+    "Lowering speed limiter, Captain.",
+    "Roger, Captain. Lowering speed limiter.",
+    "Copy. Lowering speed limiter.",
+    "Lowering speed limiter. Acknowledged."
+  ],
+  "lock pitch yaw": [
+    "Axis lock toggled, Captain.",
+    "Roger, Captain. Axis lock toggled.",
+    "Copy. Axis lock toggled.",
+    "Axis lock toggled. Acknowledged."
+  ],
+  "vtol": [
+    "Toggling vtol, Captain.",
+    "Roger, Captain. Toggling vtol.",
+    "Copy. Toggling vtol.",
+    "Toggling vtol. Acknowledged."
+  ],
+  "lights": [
+    "Toggling lights, Captain.",
+    "Roger, Captain. Toggling lights.",
+    "Copy. Toggling lights.",
+    "Toggling lights. Acknowledged."
+  ],
+  "drive forward": [
+    "Driving forward, Captain.",
+    "Roger, Captain. Driving forward.",
+    "Copy. Driving forward.",
+    "Driving forward. Acknowledged."
+  ],
+  "drive backward": [
+    "Reversing, Captain.",
+    "Roger, Captain. Reversing.",
+    "Copy. Reversing.",
+    "Reversing. Acknowledged."
+  ],
+  "turn left": [
+    "Steering port, Captain.",
+    "Roger, Captain. Steering port.",
+    "Copy. Steering port.",
+    "Steering port. Acknowledged."
+  ],
+  "turn right": [
+    "Steering starboard, Captain.",
+    "Roger, Captain. Steering starboard.",
+    "Copy. Steering starboard.",
+    "Steering starboard. Acknowledged."
+  ],
+  "vehicle brake": [
+    "Braking, Captain.",
+    "Roger, Captain. Braking.",
+    "Copy. Braking.",
+    "Braking. Acknowledged."
+  ],
+  "vehicle boost": [
+    "Vehicle boost, Captain.",
+    "Roger, Captain. Vehicle boost.",
+    "Copy. Vehicle boost.",
+    "Vehicle boost. Acknowledged."
+  ],
+  "vehicle exit seat": [
+    "Dismounting, Captain.",
+    "Roger, Captain. Dismounting.",
+    "Copy. Dismounting.",
+    "Dismounting. Acknowledged."
+  ],
+  "mining mode": [
+    "Mining mode, Captain.",
+    "Roger, Captain. Mining mode.",
+    "Copy. Mining mode.",
+    "Mining mode. Acknowledged."
+  ],
+  "fire mining laser": [
+    "Mining laser firing, Captain.",
+    "Roger, Captain. Mining laser firing.",
+    "Copy. Mining laser firing.",
+    "Mining laser firing. Acknowledged."
+  ],
+  "switch mining laser": [
+    "Laser switched, Captain.",
+    "Roger, Captain. Laser switched.",
+    "Copy. Laser switched.",
+    "Laser switched. Acknowledged."
+  ],
+  "increase mining laser power": [
+    "Mining power up, Captain.",
+    "Roger, Captain. Mining power up.",
+    "Copy. Mining power up.",
+    "Mining power up. Acknowledged."
+  ],
+  "decrease mining laser power": [
+    "Mining power down, Captain.",
+    "Roger, Captain. Mining power down.",
+    "Copy. Mining power down.",
+    "Mining power down. Acknowledged."
+  ],
+  "cycle mining gimbal": [
+    "Mining gimbal cycled, Captain.",
+    "Roger, Captain. Mining gimbal cycled.",
+    "Copy. Mining gimbal cycled.",
+    "Mining gimbal cycled. Acknowledged."
+  ],
+  "mining consumable one": [
+    "Consumable one active, Captain.",
+    "Roger, Captain. Consumable one active.",
+    "Copy. Consumable one active.",
+    "Consumable one active. Acknowledged."
+  ],
+  "mining consumable two": [
+    "Consumable two active, Captain.",
+    "Roger, Captain. Consumable two active.",
+    "Copy. Consumable two active.",
+    "Consumable two active. Acknowledged."
+  ],
+  "mining consumable three": [
+    "Consumable three active, Captain.",
+    "Roger, Captain. Consumable three active.",
+    "Copy. Consumable three active.",
+    "Consumable three active. Acknowledged."
+  ],
+  "jettison cargo": [
+    "Jettisoning cargo, Captain.",
+    "Roger, Captain. Jettisoning cargo.",
+    "Copy. Jettisoning cargo.",
+    "Jettisoning cargo. Acknowledged."
+  ],
+  "open mobiglas": [
+    "Opening mobiglas, Captain.",
+    "Roger, Captain. Opening mobiglas.",
+    "Copy. Opening mobiglas.",
+    "Opening mobiglas. Acknowledged."
+  ],
+  "open starmap": [
+    "Opening starmap, Captain.",
+    "Roger, Captain. Opening starmap.",
+    "Copy. Opening starmap.",
+    "Opening starmap. Acknowledged."
+  ],
+  "open contacts": [
+    "Opening contacts, Captain.",
+    "Roger, Captain. Opening contacts.",
+    "Copy. Opening contacts.",
+    "Opening contacts. Acknowledged."
+  ],
+  "move forward": [
+    "Moving forward, Captain.",
+    "Roger, Captain. Moving forward.",
+    "Copy. Moving forward.",
+    "Moving forward. Acknowledged."
+  ],
+  "move forward short": [
+    "Quick step forward, Captain.",
+    "Roger, Captain. Quick step forward.",
+    "Copy. Quick step forward.",
+    "Quick step forward. Acknowledged."
+  ],
+  "move forward long": [
+    "Sustained forward, Captain.",
+    "Roger, Captain. Sustained forward.",
+    "Copy. Sustained forward.",
+    "Sustained forward. Acknowledged."
+  ],
+  "move backward": [
+    "Moving back, Captain.",
+    "Roger, Captain. Moving back.",
+    "Copy. Moving back.",
+    "Moving back. Acknowledged."
+  ],
+  "move backward short": [
+    "Quick step back, Captain.",
+    "Roger, Captain. Quick step back.",
+    "Copy. Quick step back.",
+    "Quick step back. Acknowledged."
+  ],
+  "move backward long": [
+    "Sustained back, Captain.",
+    "Roger, Captain. Sustained back.",
+    "Copy. Sustained back.",
+    "Sustained back. Acknowledged."
+  ],
+  "strafe left": [
+    "Strafing left, Captain.",
+    "Roger, Captain. Strafing left.",
+    "Copy. Strafing left.",
+    "Strafing left. Acknowledged."
+  ],
+  "strafe left short": [
+    "Quick step left, Captain.",
+    "Roger, Captain. Quick step left.",
+    "Copy. Quick step left.",
+    "Quick step left. Acknowledged."
+  ],
+  "strafe right": [
+    "Strafing right, Captain.",
+    "Roger, Captain. Strafing right.",
+    "Copy. Strafing right.",
+    "Strafing right. Acknowledged."
+  ],
+  "strafe right short": [
+    "Quick step right, Captain.",
+    "Roger, Captain. Quick step right.",
+    "Copy. Quick step right.",
+    "Quick step right. Acknowledged."
+  ],
+  "player jump": [
+    "Jumping, Captain.",
+    "Roger, Captain. Jumping.",
+    "Copy. Jumping.",
+    "Jumping. Acknowledged."
+  ],
+  "run": [
+    "Running, Captain.",
+    "Roger, Captain. Running.",
+    "Copy. Running.",
+    "Running. Acknowledged."
+  ],
+  "run short": [
+    "Quick sprint, Captain.",
+    "Roger, Captain. Quick sprint.",
+    "Copy. Quick sprint.",
+    "Quick sprint. Acknowledged."
+  ],
+  "lean left": [
+    "Leaning port, Captain.",
+    "Roger, Captain. Leaning port.",
+    "Copy. Leaning port.",
+    "Leaning port. Acknowledged."
+  ],
+  "lean right": [
+    "Leaning starboard, Captain.",
+    "Roger, Captain. Leaning starboard.",
+    "Copy. Leaning starboard.",
+    "Leaning starboard. Acknowledged."
+  ],
+  "crouch": [
+    "Toggling crouch, Captain.",
+    "Roger, Captain. Toggling crouch.",
+    "Copy. Toggling crouch.",
+    "Toggling crouch. Acknowledged."
+  ],
+  "prone": [
+    "Toggling prone, Captain.",
+    "Roger, Captain. Toggling prone.",
+    "Copy. Toggling prone.",
+    "Toggling prone. Acknowledged."
+  ],
+  "interact": [
+    "Interact, Captain.",
+    "Roger, Captain. Interact.",
+    "Copy. Interact.",
+    "Interact. Acknowledged."
+  ],
+  "equip sidearm": [
+    "Sidearm out, Captain.",
+    "Roger, Captain. Sidearm out.",
+    "Copy. Sidearm out.",
+    "Sidearm out. Acknowledged."
+  ],
+  "equip primary": [
+    "Primary out, Captain.",
+    "Roger, Captain. Primary out.",
+    "Copy. Primary out.",
+    "Primary out. Acknowledged."
+  ],
+  "equip secondary": [
+    "Secondary out, Captain.",
+    "Roger, Captain. Secondary out.",
+    "Copy. Secondary out.",
+    "Secondary out. Acknowledged."
+  ],
+  "equip gadget": [
+    "Gadget out, Captain.",
+    "Roger, Captain. Gadget out.",
+    "Copy. Gadget out.",
+    "Gadget out. Acknowledged."
+  ],
+  "equip melee": [
+    "Melee out, Captain.",
+    "Roger, Captain. Melee out.",
+    "Copy. Melee out.",
+    "Melee out. Acknowledged."
+  ],
+  "unarmed combat": [
+    "Fists up, Captain.",
+    "Roger, Captain. Fists up.",
+    "Copy. Fists up.",
+    "Fists up. Acknowledged."
+  ],
+  "reload weapon": [
+    "Reloading, Captain.",
+    "Roger, Captain. Reloading.",
+    "Copy. Reloading.",
+    "Reloading. Acknowledged."
+  ],
+  "holster weapon": [
+    "Holstering, Captain.",
+    "Roger, Captain. Holstering.",
+    "Copy. Holstering.",
+    "Holstering. Acknowledged."
+  ],
+  "equip grenade": [
+    "Grenade out, Captain.",
+    "Roger, Captain. Grenade out.",
+    "Copy. Grenade out.",
+    "Grenade out. Acknowledged."
+  ],
+  "equip medpen": [
+    "Med pen ready, Captain.",
+    "Roger, Captain. Med pen ready.",
+    "Copy. Med pen ready.",
+    "Med pen ready. Acknowledged."
+  ],
+  "wipe visor": [
+    "Wiping visor, Captain.",
+    "Roger, Captain. Wiping visor.",
+    "Copy. Wiping visor.",
+    "Wiping visor. Acknowledged."
+  ],
+  "suit light": [
+    "Toggling suit light, Captain.",
+    "Roger, Captain. Toggling suit light.",
+    "Copy. Toggling suit light.",
+    "Toggling suit light. Acknowledged."
+  ],
+  "power all": [
+    "Cycling all power, Captain.",
+    "Roger, Captain. Cycling all power.",
+    "Copy. Cycling all power.",
+    "Cycling all power. Acknowledged."
+  ],
+  "power thrusters": [
+    "Cycling thruster power, Captain.",
+    "Roger, Captain. Cycling thruster power.",
+    "Copy. Cycling thruster power.",
+    "Cycling thruster power. Acknowledged."
+  ],
+  "power shields": [
+    "Cycling shield power, Captain.",
+    "Roger, Captain. Cycling shield power.",
+    "Copy. Cycling shield power.",
+    "Cycling shield power. Acknowledged."
+  ],
+  "power weapons": [
+    "Cycling weapon power, Captain.",
+    "Roger, Captain. Cycling weapon power.",
+    "Copy. Cycling weapon power.",
+    "Cycling weapon power. Acknowledged."
+  ],
+  "raise power weapons": [
+    "More to weapons, Captain.",
+    "Roger, Captain. More to weapons.",
+    "Copy. More to weapons.",
+    "More to weapons. Acknowledged."
+  ],
+  "raise power thrusters": [
+    "More to thrusters, Captain.",
+    "Roger, Captain. More to thrusters.",
+    "Copy. More to thrusters.",
+    "More to thrusters. Acknowledged."
+  ],
+  "raise power shields": [
+    "More to shields, Captain.",
+    "Roger, Captain. More to shields.",
+    "Copy. More to shields.",
+    "More to shields. Acknowledged."
+  ],
+  "reset power": [
+    "Power balanced, Captain.",
+    "Roger, Captain. Power balanced.",
+    "Copy. Power balanced.",
+    "Power balanced. Acknowledged."
+  ],
+  "salvage mode": [
+    "Salvage mode, Captain.",
+    "Roger, Captain. Salvage mode.",
+    "Copy. Salvage mode.",
+    "Salvage mode. Acknowledged."
+  ],
+  "salvage gimbal": [
+    "Salvage gimbal cycled, Captain.",
+    "Roger, Captain. Salvage gimbal cycled.",
+    "Copy. Salvage gimbal cycled.",
+    "Salvage gimbal cycled. Acknowledged."
+  ],
+  "cycle salvage modifiers": [
+    "Cycling salvage mods, Captain.",
+    "Roger, Captain. Cycling salvage mods.",
+    "Copy. Cycling salvage mods.",
+    "Cycling salvage mods. Acknowledged."
+  ],
+  "relative beam spacing": [
+    "Beam spacing adjusted, Captain.",
+    "Roger, Captain. Beam spacing adjusted.",
+    "Copy. Beam spacing adjusted.",
+    "Beam spacing adjusted. Acknowledged."
+  ],
+  "salvage beam axis": [
+    "Axis toggled, Captain.",
+    "Roger, Captain. Axis toggled.",
+    "Copy. Axis toggled.",
+    "Axis toggled. Acknowledged."
+  ],
+  "increase beam spacing": [
+    "Unable, that's unbound, Captain.",
+    "Roger, Captain. Unable, that's unbound.",
+    "Copy. Unable, that's unbound.",
+    "Unable, that's unbound. Acknowledged."
+  ],
+  "scanning mode": [
+    "Scanner online, Captain.",
+    "Roger, Captain. Scanner online.",
+    "Copy. Scanner online.",
+    "Scanner online. Acknowledged."
+  ],
+  "activate scanning": [
+    "Scanning, Captain.",
+    "Roger, Captain. Scanning.",
+    "Copy. Scanning.",
+    "Scanning. Acknowledged."
+  ],
+  "scanning ping": [
+    "Ping out, Captain.",
+    "Roger, Captain. Ping out.",
+    "Copy. Ping out.",
+    "Ping out. Acknowledged."
+  ],
+  "increase scanning angle": [
+    "Widening scan, Captain.",
+    "Roger, Captain. Widening scan.",
+    "Copy. Widening scan.",
+    "Widening scan. Acknowledged."
+  ],
+  "decrease scanning angle": [
+    "Narrowing scan, Captain.",
+    "Roger, Captain. Narrowing scan.",
+    "Copy. Narrowing scan.",
+    "Narrowing scan. Acknowledged."
+  ],
+  "increase ping angle": [
+    "Unable, that's unbound, Captain.",
+    "Roger, Captain. Unable, that's unbound.",
+    "Copy. Unable, that's unbound.",
+    "Unable, that's unbound. Acknowledged."
+  ],
+  "decrease ping angle": [
+    "Unable, that's unbound, Captain.",
+    "Roger, Captain. Unable, that's unbound.",
+    "Copy. Unable, that's unbound.",
+    "Unable, that's unbound. Acknowledged."
+  ],
+  "shields front": [
+    "Front shield up, Captain.",
+    "Roger, Captain. Front shield up.",
+    "Copy. Front shield up.",
+    "Front shield up. Acknowledged."
+  ],
+  "shields back": [
+    "Rear shield up, Captain.",
+    "Roger, Captain. Rear shield up.",
+    "Copy. Rear shield up.",
+    "Rear shield up. Acknowledged."
+  ],
+  "shields left": [
+    "Port shield up, Captain.",
+    "Roger, Captain. Port shield up.",
+    "Copy. Port shield up.",
+    "Port shield up. Acknowledged."
+  ],
+  "shields right": [
+    "Starboard shield up, Captain.",
+    "Roger, Captain. Starboard shield up.",
+    "Copy. Starboard shield up.",
+    "Starboard shield up. Acknowledged."
+  ],
+  "shields top": [
+    "Dorsal shield up, Captain.",
+    "Roger, Captain. Dorsal shield up.",
+    "Copy. Dorsal shield up.",
+    "Dorsal shield up. Acknowledged."
+  ],
+  "shields bottom": [
+    "Ventral shield up, Captain.",
+    "Roger, Captain. Ventral shield up.",
+    "Copy. Ventral shield up.",
+    "Ventral shield up. Acknowledged."
+  ],
+  "reset shields": [
+    "Shields balanced, Captain.",
+    "Roger, Captain. Shields balanced.",
+    "Copy. Shields balanced.",
+    "Shields balanced. Acknowledged."
+  ],
+  "deploy noise": [
+    "Noise out, Captain.",
+    "Roger, Captain. Noise out.",
+    "Copy. Noise out.",
+    "Noise out. Acknowledged."
+  ],
+  "deploy decoy": [
+    "Decoy out, Captain.",
+    "Roger, Captain. Decoy out.",
+    "Copy. Decoy out.",
+    "Decoy out. Acknowledged."
+  ],
+  "lock target": [
+    "Locking target, Captain.",
+    "Roger, Captain. Locking target.",
+    "Copy. Locking target.",
+    "Locking target. Acknowledged."
+  ],
+  "unlock target": [
+    "Releasing target, Captain.",
+    "Roger, Captain. Releasing target.",
+    "Copy. Releasing target.",
+    "Releasing target. Acknowledged."
+  ],
+  "select pin one": [
+    "Pin one active, Captain.",
+    "Roger, Captain. Pin one active.",
+    "Copy. Pin one active.",
+    "Pin one active. Acknowledged."
+  ],
+  "select pin two": [
+    "Pin two active, Captain.",
+    "Roger, Captain. Pin two active.",
+    "Copy. Pin two active.",
+    "Pin two active. Acknowledged."
+  ],
+  "select pin three": [
+    "Pin three active, Captain.",
+    "Roger, Captain. Pin three active.",
+    "Copy. Pin three active.",
+    "Pin three active. Acknowledged."
+  ],
+  "pin target one": [
+    "Pinning target one, Captain.",
+    "Roger, Captain. Pinning target one.",
+    "Copy. Pinning target one.",
+    "Pinning target one. Acknowledged."
+  ],
+  "pin target two": [
+    "Pinning target two, Captain.",
+    "Roger, Captain. Pinning target two.",
+    "Copy. Pinning target two.",
+    "Pinning target two. Acknowledged."
+  ],
+  "pin target three": [
+    "Pinning target three, Captain.",
+    "Roger, Captain. Pinning target three.",
+    "Copy. Pinning target three.",
+    "Pinning target three. Acknowledged."
+  ],
+  "cycle attackers": [
+    "Cycling attackers, Captain.",
+    "Roger, Captain. Cycling attackers.",
+    "Copy. Cycling attackers.",
+    "Cycling attackers. Acknowledged."
+  ],
+  "cycle hostiles": [
+    "Cycling hostiles, Captain.",
+    "Roger, Captain. Cycling hostiles.",
+    "Copy. Cycling hostiles.",
+    "Cycling hostiles. Acknowledged."
+  ],
+  "cycle friendlies": [
+    "Cycling friendlies, Captain.",
+    "Roger, Captain. Cycling friendlies.",
+    "Copy. Cycling friendlies.",
+    "Cycling friendlies. Acknowledged."
+  ],
+  "toggle chat": [
+    "Toggling chat, Captain.",
+    "Roger, Captain. Toggling chat.",
+    "Copy. Toggling chat.",
+    "Toggling chat. Acknowledged."
+  ],
+  "fire weapon group one": [
+    "Group one firing, Captain.",
+    "Roger, Captain. Group one firing.",
+    "Copy. Group one firing.",
+    "Group one firing. Acknowledged."
+  ],
+  "fire weapon group two": [
+    "Group two firing, Captain.",
+    "Roger, Captain. Group two firing.",
+    "Copy. Group two firing.",
+    "Group two firing. Acknowledged."
+  ],
+  "launch missile": [
+    "Missile away, Captain.",
+    "Roger, Captain. Missile away.",
+    "Copy. Missile away.",
+    "Missile away. Acknowledged."
+  ],
+  "cycle missile type": [
+    "Cycling missiles, Captain.",
+    "Roger, Captain. Cycling missiles.",
+    "Copy. Cycling missiles.",
+    "Cycling missiles. Acknowledged."
+  ],
+  "cycle gimbal assist": [
+    "Gimbal cycled, Captain.",
+    "Roger, Captain. Gimbal cycled.",
+    "Copy. Gimbal cycled.",
+    "Gimbal cycled. Acknowledged."
+  ],
+  "missile mode": [
+    "Missile mode, Captain.",
+    "Roger, Captain. Missile mode.",
+    "Copy. Missile mode.",
+    "Missile mode. Acknowledged."
+  ],
+  "arm more missiles": [
+    "More missiles armed, Captain.",
+    "Roger, Captain. More missiles armed.",
+    "Copy. More missiles armed.",
+    "More missiles armed. Acknowledged."
+  ],
+  "reset missiles": [
+    "Missiles reset, Captain.",
+    "Roger, Captain. Missiles reset.",
+    "Copy. Missiles reset.",
+    "Missiles reset. Acknowledged."
+  ]
+}

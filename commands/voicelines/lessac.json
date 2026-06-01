@@ -1,0 +1,1112 @@
+{
+  "ship mode": [
+    "Switching to ship, Captain.",
+    "Of course, Captain. Switching to ship.",
+    "All set. Switching to ship.",
+    "Easy does it. Switching to ship."
+  ],
+  "fps mode": [
+    "Switching to fps, Captain.",
+    "Of course, Captain. Switching to fps.",
+    "All set. Switching to fps.",
+    "Easy does it. Switching to fps."
+  ],
+  "request landing": [
+    "Requesting landing, Captain.",
+    "Of course, Captain. Requesting landing.",
+    "All set. Requesting landing.",
+    "Easy does it. Requesting landing."
+  ],
+  "request takeoff": [
+    "Requesting takeoff, Captain.",
+    "Of course, Captain. Requesting takeoff.",
+    "All set. Requesting takeoff.",
+    "Easy does it. Requesting takeoff."
+  ],
+  "hail atc": [
+    "Hailing control, Captain.",
+    "Of course, Captain. Hailing control.",
+    "All set. Hailing control.",
+    "Easy does it. Hailing control."
+  ],
+  "open hangar": [
+    "Opening hangar, Captain.",
+    "Of course, Captain. Opening hangar.",
+    "All set. Opening hangar.",
+    "Easy does it. Opening hangar."
+  ],
+  "camera cycle": [
+    "Cycling camera, Captain.",
+    "Of course, Captain. Cycling camera.",
+    "All set. Cycling camera.",
+    "Easy does it. Cycling camera."
+  ],
+  "look around": [
+    "Free look toggled, Captain.",
+    "Of course, Captain. Free look toggled.",
+    "All set. Free look toggled.",
+    "Easy does it. Free look toggled."
+  ],
+  "camera move right": [
+    "Panning right, Captain.",
+    "Of course, Captain. Panning right.",
+    "All set. Panning right.",
+    "Easy does it. Panning right."
+  ],
+  "camera move left": [
+    "Panning left, Captain.",
+    "Of course, Captain. Panning left.",
+    "All set. Panning left.",
+    "Easy does it. Panning left."
+  ],
+  "camera move forward": [
+    "Panning in, Captain.",
+    "Of course, Captain. Panning in.",
+    "All set. Panning in.",
+    "Easy does it. Panning in."
+  ],
+  "camera move backward": [
+    "Panning out, Captain.",
+    "Of course, Captain. Panning out.",
+    "All set. Panning out.",
+    "Easy does it. Panning out."
+  ],
+  "camera move up": [
+    "Panning up, Captain.",
+    "Of course, Captain. Panning up.",
+    "All set. Panning up.",
+    "Easy does it. Panning up."
+  ],
+  "camera move down": [
+    "Panning down, Captain.",
+    "Of course, Captain. Panning down.",
+    "All set. Panning down.",
+    "Easy does it. Panning down."
+  ],
+  "save camera one": [
+    "Saving camera one, Captain.",
+    "Of course, Captain. Saving camera one.",
+    "All set. Saving camera one.",
+    "Easy does it. Saving camera one."
+  ],
+  "save camera two": [
+    "Saving camera two, Captain.",
+    "Of course, Captain. Saving camera two.",
+    "All set. Saving camera two.",
+    "Easy does it. Saving camera two."
+  ],
+  "save camera three": [
+    "Saving camera three, Captain.",
+    "Of course, Captain. Saving camera three.",
+    "All set. Saving camera three.",
+    "Easy does it. Saving camera three."
+  ],
+  "save camera four": [
+    "Saving camera four, Captain.",
+    "Of course, Captain. Saving camera four.",
+    "All set. Saving camera four.",
+    "Easy does it. Saving camera four."
+  ],
+  "save camera five": [
+    "Saving camera five, Captain.",
+    "Of course, Captain. Saving camera five.",
+    "All set. Saving camera five.",
+    "Easy does it. Saving camera five."
+  ],
+  "save camera six": [
+    "Saving camera six, Captain.",
+    "Of course, Captain. Saving camera six.",
+    "All set. Saving camera six.",
+    "Easy does it. Saving camera six."
+  ],
+  "save camera seven": [
+    "Saving camera seven, Captain.",
+    "Of course, Captain. Saving camera seven.",
+    "All set. Saving camera seven.",
+    "Easy does it. Saving camera seven."
+  ],
+  "save camera eight": [
+    "Saving camera eight, Captain.",
+    "Of course, Captain. Saving camera eight.",
+    "All set. Saving camera eight.",
+    "Easy does it. Saving camera eight."
+  ],
+  "save camera nine": [
+    "Saving camera nine, Captain.",
+    "Of course, Captain. Saving camera nine.",
+    "All set. Saving camera nine.",
+    "Easy does it. Saving camera nine."
+  ],
+  "load camera one": [
+    "Loading camera one, Captain.",
+    "Of course, Captain. Loading camera one.",
+    "All set. Loading camera one.",
+    "Easy does it. Loading camera one."
+  ],
+  "load camera two": [
+    "Loading camera two, Captain.",
+    "Of course, Captain. Loading camera two.",
+    "All set. Loading camera two.",
+    "Easy does it. Loading camera two."
+  ],
+  "load camera three": [
+    "Loading camera three, Captain.",
+    "Of course, Captain. Loading camera three.",
+    "All set. Loading camera three.",
+    "Easy does it. Loading camera three."
+  ],
+  "load camera four": [
+    "Loading camera four, Captain.",
+    "Of course, Captain. Loading camera four.",
+    "All set. Loading camera four.",
+    "Easy does it. Loading camera four."
+  ],
+  "load camera five": [
+    "Loading camera five, Captain.",
+    "Of course, Captain. Loading camera five.",
+    "All set. Loading camera five.",
+    "Easy does it. Loading camera five."
+  ],
+  "load camera six": [
+    "Loading camera six, Captain.",
+    "Of course, Captain. Loading camera six.",
+    "All set. Loading camera six.",
+    "Easy does it. Loading camera six."
+  ],
+  "load camera seven": [
+    "Loading camera seven, Captain.",
+    "Of course, Captain. Loading camera seven.",
+    "All set. Loading camera seven.",
+    "Easy does it. Loading camera seven."
+  ],
+  "load camera eight": [
+    "Loading camera eight, Captain.",
+    "Of course, Captain. Loading camera eight.",
+    "All set. Loading camera eight.",
+    "Easy does it. Loading camera eight."
+  ],
+  "load camera nine": [
+    "Loading camera nine, Captain.",
+    "Of course, Captain. Loading camera nine.",
+    "All set. Loading camera nine.",
+    "Easy does it. Loading camera nine."
+  ],
+  "reset camera": [
+    "Camera reset, Captain.",
+    "Of course, Captain. Camera reset.",
+    "All set. Camera reset.",
+    "Easy does it. Camera reset."
+  ],
+  "landing checklist": [
+    "Running landing checklist, Captain.",
+    "Of course, Captain. Running landing checklist.",
+    "All set. Running landing checklist.",
+    "Easy does it. Running landing checklist."
+  ],
+  "takeoff checklist": [
+    "Running takeoff checklist, Captain.",
+    "Of course, Captain. Running takeoff checklist.",
+    "All set. Running takeoff checklist.",
+    "Easy does it. Running takeoff checklist."
+  ],
+  "combat mode": [
+    "Going hot, Captain.",
+    "Of course, Captain. Going hot.",
+    "All set. Going hot.",
+    "Easy does it. Going hot."
+  ],
+  "panic": [
+    "Panic protocol, Captain.",
+    "Of course, Captain. Panic protocol.",
+    "All set. Panic protocol.",
+    "Easy does it. Panic protocol."
+  ],
+  "hello": [
+    "Hello, Captain.",
+    "Welcome back, Captain.",
+    "Hi there, Captain.",
+    "Captain. Good to see you."
+  ],
+  "hey": [
+    "Yes, Captain?",
+    "I'm here, Captain.",
+    "Yes? Go ahead.",
+    "Listening, Captain."
+  ],
+  "good morning": [
+    "Good morning, Captain.",
+    "Morning, Captain.",
+    "A gentle morning, Captain.",
+    "Morning. Easy does it."
+  ],
+  "good evening": [
+    "Good evening, Captain.",
+    "Evening, Captain.",
+    "Lovely evening, Captain.",
+    "Evening. Take it slow."
+  ],
+  "thank you": [
+    "Of course, Captain.",
+    "Always.",
+    "My pleasure, Captain.",
+    "Don't mention it."
+  ],
+  "good job": [
+    "Thank you, Captain.",
+    "Very kind, Captain.",
+    "I appreciate that.",
+    "How sweet of you, Captain."
+  ],
+  "status": [
+    "All is well, Captain.",
+    "Everything's fine, Captain.",
+    "Systems are calm.",
+    "No concerns, Captain."
+  ],
+  "report": [
+    "Nothing to share, Captain.",
+    "All quiet, Captain.",
+    "No news.",
+    "All calm out there."
+  ],
+  "ready": [
+    "Whenever you are, Captain.",
+    "Ready, Captain.",
+    "All set, gently waiting.",
+    "Take your time, Captain."
+  ],
+  "shut up": [
+    "Of course.",
+    "Understood.",
+    "I'll be quiet.",
+    "Silence, then."
+  ],
+  "quiet": [
+    "Going quiet.",
+    "Hush mode.",
+    "I'll keep still.",
+    "Soft mode."
+  ],
+  "who are you": [
+    "I'm your ship AI, Captain.",
+    "Onboard assistant.",
+    "Just the ship, Captain.",
+    "The voice in the cockpit."
+  ],
+  "where are we": [
+    "I don't know, Captain. The map does.",
+    "Check the chart, Captain.",
+    "Try the map, Captain.",
+    "Map'll know."
+  ],
+  "eva forward": [
+    "Eva forward, Captain.",
+    "Of course, Captain. Eva forward.",
+    "All set. Eva forward.",
+    "Easy does it. Eva forward."
+  ],
+  "eva back": [
+    "Eva back, Captain.",
+    "Of course, Captain. Eva back.",
+    "All set. Eva back.",
+    "Easy does it. Eva back."
+  ],
+  "eva strafe left": [
+    "Eva strafe port, Captain.",
+    "Of course, Captain. Eva strafe port.",
+    "All set. Eva strafe port.",
+    "Easy does it. Eva strafe port."
+  ],
+  "eva strafe right": [
+    "Eva strafe starboard, Captain.",
+    "Of course, Captain. Eva strafe starboard.",
+    "All set. Eva strafe starboard.",
+    "Easy does it. Eva strafe starboard."
+  ],
+  "eva roll left": [
+    "Eva roll port, Captain.",
+    "Of course, Captain. Eva roll port.",
+    "All set. Eva roll port.",
+    "Easy does it. Eva roll port."
+  ],
+  "eva roll right": [
+    "Eva roll starboard, Captain.",
+    "Of course, Captain. Eva roll starboard.",
+    "All set. Eva roll starboard.",
+    "Easy does it. Eva roll starboard."
+  ],
+  "flight ready": [
+    "Flight ready, Captain.",
+    "Of course, Captain. Flight ready.",
+    "All set. Flight ready.",
+    "Easy does it. Flight ready."
+  ],
+  "engines on": [
+    "Engines online, Captain.",
+    "Of course, Captain. Engines online.",
+    "All set. Engines online.",
+    "Easy does it. Engines online."
+  ],
+  "engines off": [
+    "Engines offline, Captain.",
+    "Of course, Captain. Engines offline.",
+    "All set. Engines offline.",
+    "Easy does it. Engines offline."
+  ],
+  "toggle engines": [
+    "Toggling engines, Captain.",
+    "Of course, Captain. Toggling engines.",
+    "All set. Toggling engines.",
+    "Easy does it. Toggling engines."
+  ],
+  "systems on": [
+    "Systems online, Captain.",
+    "Of course, Captain. Systems online.",
+    "All set. Systems online.",
+    "Easy does it. Systems online."
+  ],
+  "systems off": [
+    "Systems offline, Captain.",
+    "Of course, Captain. Systems offline.",
+    "All set. Systems offline.",
+    "Easy does it. Systems offline."
+  ],
+  "toggle systems": [
+    "Toggling systems, Captain.",
+    "Of course, Captain. Toggling systems.",
+    "All set. Toggling systems.",
+    "Easy does it. Toggling systems."
+  ],
+  "throttle up": [
+    "Throttle up, Captain.",
+    "Of course, Captain. Throttle up.",
+    "All set. Throttle up.",
+    "Easy does it. Throttle up."
+  ],
+  "throttle down": [
+    "Throttle down, Captain.",
+    "Of course, Captain. Throttle down.",
+    "All set. Throttle down.",
+    "Easy does it. Throttle down."
+  ],
+  "ship strafe left": [
+    "Strafing port, Captain.",
+    "Of course, Captain. Strafing port.",
+    "All set. Strafing port.",
+    "Easy does it. Strafing port."
+  ],
+  "ship strafe right": [
+    "Strafing starboard, Captain.",
+    "Of course, Captain. Strafing starboard.",
+    "All set. Strafing starboard.",
+    "Easy does it. Strafing starboard."
+  ],
+  "roll left": [
+    "Rolling port, Captain.",
+    "Of course, Captain. Rolling port.",
+    "All set. Rolling port.",
+    "Easy does it. Rolling port."
+  ],
+  "roll right": [
+    "Rolling starboard, Captain.",
+    "Of course, Captain. Rolling starboard.",
+    "All set. Rolling starboard.",
+    "Easy does it. Rolling starboard."
+  ],
+  "boost": [
+    "Boost engaged, Captain.",
+    "Of course, Captain. Boost engaged.",
+    "All set. Boost engaged.",
+    "Easy does it. Boost engaged."
+  ],
+  "boost hard": [
+    "Full boost, Captain.",
+    "Of course, Captain. Full boost.",
+    "All set. Full boost.",
+    "Easy does it. Full boost."
+  ],
+  "space brake": [
+    "Braking, Captain.",
+    "Of course, Captain. Braking.",
+    "All set. Braking.",
+    "Easy does it. Braking."
+  ],
+  "full stop": [
+    "Full stop, Captain.",
+    "Of course, Captain. Full stop.",
+    "All set. Full stop.",
+    "Easy does it. Full stop."
+  ],
+  "cruise control": [
+    "Cruise control toggled, Captain.",
+    "Of course, Captain. Cruise control toggled.",
+    "All set. Cruise control toggled.",
+    "Easy does it. Cruise control toggled."
+  ],
+  "quantum mode": [
+    "Spinning up quantum drive, Captain.",
+    "Of course, Captain. Spinning up quantum drive.",
+    "All set. Spinning up quantum drive.",
+    "Easy does it. Spinning up quantum drive."
+  ],
+  "jump": [
+    "Jumping, Captain.",
+    "Of course, Captain. Jumping.",
+    "All set. Jumping.",
+    "Easy does it. Jumping."
+  ],
+  "exit seat": [
+    "Leaving seat, Captain.",
+    "Of course, Captain. Leaving seat.",
+    "All set. Leaving seat.",
+    "Easy does it. Leaving seat."
+  ],
+  "landing mode": [
+    "Toggling landing mode, Captain.",
+    "Of course, Captain. Toggling landing mode.",
+    "All set. Toggling landing mode.",
+    "Easy does it. Toggling landing mode."
+  ],
+  "auto land": [
+    "Auto landing, Captain.",
+    "Of course, Captain. Auto landing.",
+    "All set. Auto landing.",
+    "Easy does it. Auto landing."
+  ],
+  "decoupled mode": [
+    "Toggling decoupled mode, Captain.",
+    "Of course, Captain. Toggling decoupled mode.",
+    "All set. Toggling decoupled mode.",
+    "Easy does it. Toggling decoupled mode."
+  ],
+  "speed limiter up": [
+    "Raising speed limiter, Captain.",
+    "Of course, Captain. Raising speed limiter.",
+    "All set. Raising speed limiter.",
+    "Easy does it. Raising speed limiter."
+  ],
+  "speed limiter down": [
+    "Lowering speed limiter, Captain.",
+    "Of course, Captain. Lowering speed limiter.",
+    "All set. Lowering speed limiter.",
+    "Easy does it. Lowering speed limiter."
+  ],
+  "lock pitch yaw": [
+    "Axis lock toggled, Captain.",
+    "Of course, Captain. Axis lock toggled.",
+    "All set. Axis lock toggled.",
+    "Easy does it. Axis lock toggled."
+  ],
+  "vtol": [
+    "Toggling vtol, Captain.",
+    "Of course, Captain. Toggling vtol.",
+    "All set. Toggling vtol.",
+    "Easy does it. Toggling vtol."
+  ],
+  "lights": [
+    "Toggling lights, Captain.",
+    "Of course, Captain. Toggling lights.",
+    "All set. Toggling lights.",
+    "Easy does it. Toggling lights."
+  ],
+  "drive forward": [
+    "Driving forward, Captain.",
+    "Of course, Captain. Driving forward.",
+    "All set. Driving forward.",
+    "Easy does it. Driving forward."
+  ],
+  "drive backward": [
+    "Reversing, Captain.",
+    "Of course, Captain. Reversing.",
+    "All set. Reversing.",
+    "Easy does it. Reversing."
+  ],
+  "turn left": [
+    "Steering port, Captain.",
+    "Of course, Captain. Steering port.",
+    "All set. Steering port.",
+    "Easy does it. Steering port."
+  ],
+  "turn right": [
+    "Steering starboard, Captain.",
+    "Of course, Captain. Steering starboard.",
+    "All set. Steering starboard.",
+    "Easy does it. Steering starboard."
+  ],
+  "vehicle brake": [
+    "Braking, Captain.",
+    "Of course, Captain. Braking.",
+    "All set. Braking.",
+    "Easy does it. Braking."
+  ],
+  "vehicle boost": [
+    "Vehicle boost, Captain.",
+    "Of course, Captain. Vehicle boost.",
+    "All set. Vehicle boost.",
+    "Easy does it. Vehicle boost."
+  ],
+  "vehicle exit seat": [
+    "Dismounting, Captain.",
+    "Of course, Captain. Dismounting.",
+    "All set. Dismounting.",
+    "Easy does it. Dismounting."
+  ],
+  "mining mode": [
+    "Mining mode, Captain.",
+    "Of course, Captain. Mining mode.",
+    "All set. Mining mode.",
+    "Easy does it. Mining mode."
+  ],
+  "fire mining laser": [
+    "Mining laser firing, Captain.",
+    "Of course, Captain. Mining laser firing.",
+    "All set. Mining laser firing.",
+    "Easy does it. Mining laser firing."
+  ],
+  "switch mining laser": [
+    "Laser switched, Captain.",
+    "Of course, Captain. Laser switched.",
+    "All set. Laser switched.",
+    "Easy does it. Laser switched."
+  ],
+  "increase mining laser power": [
+    "Mining power up, Captain.",
+    "Of course, Captain. Mining power up.",
+    "All set. Mining power up.",
+    "Easy does it. Mining power up."
+  ],
+  "decrease mining laser power": [
+    "Mining power down, Captain.",
+    "Of course, Captain. Mining power down.",
+    "All set. Mining power down.",
+    "Easy does it. Mining power down."
+  ],
+  "cycle mining gimbal": [
+    "Mining gimbal cycled, Captain.",
+    "Of course, Captain. Mining gimbal cycled.",
+    "All set. Mining gimbal cycled.",
+    "Easy does it. Mining gimbal cycled."
+  ],
+  "mining consumable one": [
+    "Consumable one active, Captain.",
+    "Of course, Captain. Consumable one active.",
+    "All set. Consumable one active.",
+    "Easy does it. Consumable one active."
+  ],
+  "mining consumable two": [
+    "Consumable two active, Captain.",
+    "Of course, Captain. Consumable two active.",
+    "All set. Consumable two active.",
+    "Easy does it. Consumable two active."
+  ],
+  "mining consumable three": [
+    "Consumable three active, Captain.",
+    "Of course, Captain. Consumable three active.",
+    "All set. Consumable three active.",
+    "Easy does it. Consumable three active."
+  ],
+  "jettison cargo": [
+    "Jettisoning cargo, Captain.",
+    "Of course, Captain. Jettisoning cargo.",
+    "All set. Jettisoning cargo.",
+    "Easy does it. Jettisoning cargo."
+  ],
+  "open mobiglas": [
+    "Opening mobiglas, Captain.",
+    "Of course, Captain. Opening mobiglas.",
+    "All set. Opening mobiglas.",
+    "Easy does it. Opening mobiglas."
+  ],
+  "open starmap": [
+    "Opening starmap, Captain.",
+    "Of course, Captain. Opening starmap.",
+    "All set. Opening starmap.",
+    "Easy does it. Opening starmap."
+  ],
+  "open contacts": [
+    "Opening contacts, Captain.",
+    "Of course, Captain. Opening contacts.",
+    "All set. Opening contacts.",
+    "Easy does it. Opening contacts."
+  ],
+  "move forward": [
+    "Moving forward, Captain.",
+    "Of course, Captain. Moving forward.",
+    "All set. Moving forward.",
+    "Easy does it. Moving forward."
+  ],
+  "move forward short": [
+    "Quick step forward, Captain.",
+    "Of course, Captain. Quick step forward.",
+    "All set. Quick step forward.",
+    "Easy does it. Quick step forward."
+  ],
+  "move forward long": [
+    "Sustained forward, Captain.",
+    "Of course, Captain. Sustained forward.",
+    "All set. Sustained forward.",
+    "Easy does it. Sustained forward."
+  ],
+  "move backward": [
+    "Moving back, Captain.",
+    "Of course, Captain. Moving back.",
+    "All set. Moving back.",
+    "Easy does it. Moving back."
+  ],
+  "move backward short": [
+    "Quick step back, Captain.",
+    "Of course, Captain. Quick step back.",
+    "All set. Quick step back.",
+    "Easy does it. Quick step back."
+  ],
+  "move backward long": [
+    "Sustained back, Captain.",
+    "Of course, Captain. Sustained back.",
+    "All set. Sustained back.",
+    "Easy does it. Sustained back."
+  ],
+  "strafe left": [
+    "Strafing left, Captain.",
+    "Of course, Captain. Strafing left.",
+    "All set. Strafing left.",
+    "Easy does it. Strafing left."
+  ],
+  "strafe left short": [
+    "Quick step left, Captain.",
+    "Of course, Captain. Quick step left.",
+    "All set. Quick step left.",
+    "Easy does it. Quick step left."
+  ],
+  "strafe right": [
+    "Strafing right, Captain.",
+    "Of course, Captain. Strafing right.",
+    "All set. Strafing right.",
+    "Easy does it. Strafing right."
+  ],
+  "strafe right short": [
+    "Quick step right, Captain.",
+    "Of course, Captain. Quick step right.",
+    "All set. Quick step right.",
+    "Easy does it. Quick step right."
+  ],
+  "player jump": [
+    "Jumping, Captain.",
+    "Of course, Captain. Jumping.",
+    "All set. Jumping.",
+    "Easy does it. Jumping."
+  ],
+  "run": [
+    "Running, Captain.",
+    "Of course, Captain. Running.",
+    "All set. Running.",
+    "Easy does it. Running."
+  ],
+  "run short": [
+    "Quick sprint, Captain.",
+    "Of course, Captain. Quick sprint.",
+    "All set. Quick sprint.",
+    "Easy does it. Quick sprint."
+  ],
+  "lean left": [
+    "Leaning port, Captain.",
+    "Of course, Captain. Leaning port.",
+    "All set. Leaning port.",
+    "Easy does it. Leaning port."
+  ],
+  "lean right": [
+    "Leaning starboard, Captain.",
+    "Of course, Captain. Leaning starboard.",
+    "All set. Leaning starboard.",
+    "Easy does it. Leaning starboard."
+  ],
+  "crouch": [
+    "Toggling crouch, Captain.",
+    "Of course, Captain. Toggling crouch.",
+    "All set. Toggling crouch.",
+    "Easy does it. Toggling crouch."
+  ],
+  "prone": [
+    "Toggling prone, Captain.",
+    "Of course, Captain. Toggling prone.",
+    "All set. Toggling prone.",
+    "Easy does it. Toggling prone."
+  ],
+  "interact": [
+    "Interact, Captain.",
+    "Of course, Captain. Interact.",
+    "All set. Interact.",
+    "Easy does it. Interact."
+  ],
+  "equip sidearm": [
+    "Sidearm out, Captain.",
+    "Of course, Captain. Sidearm out.",
+    "All set. Sidearm out.",
+    "Easy does it. Sidearm out."
+  ],
+  "equip primary": [
+    "Primary out, Captain.",
+    "Of course, Captain. Primary out.",
+    "All set. Primary out.",
+    "Easy does it. Primary out."
+  ],
+  "equip secondary": [
+    "Secondary out, Captain.",
+    "Of course, Captain. Secondary out.",
+    "All set. Secondary out.",
+    "Easy does it. Secondary out."
+  ],
+  "equip gadget": [
+    "Gadget out, Captain.",
+    "Of course, Captain. Gadget out.",
+    "All set. Gadget out.",
+    "Easy does it. Gadget out."
+  ],
+  "equip melee": [
+    "Melee out, Captain.",
+    "Of course, Captain. Melee out.",
+    "All set. Melee out.",
+    "Easy does it. Melee out."
+  ],
+  "unarmed combat": [
+    "Fists up, Captain.",
+    "Of course, Captain. Fists up.",
+    "All set. Fists up.",
+    "Easy does it. Fists up."
+  ],
+  "reload weapon": [
+    "Reloading, Captain.",
+    "Of course, Captain. Reloading.",
+    "All set. Reloading.",
+    "Easy does it. Reloading."
+  ],
+  "holster weapon": [
+    "Holstering, Captain.",
+    "Of course, Captain. Holstering.",
+    "All set. Holstering.",
+    "Easy does it. Holstering."
+  ],
+  "equip grenade": [
+    "Grenade out, Captain.",
+    "Of course, Captain. Grenade out.",
+    "All set. Grenade out.",
+    "Easy does it. Grenade out."
+  ],
+  "equip medpen": [
+    "Med pen ready, Captain.",
+    "Of course, Captain. Med pen ready.",
+    "All set. Med pen ready.",
+    "Easy does it. Med pen ready."
+  ],
+  "wipe visor": [
+    "Wiping visor, Captain.",
+    "Of course, Captain. Wiping visor.",
+    "All set. Wiping visor.",
+    "Easy does it. Wiping visor."
+  ],
+  "suit light": [
+    "Toggling suit light, Captain.",
+    "Of course, Captain. Toggling suit light.",
+    "All set. Toggling suit light.",
+    "Easy does it. Toggling suit light."
+  ],
+  "power all": [
+    "Cycling all power, Captain.",
+    "Of course, Captain. Cycling all power.",
+    "All set. Cycling all power.",
+    "Easy does it. Cycling all power."
+  ],
+  "power thrusters": [
+    "Cycling thruster power, Captain.",
+    "Of course, Captain. Cycling thruster power.",
+    "All set. Cycling thruster power.",
+    "Easy does it. Cycling thruster power."
+  ],
+  "power shields": [
+    "Cycling shield power, Captain.",
+    "Of course, Captain. Cycling shield power.",
+    "All set. Cycling shield power.",
+    "Easy does it. Cycling shield power."
+  ],
+  "power weapons": [
+    "Cycling weapon power, Captain.",
+    "Of course, Captain. Cycling weapon power.",
+    "All set. Cycling weapon power.",
+    "Easy does it. Cycling weapon power."
+  ],
+  "raise power weapons": [
+    "More to weapons, Captain.",
+    "Of course, Captain. More to weapons.",
+    "All set. More to weapons.",
+    "Easy does it. More to weapons."
+  ],
+  "raise power thrusters": [
+    "More to thrusters, Captain.",
+    "Of course, Captain. More to thrusters.",
+    "All set. More to thrusters.",
+    "Easy does it. More to thrusters."
+  ],
+  "raise power shields": [
+    "More to shields, Captain.",
+    "Of course, Captain. More to shields.",
+    "All set. More to shields.",
+    "Easy does it. More to shields."
+  ],
+  "reset power": [
+    "Power balanced, Captain.",
+    "Of course, Captain. Power balanced.",
+    "All set. Power balanced.",
+    "Easy does it. Power balanced."
+  ],
+  "salvage mode": [
+    "Salvage mode, Captain.",
+    "Of course, Captain. Salvage mode.",
+    "All set. Salvage mode.",
+    "Easy does it. Salvage mode."
+  ],
+  "salvage gimbal": [
+    "Salvage gimbal cycled, Captain.",
+    "Of course, Captain. Salvage gimbal cycled.",
+    "All set. Salvage gimbal cycled.",
+    "Easy does it. Salvage gimbal cycled."
+  ],
+  "cycle salvage modifiers": [
+    "Cycling salvage mods, Captain.",
+    "Of course, Captain. Cycling salvage mods.",
+    "All set. Cycling salvage mods.",
+    "Easy does it. Cycling salvage mods."
+  ],
+  "relative beam spacing": [
+    "Beam spacing adjusted, Captain.",
+    "Of course, Captain. Beam spacing adjusted.",
+    "All set. Beam spacing adjusted.",
+    "Easy does it. Beam spacing adjusted."
+  ],
+  "salvage beam axis": [
+    "Axis toggled, Captain.",
+    "Of course, Captain. Axis toggled.",
+    "All set. Axis toggled.",
+    "Easy does it. Axis toggled."
+  ],
+  "increase beam spacing": [
+    "Unable, that's unbound, Captain.",
+    "Of course, Captain. Unable, that's unbound.",
+    "All set. Unable, that's unbound.",
+    "Easy does it. Unable, that's unbound."
+  ],
+  "scanning mode": [
+    "Scanner online, Captain.",
+    "Of course, Captain. Scanner online.",
+    "All set. Scanner online.",
+    "Easy does it. Scanner online."
+  ],
+  "activate scanning": [
+    "Scanning, Captain.",
+    "Of course, Captain. Scanning.",
+    "All set. Scanning.",
+    "Easy does it. Scanning."
+  ],
+  "scanning ping": [
+    "Ping out, Captain.",
+    "Of course, Captain. Ping out.",
+    "All set. Ping out.",
+    "Easy does it. Ping out."
+  ],
+  "increase scanning angle": [
+    "Widening scan, Captain.",
+    "Of course, Captain. Widening scan.",
+    "All set. Widening scan.",
+    "Easy does it. Widening scan."
+  ],
+  "decrease scanning angle": [
+    "Narrowing scan, Captain.",
+    "Of course, Captain. Narrowing scan.",
+    "All set. Narrowing scan.",
+    "Easy does it. Narrowing scan."
+  ],
+  "increase ping angle": [
+    "Unable, that's unbound, Captain.",
+    "Of course, Captain. Unable, that's unbound.",
+    "All set. Unable, that's unbound.",
+    "Easy does it. Unable, that's unbound."
+  ],
+  "decrease ping angle": [
+    "Unable, that's unbound, Captain.",
+    "Of course, Captain. Unable, that's unbound.",
+    "All set. Unable, that's unbound.",
+    "Easy does it. Unable, that's unbound."
+  ],
+  "shields front": [
+    "Front shield up, Captain.",
+    "Of course, Captain. Front shield up.",
+    "All set. Front shield up.",
+    "Easy does it. Front shield up."
+  ],
+  "shields back": [
+    "Rear shield up, Captain.",
+    "Of course, Captain. Rear shield up.",
+    "All set. Rear shield up.",
+    "Easy does it. Rear shield up."
+  ],
+  "shields left": [
+    "Port shield up, Captain.",
+    "Of course, Captain. Port shield up.",
+    "All set. Port shield up.",
+    "Easy does it. Port shield up."
+  ],
+  "shields right": [
+    "Starboard shield up, Captain.",
+    "Of course, Captain. Starboard shield up.",
+    "All set. Starboard shield up.",
+    "Easy does it. Starboard shield up."
+  ],
+  "shields top": [
+    "Dorsal shield up, Captain.",
+    "Of course, Captain. Dorsal shield up.",
+    "All set. Dorsal shield up.",
+    "Easy does it. Dorsal shield up."
+  ],
+  "shields bottom": [
+    "Ventral shield up, Captain.",
+    "Of course, Captain. Ventral shield up.",
+    "All set. Ventral shield up.",
+    "Easy does it. Ventral shield up."
+  ],
+  "reset shields": [
+    "Shields balanced, Captain.",
+    "Of course, Captain. Shields balanced.",
+    "All set. Shields balanced.",
+    "Easy does it. Shields balanced."
+  ],
+  "deploy noise": [
+    "Noise out, Captain.",
+    "Of course, Captain. Noise out.",
+    "All set. Noise out.",
+    "Easy does it. Noise out."
+  ],
+  "deploy decoy": [
+    "Decoy out, Captain.",
+    "Of course, Captain. Decoy out.",
+    "All set. Decoy out.",
+    "Easy does it. Decoy out."
+  ],
+  "lock target": [
+    "Locking target, Captain.",
+    "Of course, Captain. Locking target.",
+    "All set. Locking target.",
+    "Easy does it. Locking target."
+  ],
+  "unlock target": [
+    "Releasing target, Captain.",
+    "Of course, Captain. Releasing target.",
+    "All set. Releasing target.",
+    "Easy does it. Releasing target."
+  ],
+  "select pin one": [
+    "Pin one active, Captain.",
+    "Of course, Captain. Pin one active.",
+    "All set. Pin one active.",
+    "Easy does it. Pin one active."
+  ],
+  "select pin two": [
+    "Pin two active, Captain.",
+    "Of course, Captain. Pin two active.",
+    "All set. Pin two active.",
+    "Easy does it. Pin two active."
+  ],
+  "select pin three": [
+    "Pin three active, Captain.",
+    "Of course, Captain. Pin three active.",
+    "All set. Pin three active.",
+    "Easy does it. Pin three active."
+  ],
+  "pin target one": [
+    "Pinning target one, Captain.",
+    "Of course, Captain. Pinning target one.",
+    "All set. Pinning target one.",
+    "Easy does it. Pinning target one."
+  ],
+  "pin target two": [
+    "Pinning target two, Captain.",
+    "Of course, Captain. Pinning target two.",
+    "All set. Pinning target two.",
+    "Easy does it. Pinning target two."
+  ],
+  "pin target three": [
+    "Pinning target three, Captain.",
+    "Of course, Captain. Pinning target three.",
+    "All set. Pinning target three.",
+    "Easy does it. Pinning target three."
+  ],
+  "cycle attackers": [
+    "Cycling attackers, Captain.",
+    "Of course, Captain. Cycling attackers.",
+    "All set. Cycling attackers.",
+    "Easy does it. Cycling attackers."
+  ],
+  "cycle hostiles": [
+    "Cycling hostiles, Captain.",
+    "Of course, Captain. Cycling hostiles.",
+    "All set. Cycling hostiles.",
+    "Easy does it. Cycling hostiles."
+  ],
+  "cycle friendlies": [
+    "Cycling friendlies, Captain.",
+    "Of course, Captain. Cycling friendlies.",
+    "All set. Cycling friendlies.",
+    "Easy does it. Cycling friendlies."
+  ],
+  "toggle chat": [
+    "Toggling chat, Captain.",
+    "Of course, Captain. Toggling chat.",
+    "All set. Toggling chat.",
+    "Easy does it. Toggling chat."
+  ],
+  "fire weapon group one": [
+    "Group one firing, Captain.",
+    "Of course, Captain. Group one firing.",
+    "All set. Group one firing.",
+    "Easy does it. Group one firing."
+  ],
+  "fire weapon group two": [
+    "Group two firing, Captain.",
+    "Of course, Captain. Group two firing.",
+    "All set. Group two firing.",
+    "Easy does it. Group two firing."
+  ],
+  "launch missile": [
+    "Missile away, Captain.",
+    "Of course, Captain. Missile away.",
+    "All set. Missile away.",
+    "Easy does it. Missile away."
+  ],
+  "cycle missile type": [
+    "Cycling missiles, Captain.",
+    "Of course, Captain. Cycling missiles.",
+    "All set. Cycling missiles.",
+    "Easy does it. Cycling missiles."
+  ],
+  "cycle gimbal assist": [
+    "Gimbal cycled, Captain.",
+    "Of course, Captain. Gimbal cycled.",
+    "All set. Gimbal cycled.",
+    "Easy does it. Gimbal cycled."
+  ],
+  "missile mode": [
+    "Missile mode, Captain.",
+    "Of course, Captain. Missile mode.",
+    "All set. Missile mode.",
+    "Easy does it. Missile mode."
+  ],
+  "arm more missiles": [
+    "More missiles armed, Captain.",
+    "Of course, Captain. More missiles armed.",
+    "All set. More missiles armed.",
+    "Easy does it. More missiles armed."
+  ],
+  "reset missiles": [
+    "Missiles reset, Captain.",
+    "Of course, Captain. Missiles reset.",
+    "All set. Missiles reset.",
+    "Easy does it. Missiles reset."
+  ]
+}

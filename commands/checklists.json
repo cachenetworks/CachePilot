@@ -1,0 +1,60 @@
+{
+  "_meta": { "category": "checklists" },
+  "landing checklist": {
+    "type": "multi_action",
+    "actions": [
+      {"type": "key", "key": "n"},
+      {"type": "hotkey", "keys": ["leftalt", "n"]}
+    ],
+    "response": [
+      "Landing checklist started.",
+      "Running landing sequence, Captain.",
+      "Preparing for touchdown.",
+      "Landing checklist running."
+    ],
+    "aliases": ["prepare landing"]
+  },
+  "takeoff checklist": {
+    "type": "multi_action",
+    "actions": [
+      {"type": "key", "key": "r"},
+      {"type": "hotkey", "keys": ["leftalt", "n"]},
+      {"type": "key", "key": "n"}
+    ],
+    "response": [
+      "Takeoff checklist started.",
+      "Running launch sequence, Captain.",
+      "Preparing for takeoff.",
+      "Takeoff checklist running."
+    ],
+    "aliases": ["prepare takeoff"]
+  },
+  "combat mode": {
+    "type": "multi_action",
+    "actions": [
+      {"type": "key", "key": "l"},
+      {"type": "key", "key": "g"}
+    ],
+    "response": [
+      "Combat mode triggered.",
+      "Going hot, Captain.",
+      "Combat configuration set.",
+      "Weapons up."
+    ],
+    "aliases": ["combat ready"]
+  },
+  "panic": {
+    "type": "multi_action",
+    "actions": [
+      {"type": "hold", "key": "x", "duration": 1.5},
+      {"type": "hold", "key": "h", "duration": 0.5}
+    ],
+    "response": [
+      "Emergency defensive action.",
+      "Panic protocol, Captain.",
+      "Braking and dumping flares.",
+      "Going defensive."
+    ],
+    "aliases": ["oh shit", "defensive panic"]
+  }
+}

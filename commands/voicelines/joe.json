@@ -1,0 +1,1112 @@
+{
+  "ship mode": [
+    "Switching to ship, boss!",
+    "Copy that, boss. Switching to ship.",
+    "Hooah. Switching to ship.",
+    "Switching to ship. Locked in, boss."
+  ],
+  "fps mode": [
+    "Switching to fps, boss!",
+    "Copy that, boss. Switching to fps.",
+    "Hooah. Switching to fps.",
+    "Switching to fps. Locked in, boss."
+  ],
+  "request landing": [
+    "Requesting landing, boss!",
+    "Copy that, boss. Requesting landing.",
+    "Hooah. Requesting landing.",
+    "Requesting landing. Locked in, boss."
+  ],
+  "request takeoff": [
+    "Requesting takeoff, boss!",
+    "Copy that, boss. Requesting takeoff.",
+    "Hooah. Requesting takeoff.",
+    "Requesting takeoff. Locked in, boss."
+  ],
+  "hail atc": [
+    "Hailing control, boss!",
+    "Copy that, boss. Hailing control.",
+    "Hooah. Hailing control.",
+    "Hailing control. Locked in, boss."
+  ],
+  "open hangar": [
+    "Opening hangar, boss!",
+    "Copy that, boss. Opening hangar.",
+    "Hooah. Opening hangar.",
+    "Opening hangar. Locked in, boss."
+  ],
+  "camera cycle": [
+    "Cycling camera, boss!",
+    "Copy that, boss. Cycling camera.",
+    "Hooah. Cycling camera.",
+    "Cycling camera. Locked in, boss."
+  ],
+  "look around": [
+    "Free look toggled, boss!",
+    "Copy that, boss. Free look toggled.",
+    "Hooah. Free look toggled.",
+    "Free look toggled. Locked in, boss."
+  ],
+  "camera move right": [
+    "Panning right, boss!",
+    "Copy that, boss. Panning right.",
+    "Hooah. Panning right.",
+    "Panning right. Locked in, boss."
+  ],
+  "camera move left": [
+    "Panning left, boss!",
+    "Copy that, boss. Panning left.",
+    "Hooah. Panning left.",
+    "Panning left. Locked in, boss."
+  ],
+  "camera move forward": [
+    "Panning in, boss!",
+    "Copy that, boss. Panning in.",
+    "Hooah. Panning in.",
+    "Panning in. Locked in, boss."
+  ],
+  "camera move backward": [
+    "Panning out, boss!",
+    "Copy that, boss. Panning out.",
+    "Hooah. Panning out.",
+    "Panning out. Locked in, boss."
+  ],
+  "camera move up": [
+    "Panning up, boss!",
+    "Copy that, boss. Panning up.",
+    "Hooah. Panning up.",
+    "Panning up. Locked in, boss."
+  ],
+  "camera move down": [
+    "Panning down, boss!",
+    "Copy that, boss. Panning down.",
+    "Hooah. Panning down.",
+    "Panning down. Locked in, boss."
+  ],
+  "save camera one": [
+    "Saving camera one, boss!",
+    "Copy that, boss. Saving camera one.",
+    "Hooah. Saving camera one.",
+    "Saving camera one. Locked in, boss."
+  ],
+  "save camera two": [
+    "Saving camera two, boss!",
+    "Copy that, boss. Saving camera two.",
+    "Hooah. Saving camera two.",
+    "Saving camera two. Locked in, boss."
+  ],
+  "save camera three": [
+    "Saving camera three, boss!",
+    "Copy that, boss. Saving camera three.",
+    "Hooah. Saving camera three.",
+    "Saving camera three. Locked in, boss."
+  ],
+  "save camera four": [
+    "Saving camera four, boss!",
+    "Copy that, boss. Saving camera four.",
+    "Hooah. Saving camera four.",
+    "Saving camera four. Locked in, boss."
+  ],
+  "save camera five": [
+    "Saving camera five, boss!",
+    "Copy that, boss. Saving camera five.",
+    "Hooah. Saving camera five.",
+    "Saving camera five. Locked in, boss."
+  ],
+  "save camera six": [
+    "Saving camera six, boss!",
+    "Copy that, boss. Saving camera six.",
+    "Hooah. Saving camera six.",
+    "Saving camera six. Locked in, boss."
+  ],
+  "save camera seven": [
+    "Saving camera seven, boss!",
+    "Copy that, boss. Saving camera seven.",
+    "Hooah. Saving camera seven.",
+    "Saving camera seven. Locked in, boss."
+  ],
+  "save camera eight": [
+    "Saving camera eight, boss!",
+    "Copy that, boss. Saving camera eight.",
+    "Hooah. Saving camera eight.",
+    "Saving camera eight. Locked in, boss."
+  ],
+  "save camera nine": [
+    "Saving camera nine, boss!",
+    "Copy that, boss. Saving camera nine.",
+    "Hooah. Saving camera nine.",
+    "Saving camera nine. Locked in, boss."
+  ],
+  "load camera one": [
+    "Loading camera one, boss!",
+    "Copy that, boss. Loading camera one.",
+    "Hooah. Loading camera one.",
+    "Loading camera one. Locked in, boss."
+  ],
+  "load camera two": [
+    "Loading camera two, boss!",
+    "Copy that, boss. Loading camera two.",
+    "Hooah. Loading camera two.",
+    "Loading camera two. Locked in, boss."
+  ],
+  "load camera three": [
+    "Loading camera three, boss!",
+    "Copy that, boss. Loading camera three.",
+    "Hooah. Loading camera three.",
+    "Loading camera three. Locked in, boss."
+  ],
+  "load camera four": [
+    "Loading camera four, boss!",
+    "Copy that, boss. Loading camera four.",
+    "Hooah. Loading camera four.",
+    "Loading camera four. Locked in, boss."
+  ],
+  "load camera five": [
+    "Loading camera five, boss!",
+    "Copy that, boss. Loading camera five.",
+    "Hooah. Loading camera five.",
+    "Loading camera five. Locked in, boss."
+  ],
+  "load camera six": [
+    "Loading camera six, boss!",
+    "Copy that, boss. Loading camera six.",
+    "Hooah. Loading camera six.",
+    "Loading camera six. Locked in, boss."
+  ],
+  "load camera seven": [
+    "Loading camera seven, boss!",
+    "Copy that, boss. Loading camera seven.",
+    "Hooah. Loading camera seven.",
+    "Loading camera seven. Locked in, boss."
+  ],
+  "load camera eight": [
+    "Loading camera eight, boss!",
+    "Copy that, boss. Loading camera eight.",
+    "Hooah. Loading camera eight.",
+    "Loading camera eight. Locked in, boss."
+  ],
+  "load camera nine": [
+    "Loading camera nine, boss!",
+    "Copy that, boss. Loading camera nine.",
+    "Hooah. Loading camera nine.",
+    "Loading camera nine. Locked in, boss."
+  ],
+  "reset camera": [
+    "Camera reset, boss!",
+    "Copy that, boss. Camera reset.",
+    "Hooah. Camera reset.",
+    "Camera reset. Locked in, boss."
+  ],
+  "landing checklist": [
+    "Running landing checklist, boss!",
+    "Copy that, boss. Running landing checklist.",
+    "Hooah. Running landing checklist.",
+    "Running landing checklist. Locked in, boss."
+  ],
+  "takeoff checklist": [
+    "Running takeoff checklist, boss!",
+    "Copy that, boss. Running takeoff checklist.",
+    "Hooah. Running takeoff checklist.",
+    "Running takeoff checklist. Locked in, boss."
+  ],
+  "combat mode": [
+    "Going hot, boss!",
+    "Copy that, boss. Going hot.",
+    "Hooah. Going hot.",
+    "Going hot. Locked in, boss."
+  ],
+  "panic": [
+    "Panic protocol, boss!",
+    "Copy that, boss. Panic protocol.",
+    "Hooah. Panic protocol.",
+    "Panic protocol. Locked in, boss."
+  ],
+  "hello": [
+    "Boss.",
+    "Yo, boss.",
+    "Hey boss.",
+    "Boss on deck."
+  ],
+  "hey": [
+    "Yeah boss?",
+    "Hooah, boss?",
+    "What's up boss?",
+    "Go for me, boss."
+  ],
+  "good morning": [
+    "Morning, boss.",
+    "Up and at 'em, boss.",
+    "Morning. Game face on.",
+    "Mornin'. Let's move."
+  ],
+  "good evening": [
+    "Evening, boss.",
+    "Good evening. Stay frosty.",
+    "Evening. Eyes open, boss.",
+    "Evening. Long watch?"
+  ],
+  "thank you": [
+    "Got it, boss.",
+    "Hooah.",
+    "Anytime, boss.",
+    "Roger that."
+  ],
+  "good job": [
+    "Thanks, boss.",
+    "Appreciate it, boss.",
+    "Hooah.",
+    "Means somethin', boss."
+  ],
+  "status": [
+    "All green, boss!",
+    "Systems hot, boss.",
+    "Locked and loaded.",
+    "Five by five, boss."
+  ],
+  "report": [
+    "No contacts, boss.",
+    "Quiet front, boss.",
+    "Nothin' on the board.",
+    "All clear, boss."
+  ],
+  "ready": [
+    "Ready, boss!",
+    "Locked in, boss!",
+    "Set, boss.",
+    "Bring it, boss."
+  ],
+  "shut up": [
+    "Roger.",
+    "Copy, going quiet.",
+    "Locked down.",
+    "Yes boss."
+  ],
+  "quiet": [
+    "Comms dark.",
+    "Goin' silent, boss.",
+    "Locked down comms.",
+    "Silent run."
+  ],
+  "who are you": [
+    "I'm the ship, boss.",
+    "Onboard AI, boss.",
+    "Your ship comp.",
+    "Just the ship, boss."
+  ],
+  "where are we": [
+    "No fix, boss. Check the map.",
+    "Map'll tell ya, boss.",
+    "Couldn't tell ya, boss.",
+    "Don't have a fix."
+  ],
+  "eva forward": [
+    "Eva forward, boss!",
+    "Copy that, boss. Eva forward.",
+    "Hooah. Eva forward.",
+    "Eva forward. Locked in, boss."
+  ],
+  "eva back": [
+    "Eva back, boss!",
+    "Copy that, boss. Eva back.",
+    "Hooah. Eva back.",
+    "Eva back. Locked in, boss."
+  ],
+  "eva strafe left": [
+    "Eva strafe port, boss!",
+    "Copy that, boss. Eva strafe port.",
+    "Hooah. Eva strafe port.",
+    "Eva strafe port. Locked in, boss."
+  ],
+  "eva strafe right": [
+    "Eva strafe starboard, boss!",
+    "Copy that, boss. Eva strafe starboard.",
+    "Hooah. Eva strafe starboard.",
+    "Eva strafe starboard. Locked in, boss."
+  ],
+  "eva roll left": [
+    "Eva roll port, boss!",
+    "Copy that, boss. Eva roll port.",
+    "Hooah. Eva roll port.",
+    "Eva roll port. Locked in, boss."
+  ],
+  "eva roll right": [
+    "Eva roll starboard, boss!",
+    "Copy that, boss. Eva roll starboard.",
+    "Hooah. Eva roll starboard.",
+    "Eva roll starboard. Locked in, boss."
+  ],
+  "flight ready": [
+    "Flight ready, boss!",
+    "Copy that, boss. Flight ready.",
+    "Hooah. Flight ready.",
+    "Flight ready. Locked in, boss."
+  ],
+  "engines on": [
+    "Engines online, boss!",
+    "Copy that, boss. Engines online.",
+    "Hooah. Engines online.",
+    "Engines online. Locked in, boss."
+  ],
+  "engines off": [
+    "Engines offline, boss!",
+    "Copy that, boss. Engines offline.",
+    "Hooah. Engines offline.",
+    "Engines offline. Locked in, boss."
+  ],
+  "toggle engines": [
+    "Toggling engines, boss!",
+    "Copy that, boss. Toggling engines.",
+    "Hooah. Toggling engines.",
+    "Toggling engines. Locked in, boss."
+  ],
+  "systems on": [
+    "Systems online, boss!",
+    "Copy that, boss. Systems online.",
+    "Hooah. Systems online.",
+    "Systems online. Locked in, boss."
+  ],
+  "systems off": [
+    "Systems offline, boss!",
+    "Copy that, boss. Systems offline.",
+    "Hooah. Systems offline.",
+    "Systems offline. Locked in, boss."
+  ],
+  "toggle systems": [
+    "Toggling systems, boss!",
+    "Copy that, boss. Toggling systems.",
+    "Hooah. Toggling systems.",
+    "Toggling systems. Locked in, boss."
+  ],
+  "throttle up": [
+    "Throttle up, boss!",
+    "Copy that, boss. Throttle up.",
+    "Hooah. Throttle up.",
+    "Throttle up. Locked in, boss."
+  ],
+  "throttle down": [
+    "Throttle down, boss!",
+    "Copy that, boss. Throttle down.",
+    "Hooah. Throttle down.",
+    "Throttle down. Locked in, boss."
+  ],
+  "ship strafe left": [
+    "Strafing port, boss!",
+    "Copy that, boss. Strafing port.",
+    "Hooah. Strafing port.",
+    "Strafing port. Locked in, boss."
+  ],
+  "ship strafe right": [
+    "Strafing starboard, boss!",
+    "Copy that, boss. Strafing starboard.",
+    "Hooah. Strafing starboard.",
+    "Strafing starboard. Locked in, boss."
+  ],
+  "roll left": [
+    "Rolling port, boss!",
+    "Copy that, boss. Rolling port.",
+    "Hooah. Rolling port.",
+    "Rolling port. Locked in, boss."
+  ],
+  "roll right": [
+    "Rolling starboard, boss!",
+    "Copy that, boss. Rolling starboard.",
+    "Hooah. Rolling starboard.",
+    "Rolling starboard. Locked in, boss."
+  ],
+  "boost": [
+    "Boost engaged, boss!",
+    "Copy that, boss. Boost engaged.",
+    "Hooah. Boost engaged.",
+    "Boost engaged. Locked in, boss."
+  ],
+  "boost hard": [
+    "Full boost, boss!",
+    "Copy that, boss. Full boost.",
+    "Hooah. Full boost.",
+    "Full boost. Locked in, boss."
+  ],
+  "space brake": [
+    "Braking, boss!",
+    "Copy that, boss. Braking.",
+    "Hooah. Braking.",
+    "Braking. Locked in, boss."
+  ],
+  "full stop": [
+    "Full stop, boss!",
+    "Copy that, boss. Full stop.",
+    "Hooah. Full stop.",
+    "Full stop. Locked in, boss."
+  ],
+  "cruise control": [
+    "Cruise control toggled, boss!",
+    "Copy that, boss. Cruise control toggled.",
+    "Hooah. Cruise control toggled.",
+    "Cruise control toggled. Locked in, boss."
+  ],
+  "quantum mode": [
+    "Spinning up quantum drive, boss!",
+    "Copy that, boss. Spinning up quantum drive.",
+    "Hooah. Spinning up quantum drive.",
+    "Spinning up quantum drive. Locked in, boss."
+  ],
+  "jump": [
+    "Jumping, boss!",
+    "Copy that, boss. Jumping.",
+    "Hooah. Jumping.",
+    "Jumping. Locked in, boss."
+  ],
+  "exit seat": [
+    "Leaving seat, boss!",
+    "Copy that, boss. Leaving seat.",
+    "Hooah. Leaving seat.",
+    "Leaving seat. Locked in, boss."
+  ],
+  "landing mode": [
+    "Toggling landing mode, boss!",
+    "Copy that, boss. Toggling landing mode.",
+    "Hooah. Toggling landing mode.",
+    "Toggling landing mode. Locked in, boss."
+  ],
+  "auto land": [
+    "Auto landing, boss!",
+    "Copy that, boss. Auto landing.",
+    "Hooah. Auto landing.",
+    "Auto landing. Locked in, boss."
+  ],
+  "decoupled mode": [
+    "Toggling decoupled mode, boss!",
+    "Copy that, boss. Toggling decoupled mode.",
+    "Hooah. Toggling decoupled mode.",
+    "Toggling decoupled mode. Locked in, boss."
+  ],
+  "speed limiter up": [
+    "Raising speed limiter, boss!",
+    "Copy that, boss. Raising speed limiter.",
+    "Hooah. Raising speed limiter.",
+    "Raising speed limiter. Locked in, boss."
+  ],
+  "speed limiter down": [
+    "Lowering speed limiter, boss!",
+    "Copy that, boss. Lowering speed limiter.",
+    "Hooah. Lowering speed limiter.",
+    "Lowering speed limiter. Locked in, boss."
+  ],
+  "lock pitch yaw": [
+    "Axis lock toggled, boss!",
+    "Copy that, boss. Axis lock toggled.",
+    "Hooah. Axis lock toggled.",
+    "Axis lock toggled. Locked in, boss."
+  ],
+  "vtol": [
+    "Toggling vtol, boss!",
+    "Copy that, boss. Toggling vtol.",
+    "Hooah. Toggling vtol.",
+    "Toggling vtol. Locked in, boss."
+  ],
+  "lights": [
+    "Toggling lights, boss!",
+    "Copy that, boss. Toggling lights.",
+    "Hooah. Toggling lights.",
+    "Toggling lights. Locked in, boss."
+  ],
+  "drive forward": [
+    "Driving forward, boss!",
+    "Copy that, boss. Driving forward.",
+    "Hooah. Driving forward.",
+    "Driving forward. Locked in, boss."
+  ],
+  "drive backward": [
+    "Reversing, boss!",
+    "Copy that, boss. Reversing.",
+    "Hooah. Reversing.",
+    "Reversing. Locked in, boss."
+  ],
+  "turn left": [
+    "Steering port, boss!",
+    "Copy that, boss. Steering port.",
+    "Hooah. Steering port.",
+    "Steering port. Locked in, boss."
+  ],
+  "turn right": [
+    "Steering starboard, boss!",
+    "Copy that, boss. Steering starboard.",
+    "Hooah. Steering starboard.",
+    "Steering starboard. Locked in, boss."
+  ],
+  "vehicle brake": [
+    "Braking, boss!",
+    "Copy that, boss. Braking.",
+    "Hooah. Braking.",
+    "Braking. Locked in, boss."
+  ],
+  "vehicle boost": [
+    "Vehicle boost, boss!",
+    "Copy that, boss. Vehicle boost.",
+    "Hooah. Vehicle boost.",
+    "Vehicle boost. Locked in, boss."
+  ],
+  "vehicle exit seat": [
+    "Dismounting, boss!",
+    "Copy that, boss. Dismounting.",
+    "Hooah. Dismounting.",
+    "Dismounting. Locked in, boss."
+  ],
+  "mining mode": [
+    "Mining mode, boss!",
+    "Copy that, boss. Mining mode.",
+    "Hooah. Mining mode.",
+    "Mining mode. Locked in, boss."
+  ],
+  "fire mining laser": [
+    "Mining laser firing, boss!",
+    "Copy that, boss. Mining laser firing.",
+    "Hooah. Mining laser firing.",
+    "Mining laser firing. Locked in, boss."
+  ],
+  "switch mining laser": [
+    "Laser switched, boss!",
+    "Copy that, boss. Laser switched.",
+    "Hooah. Laser switched.",
+    "Laser switched. Locked in, boss."
+  ],
+  "increase mining laser power": [
+    "Mining power up, boss!",
+    "Copy that, boss. Mining power up.",
+    "Hooah. Mining power up.",
+    "Mining power up. Locked in, boss."
+  ],
+  "decrease mining laser power": [
+    "Mining power down, boss!",
+    "Copy that, boss. Mining power down.",
+    "Hooah. Mining power down.",
+    "Mining power down. Locked in, boss."
+  ],
+  "cycle mining gimbal": [
+    "Mining gimbal cycled, boss!",
+    "Copy that, boss. Mining gimbal cycled.",
+    "Hooah. Mining gimbal cycled.",
+    "Mining gimbal cycled. Locked in, boss."
+  ],
+  "mining consumable one": [
+    "Consumable one active, boss!",
+    "Copy that, boss. Consumable one active.",
+    "Hooah. Consumable one active.",
+    "Consumable one active. Locked in, boss."
+  ],
+  "mining consumable two": [
+    "Consumable two active, boss!",
+    "Copy that, boss. Consumable two active.",
+    "Hooah. Consumable two active.",
+    "Consumable two active. Locked in, boss."
+  ],
+  "mining consumable three": [
+    "Consumable three active, boss!",
+    "Copy that, boss. Consumable three active.",
+    "Hooah. Consumable three active.",
+    "Consumable three active. Locked in, boss."
+  ],
+  "jettison cargo": [
+    "Jettisoning cargo, boss!",
+    "Copy that, boss. Jettisoning cargo.",
+    "Hooah. Jettisoning cargo.",
+    "Jettisoning cargo. Locked in, boss."
+  ],
+  "open mobiglas": [
+    "Opening mobiglas, boss!",
+    "Copy that, boss. Opening mobiglas.",
+    "Hooah. Opening mobiglas.",
+    "Opening mobiglas. Locked in, boss."
+  ],
+  "open starmap": [
+    "Opening starmap, boss!",
+    "Copy that, boss. Opening starmap.",
+    "Hooah. Opening starmap.",
+    "Opening starmap. Locked in, boss."
+  ],
+  "open contacts": [
+    "Opening contacts, boss!",
+    "Copy that, boss. Opening contacts.",
+    "Hooah. Opening contacts.",
+    "Opening contacts. Locked in, boss."
+  ],
+  "move forward": [
+    "Moving forward, boss!",
+    "Copy that, boss. Moving forward.",
+    "Hooah. Moving forward.",
+    "Moving forward. Locked in, boss."
+  ],
+  "move forward short": [
+    "Quick step forward, boss!",
+    "Copy that, boss. Quick step forward.",
+    "Hooah. Quick step forward.",
+    "Quick step forward. Locked in, boss."
+  ],
+  "move forward long": [
+    "Sustained forward, boss!",
+    "Copy that, boss. Sustained forward.",
+    "Hooah. Sustained forward.",
+    "Sustained forward. Locked in, boss."
+  ],
+  "move backward": [
+    "Moving back, boss!",
+    "Copy that, boss. Moving back.",
+    "Hooah. Moving back.",
+    "Moving back. Locked in, boss."
+  ],
+  "move backward short": [
+    "Quick step back, boss!",
+    "Copy that, boss. Quick step back.",
+    "Hooah. Quick step back.",
+    "Quick step back. Locked in, boss."
+  ],
+  "move backward long": [
+    "Sustained back, boss!",
+    "Copy that, boss. Sustained back.",
+    "Hooah. Sustained back.",
+    "Sustained back. Locked in, boss."
+  ],
+  "strafe left": [
+    "Strafing left, boss!",
+    "Copy that, boss. Strafing left.",
+    "Hooah. Strafing left.",
+    "Strafing left. Locked in, boss."
+  ],
+  "strafe left short": [
+    "Quick step left, boss!",
+    "Copy that, boss. Quick step left.",
+    "Hooah. Quick step left.",
+    "Quick step left. Locked in, boss."
+  ],
+  "strafe right": [
+    "Strafing right, boss!",
+    "Copy that, boss. Strafing right.",
+    "Hooah. Strafing right.",
+    "Strafing right. Locked in, boss."
+  ],
+  "strafe right short": [
+    "Quick step right, boss!",
+    "Copy that, boss. Quick step right.",
+    "Hooah. Quick step right.",
+    "Quick step right. Locked in, boss."
+  ],
+  "player jump": [
+    "Jumping, boss!",
+    "Copy that, boss. Jumping.",
+    "Hooah. Jumping.",
+    "Jumping. Locked in, boss."
+  ],
+  "run": [
+    "Running, boss!",
+    "Copy that, boss. Running.",
+    "Hooah. Running.",
+    "Running. Locked in, boss."
+  ],
+  "run short": [
+    "Quick sprint, boss!",
+    "Copy that, boss. Quick sprint.",
+    "Hooah. Quick sprint.",
+    "Quick sprint. Locked in, boss."
+  ],
+  "lean left": [
+    "Leaning port, boss!",
+    "Copy that, boss. Leaning port.",
+    "Hooah. Leaning port.",
+    "Leaning port. Locked in, boss."
+  ],
+  "lean right": [
+    "Leaning starboard, boss!",
+    "Copy that, boss. Leaning starboard.",
+    "Hooah. Leaning starboard.",
+    "Leaning starboard. Locked in, boss."
+  ],
+  "crouch": [
+    "Toggling crouch, boss!",
+    "Copy that, boss. Toggling crouch.",
+    "Hooah. Toggling crouch.",
+    "Toggling crouch. Locked in, boss."
+  ],
+  "prone": [
+    "Toggling prone, boss!",
+    "Copy that, boss. Toggling prone.",
+    "Hooah. Toggling prone.",
+    "Toggling prone. Locked in, boss."
+  ],
+  "interact": [
+    "Interact, boss!",
+    "Copy that, boss. Interact.",
+    "Hooah. Interact.",
+    "Interact. Locked in, boss."
+  ],
+  "equip sidearm": [
+    "Sidearm out, boss!",
+    "Copy that, boss. Sidearm out.",
+    "Hooah. Sidearm out.",
+    "Sidearm out. Locked in, boss."
+  ],
+  "equip primary": [
+    "Primary out, boss!",
+    "Copy that, boss. Primary out.",
+    "Hooah. Primary out.",
+    "Primary out. Locked in, boss."
+  ],
+  "equip secondary": [
+    "Secondary out, boss!",
+    "Copy that, boss. Secondary out.",
+    "Hooah. Secondary out.",
+    "Secondary out. Locked in, boss."
+  ],
+  "equip gadget": [
+    "Gadget out, boss!",
+    "Copy that, boss. Gadget out.",
+    "Hooah. Gadget out.",
+    "Gadget out. Locked in, boss."
+  ],
+  "equip melee": [
+    "Melee out, boss!",
+    "Copy that, boss. Melee out.",
+    "Hooah. Melee out.",
+    "Melee out. Locked in, boss."
+  ],
+  "unarmed combat": [
+    "Fists up, boss!",
+    "Copy that, boss. Fists up.",
+    "Hooah. Fists up.",
+    "Fists up. Locked in, boss."
+  ],
+  "reload weapon": [
+    "Reloading, boss!",
+    "Copy that, boss. Reloading.",
+    "Hooah. Reloading.",
+    "Reloading. Locked in, boss."
+  ],
+  "holster weapon": [
+    "Holstering, boss!",
+    "Copy that, boss. Holstering.",
+    "Hooah. Holstering.",
+    "Holstering. Locked in, boss."
+  ],
+  "equip grenade": [
+    "Grenade out, boss!",
+    "Copy that, boss. Grenade out.",
+    "Hooah. Grenade out.",
+    "Grenade out. Locked in, boss."
+  ],
+  "equip medpen": [
+    "Med pen ready, boss!",
+    "Copy that, boss. Med pen ready.",
+    "Hooah. Med pen ready.",
+    "Med pen ready. Locked in, boss."
+  ],
+  "wipe visor": [
+    "Wiping visor, boss!",
+    "Copy that, boss. Wiping visor.",
+    "Hooah. Wiping visor.",
+    "Wiping visor. Locked in, boss."
+  ],
+  "suit light": [
+    "Toggling suit light, boss!",
+    "Copy that, boss. Toggling suit light.",
+    "Hooah. Toggling suit light.",
+    "Toggling suit light. Locked in, boss."
+  ],
+  "power all": [
+    "Cycling all power, boss!",
+    "Copy that, boss. Cycling all power.",
+    "Hooah. Cycling all power.",
+    "Cycling all power. Locked in, boss."
+  ],
+  "power thrusters": [
+    "Cycling thruster power, boss!",
+    "Copy that, boss. Cycling thruster power.",
+    "Hooah. Cycling thruster power.",
+    "Cycling thruster power. Locked in, boss."
+  ],
+  "power shields": [
+    "Cycling shield power, boss!",
+    "Copy that, boss. Cycling shield power.",
+    "Hooah. Cycling shield power.",
+    "Cycling shield power. Locked in, boss."
+  ],
+  "power weapons": [
+    "Cycling weapon power, boss!",
+    "Copy that, boss. Cycling weapon power.",
+    "Hooah. Cycling weapon power.",
+    "Cycling weapon power. Locked in, boss."
+  ],
+  "raise power weapons": [
+    "More to weapons, boss!",
+    "Copy that, boss. More to weapons.",
+    "Hooah. More to weapons.",
+    "More to weapons. Locked in, boss."
+  ],
+  "raise power thrusters": [
+    "More to thrusters, boss!",
+    "Copy that, boss. More to thrusters.",
+    "Hooah. More to thrusters.",
+    "More to thrusters. Locked in, boss."
+  ],
+  "raise power shields": [
+    "More to shields, boss!",
+    "Copy that, boss. More to shields.",
+    "Hooah. More to shields.",
+    "More to shields. Locked in, boss."
+  ],
+  "reset power": [
+    "Power balanced, boss!",
+    "Copy that, boss. Power balanced.",
+    "Hooah. Power balanced.",
+    "Power balanced. Locked in, boss."
+  ],
+  "salvage mode": [
+    "Salvage mode, boss!",
+    "Copy that, boss. Salvage mode.",
+    "Hooah. Salvage mode.",
+    "Salvage mode. Locked in, boss."
+  ],
+  "salvage gimbal": [
+    "Salvage gimbal cycled, boss!",
+    "Copy that, boss. Salvage gimbal cycled.",
+    "Hooah. Salvage gimbal cycled.",
+    "Salvage gimbal cycled. Locked in, boss."
+  ],
+  "cycle salvage modifiers": [
+    "Cycling salvage mods, boss!",
+    "Copy that, boss. Cycling salvage mods.",
+    "Hooah. Cycling salvage mods.",
+    "Cycling salvage mods. Locked in, boss."
+  ],
+  "relative beam spacing": [
+    "Beam spacing adjusted, boss!",
+    "Copy that, boss. Beam spacing adjusted.",
+    "Hooah. Beam spacing adjusted.",
+    "Beam spacing adjusted. Locked in, boss."
+  ],
+  "salvage beam axis": [
+    "Axis toggled, boss!",
+    "Copy that, boss. Axis toggled.",
+    "Hooah. Axis toggled.",
+    "Axis toggled. Locked in, boss."
+  ],
+  "increase beam spacing": [
+    "Unable, that's unbound, boss!",
+    "Copy that, boss. Unable, that's unbound.",
+    "Hooah. Unable, that's unbound.",
+    "Unable, that's unbound. Locked in, boss."
+  ],
+  "scanning mode": [
+    "Scanner online, boss!",
+    "Copy that, boss. Scanner online.",
+    "Hooah. Scanner online.",
+    "Scanner online. Locked in, boss."
+  ],
+  "activate scanning": [
+    "Scanning, boss!",
+    "Copy that, boss. Scanning.",
+    "Hooah. Scanning.",
+    "Scanning. Locked in, boss."
+  ],
+  "scanning ping": [
+    "Ping out, boss!",
+    "Copy that, boss. Ping out.",
+    "Hooah. Ping out.",
+    "Ping out. Locked in, boss."
+  ],
+  "increase scanning angle": [
+    "Widening scan, boss!",
+    "Copy that, boss. Widening scan.",
+    "Hooah. Widening scan.",
+    "Widening scan. Locked in, boss."
+  ],
+  "decrease scanning angle": [
+    "Narrowing scan, boss!",
+    "Copy that, boss. Narrowing scan.",
+    "Hooah. Narrowing scan.",
+    "Narrowing scan. Locked in, boss."
+  ],
+  "increase ping angle": [
+    "Unable, that's unbound, boss!",
+    "Copy that, boss. Unable, that's unbound.",
+    "Hooah. Unable, that's unbound.",
+    "Unable, that's unbound. Locked in, boss."
+  ],
+  "decrease ping angle": [
+    "Unable, that's unbound, boss!",
+    "Copy that, boss. Unable, that's unbound.",
+    "Hooah. Unable, that's unbound.",
+    "Unable, that's unbound. Locked in, boss."
+  ],
+  "shields front": [
+    "Front shield up, boss!",
+    "Copy that, boss. Front shield up.",
+    "Hooah. Front shield up.",
+    "Front shield up. Locked in, boss."
+  ],
+  "shields back": [
+    "Rear shield up, boss!",
+    "Copy that, boss. Rear shield up.",
+    "Hooah. Rear shield up.",
+    "Rear shield up. Locked in, boss."
+  ],
+  "shields left": [
+    "Port shield up, boss!",
+    "Copy that, boss. Port shield up.",
+    "Hooah. Port shield up.",
+    "Port shield up. Locked in, boss."
+  ],
+  "shields right": [
+    "Starboard shield up, boss!",
+    "Copy that, boss. Starboard shield up.",
+    "Hooah. Starboard shield up.",
+    "Starboard shield up. Locked in, boss."
+  ],
+  "shields top": [
+    "Dorsal shield up, boss!",
+    "Copy that, boss. Dorsal shield up.",
+    "Hooah. Dorsal shield up.",
+    "Dorsal shield up. Locked in, boss."
+  ],
+  "shields bottom": [
+    "Ventral shield up, boss!",
+    "Copy that, boss. Ventral shield up.",
+    "Hooah. Ventral shield up.",
+    "Ventral shield up. Locked in, boss."
+  ],
+  "reset shields": [
+    "Shields balanced, boss!",
+    "Copy that, boss. Shields balanced.",
+    "Hooah. Shields balanced.",
+    "Shields balanced. Locked in, boss."
+  ],
+  "deploy noise": [
+    "Noise out, boss!",
+    "Copy that, boss. Noise out.",
+    "Hooah. Noise out.",
+    "Noise out. Locked in, boss."
+  ],
+  "deploy decoy": [
+    "Decoy out, boss!",
+    "Copy that, boss. Decoy out.",
+    "Hooah. Decoy out.",
+    "Decoy out. Locked in, boss."
+  ],
+  "lock target": [
+    "Locking target, boss!",
+    "Copy that, boss. Locking target.",
+    "Hooah. Locking target.",
+    "Locking target. Locked in, boss."
+  ],
+  "unlock target": [
+    "Releasing target, boss!",
+    "Copy that, boss. Releasing target.",
+    "Hooah. Releasing target.",
+    "Releasing target. Locked in, boss."
+  ],
+  "select pin one": [
+    "Pin one active, boss!",
+    "Copy that, boss. Pin one active.",
+    "Hooah. Pin one active.",
+    "Pin one active. Locked in, boss."
+  ],
+  "select pin two": [
+    "Pin two active, boss!",
+    "Copy that, boss. Pin two active.",
+    "Hooah. Pin two active.",
+    "Pin two active. Locked in, boss."
+  ],
+  "select pin three": [
+    "Pin three active, boss!",
+    "Copy that, boss. Pin three active.",
+    "Hooah. Pin three active.",
+    "Pin three active. Locked in, boss."
+  ],
+  "pin target one": [
+    "Pinning target one, boss!",
+    "Copy that, boss. Pinning target one.",
+    "Hooah. Pinning target one.",
+    "Pinning target one. Locked in, boss."
+  ],
+  "pin target two": [
+    "Pinning target two, boss!",
+    "Copy that, boss. Pinning target two.",
+    "Hooah. Pinning target two.",
+    "Pinning target two. Locked in, boss."
+  ],
+  "pin target three": [
+    "Pinning target three, boss!",
+    "Copy that, boss. Pinning target three.",
+    "Hooah. Pinning target three.",
+    "Pinning target three. Locked in, boss."
+  ],
+  "cycle attackers": [
+    "Cycling attackers, boss!",
+    "Copy that, boss. Cycling attackers.",
+    "Hooah. Cycling attackers.",
+    "Cycling attackers. Locked in, boss."
+  ],
+  "cycle hostiles": [
+    "Cycling hostiles, boss!",
+    "Copy that, boss. Cycling hostiles.",
+    "Hooah. Cycling hostiles.",
+    "Cycling hostiles. Locked in, boss."
+  ],
+  "cycle friendlies": [
+    "Cycling friendlies, boss!",
+    "Copy that, boss. Cycling friendlies.",
+    "Hooah. Cycling friendlies.",
+    "Cycling friendlies. Locked in, boss."
+  ],
+  "toggle chat": [
+    "Toggling chat, boss!",
+    "Copy that, boss. Toggling chat.",
+    "Hooah. Toggling chat.",
+    "Toggling chat. Locked in, boss."
+  ],
+  "fire weapon group one": [
+    "Group one firing, boss!",
+    "Copy that, boss. Group one firing.",
+    "Hooah. Group one firing.",
+    "Group one firing. Locked in, boss."
+  ],
+  "fire weapon group two": [
+    "Group two firing, boss!",
+    "Copy that, boss. Group two firing.",
+    "Hooah. Group two firing.",
+    "Group two firing. Locked in, boss."
+  ],
+  "launch missile": [
+    "Missile away, boss!",
+    "Copy that, boss. Missile away.",
+    "Hooah. Missile away.",
+    "Missile away. Locked in, boss."
+  ],
+  "cycle missile type": [
+    "Cycling missiles, boss!",
+    "Copy that, boss. Cycling missiles.",
+    "Hooah. Cycling missiles.",
+    "Cycling missiles. Locked in, boss."
+  ],
+  "cycle gimbal assist": [
+    "Gimbal cycled, boss!",
+    "Copy that, boss. Gimbal cycled.",
+    "Hooah. Gimbal cycled.",
+    "Gimbal cycled. Locked in, boss."
+  ],
+  "missile mode": [
+    "Missile mode, boss!",
+    "Copy that, boss. Missile mode.",
+    "Hooah. Missile mode.",
+    "Missile mode. Locked in, boss."
+  ],
+  "arm more missiles": [
+    "More missiles armed, boss!",
+    "Copy that, boss. More missiles armed.",
+    "Hooah. More missiles armed.",
+    "More missiles armed. Locked in, boss."
+  ],
+  "reset missiles": [
+    "Missiles reset, boss!",
+    "Copy that, boss. Missiles reset.",
+    "Hooah. Missiles reset.",
+    "Missiles reset. Locked in, boss."
+  ]
+}

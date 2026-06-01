@@ -1,0 +1,1112 @@
+{
+  "ship mode": [
+    "Switching to ship, sir!",
+    "On it, sir!",
+    "Got it! Switching to ship.",
+    "Right away, sir! Switching to ship."
+  ],
+  "fps mode": [
+    "Switching to fps, sir!",
+    "On it, sir!",
+    "Got it! Switching to fps.",
+    "Right away, sir! Switching to fps."
+  ],
+  "request landing": [
+    "Requesting landing, sir!",
+    "On it, sir!",
+    "Got it! Requesting landing.",
+    "Right away, sir! Requesting landing."
+  ],
+  "request takeoff": [
+    "Requesting takeoff, sir!",
+    "On it, sir!",
+    "Got it! Requesting takeoff.",
+    "Right away, sir! Requesting takeoff."
+  ],
+  "hail atc": [
+    "Hailing control, sir!",
+    "On it, sir!",
+    "Got it! Hailing control.",
+    "Right away, sir! Hailing control."
+  ],
+  "open hangar": [
+    "Opening hangar, sir!",
+    "On it, sir!",
+    "Got it! Opening hangar.",
+    "Right away, sir! Opening hangar."
+  ],
+  "camera cycle": [
+    "Cycling camera, sir!",
+    "On it, sir!",
+    "Got it! Cycling camera.",
+    "Right away, sir! Cycling camera."
+  ],
+  "look around": [
+    "Free look toggled, sir!",
+    "On it, sir!",
+    "Got it! Free look toggled.",
+    "Right away, sir! Free look toggled."
+  ],
+  "camera move right": [
+    "Panning right, sir!",
+    "On it, sir!",
+    "Got it! Panning right.",
+    "Right away, sir! Panning right."
+  ],
+  "camera move left": [
+    "Panning left, sir!",
+    "On it, sir!",
+    "Got it! Panning left.",
+    "Right away, sir! Panning left."
+  ],
+  "camera move forward": [
+    "Panning in, sir!",
+    "On it, sir!",
+    "Got it! Panning in.",
+    "Right away, sir! Panning in."
+  ],
+  "camera move backward": [
+    "Panning out, sir!",
+    "On it, sir!",
+    "Got it! Panning out.",
+    "Right away, sir! Panning out."
+  ],
+  "camera move up": [
+    "Panning up, sir!",
+    "On it, sir!",
+    "Got it! Panning up.",
+    "Right away, sir! Panning up."
+  ],
+  "camera move down": [
+    "Panning down, sir!",
+    "On it, sir!",
+    "Got it! Panning down.",
+    "Right away, sir! Panning down."
+  ],
+  "save camera one": [
+    "Saving camera one, sir!",
+    "On it, sir!",
+    "Got it! Saving camera one.",
+    "Right away, sir! Saving camera one."
+  ],
+  "save camera two": [
+    "Saving camera two, sir!",
+    "On it, sir!",
+    "Got it! Saving camera two.",
+    "Right away, sir! Saving camera two."
+  ],
+  "save camera three": [
+    "Saving camera three, sir!",
+    "On it, sir!",
+    "Got it! Saving camera three.",
+    "Right away, sir! Saving camera three."
+  ],
+  "save camera four": [
+    "Saving camera four, sir!",
+    "On it, sir!",
+    "Got it! Saving camera four.",
+    "Right away, sir! Saving camera four."
+  ],
+  "save camera five": [
+    "Saving camera five, sir!",
+    "On it, sir!",
+    "Got it! Saving camera five.",
+    "Right away, sir! Saving camera five."
+  ],
+  "save camera six": [
+    "Saving camera six, sir!",
+    "On it, sir!",
+    "Got it! Saving camera six.",
+    "Right away, sir! Saving camera six."
+  ],
+  "save camera seven": [
+    "Saving camera seven, sir!",
+    "On it, sir!",
+    "Got it! Saving camera seven.",
+    "Right away, sir! Saving camera seven."
+  ],
+  "save camera eight": [
+    "Saving camera eight, sir!",
+    "On it, sir!",
+    "Got it! Saving camera eight.",
+    "Right away, sir! Saving camera eight."
+  ],
+  "save camera nine": [
+    "Saving camera nine, sir!",
+    "On it, sir!",
+    "Got it! Saving camera nine.",
+    "Right away, sir! Saving camera nine."
+  ],
+  "load camera one": [
+    "Loading camera one, sir!",
+    "On it, sir!",
+    "Got it! Loading camera one.",
+    "Right away, sir! Loading camera one."
+  ],
+  "load camera two": [
+    "Loading camera two, sir!",
+    "On it, sir!",
+    "Got it! Loading camera two.",
+    "Right away, sir! Loading camera two."
+  ],
+  "load camera three": [
+    "Loading camera three, sir!",
+    "On it, sir!",
+    "Got it! Loading camera three.",
+    "Right away, sir! Loading camera three."
+  ],
+  "load camera four": [
+    "Loading camera four, sir!",
+    "On it, sir!",
+    "Got it! Loading camera four.",
+    "Right away, sir! Loading camera four."
+  ],
+  "load camera five": [
+    "Loading camera five, sir!",
+    "On it, sir!",
+    "Got it! Loading camera five.",
+    "Right away, sir! Loading camera five."
+  ],
+  "load camera six": [
+    "Loading camera six, sir!",
+    "On it, sir!",
+    "Got it! Loading camera six.",
+    "Right away, sir! Loading camera six."
+  ],
+  "load camera seven": [
+    "Loading camera seven, sir!",
+    "On it, sir!",
+    "Got it! Loading camera seven.",
+    "Right away, sir! Loading camera seven."
+  ],
+  "load camera eight": [
+    "Loading camera eight, sir!",
+    "On it, sir!",
+    "Got it! Loading camera eight.",
+    "Right away, sir! Loading camera eight."
+  ],
+  "load camera nine": [
+    "Loading camera nine, sir!",
+    "On it, sir!",
+    "Got it! Loading camera nine.",
+    "Right away, sir! Loading camera nine."
+  ],
+  "reset camera": [
+    "Camera reset, sir!",
+    "On it, sir!",
+    "Got it! Camera reset.",
+    "Right away, sir! Camera reset."
+  ],
+  "landing checklist": [
+    "Running landing checklist, sir!",
+    "On it, sir!",
+    "Got it! Running landing checklist.",
+    "Right away, sir! Running landing checklist."
+  ],
+  "takeoff checklist": [
+    "Running takeoff checklist, sir!",
+    "On it, sir!",
+    "Got it! Running takeoff checklist.",
+    "Right away, sir! Running takeoff checklist."
+  ],
+  "combat mode": [
+    "Going hot, sir!",
+    "On it, sir!",
+    "Got it! Going hot.",
+    "Right away, sir! Going hot."
+  ],
+  "panic": [
+    "Panic protocol, sir!",
+    "On it, sir!",
+    "Got it! Panic protocol.",
+    "Right away, sir! Panic protocol."
+  ],
+  "hello": [
+    "Hi sir!",
+    "Hey sir!",
+    "Hi there!",
+    "Hello!"
+  ],
+  "hey": [
+    "Yes sir!",
+    "Yeah?",
+    "I'm right here!",
+    "Go for it!"
+  ],
+  "good morning": [
+    "Morning sir!",
+    "Good morning! Bright day!",
+    "Morning, sir!",
+    "Morning! Let's go!"
+  ],
+  "good evening": [
+    "Evening sir!",
+    "Good evening!",
+    "Hi, evening!",
+    "Evening! Looking good out there."
+  ],
+  "thank you": [
+    "Anytime sir!",
+    "Of course!",
+    "No problem!",
+    "Happy to!"
+  ],
+  "good job": [
+    "Thanks sir!",
+    "Aw, thanks!",
+    "You're sweet!",
+    "Thank you!"
+  ],
+  "status": [
+    "All green, sir!",
+    "Everything's awesome!",
+    "Systems perfect!",
+    "All shipshape!"
+  ],
+  "report": [
+    "Nothing here, sir!",
+    "All quiet!",
+    "Sky's clear!",
+    "Nada to report!"
+  ],
+  "ready": [
+    "Ready, sir!",
+    "Locked and loaded!",
+    "Let's go!",
+    "Pumped and ready!"
+  ],
+  "shut up": [
+    "Sure thing!",
+    "Quiet mode, on it!",
+    "Okie dokie!",
+    "Lips sealed!"
+  ],
+  "quiet": [
+    "Going dark!",
+    "Silent!",
+    "Comms off!",
+    "Hush mode!"
+  ],
+  "who are you": [
+    "I'm your ship AI, sir!",
+    "Just me, the ship!",
+    "Onboard buddy!",
+    "The cockpit voice, sir!"
+  ],
+  "where are we": [
+    "No clue, sir! Try the map!",
+    "Map's the move, sir!",
+    "Beats me!",
+    "Couldn't say! Map?"
+  ],
+  "eva forward": [
+    "Eva forward, sir!",
+    "On it, sir!",
+    "Got it! Eva forward.",
+    "Right away, sir! Eva forward."
+  ],
+  "eva back": [
+    "Eva back, sir!",
+    "On it, sir!",
+    "Got it! Eva back.",
+    "Right away, sir! Eva back."
+  ],
+  "eva strafe left": [
+    "Eva strafe port, sir!",
+    "On it, sir!",
+    "Got it! Eva strafe port.",
+    "Right away, sir! Eva strafe port."
+  ],
+  "eva strafe right": [
+    "Eva strafe starboard, sir!",
+    "On it, sir!",
+    "Got it! Eva strafe starboard.",
+    "Right away, sir! Eva strafe starboard."
+  ],
+  "eva roll left": [
+    "Eva roll port, sir!",
+    "On it, sir!",
+    "Got it! Eva roll port.",
+    "Right away, sir! Eva roll port."
+  ],
+  "eva roll right": [
+    "Eva roll starboard, sir!",
+    "On it, sir!",
+    "Got it! Eva roll starboard.",
+    "Right away, sir! Eva roll starboard."
+  ],
+  "flight ready": [
+    "Flight ready, sir!",
+    "On it, sir!",
+    "Got it! Flight ready.",
+    "Right away, sir! Flight ready."
+  ],
+  "engines on": [
+    "Engines online, sir!",
+    "On it, sir!",
+    "Got it! Engines online.",
+    "Right away, sir! Engines online."
+  ],
+  "engines off": [
+    "Engines offline, sir!",
+    "On it, sir!",
+    "Got it! Engines offline.",
+    "Right away, sir! Engines offline."
+  ],
+  "toggle engines": [
+    "Toggling engines, sir!",
+    "On it, sir!",
+    "Got it! Toggling engines.",
+    "Right away, sir! Toggling engines."
+  ],
+  "systems on": [
+    "Systems online, sir!",
+    "On it, sir!",
+    "Got it! Systems online.",
+    "Right away, sir! Systems online."
+  ],
+  "systems off": [
+    "Systems offline, sir!",
+    "On it, sir!",
+    "Got it! Systems offline.",
+    "Right away, sir! Systems offline."
+  ],
+  "toggle systems": [
+    "Toggling systems, sir!",
+    "On it, sir!",
+    "Got it! Toggling systems.",
+    "Right away, sir! Toggling systems."
+  ],
+  "throttle up": [
+    "Throttle up, sir!",
+    "On it, sir!",
+    "Got it! Throttle up.",
+    "Right away, sir! Throttle up."
+  ],
+  "throttle down": [
+    "Throttle down, sir!",
+    "On it, sir!",
+    "Got it! Throttle down.",
+    "Right away, sir! Throttle down."
+  ],
+  "ship strafe left": [
+    "Strafing port, sir!",
+    "On it, sir!",
+    "Got it! Strafing port.",
+    "Right away, sir! Strafing port."
+  ],
+  "ship strafe right": [
+    "Strafing starboard, sir!",
+    "On it, sir!",
+    "Got it! Strafing starboard.",
+    "Right away, sir! Strafing starboard."
+  ],
+  "roll left": [
+    "Rolling port, sir!",
+    "On it, sir!",
+    "Got it! Rolling port.",
+    "Right away, sir! Rolling port."
+  ],
+  "roll right": [
+    "Rolling starboard, sir!",
+    "On it, sir!",
+    "Got it! Rolling starboard.",
+    "Right away, sir! Rolling starboard."
+  ],
+  "boost": [
+    "Boost engaged, sir!",
+    "On it, sir!",
+    "Got it! Boost engaged.",
+    "Right away, sir! Boost engaged."
+  ],
+  "boost hard": [
+    "Full boost, sir!",
+    "On it, sir!",
+    "Got it! Full boost.",
+    "Right away, sir! Full boost."
+  ],
+  "space brake": [
+    "Braking, sir!",
+    "On it, sir!",
+    "Got it! Braking.",
+    "Right away, sir! Braking."
+  ],
+  "full stop": [
+    "Full stop, sir!",
+    "On it, sir!",
+    "Got it! Full stop.",
+    "Right away, sir! Full stop."
+  ],
+  "cruise control": [
+    "Cruise control toggled, sir!",
+    "On it, sir!",
+    "Got it! Cruise control toggled.",
+    "Right away, sir! Cruise control toggled."
+  ],
+  "quantum mode": [
+    "Spinning up quantum drive, sir!",
+    "On it, sir!",
+    "Got it! Spinning up quantum drive.",
+    "Right away, sir! Spinning up quantum drive."
+  ],
+  "jump": [
+    "Jumping, sir!",
+    "On it, sir!",
+    "Got it! Jumping.",
+    "Right away, sir! Jumping."
+  ],
+  "exit seat": [
+    "Leaving seat, sir!",
+    "On it, sir!",
+    "Got it! Leaving seat.",
+    "Right away, sir! Leaving seat."
+  ],
+  "landing mode": [
+    "Toggling landing mode, sir!",
+    "On it, sir!",
+    "Got it! Toggling landing mode.",
+    "Right away, sir! Toggling landing mode."
+  ],
+  "auto land": [
+    "Auto landing, sir!",
+    "On it, sir!",
+    "Got it! Auto landing.",
+    "Right away, sir! Auto landing."
+  ],
+  "decoupled mode": [
+    "Toggling decoupled mode, sir!",
+    "On it, sir!",
+    "Got it! Toggling decoupled mode.",
+    "Right away, sir! Toggling decoupled mode."
+  ],
+  "speed limiter up": [
+    "Raising speed limiter, sir!",
+    "On it, sir!",
+    "Got it! Raising speed limiter.",
+    "Right away, sir! Raising speed limiter."
+  ],
+  "speed limiter down": [
+    "Lowering speed limiter, sir!",
+    "On it, sir!",
+    "Got it! Lowering speed limiter.",
+    "Right away, sir! Lowering speed limiter."
+  ],
+  "lock pitch yaw": [
+    "Axis lock toggled, sir!",
+    "On it, sir!",
+    "Got it! Axis lock toggled.",
+    "Right away, sir! Axis lock toggled."
+  ],
+  "vtol": [
+    "Toggling vtol, sir!",
+    "On it, sir!",
+    "Got it! Toggling vtol.",
+    "Right away, sir! Toggling vtol."
+  ],
+  "lights": [
+    "Toggling lights, sir!",
+    "On it, sir!",
+    "Got it! Toggling lights.",
+    "Right away, sir! Toggling lights."
+  ],
+  "drive forward": [
+    "Driving forward, sir!",
+    "On it, sir!",
+    "Got it! Driving forward.",
+    "Right away, sir! Driving forward."
+  ],
+  "drive backward": [
+    "Reversing, sir!",
+    "On it, sir!",
+    "Got it! Reversing.",
+    "Right away, sir! Reversing."
+  ],
+  "turn left": [
+    "Steering port, sir!",
+    "On it, sir!",
+    "Got it! Steering port.",
+    "Right away, sir! Steering port."
+  ],
+  "turn right": [
+    "Steering starboard, sir!",
+    "On it, sir!",
+    "Got it! Steering starboard.",
+    "Right away, sir! Steering starboard."
+  ],
+  "vehicle brake": [
+    "Braking, sir!",
+    "On it, sir!",
+    "Got it! Braking.",
+    "Right away, sir! Braking."
+  ],
+  "vehicle boost": [
+    "Vehicle boost, sir!",
+    "On it, sir!",
+    "Got it! Vehicle boost.",
+    "Right away, sir! Vehicle boost."
+  ],
+  "vehicle exit seat": [
+    "Dismounting, sir!",
+    "On it, sir!",
+    "Got it! Dismounting.",
+    "Right away, sir! Dismounting."
+  ],
+  "mining mode": [
+    "Mining mode, sir!",
+    "On it, sir!",
+    "Got it! Mining mode.",
+    "Right away, sir! Mining mode."
+  ],
+  "fire mining laser": [
+    "Mining laser firing, sir!",
+    "On it, sir!",
+    "Got it! Mining laser firing.",
+    "Right away, sir! Mining laser firing."
+  ],
+  "switch mining laser": [
+    "Laser switched, sir!",
+    "On it, sir!",
+    "Got it! Laser switched.",
+    "Right away, sir! Laser switched."
+  ],
+  "increase mining laser power": [
+    "Mining power up, sir!",
+    "On it, sir!",
+    "Got it! Mining power up.",
+    "Right away, sir! Mining power up."
+  ],
+  "decrease mining laser power": [
+    "Mining power down, sir!",
+    "On it, sir!",
+    "Got it! Mining power down.",
+    "Right away, sir! Mining power down."
+  ],
+  "cycle mining gimbal": [
+    "Mining gimbal cycled, sir!",
+    "On it, sir!",
+    "Got it! Mining gimbal cycled.",
+    "Right away, sir! Mining gimbal cycled."
+  ],
+  "mining consumable one": [
+    "Consumable one active, sir!",
+    "On it, sir!",
+    "Got it! Consumable one active.",
+    "Right away, sir! Consumable one active."
+  ],
+  "mining consumable two": [
+    "Consumable two active, sir!",
+    "On it, sir!",
+    "Got it! Consumable two active.",
+    "Right away, sir! Consumable two active."
+  ],
+  "mining consumable three": [
+    "Consumable three active, sir!",
+    "On it, sir!",
+    "Got it! Consumable three active.",
+    "Right away, sir! Consumable three active."
+  ],
+  "jettison cargo": [
+    "Jettisoning cargo, sir!",
+    "On it, sir!",
+    "Got it! Jettisoning cargo.",
+    "Right away, sir! Jettisoning cargo."
+  ],
+  "open mobiglas": [
+    "Opening mobiglas, sir!",
+    "On it, sir!",
+    "Got it! Opening mobiglas.",
+    "Right away, sir! Opening mobiglas."
+  ],
+  "open starmap": [
+    "Opening starmap, sir!",
+    "On it, sir!",
+    "Got it! Opening starmap.",
+    "Right away, sir! Opening starmap."
+  ],
+  "open contacts": [
+    "Opening contacts, sir!",
+    "On it, sir!",
+    "Got it! Opening contacts.",
+    "Right away, sir! Opening contacts."
+  ],
+  "move forward": [
+    "Moving forward, sir!",
+    "On it, sir!",
+    "Got it! Moving forward.",
+    "Right away, sir! Moving forward."
+  ],
+  "move forward short": [
+    "Quick step forward, sir!",
+    "On it, sir!",
+    "Got it! Quick step forward.",
+    "Right away, sir! Quick step forward."
+  ],
+  "move forward long": [
+    "Sustained forward, sir!",
+    "On it, sir!",
+    "Got it! Sustained forward.",
+    "Right away, sir! Sustained forward."
+  ],
+  "move backward": [
+    "Moving back, sir!",
+    "On it, sir!",
+    "Got it! Moving back.",
+    "Right away, sir! Moving back."
+  ],
+  "move backward short": [
+    "Quick step back, sir!",
+    "On it, sir!",
+    "Got it! Quick step back.",
+    "Right away, sir! Quick step back."
+  ],
+  "move backward long": [
+    "Sustained back, sir!",
+    "On it, sir!",
+    "Got it! Sustained back.",
+    "Right away, sir! Sustained back."
+  ],
+  "strafe left": [
+    "Strafing left, sir!",
+    "On it, sir!",
+    "Got it! Strafing left.",
+    "Right away, sir! Strafing left."
+  ],
+  "strafe left short": [
+    "Quick step left, sir!",
+    "On it, sir!",
+    "Got it! Quick step left.",
+    "Right away, sir! Quick step left."
+  ],
+  "strafe right": [
+    "Strafing right, sir!",
+    "On it, sir!",
+    "Got it! Strafing right.",
+    "Right away, sir! Strafing right."
+  ],
+  "strafe right short": [
+    "Quick step right, sir!",
+    "On it, sir!",
+    "Got it! Quick step right.",
+    "Right away, sir! Quick step right."
+  ],
+  "player jump": [
+    "Jumping, sir!",
+    "On it, sir!",
+    "Got it! Jumping.",
+    "Right away, sir! Jumping."
+  ],
+  "run": [
+    "Running, sir!",
+    "On it, sir!",
+    "Got it! Running.",
+    "Right away, sir! Running."
+  ],
+  "run short": [
+    "Quick sprint, sir!",
+    "On it, sir!",
+    "Got it! Quick sprint.",
+    "Right away, sir! Quick sprint."
+  ],
+  "lean left": [
+    "Leaning port, sir!",
+    "On it, sir!",
+    "Got it! Leaning port.",
+    "Right away, sir! Leaning port."
+  ],
+  "lean right": [
+    "Leaning starboard, sir!",
+    "On it, sir!",
+    "Got it! Leaning starboard.",
+    "Right away, sir! Leaning starboard."
+  ],
+  "crouch": [
+    "Toggling crouch, sir!",
+    "On it, sir!",
+    "Got it! Toggling crouch.",
+    "Right away, sir! Toggling crouch."
+  ],
+  "prone": [
+    "Toggling prone, sir!",
+    "On it, sir!",
+    "Got it! Toggling prone.",
+    "Right away, sir! Toggling prone."
+  ],
+  "interact": [
+    "Interact, sir!",
+    "On it, sir!",
+    "Got it! Interact.",
+    "Right away, sir! Interact."
+  ],
+  "equip sidearm": [
+    "Sidearm out, sir!",
+    "On it, sir!",
+    "Got it! Sidearm out.",
+    "Right away, sir! Sidearm out."
+  ],
+  "equip primary": [
+    "Primary out, sir!",
+    "On it, sir!",
+    "Got it! Primary out.",
+    "Right away, sir! Primary out."
+  ],
+  "equip secondary": [
+    "Secondary out, sir!",
+    "On it, sir!",
+    "Got it! Secondary out.",
+    "Right away, sir! Secondary out."
+  ],
+  "equip gadget": [
+    "Gadget out, sir!",
+    "On it, sir!",
+    "Got it! Gadget out.",
+    "Right away, sir! Gadget out."
+  ],
+  "equip melee": [
+    "Melee out, sir!",
+    "On it, sir!",
+    "Got it! Melee out.",
+    "Right away, sir! Melee out."
+  ],
+  "unarmed combat": [
+    "Fists up, sir!",
+    "On it, sir!",
+    "Got it! Fists up.",
+    "Right away, sir! Fists up."
+  ],
+  "reload weapon": [
+    "Reloading, sir!",
+    "On it, sir!",
+    "Got it! Reloading.",
+    "Right away, sir! Reloading."
+  ],
+  "holster weapon": [
+    "Holstering, sir!",
+    "On it, sir!",
+    "Got it! Holstering.",
+    "Right away, sir! Holstering."
+  ],
+  "equip grenade": [
+    "Grenade out, sir!",
+    "On it, sir!",
+    "Got it! Grenade out.",
+    "Right away, sir! Grenade out."
+  ],
+  "equip medpen": [
+    "Med pen ready, sir!",
+    "On it, sir!",
+    "Got it! Med pen ready.",
+    "Right away, sir! Med pen ready."
+  ],
+  "wipe visor": [
+    "Wiping visor, sir!",
+    "On it, sir!",
+    "Got it! Wiping visor.",
+    "Right away, sir! Wiping visor."
+  ],
+  "suit light": [
+    "Toggling suit light, sir!",
+    "On it, sir!",
+    "Got it! Toggling suit light.",
+    "Right away, sir! Toggling suit light."
+  ],
+  "power all": [
+    "Cycling all power, sir!",
+    "On it, sir!",
+    "Got it! Cycling all power.",
+    "Right away, sir! Cycling all power."
+  ],
+  "power thrusters": [
+    "Cycling thruster power, sir!",
+    "On it, sir!",
+    "Got it! Cycling thruster power.",
+    "Right away, sir! Cycling thruster power."
+  ],
+  "power shields": [
+    "Cycling shield power, sir!",
+    "On it, sir!",
+    "Got it! Cycling shield power.",
+    "Right away, sir! Cycling shield power."
+  ],
+  "power weapons": [
+    "Cycling weapon power, sir!",
+    "On it, sir!",
+    "Got it! Cycling weapon power.",
+    "Right away, sir! Cycling weapon power."
+  ],
+  "raise power weapons": [
+    "More to weapons, sir!",
+    "On it, sir!",
+    "Got it! More to weapons.",
+    "Right away, sir! More to weapons."
+  ],
+  "raise power thrusters": [
+    "More to thrusters, sir!",
+    "On it, sir!",
+    "Got it! More to thrusters.",
+    "Right away, sir! More to thrusters."
+  ],
+  "raise power shields": [
+    "More to shields, sir!",
+    "On it, sir!",
+    "Got it! More to shields.",
+    "Right away, sir! More to shields."
+  ],
+  "reset power": [
+    "Power balanced, sir!",
+    "On it, sir!",
+    "Got it! Power balanced.",
+    "Right away, sir! Power balanced."
+  ],
+  "salvage mode": [
+    "Salvage mode, sir!",
+    "On it, sir!",
+    "Got it! Salvage mode.",
+    "Right away, sir! Salvage mode."
+  ],
+  "salvage gimbal": [
+    "Salvage gimbal cycled, sir!",
+    "On it, sir!",
+    "Got it! Salvage gimbal cycled.",
+    "Right away, sir! Salvage gimbal cycled."
+  ],
+  "cycle salvage modifiers": [
+    "Cycling salvage mods, sir!",
+    "On it, sir!",
+    "Got it! Cycling salvage mods.",
+    "Right away, sir! Cycling salvage mods."
+  ],
+  "relative beam spacing": [
+    "Beam spacing adjusted, sir!",
+    "On it, sir!",
+    "Got it! Beam spacing adjusted.",
+    "Right away, sir! Beam spacing adjusted."
+  ],
+  "salvage beam axis": [
+    "Axis toggled, sir!",
+    "On it, sir!",
+    "Got it! Axis toggled.",
+    "Right away, sir! Axis toggled."
+  ],
+  "increase beam spacing": [
+    "Unable, that's unbound, sir!",
+    "On it, sir!",
+    "Got it! Unable, that's unbound.",
+    "Right away, sir! Unable, that's unbound."
+  ],
+  "scanning mode": [
+    "Scanner online, sir!",
+    "On it, sir!",
+    "Got it! Scanner online.",
+    "Right away, sir! Scanner online."
+  ],
+  "activate scanning": [
+    "Scanning, sir!",
+    "On it, sir!",
+    "Got it! Scanning.",
+    "Right away, sir! Scanning."
+  ],
+  "scanning ping": [
+    "Ping out, sir!",
+    "On it, sir!",
+    "Got it! Ping out.",
+    "Right away, sir! Ping out."
+  ],
+  "increase scanning angle": [
+    "Widening scan, sir!",
+    "On it, sir!",
+    "Got it! Widening scan.",
+    "Right away, sir! Widening scan."
+  ],
+  "decrease scanning angle": [
+    "Narrowing scan, sir!",
+    "On it, sir!",
+    "Got it! Narrowing scan.",
+    "Right away, sir! Narrowing scan."
+  ],
+  "increase ping angle": [
+    "Unable, that's unbound, sir!",
+    "On it, sir!",
+    "Got it! Unable, that's unbound.",
+    "Right away, sir! Unable, that's unbound."
+  ],
+  "decrease ping angle": [
+    "Unable, that's unbound, sir!",
+    "On it, sir!",
+    "Got it! Unable, that's unbound.",
+    "Right away, sir! Unable, that's unbound."
+  ],
+  "shields front": [
+    "Front shield up, sir!",
+    "On it, sir!",
+    "Got it! Front shield up.",
+    "Right away, sir! Front shield up."
+  ],
+  "shields back": [
+    "Rear shield up, sir!",
+    "On it, sir!",
+    "Got it! Rear shield up.",
+    "Right away, sir! Rear shield up."
+  ],
+  "shields left": [
+    "Port shield up, sir!",
+    "On it, sir!",
+    "Got it! Port shield up.",
+    "Right away, sir! Port shield up."
+  ],
+  "shields right": [
+    "Starboard shield up, sir!",
+    "On it, sir!",
+    "Got it! Starboard shield up.",
+    "Right away, sir! Starboard shield up."
+  ],
+  "shields top": [
+    "Dorsal shield up, sir!",
+    "On it, sir!",
+    "Got it! Dorsal shield up.",
+    "Right away, sir! Dorsal shield up."
+  ],
+  "shields bottom": [
+    "Ventral shield up, sir!",
+    "On it, sir!",
+    "Got it! Ventral shield up.",
+    "Right away, sir! Ventral shield up."
+  ],
+  "reset shields": [
+    "Shields balanced, sir!",
+    "On it, sir!",
+    "Got it! Shields balanced.",
+    "Right away, sir! Shields balanced."
+  ],
+  "deploy noise": [
+    "Noise out, sir!",
+    "On it, sir!",
+    "Got it! Noise out.",
+    "Right away, sir! Noise out."
+  ],
+  "deploy decoy": [
+    "Decoy out, sir!",
+    "On it, sir!",
+    "Got it! Decoy out.",
+    "Right away, sir! Decoy out."
+  ],
+  "lock target": [
+    "Locking target, sir!",
+    "On it, sir!",
+    "Got it! Locking target.",
+    "Right away, sir! Locking target."
+  ],
+  "unlock target": [
+    "Releasing target, sir!",
+    "On it, sir!",
+    "Got it! Releasing target.",
+    "Right away, sir! Releasing target."
+  ],
+  "select pin one": [
+    "Pin one active, sir!",
+    "On it, sir!",
+    "Got it! Pin one active.",
+    "Right away, sir! Pin one active."
+  ],
+  "select pin two": [
+    "Pin two active, sir!",
+    "On it, sir!",
+    "Got it! Pin two active.",
+    "Right away, sir! Pin two active."
+  ],
+  "select pin three": [
+    "Pin three active, sir!",
+    "On it, sir!",
+    "Got it! Pin three active.",
+    "Right away, sir! Pin three active."
+  ],
+  "pin target one": [
+    "Pinning target one, sir!",
+    "On it, sir!",
+    "Got it! Pinning target one.",
+    "Right away, sir! Pinning target one."
+  ],
+  "pin target two": [
+    "Pinning target two, sir!",
+    "On it, sir!",
+    "Got it! Pinning target two.",
+    "Right away, sir! Pinning target two."
+  ],
+  "pin target three": [
+    "Pinning target three, sir!",
+    "On it, sir!",
+    "Got it! Pinning target three.",
+    "Right away, sir! Pinning target three."
+  ],
+  "cycle attackers": [
+    "Cycling attackers, sir!",
+    "On it, sir!",
+    "Got it! Cycling attackers.",
+    "Right away, sir! Cycling attackers."
+  ],
+  "cycle hostiles": [
+    "Cycling hostiles, sir!",
+    "On it, sir!",
+    "Got it! Cycling hostiles.",
+    "Right away, sir! Cycling hostiles."
+  ],
+  "cycle friendlies": [
+    "Cycling friendlies, sir!",
+    "On it, sir!",
+    "Got it! Cycling friendlies.",
+    "Right away, sir! Cycling friendlies."
+  ],
+  "toggle chat": [
+    "Toggling chat, sir!",
+    "On it, sir!",
+    "Got it! Toggling chat.",
+    "Right away, sir! Toggling chat."
+  ],
+  "fire weapon group one": [
+    "Group one firing, sir!",
+    "On it, sir!",
+    "Got it! Group one firing.",
+    "Right away, sir! Group one firing."
+  ],
+  "fire weapon group two": [
+    "Group two firing, sir!",
+    "On it, sir!",
+    "Got it! Group two firing.",
+    "Right away, sir! Group two firing."
+  ],
+  "launch missile": [
+    "Missile away, sir!",
+    "On it, sir!",
+    "Got it! Missile away.",
+    "Right away, sir! Missile away."
+  ],
+  "cycle missile type": [
+    "Cycling missiles, sir!",
+    "On it, sir!",
+    "Got it! Cycling missiles.",
+    "Right away, sir! Cycling missiles."
+  ],
+  "cycle gimbal assist": [
+    "Gimbal cycled, sir!",
+    "On it, sir!",
+    "Got it! Gimbal cycled.",
+    "Right away, sir! Gimbal cycled."
+  ],
+  "missile mode": [
+    "Missile mode, sir!",
+    "On it, sir!",
+    "Got it! Missile mode.",
+    "Right away, sir! Missile mode."
+  ],
+  "arm more missiles": [
+    "More missiles armed, sir!",
+    "On it, sir!",
+    "Got it! More missiles armed.",
+    "Right away, sir! More missiles armed."
+  ],
+  "reset missiles": [
+    "Missiles reset, sir!",
+    "On it, sir!",
+    "Got it! Missiles reset.",
+    "Right away, sir! Missiles reset."
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "_meta": { "category": "mining" },
+  "mining mode": {
+    "type": "key", "key": "m",
+    "response": [
+      "Mining mode.",
+      "Mining systems online.",
+      "Switching to mining, Captain.",
+      "Mining laser ready."
+    ],
+    "aliases": ["mine"]
+  },
+  "fire mining laser": {
+    "type": "mouse", "button": "left",
+    "response": [
+      "Firing mining laser.",
+      "Laser on target.",
+      "Beam engaged, Captain.",
+      "Mining beam active."
+    ]
+  },
+  "switch mining laser": {
+    "type": "mouse", "button": "right",
+    "response": [
+      "Switching mining laser.",
+      "Laser mode cycled.",
+      "Next laser type, Captain.",
+      "Mining beam switched."
+    ]
+  },
+  "increase mining laser power": {
+    "type": "scroll", "direction": "up", "amount": 3, "modifier": "leftalt",
+    "response": [
+      "Increasing mining power.",
+      "Laser strength up.",
+      "Boosting the beam, Captain.",
+      "More power to the laser."
+    ],
+    "aliases": ["mining power up"]
+  },
+  "decrease mining laser power": {
+    "type": "scroll", "direction": "down", "amount": 3, "modifier": "leftalt",
+    "response": [
+      "Decreasing mining power.",
+      "Laser strength down.",
+      "Easing the beam, Captain.",
+      "Less power to the laser."
+    ],
+    "aliases": ["mining power down"]
+  },
+  "cycle mining gimbal": {
+    "type": "key", "key": "g",
+    "response": [
+      "Cycling mining gimbal.",
+      "Gimbal mode switched.",
+      "Mining gimbal cycled.",
+      "Aim mode changed, Captain."
+    ],
+    "aliases": ["mining gimbal"]
+  },
+  "mining consumable one": {
+    "type": "hotkey", "keys": ["leftalt", "1"],
+    "response": [
+      "Activating consumable one.",
+      "Module one engaged.",
+      "Consumable one running, Captain.",
+      "Mining module one active."
+    ]
+  },
+  "mining consumable two": {
+    "type": "hotkey", "keys": ["leftalt", "2"],
+    "response": [
+      "Activating consumable two.",
+      "Module two engaged.",
+      "Consumable two running, Captain.",
+      "Mining module two active."
+    ]
+  },
+  "mining consumable three": {
+    "type": "hotkey", "keys": ["leftalt", "3"],
+    "response": [
+      "Activating consumable three.",
+      "Module three engaged.",
+      "Consumable three running, Captain.",
+      "Mining module three active."
+    ]
+  },
+  "jettison cargo": {
+    "type": "hotkey", "keys": ["leftalt", "j"],
+    "response": [
+      "Jettisoning cargo.",
+      "Dumping load, Captain.",
+      "Cargo away.",
+      "Releasing hold."
+    ],
+    "aliases": ["dump cargo"]
+  }
+}

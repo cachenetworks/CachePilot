@@ -1,0 +1,1112 @@
+{
+  "ship mode": [
+    "Switching to ship, Captain.",
+    "Very good, Captain. Switching to ship.",
+    "Switching to ship. Aye, Captain.",
+    "As you wish, Captain. Switching to ship."
+  ],
+  "fps mode": [
+    "Switching to fps, Captain.",
+    "Very good, Captain. Switching to fps.",
+    "Switching to fps. Aye, Captain.",
+    "As you wish, Captain. Switching to fps."
+  ],
+  "request landing": [
+    "Requesting landing, Captain.",
+    "Very good, Captain. Requesting landing.",
+    "Requesting landing. Aye, Captain.",
+    "As you wish, Captain. Requesting landing."
+  ],
+  "request takeoff": [
+    "Requesting takeoff, Captain.",
+    "Very good, Captain. Requesting takeoff.",
+    "Requesting takeoff. Aye, Captain.",
+    "As you wish, Captain. Requesting takeoff."
+  ],
+  "hail atc": [
+    "Hailing control, Captain.",
+    "Very good, Captain. Hailing control.",
+    "Hailing control. Aye, Captain.",
+    "As you wish, Captain. Hailing control."
+  ],
+  "open hangar": [
+    "Opening hangar, Captain.",
+    "Very good, Captain. Opening hangar.",
+    "Opening hangar. Aye, Captain.",
+    "As you wish, Captain. Opening hangar."
+  ],
+  "camera cycle": [
+    "Cycling camera, Captain.",
+    "Very good, Captain. Cycling camera.",
+    "Cycling camera. Aye, Captain.",
+    "As you wish, Captain. Cycling camera."
+  ],
+  "look around": [
+    "Free look toggled, Captain.",
+    "Very good, Captain. Free look toggled.",
+    "Free look toggled. Aye, Captain.",
+    "As you wish, Captain. Free look toggled."
+  ],
+  "camera move right": [
+    "Panning right, Captain.",
+    "Very good, Captain. Panning right.",
+    "Panning right. Aye, Captain.",
+    "As you wish, Captain. Panning right."
+  ],
+  "camera move left": [
+    "Panning left, Captain.",
+    "Very good, Captain. Panning left.",
+    "Panning left. Aye, Captain.",
+    "As you wish, Captain. Panning left."
+  ],
+  "camera move forward": [
+    "Panning in, Captain.",
+    "Very good, Captain. Panning in.",
+    "Panning in. Aye, Captain.",
+    "As you wish, Captain. Panning in."
+  ],
+  "camera move backward": [
+    "Panning out, Captain.",
+    "Very good, Captain. Panning out.",
+    "Panning out. Aye, Captain.",
+    "As you wish, Captain. Panning out."
+  ],
+  "camera move up": [
+    "Panning up, Captain.",
+    "Very good, Captain. Panning up.",
+    "Panning up. Aye, Captain.",
+    "As you wish, Captain. Panning up."
+  ],
+  "camera move down": [
+    "Panning down, Captain.",
+    "Very good, Captain. Panning down.",
+    "Panning down. Aye, Captain.",
+    "As you wish, Captain. Panning down."
+  ],
+  "save camera one": [
+    "Saving camera one, Captain.",
+    "Very good, Captain. Saving camera one.",
+    "Saving camera one. Aye, Captain.",
+    "As you wish, Captain. Saving camera one."
+  ],
+  "save camera two": [
+    "Saving camera two, Captain.",
+    "Very good, Captain. Saving camera two.",
+    "Saving camera two. Aye, Captain.",
+    "As you wish, Captain. Saving camera two."
+  ],
+  "save camera three": [
+    "Saving camera three, Captain.",
+    "Very good, Captain. Saving camera three.",
+    "Saving camera three. Aye, Captain.",
+    "As you wish, Captain. Saving camera three."
+  ],
+  "save camera four": [
+    "Saving camera four, Captain.",
+    "Very good, Captain. Saving camera four.",
+    "Saving camera four. Aye, Captain.",
+    "As you wish, Captain. Saving camera four."
+  ],
+  "save camera five": [
+    "Saving camera five, Captain.",
+    "Very good, Captain. Saving camera five.",
+    "Saving camera five. Aye, Captain.",
+    "As you wish, Captain. Saving camera five."
+  ],
+  "save camera six": [
+    "Saving camera six, Captain.",
+    "Very good, Captain. Saving camera six.",
+    "Saving camera six. Aye, Captain.",
+    "As you wish, Captain. Saving camera six."
+  ],
+  "save camera seven": [
+    "Saving camera seven, Captain.",
+    "Very good, Captain. Saving camera seven.",
+    "Saving camera seven. Aye, Captain.",
+    "As you wish, Captain. Saving camera seven."
+  ],
+  "save camera eight": [
+    "Saving camera eight, Captain.",
+    "Very good, Captain. Saving camera eight.",
+    "Saving camera eight. Aye, Captain.",
+    "As you wish, Captain. Saving camera eight."
+  ],
+  "save camera nine": [
+    "Saving camera nine, Captain.",
+    "Very good, Captain. Saving camera nine.",
+    "Saving camera nine. Aye, Captain.",
+    "As you wish, Captain. Saving camera nine."
+  ],
+  "load camera one": [
+    "Loading camera one, Captain.",
+    "Very good, Captain. Loading camera one.",
+    "Loading camera one. Aye, Captain.",
+    "As you wish, Captain. Loading camera one."
+  ],
+  "load camera two": [
+    "Loading camera two, Captain.",
+    "Very good, Captain. Loading camera two.",
+    "Loading camera two. Aye, Captain.",
+    "As you wish, Captain. Loading camera two."
+  ],
+  "load camera three": [
+    "Loading camera three, Captain.",
+    "Very good, Captain. Loading camera three.",
+    "Loading camera three. Aye, Captain.",
+    "As you wish, Captain. Loading camera three."
+  ],
+  "load camera four": [
+    "Loading camera four, Captain.",
+    "Very good, Captain. Loading camera four.",
+    "Loading camera four. Aye, Captain.",
+    "As you wish, Captain. Loading camera four."
+  ],
+  "load camera five": [
+    "Loading camera five, Captain.",
+    "Very good, Captain. Loading camera five.",
+    "Loading camera five. Aye, Captain.",
+    "As you wish, Captain. Loading camera five."
+  ],
+  "load camera six": [
+    "Loading camera six, Captain.",
+    "Very good, Captain. Loading camera six.",
+    "Loading camera six. Aye, Captain.",
+    "As you wish, Captain. Loading camera six."
+  ],
+  "load camera seven": [
+    "Loading camera seven, Captain.",
+    "Very good, Captain. Loading camera seven.",
+    "Loading camera seven. Aye, Captain.",
+    "As you wish, Captain. Loading camera seven."
+  ],
+  "load camera eight": [
+    "Loading camera eight, Captain.",
+    "Very good, Captain. Loading camera eight.",
+    "Loading camera eight. Aye, Captain.",
+    "As you wish, Captain. Loading camera eight."
+  ],
+  "load camera nine": [
+    "Loading camera nine, Captain.",
+    "Very good, Captain. Loading camera nine.",
+    "Loading camera nine. Aye, Captain.",
+    "As you wish, Captain. Loading camera nine."
+  ],
+  "reset camera": [
+    "Camera reset, Captain.",
+    "Very good, Captain. Camera reset.",
+    "Camera reset. Aye, Captain.",
+    "As you wish, Captain. Camera reset."
+  ],
+  "landing checklist": [
+    "Running landing checklist, Captain.",
+    "Very good, Captain. Running landing checklist.",
+    "Running landing checklist. Aye, Captain.",
+    "As you wish, Captain. Running landing checklist."
+  ],
+  "takeoff checklist": [
+    "Running takeoff checklist, Captain.",
+    "Very good, Captain. Running takeoff checklist.",
+    "Running takeoff checklist. Aye, Captain.",
+    "As you wish, Captain. Running takeoff checklist."
+  ],
+  "combat mode": [
+    "Going hot, Captain.",
+    "Very good, Captain. Going hot.",
+    "Going hot. Aye, Captain.",
+    "As you wish, Captain. Going hot."
+  ],
+  "panic": [
+    "Panic protocol, Captain.",
+    "Very good, Captain. Panic protocol.",
+    "Panic protocol. Aye, Captain.",
+    "As you wish, Captain. Panic protocol."
+  ],
+  "hello": [
+    "Hello, Captain.",
+    "At your service, Captain.",
+    "Welcome aboard, Captain.",
+    "Good to hear you, Captain."
+  ],
+  "hey": [
+    "Yes, Captain?",
+    "Standing by, Captain.",
+    "Go ahead, Captain.",
+    "I'm here, Captain."
+  ],
+  "good morning": [
+    "Good morning, Captain.",
+    "Morning, Captain. All quiet.",
+    "Top of the morning, Captain.",
+    "Morning. Tea's hypothetical."
+  ],
+  "good evening": [
+    "Good evening, Captain.",
+    "Evening, Captain. Stars are out.",
+    "Evening, Captain. Quiet space.",
+    "Good evening. Long shift?"
+  ],
+  "thank you": [
+    "Always, Captain.",
+    "My pleasure, Captain.",
+    "Anytime, Captain.",
+    "Don't mention it, Captain."
+  ],
+  "good job": [
+    "Thank you, Captain.",
+    "Just doing my duty, Captain.",
+    "Appreciated, Captain.",
+    "You're too kind, Captain."
+  ],
+  "status": [
+    "All systems nominal, Captain.",
+    "Green across the board, Captain.",
+    "Everything in order, Captain.",
+    "No anomalies, Captain."
+  ],
+  "report": [
+    "Nothing to report, Captain.",
+    "All quiet, Captain.",
+    "Skies are clear, Captain.",
+    "No contacts, Captain."
+  ],
+  "ready": [
+    "Standing by and ready, Captain.",
+    "Ready when you are, Captain.",
+    "All set, Captain.",
+    "At your command, Captain."
+  ],
+  "shut up": [
+    "Acknowledged.",
+    "Going quiet, Captain.",
+    "Understood.",
+    "Silent running."
+  ],
+  "quiet": [
+    "Going dark.",
+    "Radio silence engaged.",
+    "Comms muted, Captain.",
+    "Holding my tongue, Captain."
+  ],
+  "who are you": [
+    "I am your ship AI, Captain.",
+    "Your onboard officer, at your service.",
+    "Ship's computer, Captain.",
+    "A voice in the cockpit, Captain."
+  ],
+  "where are we": [
+    "Position data unavailable, Captain.",
+    "Check your starmap, Captain.",
+    "Somewhere in the verse, Captain.",
+    "Coordinates locked away from me, Captain."
+  ],
+  "eva forward": [
+    "Eva forward, Captain.",
+    "Very good, Captain. Eva forward.",
+    "Eva forward. Aye, Captain.",
+    "As you wish, Captain. Eva forward."
+  ],
+  "eva back": [
+    "Eva back, Captain.",
+    "Very good, Captain. Eva back.",
+    "Eva back. Aye, Captain.",
+    "As you wish, Captain. Eva back."
+  ],
+  "eva strafe left": [
+    "Eva strafe port, Captain.",
+    "Very good, Captain. Eva strafe port.",
+    "Eva strafe port. Aye, Captain.",
+    "As you wish, Captain. Eva strafe port."
+  ],
+  "eva strafe right": [
+    "Eva strafe starboard, Captain.",
+    "Very good, Captain. Eva strafe starboard.",
+    "Eva strafe starboard. Aye, Captain.",
+    "As you wish, Captain. Eva strafe starboard."
+  ],
+  "eva roll left": [
+    "Eva roll port, Captain.",
+    "Very good, Captain. Eva roll port.",
+    "Eva roll port. Aye, Captain.",
+    "As you wish, Captain. Eva roll port."
+  ],
+  "eva roll right": [
+    "Eva roll starboard, Captain.",
+    "Very good, Captain. Eva roll starboard.",
+    "Eva roll starboard. Aye, Captain.",
+    "As you wish, Captain. Eva roll starboard."
+  ],
+  "flight ready": [
+    "Flight ready, Captain.",
+    "Very good, Captain. Flight ready.",
+    "Flight ready. Aye, Captain.",
+    "As you wish, Captain. Flight ready."
+  ],
+  "engines on": [
+    "Engines online, Captain.",
+    "Very good, Captain. Engines online.",
+    "Engines online. Aye, Captain.",
+    "As you wish, Captain. Engines online."
+  ],
+  "engines off": [
+    "Engines offline, Captain.",
+    "Very good, Captain. Engines offline.",
+    "Engines offline. Aye, Captain.",
+    "As you wish, Captain. Engines offline."
+  ],
+  "toggle engines": [
+    "Toggling engines, Captain.",
+    "Very good, Captain. Toggling engines.",
+    "Toggling engines. Aye, Captain.",
+    "As you wish, Captain. Toggling engines."
+  ],
+  "systems on": [
+    "Systems online, Captain.",
+    "Very good, Captain. Systems online.",
+    "Systems online. Aye, Captain.",
+    "As you wish, Captain. Systems online."
+  ],
+  "systems off": [
+    "Systems offline, Captain.",
+    "Very good, Captain. Systems offline.",
+    "Systems offline. Aye, Captain.",
+    "As you wish, Captain. Systems offline."
+  ],
+  "toggle systems": [
+    "Toggling systems, Captain.",
+    "Very good, Captain. Toggling systems.",
+    "Toggling systems. Aye, Captain.",
+    "As you wish, Captain. Toggling systems."
+  ],
+  "throttle up": [
+    "Throttle up, Captain.",
+    "Very good, Captain. Throttle up.",
+    "Throttle up. Aye, Captain.",
+    "As you wish, Captain. Throttle up."
+  ],
+  "throttle down": [
+    "Throttle down, Captain.",
+    "Very good, Captain. Throttle down.",
+    "Throttle down. Aye, Captain.",
+    "As you wish, Captain. Throttle down."
+  ],
+  "ship strafe left": [
+    "Strafing port, Captain.",
+    "Very good, Captain. Strafing port.",
+    "Strafing port. Aye, Captain.",
+    "As you wish, Captain. Strafing port."
+  ],
+  "ship strafe right": [
+    "Strafing starboard, Captain.",
+    "Very good, Captain. Strafing starboard.",
+    "Strafing starboard. Aye, Captain.",
+    "As you wish, Captain. Strafing starboard."
+  ],
+  "roll left": [
+    "Rolling port, Captain.",
+    "Very good, Captain. Rolling port.",
+    "Rolling port. Aye, Captain.",
+    "As you wish, Captain. Rolling port."
+  ],
+  "roll right": [
+    "Rolling starboard, Captain.",
+    "Very good, Captain. Rolling starboard.",
+    "Rolling starboard. Aye, Captain.",
+    "As you wish, Captain. Rolling starboard."
+  ],
+  "boost": [
+    "Boost engaged, Captain.",
+    "Very good, Captain. Boost engaged.",
+    "Boost engaged. Aye, Captain.",
+    "As you wish, Captain. Boost engaged."
+  ],
+  "boost hard": [
+    "Full boost, Captain.",
+    "Very good, Captain. Full boost.",
+    "Full boost. Aye, Captain.",
+    "As you wish, Captain. Full boost."
+  ],
+  "space brake": [
+    "Braking, Captain.",
+    "Very good, Captain. Braking.",
+    "Braking. Aye, Captain.",
+    "As you wish, Captain. Braking."
+  ],
+  "full stop": [
+    "Full stop, Captain.",
+    "Very good, Captain. Full stop.",
+    "Full stop. Aye, Captain.",
+    "As you wish, Captain. Full stop."
+  ],
+  "cruise control": [
+    "Cruise control toggled, Captain.",
+    "Very good, Captain. Cruise control toggled.",
+    "Cruise control toggled. Aye, Captain.",
+    "As you wish, Captain. Cruise control toggled."
+  ],
+  "quantum mode": [
+    "Spinning up quantum drive, Captain.",
+    "Very good, Captain. Spinning up quantum drive.",
+    "Spinning up quantum drive. Aye, Captain.",
+    "As you wish, Captain. Spinning up quantum drive."
+  ],
+  "jump": [
+    "Jumping, Captain.",
+    "Very good, Captain. Jumping.",
+    "Jumping. Aye, Captain.",
+    "As you wish, Captain. Jumping."
+  ],
+  "exit seat": [
+    "Leaving seat, Captain.",
+    "Very good, Captain. Leaving seat.",
+    "Leaving seat. Aye, Captain.",
+    "As you wish, Captain. Leaving seat."
+  ],
+  "landing mode": [
+    "Toggling landing mode, Captain.",
+    "Very good, Captain. Toggling landing mode.",
+    "Toggling landing mode. Aye, Captain.",
+    "As you wish, Captain. Toggling landing mode."
+  ],
+  "auto land": [
+    "Auto landing, Captain.",
+    "Very good, Captain. Auto landing.",
+    "Auto landing. Aye, Captain.",
+    "As you wish, Captain. Auto landing."
+  ],
+  "decoupled mode": [
+    "Toggling decoupled mode, Captain.",
+    "Very good, Captain. Toggling decoupled mode.",
+    "Toggling decoupled mode. Aye, Captain.",
+    "As you wish, Captain. Toggling decoupled mode."
+  ],
+  "speed limiter up": [
+    "Raising speed limiter, Captain.",
+    "Very good, Captain. Raising speed limiter.",
+    "Raising speed limiter. Aye, Captain.",
+    "As you wish, Captain. Raising speed limiter."
+  ],
+  "speed limiter down": [
+    "Lowering speed limiter, Captain.",
+    "Very good, Captain. Lowering speed limiter.",
+    "Lowering speed limiter. Aye, Captain.",
+    "As you wish, Captain. Lowering speed limiter."
+  ],
+  "lock pitch yaw": [
+    "Axis lock toggled, Captain.",
+    "Very good, Captain. Axis lock toggled.",
+    "Axis lock toggled. Aye, Captain.",
+    "As you wish, Captain. Axis lock toggled."
+  ],
+  "vtol": [
+    "Toggling vtol, Captain.",
+    "Very good, Captain. Toggling vtol.",
+    "Toggling vtol. Aye, Captain.",
+    "As you wish, Captain. Toggling vtol."
+  ],
+  "lights": [
+    "Toggling lights, Captain.",
+    "Very good, Captain. Toggling lights.",
+    "Toggling lights. Aye, Captain.",
+    "As you wish, Captain. Toggling lights."
+  ],
+  "drive forward": [
+    "Driving forward, Captain.",
+    "Very good, Captain. Driving forward.",
+    "Driving forward. Aye, Captain.",
+    "As you wish, Captain. Driving forward."
+  ],
+  "drive backward": [
+    "Reversing, Captain.",
+    "Very good, Captain. Reversing.",
+    "Reversing. Aye, Captain.",
+    "As you wish, Captain. Reversing."
+  ],
+  "turn left": [
+    "Steering port, Captain.",
+    "Very good, Captain. Steering port.",
+    "Steering port. Aye, Captain.",
+    "As you wish, Captain. Steering port."
+  ],
+  "turn right": [
+    "Steering starboard, Captain.",
+    "Very good, Captain. Steering starboard.",
+    "Steering starboard. Aye, Captain.",
+    "As you wish, Captain. Steering starboard."
+  ],
+  "vehicle brake": [
+    "Braking, Captain.",
+    "Very good, Captain. Braking.",
+    "Braking. Aye, Captain.",
+    "As you wish, Captain. Braking."
+  ],
+  "vehicle boost": [
+    "Vehicle boost, Captain.",
+    "Very good, Captain. Vehicle boost.",
+    "Vehicle boost. Aye, Captain.",
+    "As you wish, Captain. Vehicle boost."
+  ],
+  "vehicle exit seat": [
+    "Dismounting, Captain.",
+    "Very good, Captain. Dismounting.",
+    "Dismounting. Aye, Captain.",
+    "As you wish, Captain. Dismounting."
+  ],
+  "mining mode": [
+    "Mining mode, Captain.",
+    "Very good, Captain. Mining mode.",
+    "Mining mode. Aye, Captain.",
+    "As you wish, Captain. Mining mode."
+  ],
+  "fire mining laser": [
+    "Mining laser firing, Captain.",
+    "Very good, Captain. Mining laser firing.",
+    "Mining laser firing. Aye, Captain.",
+    "As you wish, Captain. Mining laser firing."
+  ],
+  "switch mining laser": [
+    "Laser switched, Captain.",
+    "Very good, Captain. Laser switched.",
+    "Laser switched. Aye, Captain.",
+    "As you wish, Captain. Laser switched."
+  ],
+  "increase mining laser power": [
+    "Mining power up, Captain.",
+    "Very good, Captain. Mining power up.",
+    "Mining power up. Aye, Captain.",
+    "As you wish, Captain. Mining power up."
+  ],
+  "decrease mining laser power": [
+    "Mining power down, Captain.",
+    "Very good, Captain. Mining power down.",
+    "Mining power down. Aye, Captain.",
+    "As you wish, Captain. Mining power down."
+  ],
+  "cycle mining gimbal": [
+    "Mining gimbal cycled, Captain.",
+    "Very good, Captain. Mining gimbal cycled.",
+    "Mining gimbal cycled. Aye, Captain.",
+    "As you wish, Captain. Mining gimbal cycled."
+  ],
+  "mining consumable one": [
+    "Consumable one active, Captain.",
+    "Very good, Captain. Consumable one active.",
+    "Consumable one active. Aye, Captain.",
+    "As you wish, Captain. Consumable one active."
+  ],
+  "mining consumable two": [
+    "Consumable two active, Captain.",
+    "Very good, Captain. Consumable two active.",
+    "Consumable two active. Aye, Captain.",
+    "As you wish, Captain. Consumable two active."
+  ],
+  "mining consumable three": [
+    "Consumable three active, Captain.",
+    "Very good, Captain. Consumable three active.",
+    "Consumable three active. Aye, Captain.",
+    "As you wish, Captain. Consumable three active."
+  ],
+  "jettison cargo": [
+    "Jettisoning cargo, Captain.",
+    "Very good, Captain. Jettisoning cargo.",
+    "Jettisoning cargo. Aye, Captain.",
+    "As you wish, Captain. Jettisoning cargo."
+  ],
+  "open mobiglas": [
+    "Opening mobiglas, Captain.",
+    "Very good, Captain. Opening mobiglas.",
+    "Opening mobiglas. Aye, Captain.",
+    "As you wish, Captain. Opening mobiglas."
+  ],
+  "open starmap": [
+    "Opening starmap, Captain.",
+    "Very good, Captain. Opening starmap.",
+    "Opening starmap. Aye, Captain.",
+    "As you wish, Captain. Opening starmap."
+  ],
+  "open contacts": [
+    "Opening contacts, Captain.",
+    "Very good, Captain. Opening contacts.",
+    "Opening contacts. Aye, Captain.",
+    "As you wish, Captain. Opening contacts."
+  ],
+  "move forward": [
+    "Moving forward, Captain.",
+    "Very good, Captain. Moving forward.",
+    "Moving forward. Aye, Captain.",
+    "As you wish, Captain. Moving forward."
+  ],
+  "move forward short": [
+    "Quick step forward, Captain.",
+    "Very good, Captain. Quick step forward.",
+    "Quick step forward. Aye, Captain.",
+    "As you wish, Captain. Quick step forward."
+  ],
+  "move forward long": [
+    "Sustained forward, Captain.",
+    "Very good, Captain. Sustained forward.",
+    "Sustained forward. Aye, Captain.",
+    "As you wish, Captain. Sustained forward."
+  ],
+  "move backward": [
+    "Moving back, Captain.",
+    "Very good, Captain. Moving back.",
+    "Moving back. Aye, Captain.",
+    "As you wish, Captain. Moving back."
+  ],
+  "move backward short": [
+    "Quick step back, Captain.",
+    "Very good, Captain. Quick step back.",
+    "Quick step back. Aye, Captain.",
+    "As you wish, Captain. Quick step back."
+  ],
+  "move backward long": [
+    "Sustained back, Captain.",
+    "Very good, Captain. Sustained back.",
+    "Sustained back. Aye, Captain.",
+    "As you wish, Captain. Sustained back."
+  ],
+  "strafe left": [
+    "Strafing left, Captain.",
+    "Very good, Captain. Strafing left.",
+    "Strafing left. Aye, Captain.",
+    "As you wish, Captain. Strafing left."
+  ],
+  "strafe left short": [
+    "Quick step left, Captain.",
+    "Very good, Captain. Quick step left.",
+    "Quick step left. Aye, Captain.",
+    "As you wish, Captain. Quick step left."
+  ],
+  "strafe right": [
+    "Strafing right, Captain.",
+    "Very good, Captain. Strafing right.",
+    "Strafing right. Aye, Captain.",
+    "As you wish, Captain. Strafing right."
+  ],
+  "strafe right short": [
+    "Quick step right, Captain.",
+    "Very good, Captain. Quick step right.",
+    "Quick step right. Aye, Captain.",
+    "As you wish, Captain. Quick step right."
+  ],
+  "player jump": [
+    "Jumping, Captain.",
+    "Very good, Captain. Jumping.",
+    "Jumping. Aye, Captain.",
+    "As you wish, Captain. Jumping."
+  ],
+  "run": [
+    "Running, Captain.",
+    "Very good, Captain. Running.",
+    "Running. Aye, Captain.",
+    "As you wish, Captain. Running."
+  ],
+  "run short": [
+    "Quick sprint, Captain.",
+    "Very good, Captain. Quick sprint.",
+    "Quick sprint. Aye, Captain.",
+    "As you wish, Captain. Quick sprint."
+  ],
+  "lean left": [
+    "Leaning port, Captain.",
+    "Very good, Captain. Leaning port.",
+    "Leaning port. Aye, Captain.",
+    "As you wish, Captain. Leaning port."
+  ],
+  "lean right": [
+    "Leaning starboard, Captain.",
+    "Very good, Captain. Leaning starboard.",
+    "Leaning starboard. Aye, Captain.",
+    "As you wish, Captain. Leaning starboard."
+  ],
+  "crouch": [
+    "Toggling crouch, Captain.",
+    "Very good, Captain. Toggling crouch.",
+    "Toggling crouch. Aye, Captain.",
+    "As you wish, Captain. Toggling crouch."
+  ],
+  "prone": [
+    "Toggling prone, Captain.",
+    "Very good, Captain. Toggling prone.",
+    "Toggling prone. Aye, Captain.",
+    "As you wish, Captain. Toggling prone."
+  ],
+  "interact": [
+    "Interact, Captain.",
+    "Very good, Captain. Interact.",
+    "Interact. Aye, Captain.",
+    "As you wish, Captain. Interact."
+  ],
+  "equip sidearm": [
+    "Sidearm out, Captain.",
+    "Very good, Captain. Sidearm out.",
+    "Sidearm out. Aye, Captain.",
+    "As you wish, Captain. Sidearm out."
+  ],
+  "equip primary": [
+    "Primary out, Captain.",
+    "Very good, Captain. Primary out.",
+    "Primary out. Aye, Captain.",
+    "As you wish, Captain. Primary out."
+  ],
+  "equip secondary": [
+    "Secondary out, Captain.",
+    "Very good, Captain. Secondary out.",
+    "Secondary out. Aye, Captain.",
+    "As you wish, Captain. Secondary out."
+  ],
+  "equip gadget": [
+    "Gadget out, Captain.",
+    "Very good, Captain. Gadget out.",
+    "Gadget out. Aye, Captain.",
+    "As you wish, Captain. Gadget out."
+  ],
+  "equip melee": [
+    "Melee out, Captain.",
+    "Very good, Captain. Melee out.",
+    "Melee out. Aye, Captain.",
+    "As you wish, Captain. Melee out."
+  ],
+  "unarmed combat": [
+    "Fists up, Captain.",
+    "Very good, Captain. Fists up.",
+    "Fists up. Aye, Captain.",
+    "As you wish, Captain. Fists up."
+  ],
+  "reload weapon": [
+    "Reloading, Captain.",
+    "Very good, Captain. Reloading.",
+    "Reloading. Aye, Captain.",
+    "As you wish, Captain. Reloading."
+  ],
+  "holster weapon": [
+    "Holstering, Captain.",
+    "Very good, Captain. Holstering.",
+    "Holstering. Aye, Captain.",
+    "As you wish, Captain. Holstering."
+  ],
+  "equip grenade": [
+    "Grenade out, Captain.",
+    "Very good, Captain. Grenade out.",
+    "Grenade out. Aye, Captain.",
+    "As you wish, Captain. Grenade out."
+  ],
+  "equip medpen": [
+    "Med pen ready, Captain.",
+    "Very good, Captain. Med pen ready.",
+    "Med pen ready. Aye, Captain.",
+    "As you wish, Captain. Med pen ready."
+  ],
+  "wipe visor": [
+    "Wiping visor, Captain.",
+    "Very good, Captain. Wiping visor.",
+    "Wiping visor. Aye, Captain.",
+    "As you wish, Captain. Wiping visor."
+  ],
+  "suit light": [
+    "Toggling suit light, Captain.",
+    "Very good, Captain. Toggling suit light.",
+    "Toggling suit light. Aye, Captain.",
+    "As you wish, Captain. Toggling suit light."
+  ],
+  "power all": [
+    "Cycling all power, Captain.",
+    "Very good, Captain. Cycling all power.",
+    "Cycling all power. Aye, Captain.",
+    "As you wish, Captain. Cycling all power."
+  ],
+  "power thrusters": [
+    "Cycling thruster power, Captain.",
+    "Very good, Captain. Cycling thruster power.",
+    "Cycling thruster power. Aye, Captain.",
+    "As you wish, Captain. Cycling thruster power."
+  ],
+  "power shields": [
+    "Cycling shield power, Captain.",
+    "Very good, Captain. Cycling shield power.",
+    "Cycling shield power. Aye, Captain.",
+    "As you wish, Captain. Cycling shield power."
+  ],
+  "power weapons": [
+    "Cycling weapon power, Captain.",
+    "Very good, Captain. Cycling weapon power.",
+    "Cycling weapon power. Aye, Captain.",
+    "As you wish, Captain. Cycling weapon power."
+  ],
+  "raise power weapons": [
+    "More to weapons, Captain.",
+    "Very good, Captain. More to weapons.",
+    "More to weapons. Aye, Captain.",
+    "As you wish, Captain. More to weapons."
+  ],
+  "raise power thrusters": [
+    "More to thrusters, Captain.",
+    "Very good, Captain. More to thrusters.",
+    "More to thrusters. Aye, Captain.",
+    "As you wish, Captain. More to thrusters."
+  ],
+  "raise power shields": [
+    "More to shields, Captain.",
+    "Very good, Captain. More to shields.",
+    "More to shields. Aye, Captain.",
+    "As you wish, Captain. More to shields."
+  ],
+  "reset power": [
+    "Power balanced, Captain.",
+    "Very good, Captain. Power balanced.",
+    "Power balanced. Aye, Captain.",
+    "As you wish, Captain. Power balanced."
+  ],
+  "salvage mode": [
+    "Salvage mode, Captain.",
+    "Very good, Captain. Salvage mode.",
+    "Salvage mode. Aye, Captain.",
+    "As you wish, Captain. Salvage mode."
+  ],
+  "salvage gimbal": [
+    "Salvage gimbal cycled, Captain.",
+    "Very good, Captain. Salvage gimbal cycled.",
+    "Salvage gimbal cycled. Aye, Captain.",
+    "As you wish, Captain. Salvage gimbal cycled."
+  ],
+  "cycle salvage modifiers": [
+    "Cycling salvage mods, Captain.",
+    "Very good, Captain. Cycling salvage mods.",
+    "Cycling salvage mods. Aye, Captain.",
+    "As you wish, Captain. Cycling salvage mods."
+  ],
+  "relative beam spacing": [
+    "Beam spacing adjusted, Captain.",
+    "Very good, Captain. Beam spacing adjusted.",
+    "Beam spacing adjusted. Aye, Captain.",
+    "As you wish, Captain. Beam spacing adjusted."
+  ],
+  "salvage beam axis": [
+    "Axis toggled, Captain.",
+    "Very good, Captain. Axis toggled.",
+    "Axis toggled. Aye, Captain.",
+    "As you wish, Captain. Axis toggled."
+  ],
+  "increase beam spacing": [
+    "Unable, that's unbound, Captain.",
+    "Very good, Captain. Unable, that's unbound.",
+    "Unable, that's unbound. Aye, Captain.",
+    "As you wish, Captain. Unable, that's unbound."
+  ],
+  "scanning mode": [
+    "Scanner online, Captain.",
+    "Very good, Captain. Scanner online.",
+    "Scanner online. Aye, Captain.",
+    "As you wish, Captain. Scanner online."
+  ],
+  "activate scanning": [
+    "Scanning, Captain.",
+    "Very good, Captain. Scanning.",
+    "Scanning. Aye, Captain.",
+    "As you wish, Captain. Scanning."
+  ],
+  "scanning ping": [
+    "Ping out, Captain.",
+    "Very good, Captain. Ping out.",
+    "Ping out. Aye, Captain.",
+    "As you wish, Captain. Ping out."
+  ],
+  "increase scanning angle": [
+    "Widening scan, Captain.",
+    "Very good, Captain. Widening scan.",
+    "Widening scan. Aye, Captain.",
+    "As you wish, Captain. Widening scan."
+  ],
+  "decrease scanning angle": [
+    "Narrowing scan, Captain.",
+    "Very good, Captain. Narrowing scan.",
+    "Narrowing scan. Aye, Captain.",
+    "As you wish, Captain. Narrowing scan."
+  ],
+  "increase ping angle": [
+    "Unable, that's unbound, Captain.",
+    "Very good, Captain. Unable, that's unbound.",
+    "Unable, that's unbound. Aye, Captain.",
+    "As you wish, Captain. Unable, that's unbound."
+  ],
+  "decrease ping angle": [
+    "Unable, that's unbound, Captain.",
+    "Very good, Captain. Unable, that's unbound.",
+    "Unable, that's unbound. Aye, Captain.",
+    "As you wish, Captain. Unable, that's unbound."
+  ],
+  "shields front": [
+    "Front shield up, Captain.",
+    "Very good, Captain. Front shield up.",
+    "Front shield up. Aye, Captain.",
+    "As you wish, Captain. Front shield up."
+  ],
+  "shields back": [
+    "Rear shield up, Captain.",
+    "Very good, Captain. Rear shield up.",
+    "Rear shield up. Aye, Captain.",
+    "As you wish, Captain. Rear shield up."
+  ],
+  "shields left": [
+    "Port shield up, Captain.",
+    "Very good, Captain. Port shield up.",
+    "Port shield up. Aye, Captain.",
+    "As you wish, Captain. Port shield up."
+  ],
+  "shields right": [
+    "Starboard shield up, Captain.",
+    "Very good, Captain. Starboard shield up.",
+    "Starboard shield up. Aye, Captain.",
+    "As you wish, Captain. Starboard shield up."
+  ],
+  "shields top": [
+    "Dorsal shield up, Captain.",
+    "Very good, Captain. Dorsal shield up.",
+    "Dorsal shield up. Aye, Captain.",
+    "As you wish, Captain. Dorsal shield up."
+  ],
+  "shields bottom": [
+    "Ventral shield up, Captain.",
+    "Very good, Captain. Ventral shield up.",
+    "Ventral shield up. Aye, Captain.",
+    "As you wish, Captain. Ventral shield up."
+  ],
+  "reset shields": [
+    "Shields balanced, Captain.",
+    "Very good, Captain. Shields balanced.",
+    "Shields balanced. Aye, Captain.",
+    "As you wish, Captain. Shields balanced."
+  ],
+  "deploy noise": [
+    "Noise out, Captain.",
+    "Very good, Captain. Noise out.",
+    "Noise out. Aye, Captain.",
+    "As you wish, Captain. Noise out."
+  ],
+  "deploy decoy": [
+    "Decoy out, Captain.",
+    "Very good, Captain. Decoy out.",
+    "Decoy out. Aye, Captain.",
+    "As you wish, Captain. Decoy out."
+  ],
+  "lock target": [
+    "Locking target, Captain.",
+    "Very good, Captain. Locking target.",
+    "Locking target. Aye, Captain.",
+    "As you wish, Captain. Locking target."
+  ],
+  "unlock target": [
+    "Releasing target, Captain.",
+    "Very good, Captain. Releasing target.",
+    "Releasing target. Aye, Captain.",
+    "As you wish, Captain. Releasing target."
+  ],
+  "select pin one": [
+    "Pin one active, Captain.",
+    "Very good, Captain. Pin one active.",
+    "Pin one active. Aye, Captain.",
+    "As you wish, Captain. Pin one active."
+  ],
+  "select pin two": [
+    "Pin two active, Captain.",
+    "Very good, Captain. Pin two active.",
+    "Pin two active. Aye, Captain.",
+    "As you wish, Captain. Pin two active."
+  ],
+  "select pin three": [
+    "Pin three active, Captain.",
+    "Very good, Captain. Pin three active.",
+    "Pin three active. Aye, Captain.",
+    "As you wish, Captain. Pin three active."
+  ],
+  "pin target one": [
+    "Pinning target one, Captain.",
+    "Very good, Captain. Pinning target one.",
+    "Pinning target one. Aye, Captain.",
+    "As you wish, Captain. Pinning target one."
+  ],
+  "pin target two": [
+    "Pinning target two, Captain.",
+    "Very good, Captain. Pinning target two.",
+    "Pinning target two. Aye, Captain.",
+    "As you wish, Captain. Pinning target two."
+  ],
+  "pin target three": [
+    "Pinning target three, Captain.",
+    "Very good, Captain. Pinning target three.",
+    "Pinning target three. Aye, Captain.",
+    "As you wish, Captain. Pinning target three."
+  ],
+  "cycle attackers": [
+    "Cycling attackers, Captain.",
+    "Very good, Captain. Cycling attackers.",
+    "Cycling attackers. Aye, Captain.",
+    "As you wish, Captain. Cycling attackers."
+  ],
+  "cycle hostiles": [
+    "Cycling hostiles, Captain.",
+    "Very good, Captain. Cycling hostiles.",
+    "Cycling hostiles. Aye, Captain.",
+    "As you wish, Captain. Cycling hostiles."
+  ],
+  "cycle friendlies": [
+    "Cycling friendlies, Captain.",
+    "Very good, Captain. Cycling friendlies.",
+    "Cycling friendlies. Aye, Captain.",
+    "As you wish, Captain. Cycling friendlies."
+  ],
+  "toggle chat": [
+    "Toggling chat, Captain.",
+    "Very good, Captain. Toggling chat.",
+    "Toggling chat. Aye, Captain.",
+    "As you wish, Captain. Toggling chat."
+  ],
+  "fire weapon group one": [
+    "Group one firing, Captain.",
+    "Very good, Captain. Group one firing.",
+    "Group one firing. Aye, Captain.",
+    "As you wish, Captain. Group one firing."
+  ],
+  "fire weapon group two": [
+    "Group two firing, Captain.",
+    "Very good, Captain. Group two firing.",
+    "Group two firing. Aye, Captain.",
+    "As you wish, Captain. Group two firing."
+  ],
+  "launch missile": [
+    "Missile away, Captain.",
+    "Very good, Captain. Missile away.",
+    "Missile away. Aye, Captain.",
+    "As you wish, Captain. Missile away."
+  ],
+  "cycle missile type": [
+    "Cycling missiles, Captain.",
+    "Very good, Captain. Cycling missiles.",
+    "Cycling missiles. Aye, Captain.",
+    "As you wish, Captain. Cycling missiles."
+  ],
+  "cycle gimbal assist": [
+    "Gimbal cycled, Captain.",
+    "Very good, Captain. Gimbal cycled.",
+    "Gimbal cycled. Aye, Captain.",
+    "As you wish, Captain. Gimbal cycled."
+  ],
+  "missile mode": [
+    "Missile mode, Captain.",
+    "Very good, Captain. Missile mode.",
+    "Missile mode. Aye, Captain.",
+    "As you wish, Captain. Missile mode."
+  ],
+  "arm more missiles": [
+    "More missiles armed, Captain.",
+    "Very good, Captain. More missiles armed.",
+    "More missiles armed. Aye, Captain.",
+    "As you wish, Captain. More missiles armed."
+  ],
+  "reset missiles": [
+    "Missiles reset, Captain.",
+    "Very good, Captain. Missiles reset.",
+    "Missiles reset. Aye, Captain.",
+    "As you wish, Captain. Missiles reset."
+  ]
+}

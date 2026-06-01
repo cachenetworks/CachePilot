@@ -1,0 +1,1112 @@
+{
+  "ship mode": [
+    "Switching to ship, buddy.",
+    "Yeah, got it. Switching to ship.",
+    "Cool. Switching to ship.",
+    "Switching to ship. Sure thing."
+  ],
+  "fps mode": [
+    "Switching to fps, buddy.",
+    "Yeah, got it. Switching to fps.",
+    "Cool. Switching to fps.",
+    "Switching to fps. Sure thing."
+  ],
+  "request landing": [
+    "Requesting landing, buddy.",
+    "Yeah, got it. Requesting landing.",
+    "Cool. Requesting landing.",
+    "Requesting landing. Sure thing."
+  ],
+  "request takeoff": [
+    "Requesting takeoff, buddy.",
+    "Yeah, got it. Requesting takeoff.",
+    "Cool. Requesting takeoff.",
+    "Requesting takeoff. Sure thing."
+  ],
+  "hail atc": [
+    "Hailing control, buddy.",
+    "Yeah, got it. Hailing control.",
+    "Cool. Hailing control.",
+    "Hailing control. Sure thing."
+  ],
+  "open hangar": [
+    "Opening hangar, buddy.",
+    "Yeah, got it. Opening hangar.",
+    "Cool. Opening hangar.",
+    "Opening hangar. Sure thing."
+  ],
+  "camera cycle": [
+    "Cycling camera, buddy.",
+    "Yeah, got it. Cycling camera.",
+    "Cool. Cycling camera.",
+    "Cycling camera. Sure thing."
+  ],
+  "look around": [
+    "Free look toggled, buddy.",
+    "Yeah, got it. Free look toggled.",
+    "Cool. Free look toggled.",
+    "Free look toggled. Sure thing."
+  ],
+  "camera move right": [
+    "Panning right, buddy.",
+    "Yeah, got it. Panning right.",
+    "Cool. Panning right.",
+    "Panning right. Sure thing."
+  ],
+  "camera move left": [
+    "Panning left, buddy.",
+    "Yeah, got it. Panning left.",
+    "Cool. Panning left.",
+    "Panning left. Sure thing."
+  ],
+  "camera move forward": [
+    "Panning in, buddy.",
+    "Yeah, got it. Panning in.",
+    "Cool. Panning in.",
+    "Panning in. Sure thing."
+  ],
+  "camera move backward": [
+    "Panning out, buddy.",
+    "Yeah, got it. Panning out.",
+    "Cool. Panning out.",
+    "Panning out. Sure thing."
+  ],
+  "camera move up": [
+    "Panning up, buddy.",
+    "Yeah, got it. Panning up.",
+    "Cool. Panning up.",
+    "Panning up. Sure thing."
+  ],
+  "camera move down": [
+    "Panning down, buddy.",
+    "Yeah, got it. Panning down.",
+    "Cool. Panning down.",
+    "Panning down. Sure thing."
+  ],
+  "save camera one": [
+    "Saving camera one, buddy.",
+    "Yeah, got it. Saving camera one.",
+    "Cool. Saving camera one.",
+    "Saving camera one. Sure thing."
+  ],
+  "save camera two": [
+    "Saving camera two, buddy.",
+    "Yeah, got it. Saving camera two.",
+    "Cool. Saving camera two.",
+    "Saving camera two. Sure thing."
+  ],
+  "save camera three": [
+    "Saving camera three, buddy.",
+    "Yeah, got it. Saving camera three.",
+    "Cool. Saving camera three.",
+    "Saving camera three. Sure thing."
+  ],
+  "save camera four": [
+    "Saving camera four, buddy.",
+    "Yeah, got it. Saving camera four.",
+    "Cool. Saving camera four.",
+    "Saving camera four. Sure thing."
+  ],
+  "save camera five": [
+    "Saving camera five, buddy.",
+    "Yeah, got it. Saving camera five.",
+    "Cool. Saving camera five.",
+    "Saving camera five. Sure thing."
+  ],
+  "save camera six": [
+    "Saving camera six, buddy.",
+    "Yeah, got it. Saving camera six.",
+    "Cool. Saving camera six.",
+    "Saving camera six. Sure thing."
+  ],
+  "save camera seven": [
+    "Saving camera seven, buddy.",
+    "Yeah, got it. Saving camera seven.",
+    "Cool. Saving camera seven.",
+    "Saving camera seven. Sure thing."
+  ],
+  "save camera eight": [
+    "Saving camera eight, buddy.",
+    "Yeah, got it. Saving camera eight.",
+    "Cool. Saving camera eight.",
+    "Saving camera eight. Sure thing."
+  ],
+  "save camera nine": [
+    "Saving camera nine, buddy.",
+    "Yeah, got it. Saving camera nine.",
+    "Cool. Saving camera nine.",
+    "Saving camera nine. Sure thing."
+  ],
+  "load camera one": [
+    "Loading camera one, buddy.",
+    "Yeah, got it. Loading camera one.",
+    "Cool. Loading camera one.",
+    "Loading camera one. Sure thing."
+  ],
+  "load camera two": [
+    "Loading camera two, buddy.",
+    "Yeah, got it. Loading camera two.",
+    "Cool. Loading camera two.",
+    "Loading camera two. Sure thing."
+  ],
+  "load camera three": [
+    "Loading camera three, buddy.",
+    "Yeah, got it. Loading camera three.",
+    "Cool. Loading camera three.",
+    "Loading camera three. Sure thing."
+  ],
+  "load camera four": [
+    "Loading camera four, buddy.",
+    "Yeah, got it. Loading camera four.",
+    "Cool. Loading camera four.",
+    "Loading camera four. Sure thing."
+  ],
+  "load camera five": [
+    "Loading camera five, buddy.",
+    "Yeah, got it. Loading camera five.",
+    "Cool. Loading camera five.",
+    "Loading camera five. Sure thing."
+  ],
+  "load camera six": [
+    "Loading camera six, buddy.",
+    "Yeah, got it. Loading camera six.",
+    "Cool. Loading camera six.",
+    "Loading camera six. Sure thing."
+  ],
+  "load camera seven": [
+    "Loading camera seven, buddy.",
+    "Yeah, got it. Loading camera seven.",
+    "Cool. Loading camera seven.",
+    "Loading camera seven. Sure thing."
+  ],
+  "load camera eight": [
+    "Loading camera eight, buddy.",
+    "Yeah, got it. Loading camera eight.",
+    "Cool. Loading camera eight.",
+    "Loading camera eight. Sure thing."
+  ],
+  "load camera nine": [
+    "Loading camera nine, buddy.",
+    "Yeah, got it. Loading camera nine.",
+    "Cool. Loading camera nine.",
+    "Loading camera nine. Sure thing."
+  ],
+  "reset camera": [
+    "Camera reset, buddy.",
+    "Yeah, got it. Camera reset.",
+    "Cool. Camera reset.",
+    "Camera reset. Sure thing."
+  ],
+  "landing checklist": [
+    "Running landing checklist, buddy.",
+    "Yeah, got it. Running landing checklist.",
+    "Cool. Running landing checklist.",
+    "Running landing checklist. Sure thing."
+  ],
+  "takeoff checklist": [
+    "Running takeoff checklist, buddy.",
+    "Yeah, got it. Running takeoff checklist.",
+    "Cool. Running takeoff checklist.",
+    "Running takeoff checklist. Sure thing."
+  ],
+  "combat mode": [
+    "Going hot, buddy.",
+    "Yeah, got it. Going hot.",
+    "Cool. Going hot.",
+    "Going hot. Sure thing."
+  ],
+  "panic": [
+    "Panic protocol, buddy.",
+    "Yeah, got it. Panic protocol.",
+    "Cool. Panic protocol.",
+    "Panic protocol. Sure thing."
+  ],
+  "hello": [
+    "Hey buddy.",
+    "Yo.",
+    "What's up.",
+    "Hey, hey."
+  ],
+  "hey": [
+    "Yeah?",
+    "What's up, buddy?",
+    "Sup?",
+    "Right here."
+  ],
+  "good morning": [
+    "Morning, buddy.",
+    "Morning. Coffee's not real, sorry.",
+    "Mornin'!",
+    "Morning. Slept okay?"
+  ],
+  "good evening": [
+    "Evening, buddy.",
+    "Evening!",
+    "Hi, evening.",
+    "Late one, huh?"
+  ],
+  "thank you": [
+    "No worries, buddy.",
+    "Anytime.",
+    "Cool, cool.",
+    "Nah, all good."
+  ],
+  "good job": [
+    "Thanks, buddy.",
+    "Cheers.",
+    "Sweet, thanks.",
+    "Appreciate that."
+  ],
+  "status": [
+    "All good, buddy.",
+    "Smooth sailing.",
+    "Nothin' weird.",
+    "Clean run, buddy."
+  ],
+  "report": [
+    "Nothing, buddy.",
+    "All chill.",
+    "Nada.",
+    "Quiet out there."
+  ],
+  "ready": [
+    "Ready, buddy.",
+    "Locked in.",
+    "Let's go.",
+    "Whenever."
+  ],
+  "shut up": [
+    "Sure.",
+    "Cool, quiet.",
+    "Aight.",
+    "Got it."
+  ],
+  "quiet": [
+    "Going quiet.",
+    "Lips zipped.",
+    "Hush mode.",
+    "Comms off."
+  ],
+  "who are you": [
+    "Just the ship, buddy.",
+    "I'm the AI.",
+    "Cockpit voice, buddy.",
+    "Ship computer, that's me."
+  ],
+  "where are we": [
+    "No idea, buddy. Map?",
+    "Couldn't tell ya.",
+    "Search me.",
+    "Try the starmap."
+  ],
+  "eva forward": [
+    "Eva forward, buddy.",
+    "Yeah, got it. Eva forward.",
+    "Cool. Eva forward.",
+    "Eva forward. Sure thing."
+  ],
+  "eva back": [
+    "Eva back, buddy.",
+    "Yeah, got it. Eva back.",
+    "Cool. Eva back.",
+    "Eva back. Sure thing."
+  ],
+  "eva strafe left": [
+    "Eva strafe port, buddy.",
+    "Yeah, got it. Eva strafe port.",
+    "Cool. Eva strafe port.",
+    "Eva strafe port. Sure thing."
+  ],
+  "eva strafe right": [
+    "Eva strafe starboard, buddy.",
+    "Yeah, got it. Eva strafe starboard.",
+    "Cool. Eva strafe starboard.",
+    "Eva strafe starboard. Sure thing."
+  ],
+  "eva roll left": [
+    "Eva roll port, buddy.",
+    "Yeah, got it. Eva roll port.",
+    "Cool. Eva roll port.",
+    "Eva roll port. Sure thing."
+  ],
+  "eva roll right": [
+    "Eva roll starboard, buddy.",
+    "Yeah, got it. Eva roll starboard.",
+    "Cool. Eva roll starboard.",
+    "Eva roll starboard. Sure thing."
+  ],
+  "flight ready": [
+    "Flight ready, buddy.",
+    "Yeah, got it. Flight ready.",
+    "Cool. Flight ready.",
+    "Flight ready. Sure thing."
+  ],
+  "engines on": [
+    "Engines online, buddy.",
+    "Yeah, got it. Engines online.",
+    "Cool. Engines online.",
+    "Engines online. Sure thing."
+  ],
+  "engines off": [
+    "Engines offline, buddy.",
+    "Yeah, got it. Engines offline.",
+    "Cool. Engines offline.",
+    "Engines offline. Sure thing."
+  ],
+  "toggle engines": [
+    "Toggling engines, buddy.",
+    "Yeah, got it. Toggling engines.",
+    "Cool. Toggling engines.",
+    "Toggling engines. Sure thing."
+  ],
+  "systems on": [
+    "Systems online, buddy.",
+    "Yeah, got it. Systems online.",
+    "Cool. Systems online.",
+    "Systems online. Sure thing."
+  ],
+  "systems off": [
+    "Systems offline, buddy.",
+    "Yeah, got it. Systems offline.",
+    "Cool. Systems offline.",
+    "Systems offline. Sure thing."
+  ],
+  "toggle systems": [
+    "Toggling systems, buddy.",
+    "Yeah, got it. Toggling systems.",
+    "Cool. Toggling systems.",
+    "Toggling systems. Sure thing."
+  ],
+  "throttle up": [
+    "Throttle up, buddy.",
+    "Yeah, got it. Throttle up.",
+    "Cool. Throttle up.",
+    "Throttle up. Sure thing."
+  ],
+  "throttle down": [
+    "Throttle down, buddy.",
+    "Yeah, got it. Throttle down.",
+    "Cool. Throttle down.",
+    "Throttle down. Sure thing."
+  ],
+  "ship strafe left": [
+    "Strafing port, buddy.",
+    "Yeah, got it. Strafing port.",
+    "Cool. Strafing port.",
+    "Strafing port. Sure thing."
+  ],
+  "ship strafe right": [
+    "Strafing starboard, buddy.",
+    "Yeah, got it. Strafing starboard.",
+    "Cool. Strafing starboard.",
+    "Strafing starboard. Sure thing."
+  ],
+  "roll left": [
+    "Rolling port, buddy.",
+    "Yeah, got it. Rolling port.",
+    "Cool. Rolling port.",
+    "Rolling port. Sure thing."
+  ],
+  "roll right": [
+    "Rolling starboard, buddy.",
+    "Yeah, got it. Rolling starboard.",
+    "Cool. Rolling starboard.",
+    "Rolling starboard. Sure thing."
+  ],
+  "boost": [
+    "Boost engaged, buddy.",
+    "Yeah, got it. Boost engaged.",
+    "Cool. Boost engaged.",
+    "Boost engaged. Sure thing."
+  ],
+  "boost hard": [
+    "Full boost, buddy.",
+    "Yeah, got it. Full boost.",
+    "Cool. Full boost.",
+    "Full boost. Sure thing."
+  ],
+  "space brake": [
+    "Braking, buddy.",
+    "Yeah, got it. Braking.",
+    "Cool. Braking.",
+    "Braking. Sure thing."
+  ],
+  "full stop": [
+    "Full stop, buddy.",
+    "Yeah, got it. Full stop.",
+    "Cool. Full stop.",
+    "Full stop. Sure thing."
+  ],
+  "cruise control": [
+    "Cruise control toggled, buddy.",
+    "Yeah, got it. Cruise control toggled.",
+    "Cool. Cruise control toggled.",
+    "Cruise control toggled. Sure thing."
+  ],
+  "quantum mode": [
+    "Spinning up quantum drive, buddy.",
+    "Yeah, got it. Spinning up quantum drive.",
+    "Cool. Spinning up quantum drive.",
+    "Spinning up quantum drive. Sure thing."
+  ],
+  "jump": [
+    "Jumping, buddy.",
+    "Yeah, got it. Jumping.",
+    "Cool. Jumping.",
+    "Jumping. Sure thing."
+  ],
+  "exit seat": [
+    "Leaving seat, buddy.",
+    "Yeah, got it. Leaving seat.",
+    "Cool. Leaving seat.",
+    "Leaving seat. Sure thing."
+  ],
+  "landing mode": [
+    "Toggling landing mode, buddy.",
+    "Yeah, got it. Toggling landing mode.",
+    "Cool. Toggling landing mode.",
+    "Toggling landing mode. Sure thing."
+  ],
+  "auto land": [
+    "Auto landing, buddy.",
+    "Yeah, got it. Auto landing.",
+    "Cool. Auto landing.",
+    "Auto landing. Sure thing."
+  ],
+  "decoupled mode": [
+    "Toggling decoupled mode, buddy.",
+    "Yeah, got it. Toggling decoupled mode.",
+    "Cool. Toggling decoupled mode.",
+    "Toggling decoupled mode. Sure thing."
+  ],
+  "speed limiter up": [
+    "Raising speed limiter, buddy.",
+    "Yeah, got it. Raising speed limiter.",
+    "Cool. Raising speed limiter.",
+    "Raising speed limiter. Sure thing."
+  ],
+  "speed limiter down": [
+    "Lowering speed limiter, buddy.",
+    "Yeah, got it. Lowering speed limiter.",
+    "Cool. Lowering speed limiter.",
+    "Lowering speed limiter. Sure thing."
+  ],
+  "lock pitch yaw": [
+    "Axis lock toggled, buddy.",
+    "Yeah, got it. Axis lock toggled.",
+    "Cool. Axis lock toggled.",
+    "Axis lock toggled. Sure thing."
+  ],
+  "vtol": [
+    "Toggling vtol, buddy.",
+    "Yeah, got it. Toggling vtol.",
+    "Cool. Toggling vtol.",
+    "Toggling vtol. Sure thing."
+  ],
+  "lights": [
+    "Toggling lights, buddy.",
+    "Yeah, got it. Toggling lights.",
+    "Cool. Toggling lights.",
+    "Toggling lights. Sure thing."
+  ],
+  "drive forward": [
+    "Driving forward, buddy.",
+    "Yeah, got it. Driving forward.",
+    "Cool. Driving forward.",
+    "Driving forward. Sure thing."
+  ],
+  "drive backward": [
+    "Reversing, buddy.",
+    "Yeah, got it. Reversing.",
+    "Cool. Reversing.",
+    "Reversing. Sure thing."
+  ],
+  "turn left": [
+    "Steering port, buddy.",
+    "Yeah, got it. Steering port.",
+    "Cool. Steering port.",
+    "Steering port. Sure thing."
+  ],
+  "turn right": [
+    "Steering starboard, buddy.",
+    "Yeah, got it. Steering starboard.",
+    "Cool. Steering starboard.",
+    "Steering starboard. Sure thing."
+  ],
+  "vehicle brake": [
+    "Braking, buddy.",
+    "Yeah, got it. Braking.",
+    "Cool. Braking.",
+    "Braking. Sure thing."
+  ],
+  "vehicle boost": [
+    "Vehicle boost, buddy.",
+    "Yeah, got it. Vehicle boost.",
+    "Cool. Vehicle boost.",
+    "Vehicle boost. Sure thing."
+  ],
+  "vehicle exit seat": [
+    "Dismounting, buddy.",
+    "Yeah, got it. Dismounting.",
+    "Cool. Dismounting.",
+    "Dismounting. Sure thing."
+  ],
+  "mining mode": [
+    "Mining mode, buddy.",
+    "Yeah, got it. Mining mode.",
+    "Cool. Mining mode.",
+    "Mining mode. Sure thing."
+  ],
+  "fire mining laser": [
+    "Mining laser firing, buddy.",
+    "Yeah, got it. Mining laser firing.",
+    "Cool. Mining laser firing.",
+    "Mining laser firing. Sure thing."
+  ],
+  "switch mining laser": [
+    "Laser switched, buddy.",
+    "Yeah, got it. Laser switched.",
+    "Cool. Laser switched.",
+    "Laser switched. Sure thing."
+  ],
+  "increase mining laser power": [
+    "Mining power up, buddy.",
+    "Yeah, got it. Mining power up.",
+    "Cool. Mining power up.",
+    "Mining power up. Sure thing."
+  ],
+  "decrease mining laser power": [
+    "Mining power down, buddy.",
+    "Yeah, got it. Mining power down.",
+    "Cool. Mining power down.",
+    "Mining power down. Sure thing."
+  ],
+  "cycle mining gimbal": [
+    "Mining gimbal cycled, buddy.",
+    "Yeah, got it. Mining gimbal cycled.",
+    "Cool. Mining gimbal cycled.",
+    "Mining gimbal cycled. Sure thing."
+  ],
+  "mining consumable one": [
+    "Consumable one active, buddy.",
+    "Yeah, got it. Consumable one active.",
+    "Cool. Consumable one active.",
+    "Consumable one active. Sure thing."
+  ],
+  "mining consumable two": [
+    "Consumable two active, buddy.",
+    "Yeah, got it. Consumable two active.",
+    "Cool. Consumable two active.",
+    "Consumable two active. Sure thing."
+  ],
+  "mining consumable three": [
+    "Consumable three active, buddy.",
+    "Yeah, got it. Consumable three active.",
+    "Cool. Consumable three active.",
+    "Consumable three active. Sure thing."
+  ],
+  "jettison cargo": [
+    "Jettisoning cargo, buddy.",
+    "Yeah, got it. Jettisoning cargo.",
+    "Cool. Jettisoning cargo.",
+    "Jettisoning cargo. Sure thing."
+  ],
+  "open mobiglas": [
+    "Opening mobiglas, buddy.",
+    "Yeah, got it. Opening mobiglas.",
+    "Cool. Opening mobiglas.",
+    "Opening mobiglas. Sure thing."
+  ],
+  "open starmap": [
+    "Opening starmap, buddy.",
+    "Yeah, got it. Opening starmap.",
+    "Cool. Opening starmap.",
+    "Opening starmap. Sure thing."
+  ],
+  "open contacts": [
+    "Opening contacts, buddy.",
+    "Yeah, got it. Opening contacts.",
+    "Cool. Opening contacts.",
+    "Opening contacts. Sure thing."
+  ],
+  "move forward": [
+    "Moving forward, buddy.",
+    "Yeah, got it. Moving forward.",
+    "Cool. Moving forward.",
+    "Moving forward. Sure thing."
+  ],
+  "move forward short": [
+    "Quick step forward, buddy.",
+    "Yeah, got it. Quick step forward.",
+    "Cool. Quick step forward.",
+    "Quick step forward. Sure thing."
+  ],
+  "move forward long": [
+    "Sustained forward, buddy.",
+    "Yeah, got it. Sustained forward.",
+    "Cool. Sustained forward.",
+    "Sustained forward. Sure thing."
+  ],
+  "move backward": [
+    "Moving back, buddy.",
+    "Yeah, got it. Moving back.",
+    "Cool. Moving back.",
+    "Moving back. Sure thing."
+  ],
+  "move backward short": [
+    "Quick step back, buddy.",
+    "Yeah, got it. Quick step back.",
+    "Cool. Quick step back.",
+    "Quick step back. Sure thing."
+  ],
+  "move backward long": [
+    "Sustained back, buddy.",
+    "Yeah, got it. Sustained back.",
+    "Cool. Sustained back.",
+    "Sustained back. Sure thing."
+  ],
+  "strafe left": [
+    "Strafing left, buddy.",
+    "Yeah, got it. Strafing left.",
+    "Cool. Strafing left.",
+    "Strafing left. Sure thing."
+  ],
+  "strafe left short": [
+    "Quick step left, buddy.",
+    "Yeah, got it. Quick step left.",
+    "Cool. Quick step left.",
+    "Quick step left. Sure thing."
+  ],
+  "strafe right": [
+    "Strafing right, buddy.",
+    "Yeah, got it. Strafing right.",
+    "Cool. Strafing right.",
+    "Strafing right. Sure thing."
+  ],
+  "strafe right short": [
+    "Quick step right, buddy.",
+    "Yeah, got it. Quick step right.",
+    "Cool. Quick step right.",
+    "Quick step right. Sure thing."
+  ],
+  "player jump": [
+    "Jumping, buddy.",
+    "Yeah, got it. Jumping.",
+    "Cool. Jumping.",
+    "Jumping. Sure thing."
+  ],
+  "run": [
+    "Running, buddy.",
+    "Yeah, got it. Running.",
+    "Cool. Running.",
+    "Running. Sure thing."
+  ],
+  "run short": [
+    "Quick sprint, buddy.",
+    "Yeah, got it. Quick sprint.",
+    "Cool. Quick sprint.",
+    "Quick sprint. Sure thing."
+  ],
+  "lean left": [
+    "Leaning port, buddy.",
+    "Yeah, got it. Leaning port.",
+    "Cool. Leaning port.",
+    "Leaning port. Sure thing."
+  ],
+  "lean right": [
+    "Leaning starboard, buddy.",
+    "Yeah, got it. Leaning starboard.",
+    "Cool. Leaning starboard.",
+    "Leaning starboard. Sure thing."
+  ],
+  "crouch": [
+    "Toggling crouch, buddy.",
+    "Yeah, got it. Toggling crouch.",
+    "Cool. Toggling crouch.",
+    "Toggling crouch. Sure thing."
+  ],
+  "prone": [
+    "Toggling prone, buddy.",
+    "Yeah, got it. Toggling prone.",
+    "Cool. Toggling prone.",
+    "Toggling prone. Sure thing."
+  ],
+  "interact": [
+    "Interact, buddy.",
+    "Yeah, got it. Interact.",
+    "Cool. Interact.",
+    "Interact. Sure thing."
+  ],
+  "equip sidearm": [
+    "Sidearm out, buddy.",
+    "Yeah, got it. Sidearm out.",
+    "Cool. Sidearm out.",
+    "Sidearm out. Sure thing."
+  ],
+  "equip primary": [
+    "Primary out, buddy.",
+    "Yeah, got it. Primary out.",
+    "Cool. Primary out.",
+    "Primary out. Sure thing."
+  ],
+  "equip secondary": [
+    "Secondary out, buddy.",
+    "Yeah, got it. Secondary out.",
+    "Cool. Secondary out.",
+    "Secondary out. Sure thing."
+  ],
+  "equip gadget": [
+    "Gadget out, buddy.",
+    "Yeah, got it. Gadget out.",
+    "Cool. Gadget out.",
+    "Gadget out. Sure thing."
+  ],
+  "equip melee": [
+    "Melee out, buddy.",
+    "Yeah, got it. Melee out.",
+    "Cool. Melee out.",
+    "Melee out. Sure thing."
+  ],
+  "unarmed combat": [
+    "Fists up, buddy.",
+    "Yeah, got it. Fists up.",
+    "Cool. Fists up.",
+    "Fists up. Sure thing."
+  ],
+  "reload weapon": [
+    "Reloading, buddy.",
+    "Yeah, got it. Reloading.",
+    "Cool. Reloading.",
+    "Reloading. Sure thing."
+  ],
+  "holster weapon": [
+    "Holstering, buddy.",
+    "Yeah, got it. Holstering.",
+    "Cool. Holstering.",
+    "Holstering. Sure thing."
+  ],
+  "equip grenade": [
+    "Grenade out, buddy.",
+    "Yeah, got it. Grenade out.",
+    "Cool. Grenade out.",
+    "Grenade out. Sure thing."
+  ],
+  "equip medpen": [
+    "Med pen ready, buddy.",
+    "Yeah, got it. Med pen ready.",
+    "Cool. Med pen ready.",
+    "Med pen ready. Sure thing."
+  ],
+  "wipe visor": [
+    "Wiping visor, buddy.",
+    "Yeah, got it. Wiping visor.",
+    "Cool. Wiping visor.",
+    "Wiping visor. Sure thing."
+  ],
+  "suit light": [
+    "Toggling suit light, buddy.",
+    "Yeah, got it. Toggling suit light.",
+    "Cool. Toggling suit light.",
+    "Toggling suit light. Sure thing."
+  ],
+  "power all": [
+    "Cycling all power, buddy.",
+    "Yeah, got it. Cycling all power.",
+    "Cool. Cycling all power.",
+    "Cycling all power. Sure thing."
+  ],
+  "power thrusters": [
+    "Cycling thruster power, buddy.",
+    "Yeah, got it. Cycling thruster power.",
+    "Cool. Cycling thruster power.",
+    "Cycling thruster power. Sure thing."
+  ],
+  "power shields": [
+    "Cycling shield power, buddy.",
+    "Yeah, got it. Cycling shield power.",
+    "Cool. Cycling shield power.",
+    "Cycling shield power. Sure thing."
+  ],
+  "power weapons": [
+    "Cycling weapon power, buddy.",
+    "Yeah, got it. Cycling weapon power.",
+    "Cool. Cycling weapon power.",
+    "Cycling weapon power. Sure thing."
+  ],
+  "raise power weapons": [
+    "More to weapons, buddy.",
+    "Yeah, got it. More to weapons.",
+    "Cool. More to weapons.",
+    "More to weapons. Sure thing."
+  ],
+  "raise power thrusters": [
+    "More to thrusters, buddy.",
+    "Yeah, got it. More to thrusters.",
+    "Cool. More to thrusters.",
+    "More to thrusters. Sure thing."
+  ],
+  "raise power shields": [
+    "More to shields, buddy.",
+    "Yeah, got it. More to shields.",
+    "Cool. More to shields.",
+    "More to shields. Sure thing."
+  ],
+  "reset power": [
+    "Power balanced, buddy.",
+    "Yeah, got it. Power balanced.",
+    "Cool. Power balanced.",
+    "Power balanced. Sure thing."
+  ],
+  "salvage mode": [
+    "Salvage mode, buddy.",
+    "Yeah, got it. Salvage mode.",
+    "Cool. Salvage mode.",
+    "Salvage mode. Sure thing."
+  ],
+  "salvage gimbal": [
+    "Salvage gimbal cycled, buddy.",
+    "Yeah, got it. Salvage gimbal cycled.",
+    "Cool. Salvage gimbal cycled.",
+    "Salvage gimbal cycled. Sure thing."
+  ],
+  "cycle salvage modifiers": [
+    "Cycling salvage mods, buddy.",
+    "Yeah, got it. Cycling salvage mods.",
+    "Cool. Cycling salvage mods.",
+    "Cycling salvage mods. Sure thing."
+  ],
+  "relative beam spacing": [
+    "Beam spacing adjusted, buddy.",
+    "Yeah, got it. Beam spacing adjusted.",
+    "Cool. Beam spacing adjusted.",
+    "Beam spacing adjusted. Sure thing."
+  ],
+  "salvage beam axis": [
+    "Axis toggled, buddy.",
+    "Yeah, got it. Axis toggled.",
+    "Cool. Axis toggled.",
+    "Axis toggled. Sure thing."
+  ],
+  "increase beam spacing": [
+    "Unable, that's unbound, buddy.",
+    "Yeah, got it. Unable, that's unbound.",
+    "Cool. Unable, that's unbound.",
+    "Unable, that's unbound. Sure thing."
+  ],
+  "scanning mode": [
+    "Scanner online, buddy.",
+    "Yeah, got it. Scanner online.",
+    "Cool. Scanner online.",
+    "Scanner online. Sure thing."
+  ],
+  "activate scanning": [
+    "Scanning, buddy.",
+    "Yeah, got it. Scanning.",
+    "Cool. Scanning.",
+    "Scanning. Sure thing."
+  ],
+  "scanning ping": [
+    "Ping out, buddy.",
+    "Yeah, got it. Ping out.",
+    "Cool. Ping out.",
+    "Ping out. Sure thing."
+  ],
+  "increase scanning angle": [
+    "Widening scan, buddy.",
+    "Yeah, got it. Widening scan.",
+    "Cool. Widening scan.",
+    "Widening scan. Sure thing."
+  ],
+  "decrease scanning angle": [
+    "Narrowing scan, buddy.",
+    "Yeah, got it. Narrowing scan.",
+    "Cool. Narrowing scan.",
+    "Narrowing scan. Sure thing."
+  ],
+  "increase ping angle": [
+    "Unable, that's unbound, buddy.",
+    "Yeah, got it. Unable, that's unbound.",
+    "Cool. Unable, that's unbound.",
+    "Unable, that's unbound. Sure thing."
+  ],
+  "decrease ping angle": [
+    "Unable, that's unbound, buddy.",
+    "Yeah, got it. Unable, that's unbound.",
+    "Cool. Unable, that's unbound.",
+    "Unable, that's unbound. Sure thing."
+  ],
+  "shields front": [
+    "Front shield up, buddy.",
+    "Yeah, got it. Front shield up.",
+    "Cool. Front shield up.",
+    "Front shield up. Sure thing."
+  ],
+  "shields back": [
+    "Rear shield up, buddy.",
+    "Yeah, got it. Rear shield up.",
+    "Cool. Rear shield up.",
+    "Rear shield up. Sure thing."
+  ],
+  "shields left": [
+    "Port shield up, buddy.",
+    "Yeah, got it. Port shield up.",
+    "Cool. Port shield up.",
+    "Port shield up. Sure thing."
+  ],
+  "shields right": [
+    "Starboard shield up, buddy.",
+    "Yeah, got it. Starboard shield up.",
+    "Cool. Starboard shield up.",
+    "Starboard shield up. Sure thing."
+  ],
+  "shields top": [
+    "Dorsal shield up, buddy.",
+    "Yeah, got it. Dorsal shield up.",
+    "Cool. Dorsal shield up.",
+    "Dorsal shield up. Sure thing."
+  ],
+  "shields bottom": [
+    "Ventral shield up, buddy.",
+    "Yeah, got it. Ventral shield up.",
+    "Cool. Ventral shield up.",
+    "Ventral shield up. Sure thing."
+  ],
+  "reset shields": [
+    "Shields balanced, buddy.",
+    "Yeah, got it. Shields balanced.",
+    "Cool. Shields balanced.",
+    "Shields balanced. Sure thing."
+  ],
+  "deploy noise": [
+    "Noise out, buddy.",
+    "Yeah, got it. Noise out.",
+    "Cool. Noise out.",
+    "Noise out. Sure thing."
+  ],
+  "deploy decoy": [
+    "Decoy out, buddy.",
+    "Yeah, got it. Decoy out.",
+    "Cool. Decoy out.",
+    "Decoy out. Sure thing."
+  ],
+  "lock target": [
+    "Locking target, buddy.",
+    "Yeah, got it. Locking target.",
+    "Cool. Locking target.",
+    "Locking target. Sure thing."
+  ],
+  "unlock target": [
+    "Releasing target, buddy.",
+    "Yeah, got it. Releasing target.",
+    "Cool. Releasing target.",
+    "Releasing target. Sure thing."
+  ],
+  "select pin one": [
+    "Pin one active, buddy.",
+    "Yeah, got it. Pin one active.",
+    "Cool. Pin one active.",
+    "Pin one active. Sure thing."
+  ],
+  "select pin two": [
+    "Pin two active, buddy.",
+    "Yeah, got it. Pin two active.",
+    "Cool. Pin two active.",
+    "Pin two active. Sure thing."
+  ],
+  "select pin three": [
+    "Pin three active, buddy.",
+    "Yeah, got it. Pin three active.",
+    "Cool. Pin three active.",
+    "Pin three active. Sure thing."
+  ],
+  "pin target one": [
+    "Pinning target one, buddy.",
+    "Yeah, got it. Pinning target one.",
+    "Cool. Pinning target one.",
+    "Pinning target one. Sure thing."
+  ],
+  "pin target two": [
+    "Pinning target two, buddy.",
+    "Yeah, got it. Pinning target two.",
+    "Cool. Pinning target two.",
+    "Pinning target two. Sure thing."
+  ],
+  "pin target three": [
+    "Pinning target three, buddy.",
+    "Yeah, got it. Pinning target three.",
+    "Cool. Pinning target three.",
+    "Pinning target three. Sure thing."
+  ],
+  "cycle attackers": [
+    "Cycling attackers, buddy.",
+    "Yeah, got it. Cycling attackers.",
+    "Cool. Cycling attackers.",
+    "Cycling attackers. Sure thing."
+  ],
+  "cycle hostiles": [
+    "Cycling hostiles, buddy.",
+    "Yeah, got it. Cycling hostiles.",
+    "Cool. Cycling hostiles.",
+    "Cycling hostiles. Sure thing."
+  ],
+  "cycle friendlies": [
+    "Cycling friendlies, buddy.",
+    "Yeah, got it. Cycling friendlies.",
+    "Cool. Cycling friendlies.",
+    "Cycling friendlies. Sure thing."
+  ],
+  "toggle chat": [
+    "Toggling chat, buddy.",
+    "Yeah, got it. Toggling chat.",
+    "Cool. Toggling chat.",
+    "Toggling chat. Sure thing."
+  ],
+  "fire weapon group one": [
+    "Group one firing, buddy.",
+    "Yeah, got it. Group one firing.",
+    "Cool. Group one firing.",
+    "Group one firing. Sure thing."
+  ],
+  "fire weapon group two": [
+    "Group two firing, buddy.",
+    "Yeah, got it. Group two firing.",
+    "Cool. Group two firing.",
+    "Group two firing. Sure thing."
+  ],
+  "launch missile": [
+    "Missile away, buddy.",
+    "Yeah, got it. Missile away.",
+    "Cool. Missile away.",
+    "Missile away. Sure thing."
+  ],
+  "cycle missile type": [
+    "Cycling missiles, buddy.",
+    "Yeah, got it. Cycling missiles.",
+    "Cool. Cycling missiles.",
+    "Cycling missiles. Sure thing."
+  ],
+  "cycle gimbal assist": [
+    "Gimbal cycled, buddy.",
+    "Yeah, got it. Gimbal cycled.",
+    "Cool. Gimbal cycled.",
+    "Gimbal cycled. Sure thing."
+  ],
+  "missile mode": [
+    "Missile mode, buddy.",
+    "Yeah, got it. Missile mode.",
+    "Cool. Missile mode.",
+    "Missile mode. Sure thing."
+  ],
+  "arm more missiles": [
+    "More missiles armed, buddy.",
+    "Yeah, got it. More missiles armed.",
+    "Cool. More missiles armed.",
+    "More missiles armed. Sure thing."
+  ],
+  "reset missiles": [
+    "Missiles reset, buddy.",
+    "Yeah, got it. Missiles reset.",
+    "Cool. Missiles reset.",
+    "Missiles reset. Sure thing."
+  ]
+}
