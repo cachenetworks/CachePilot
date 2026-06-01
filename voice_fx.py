@@ -94,6 +94,63 @@ class PiperSynth:
         return samples, self.sample_rate
 
 
+class KokoroSynth:
+    """
+    Higher-quality neural TTS using kokoro-onnx. Single shared ONNX model
+    (~310 MB) with multiple voice embeddings (~27 MB total). Slower than
+    Piper on CPU but noticeably more natural-sounding.
+
+    Voice names map our 10 Piper-style names onto Kokoro's pre-baked voices.
+    """
+
+    name = "kokoro"
+
+    # Map our Piper-named voices to the closest Kokoro voice. Kokoro uses
+    # codes like af_sarah (american female sarah), am_michael, bf_emma, etc.
+    VOICE_MAP = {
+        "alan":     "bm_george",    # british male, calm
+        "ryan":     "am_michael",   # us male, neutral
+        "lessac":   "af_heart",     # us female, warm
+        "joe":      "am_adam",      # us male, deep
+        "amy":      "af_sarah",     # us female, bright
+        "kathleen": "af_nova",      # us female, expressive
+        "kusal":    "am_eric",      # us male, casual
+        "northern": "bm_lewis",     # british male, alt
+        "southern": "bf_emma",      # british female, posh
+        "jenny":    "bf_isabella",  # british female, friendly
+    }
+
+    # Shared model instance — Kokoro is one network, voices are embeddings.
+    _shared_kokoro = None
+    _shared_lock = threading.Lock()
+
+    def __init__(self, voice_name):
+        with KokoroSynth._shared_lock:
+            if KokoroSynth._shared_kokoro is None:
+                from kokoro_onnx import Kokoro
+                model_path = os.path.join("models", "kokoro", "kokoro-v1.0.onnx")
+                voices_path = os.path.join("models", "kokoro", "voices-v1.0.bin")
+                if not os.path.exists(model_path) or not os.path.exists(voices_path):
+                    raise FileNotFoundError(
+                        "Kokoro model files missing. Re-run setup.bat and "
+                        "choose to install Kokoro support."
+                    )
+                KokoroSynth._shared_kokoro = Kokoro(model_path, voices_path)
+            self._kokoro = KokoroSynth._shared_kokoro
+        self.voice_name = voice_name
+        self.kokoro_voice = self.VOICE_MAP.get(voice_name, "af_heart")
+        self.sample_rate = 24000  # Kokoro outputs 24 kHz
+
+    def synthesize(self, text):
+        samples, sr = self._kokoro.create(
+            text, voice=self.kokoro_voice, speed=1.0, lang="en-us",
+        )
+        # kokoro-onnx returns float32 already in [-1, 1]
+        if samples.size == 0:
+            return np.zeros(0, dtype=np.float32), sr
+        return samples.astype(np.float32), sr
+
+
 class Pyttsx3Synth:
     """Fallback synthesizer using pyttsx3 (SAPI on Windows)."""
 
@@ -140,8 +197,28 @@ class Pyttsx3Synth:
             except OSError: pass
 
 
-def _make_synth(voice_name, logger):
-    """Try Piper first, fall back to pyttsx3 with a warning."""
+def _make_synth(voice_name, logger, engine="piper"):
+    """
+    Build a synth for `voice_name` using the chosen engine.
+    Falls back through: requested engine -> Piper -> pyttsx3.
+    """
+    engine = (engine or "piper").lower()
+
+    if engine == "kokoro":
+        try:
+            synth = KokoroSynth(voice_name)
+            logger(f"[TTS] Kokoro voice loaded: {voice_name} "
+                   f"-> {synth.kokoro_voice}")
+            return synth
+        except FileNotFoundError as e:
+            logger(f"[TTS] {e}")
+        except ImportError:
+            logger("[TTS] kokoro-onnx not installed. Re-run setup.bat "
+                   "and enable Kokoro support.")
+        except Exception as e:
+            logger(f"[TTS] Kokoro init failed ({e}).")
+        logger("[TTS] Falling back to Piper.")
+
     try:
         synth = PiperSynth(voice_name)
         logger(f"[TTS] Piper voice loaded: {voice_name}")
@@ -171,11 +248,13 @@ class VoiceFX:
     cost per voice (~50ms each).
     """
 
-    def __init__(self, voice="alan", style="radio", enabled=True, logger=None):
+    def __init__(self, voice="alan", style="radio", enabled=True, logger=None,
+                 engine="piper"):
         self._logger = logger or (lambda m: None)
         self.style = (style or "clean").lower()
         self.enabled = bool(enabled)
         self.default_voice = voice
+        self.engine = (engine or "piper").lower()
         self._synths = {}
         self._fallback = None  # only initialized if Piper is missing
 
@@ -194,19 +273,11 @@ class VoiceFX:
             voice_name = self.default_voice
         if voice_name in self._synths:
             return self._synths[voice_name]
-        # Try to load this Piper voice. On failure, return whichever
-        # synth we already have (or the pyttsx3 fallback as a last resort).
-        try:
-            synth = PiperSynth(voice_name)
-            self._logger(f"[TTS] Piper voice loaded: {voice_name}")
+        # Build via the engine-aware factory.
+        synth = _make_synth(voice_name, self._logger, engine=self.engine)
+        if synth is not None:
             self._synths[voice_name] = synth
             return synth
-        except FileNotFoundError:
-            self._logger(f"[TTS] Voice file missing for '{voice_name}'.")
-        except ImportError:
-            self._logger("[TTS] piper-tts not installed.")
-        except Exception as e:
-            self._logger(f"[TTS] Failed to load voice '{voice_name}': {e}")
         # Fallback: reuse default if loaded, else pyttsx3
         if self.default_voice in self._synths:
             return self._synths[self.default_voice]
@@ -238,7 +309,22 @@ class VoiceFX:
         """Queue text for speech. `voice` overrides the default per-call."""
         if not self.enabled or not text:
             return
-        self._queue.put((text, voice))
+        self._queue.put(("speak", text, voice))
+
+    def run_after(self, callback):
+        """
+        Queue `callback` to run after every currently-queued line finishes
+        playing. Used to fire keybinds AFTER the crew member has finished
+        speaking, so the relay sequence reads cleanly in-game.
+        Falls back to running immediately if TTS is disabled.
+        """
+        if not callable(callback):
+            return
+        if not self.enabled:
+            try: callback()
+            except Exception: pass
+            return
+        self._queue.put(("call", callback, None))
 
     def shutdown(self):
         self._stop.set()
@@ -253,7 +339,15 @@ class VoiceFX:
              the rest of the voice catalogue so by ~2 minutes everything
              is warm and the GUI Voice-test buttons feel instant.
 
-        Each Piper model takes ~10s to cold-load on a typical CPU.
+        Each Piper model takes ~2s to load when the system is idle, ~10s
+        when SC (or similar) is contending for disk + CPU.
+
+        Parallel loading does NOT help: ONNX Runtime serializes
+        InferenceSession initialization under a global lock, so spawning
+        threads gives identical wall-clock to sequential. For the real
+        speed win, build the sound_cache so common commands skip Piper
+        entirely at play time.
+
         Safe to call more than once; voices already cached are skipped.
         """
         priority = [v for v in (priority_voices or []) if v]
@@ -290,11 +384,14 @@ class VoiceFX:
             item = self._queue.get()
             if item is None:
                 break
-            text, voice = item
+            kind, a, b = item
             try:
-                self._speak_now(text, voice)
+                if kind == "speak":
+                    self._speak_now(a, b)
+                elif kind == "call":
+                    a()  # callback
             except Exception as e:
-                self._logger(f"[TTS] speak failed: {e}")
+                self._logger(f"[TTS] queue item failed: {e}")
 
     def _speak_now(self, text, voice):
         synth = self._get_synth(voice or self.default_voice)

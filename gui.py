@@ -80,6 +80,12 @@ class AppState:
         self._force_voice = None
         self._relay_enabled = bool(relay_enabled)
         self._copilot_voice = copilot_voice
+        # Pending confirm_code flow. None when idle; otherwise a dict:
+        #   {"code": "4626", "expires_at": <epoch>, "command": <name>,
+        #    "command_data": <entry>, "voice": <crew voice>,
+        #    "confirm_response": <text or list>}
+        # The listen loop consumes/clears this before normal matching.
+        self._pending_confirm = None
         self.log_queue = queue.Queue()
 
     # mute
@@ -148,6 +154,15 @@ class AppState:
         with self._lock: return self._copilot_voice
     def set_copilot_voice(self, v):
         with self._lock: self._copilot_voice = v or None
+
+    # pending confirmation (used by self-destruct and similar code prompts)
+    def set_pending_confirm(self, payload):
+        with self._lock: self._pending_confirm = payload
+    def get_pending_confirm(self):
+        with self._lock:
+            return dict(self._pending_confirm) if self._pending_confirm else None
+    def clear_pending_confirm(self):
+        with self._lock: self._pending_confirm = None
 
     # logging
     def log(self, message):
@@ -1032,6 +1047,45 @@ class CachePilotGUI:
                           ))
         row += 1
 
+        # STT + TTS engine dropdowns. Changes take effect on Reload.
+        try:
+            import config as _cfg
+            stt_engine_default = getattr(_cfg, "SPEECH_ENGINE", "whisper")
+            stt_model_default  = getattr(_cfg, "WHISPER_MODEL", "base")
+            tts_engine_default = getattr(_cfg, "TTS_ENGINE", "piper")
+        except Exception:
+            stt_engine_default, stt_model_default = "whisper", "base"
+            tts_engine_default = "piper"
+
+        self._setting_row(box, row, "TTS engine",
+                          ctk.CTkOptionMenu(
+                              box, values=["piper", "kokoro"],
+                              variable=self._mk_var(tts_engine_default),
+                              command=self._on_tts_engine_change,
+                              fg_color=COLOR_BG, button_color=COLOR_ACCENT_DARK,
+                              button_hover_color=COLOR_ACCENT,
+                          ))
+        row += 1
+
+        self._setting_row(box, row, "Speech recognition",
+                          ctk.CTkOptionMenu(
+                              box, values=["whisper", "google"],
+                              variable=self._mk_var(stt_engine_default),
+                              command=self._on_stt_engine_change,
+                              fg_color=COLOR_BG, button_color=COLOR_ACCENT_DARK,
+                              button_hover_color=COLOR_ACCENT,
+                          ))
+        row += 1
+        self._setting_row(box, row, "Whisper model size",
+                          ctk.CTkOptionMenu(
+                              box, values=["tiny", "base", "small", "medium"],
+                              variable=self._mk_var(stt_model_default),
+                              command=self._on_stt_model_change,
+                              fg_color=COLOR_BG, button_color=COLOR_ACCENT_DARK,
+                              button_hover_color=COLOR_ACCENT,
+                          ))
+        row += 1
+
         ctk.CTkButton(
             box, text="Reload commands & voicelines",
             font=FONT_SUB, fg_color=COLOR_ACCENT_DARK, hover_color=COLOR_ACCENT,
@@ -1168,6 +1222,7 @@ class CachePilotGUI:
         self.state.log("[KEYMAP] Cleared.")
         self.keymap_status.configure(text=self._compose_keymap_status())
 
+
     def _mk_var(self, value):
         v = ctk.StringVar(value=value)
         return v
@@ -1206,6 +1261,43 @@ class CachePilotGUI:
         enabled = bool(self.relay_switch.get())
         self.state.set_relay_enabled(enabled)
         self.state.log(f"[GUI] Relay {'on' if enabled else 'off'}")
+
+    def _on_tts_engine_change(self, value):
+        self._patch_config("TTS_ENGINE", value)
+        self.state.log(f"[TTS] Engine -> {value}. Reload to apply.")
+        if value == "kokoro":
+            import os as _os
+            model_path = _os.path.join("models", "kokoro", "kokoro-v1.0.onnx")
+            if not _os.path.exists(model_path):
+                self.state.log("[TTS] Kokoro model files not found. "
+                               "Re-run setup.bat and enable Kokoro support.")
+
+    def _on_stt_engine_change(self, value):
+        self._patch_config("SPEECH_ENGINE", value)
+        self.state.log(f"[STT] Engine -> {value}. Reload to apply.")
+
+    def _on_stt_model_change(self, value):
+        self._patch_config("WHISPER_MODEL", value)
+        self.state.log(f"[STT] Whisper model -> {value}. Reload to apply.")
+
+    def _patch_config(self, name, value):
+        """Rewrite a single line in config.py so the choice persists."""
+        try:
+            import re as _re
+            path = "config.py"
+            with open(path, "r", encoding="utf-8") as f:
+                src = f.read()
+            quoted = f'"{value}"' if not value.startswith('"') else value
+            new = _re.sub(
+                rf'^({_re.escape(name)}\s*=\s*)("[^"]*"|[^\n]*)$',
+                lambda m: m.group(1) + quoted,
+                src,
+                count=1, flags=_re.MULTILINE,
+            )
+            with open(path, "w", encoding="utf-8") as f:
+                f.write(new)
+        except Exception as e:
+            self.state.log(f"[GUI] Could not persist {name}: {e}")
 
     def _on_force_voice_change(self, value):
         if value == "(off)":

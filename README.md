@@ -16,7 +16,7 @@ input, the same way VoiceAttack-style tools have worked for years.
 
 ## Highlights
 
-- **Speech recognition** — Google Web Speech via `SpeechRecognition`.
+- **Speech recognition** — local [faster-whisper](https://github.com/SYSTRAN/faster-whisper) (offline, ~1s latency on CPU) with Google Web Speech fallback.
 - **Local neural TTS** — [Piper](https://github.com/rhasspy/piper),
   10 voices included, real-time on CPU.
 - **Radio FX** — DSP bandpass + soft saturation + squelch beeps so
@@ -298,9 +298,16 @@ Or grab a matching wheel from
 
 ### Speech recognition fails
 
-`recognize_google` needs an internet connection. If you have one and
-it still fails, your IP may be temporarily rate-limited — wait a few
-minutes.
+The default engine is **faster-whisper** (offline). On first launch
+it downloads a model into `models/whisper/` (~74 MB for `base`). If
+that download fails, check your internet for one round-trip — Whisper
+is fully offline after that.
+
+If you switched the engine to **Google** in Settings, recognition
+needs an internet connection and is subject to Google's rate limits.
+
+To change engine or model size: **Settings** → **Speech recognition**
+/ **Whisper model size**, then click **Reload**.
 
 ### Voice sounds wrong / not loading
 

@@ -415,6 +415,7 @@ def init_tts(state=None):
             style=getattr(config, "VOICE_STYLE", "clean"),
             enabled=True,
             logger=lambda m: log(state, m) if state else print(m),
+            engine=getattr(config, "TTS_ENGINE", "piper"),
         )
     except Exception as e:
         print(f"[WARN] Could not initialize voice FX TTS: {e}")
@@ -469,17 +470,110 @@ def _is_command_in_profile(entry, allowed_categories):
     return entry.get("category") in allowed_categories
 
 
+def _collect_keywords(name, entry):
+    """
+    Build the keyword set for a command. Includes:
+      - the command name itself
+      - any aliases (already used for exact matching by _expand_aliases,
+        but we also want them to match when buried in a sentence)
+      - an explicit `keywords` list on the entry
+
+    Each keyword is normalized to lowercase and wrapped in word boundaries
+    at match time so "scan" doesn't fire on "scanner".
+    """
+    out = set()
+    if name:
+        out.add(name.lower().strip())
+    for a in (entry.get("aliases") or []):
+        if a:
+            out.add(a.lower().strip())
+    for k in (entry.get("keywords") or []):
+        if k:
+            out.add(k.lower().strip())
+    return out
+
+
+# Cache compiled patterns so we don't rebuild every utterance.
+_KEYWORD_CACHE_KEY = None
+_KEYWORD_CACHE = None
+
+
+def _build_keyword_index(commands):
+    """
+    Return list of (command_name, set_of_keywords) for every dedupe-able
+    command. Aliases that point to the same entry are collapsed.
+    """
+    global _KEYWORD_CACHE_KEY, _KEYWORD_CACHE
+    # Cheap fingerprint of the commands dict to invalidate cache on reload.
+    fp = id(commands), len(commands)
+    if _KEYWORD_CACHE_KEY == fp and _KEYWORD_CACHE is not None:
+        return _KEYWORD_CACHE
+
+    # Deduplicate: many commands share the same dict (alias expansion
+    # writes the same entry under multiple names). We want each unique
+    # entry to appear once, keyed by the *canonical* name.
+    seen_ids = set()
+    index = []
+    for name, entry in commands.items():
+        if id(entry) in seen_ids:
+            continue
+        seen_ids.add(id(entry))
+        kws = _collect_keywords(name, entry)
+        if kws:
+            index.append((name, kws))
+    _KEYWORD_CACHE_KEY = fp
+    _KEYWORD_CACHE = index
+    return index
+
+
+def _keyword_match(spoken, commands, allowed):
+    """
+    Look for any command whose keywords appear as whole words inside
+    `spoken`. Returns the longest-keyword winner so "landing gear" beats
+    "gear" when both fit.
+    """
+    index = _build_keyword_index(commands)
+    best_name = None
+    best_len = 0
+    for name, kws in index:
+        if not _is_command_in_profile(commands[name], allowed):
+            continue
+        for kw in kws:
+            # Whole-word containment: "gear" matches "the gear down" but
+            # not "geared" or "scanner".
+            pattern = r"(?:^|\W)" + re.escape(kw) + r"(?:$|\W)"
+            if re.search(pattern, spoken):
+                if len(kw) > best_len:
+                    best_name = name
+                    best_len = len(kw)
+                    break  # this command already won at length `best_len`
+    return best_name
+
+
 def match_command(spoken, commands, active_profile=None):
-    """Find the best matching command, filtered by the active profile."""
+    """
+    Tiered match:
+      1. exact phrase (current behaviour)
+      2. keyword-in-sentence match — fires when a known phrase is buried
+         in a longer utterance like "put the gear down"
+      3. fuzzy match — last resort
+    All tiers respect profile filtering.
+    """
     allowed = _profile_categories(active_profile) if active_profile else set()
 
-    # Exact match (still respects profile filtering)
+    # Tier 1: exact match
     if spoken in commands and _is_command_in_profile(commands[spoken], allowed):
         return spoken
 
+    # Tier 2: keyword-in-utterance
+    if getattr(config, "KEYWORD_MATCH_ENABLED", True):
+        hit = _keyword_match(spoken, commands, allowed)
+        if hit:
+            return hit
+
+    # Tier 3: fuzzy
     if not config.FUZZY_MATCH_ENABLED:
         return None
-
     candidate_keys = [
         k for k, v in commands.items()
         if _is_command_in_profile(v, allowed)
@@ -488,6 +582,150 @@ def match_command(spoken, commands, active_profile=None):
         spoken, candidate_keys, n=1, cutoff=config.FUZZY_MATCH_THRESHOLD,
     )
     return matches[0] if matches else None
+
+
+# --- Confirm-code (self-destruct) flow ------------------------------------
+
+_DIGIT_WORDS = {
+    "zero": "0", "oh": "0", "o": "0", "nought": "0",
+    "one": "1", "won": "1",
+    "two": "2", "to": "2", "too": "2",
+    "three": "3", "tree": "3",
+    "four": "4", "for": "4", "fore": "4",
+    "five": "5",
+    "six": "6", "sex": "6",
+    "seven": "7",
+    "eight": "8", "ate": "8",
+    "nine": "9", "niner": "9",
+}
+
+
+def _extract_digits(text):
+    """
+    Pull a digit sequence out of `text`. Accepts raw digits ("4626") and
+    English number words ("four six two six"). Returns the concatenated
+    digit string in the order they appear.
+    """
+    if not text:
+        return ""
+    out = []
+    # Tokenize on word boundaries; keep digits and words separately.
+    tokens = re.findall(r"\d+|[a-zA-Z]+", text.lower())
+    for tok in tokens:
+        if tok.isdigit():
+            out.append(tok)
+        elif tok in _DIGIT_WORDS:
+            out.append(_DIGIT_WORDS[tok])
+    return "".join(out)
+
+
+def _speak_code(tts_engine, code, state, voice):
+    """Speak a digit code one digit at a time so it's unmistakable."""
+    spelled = " ".join(code)  # "4 6 2 6"
+    intro = (f"To confirm self destruct, please confirm this code by "
+             f"saying it: {spelled}.")
+    speak(tts_engine, intro, state=state, voice=voice)
+
+
+def _start_confirm_code(command_name, command_data, tts_engine, state, voice):
+    """
+    Begin a confirm_code flow:
+      1. Generate a random N-digit code (default 4)
+      2. Speak the prompt + code
+      3. Stash the pending confirmation on AppState; the listen loop will
+         match the user's spoken digits against it within `timeout` seconds.
+    """
+    if state is None:
+        log(state, f"[ERROR] confirm_code '{command_name}' requires state.")
+        return
+    length = int(command_data.get("code_length", 4))
+    timeout = float(command_data.get("confirm_timeout", 20.0))
+    code = "".join(random.choices(string.digits, k=length))
+
+    payload = {
+        "code": code,
+        "expires_at": time.time() + timeout,
+        "command": command_name,
+        "command_data": command_data,
+        "voice": voice,
+        "confirm_response": command_data.get(
+            "confirm_response",
+            "Self destructing in 30 seconds.",
+        ),
+    }
+    state.set_pending_confirm(payload)
+    log(state, f"[CONFIRM] '{command_name}' awaiting code {code} "
+               f"(timeout {timeout:.0f}s).")
+    _speak_code(tts_engine, code, state, voice)
+
+
+def _handle_pending_confirm(spoken, state, tts_engine, backend):
+    """
+    Returns True if `spoken` was consumed by a pending confirm_code flow
+    (either matched, cancelled by the user, or expired). When True, the
+    normal command-matching pipeline should skip this utterance.
+    """
+    pending = state.get_pending_confirm() if state else None
+    if not pending:
+        return False
+
+    # Expired? Clear and let normal matching handle the utterance.
+    if time.time() > pending.get("expires_at", 0):
+        state.clear_pending_confirm()
+        log(state, "[CONFIRM] Confirmation window expired. Cancelled.")
+        return False
+
+    heard_digits = _extract_digits(spoken)
+    if not heard_digits:
+        debug_log(state, "[CONFIRM] No digits heard; ignoring utterance.")
+        return False  # let normal matching also try
+
+    if pending["code"] in heard_digits:
+        state.clear_pending_confirm()
+        log(state, f"[CONFIRM] Code matched. Firing '{pending['command']}'.")
+        cmd_data = pending["command_data"]
+        voice = pending.get("voice")
+        # Speak the confirmation line, THEN fire the deferred keybind so
+        # the in-game press lines up with "Self destructing in 30 seconds."
+        confirm_text = pick_response(pending.get("confirm_response"))
+        if confirm_text:
+            speak(tts_engine, confirm_text, state=state, voice=voice)
+
+        # Build the action to fire from the confirm_code entry. The
+        # `deferred_type` field tells us what to do once confirmed; if
+        # missing we default to "hold" (the self-destruct shape).
+        deferred = {
+            "type": (cmd_data.get("deferred_type") or "hold").lower(),
+        }
+        for k in ("key", "keys", "button", "duration", "amount",
+                  "direction", "actions"):
+            if k in cmd_data:
+                deferred[k] = cmd_data[k]
+
+        def fire_confirmed():
+            try:
+                if deferred["type"] == "multi_action":
+                    for sub in deferred.get("actions", []):
+                        _do_single_action(pending["command"], sub, backend,
+                                          state=state)
+                        time.sleep(0.08)
+                else:
+                    _do_single_action(pending["command"], deferred, backend,
+                                      state=state)
+            except Exception as e:
+                log(state, f"[ERROR] confirmed action failed: {e}")
+
+        if tts_engine is not None and confirm_text:
+            tts_engine.run_after(fire_confirmed)
+        else:
+            fire_confirmed()
+        return True
+
+    log(state, f"[CONFIRM] Heard '{heard_digits}', expected "
+               f"'{pending['code']}'. No match.")
+    speak(tts_engine, "Code incorrect.", state=state,
+          voice=pending.get("voice"))
+    return True
 
 
 def _do_single_action(command_name, action, backend, state=None):
@@ -579,72 +817,110 @@ def perform_action(command_name, command_data, tts_engine, backend,
 
     debug_log(state, f"[ACTION] type={action_type} command='{command_name}'")
 
-    try:
-        if action_type == "multi_action":
-            actions = command_data.get("actions", [])
-            if not actions:
-                log(state, f"[ERROR] Command '{command_name}' has no "
-                           f"'actions' list.")
-                return
-            for sub in actions:
-                _do_single_action(command_name, sub, backend, state=state)
-                # Small gap so the game treats each step distinctly
-                time.sleep(0.08)
+    # Special action types that don't fit the speak-then-press pattern:
+    # confirm_code starts a confirmation flow and returns early; mode/state
+    # are handled inline and produce no keybind to defer.
+    if action_type == "confirm_code":
+        _start_confirm_code(command_name, command_data, tts_engine,
+                            state=state, voice=voice)
+        return
 
-        elif action_type in ("speak", "say"):
-            # speak-only: response is spoken below, nothing to press
-            pass
+    # Commands flagged `clears_pending` cancel any open confirm_code flow
+    # (e.g. "cancel self destruct" both clears the prompt and fires the
+    # same hold-backspace keybind to abort the in-game timer).
+    if command_data.get("clears_pending") and state is not None:
+        if state.get_pending_confirm():
+            state.clear_pending_confirm()
+            log(state, f"[CONFIRM] '{command_name}' cleared pending "
+                       f"confirmation.")
 
-        elif action_type in ("mode", "profile_switch"):
-            target = (command_data.get("profile")
-                      or command_data.get("mode")
-                      or command_data.get("target"))
-            if target and state is not None:
-                state.set_profile(target)
-                log(state, f"[PROFILE] Switched to {target!r}.")
-            else:
-                log(state, f"[WARN] '{command_name}' missing profile target.")
-
-        elif action_type == "state_toggle":
-            # Local fake-state tracking — also a no-op in v0.0.1; we still
-            # send the key if one was provided so the command actually does
-            # something in-game.
-            log(state, f"[STATE] '{command_name}' (state tracking not "
-                       f"implemented in v0.0.1)")
-            if command_data.get("key"):
-                _do_single_action(
-                    command_name,
-                    {"type": "key", "key": command_data["key"]},
-                    backend,
-                    state=state,
-                )
-
-        elif action_type in (
-            "key", "hotkey", "hold", "mouse", "scroll",
-            "hold_combo", "unbound",
-        ):
-            _do_single_action(command_name, command_data, backend, state=state)
-
+    if action_type in ("mode", "profile_switch"):
+        target = (command_data.get("profile")
+                  or command_data.get("mode")
+                  or command_data.get("target"))
+        if target and state is not None:
+            state.set_profile(target)
+            log(state, f"[PROFILE] Switched to {target!r}.")
         else:
-            log(state, f"[ERROR] Unknown action type '{action_type}' for "
-                       f"'{command_name}'.")
-            return
-    except Exception as e:
-        log(state, f"[ERROR] Action '{command_name}' failed: {e}")
+            log(state, f"[WARN] '{command_name}' missing profile target.")
+        if response:
+            _speak_with_optional_relay(command_name, command_data, response,
+                                       voice, tts_engine, state)
+        return
 
-    if response:
-        # Co-pilot relay: address the crew member first, then they answer.
-        # The TTS worker plays queued items serially so the two lines
-        # come out in order without overlap.
-        if should_relay(command_data, voice, state=state):
-            copilot_voice = (state.get_copilot_voice() if state else None) \
-                            or getattr(config, "COPILOT_VOICE", None)
-            relay_text = build_copilot_relay(command_name, voice)
-            speak(tts_engine, relay_text, state=state, voice=copilot_voice)
+    # Build the keypress as a callable so we can either fire it immediately
+    # or defer it until after the crew finishes speaking (relay mode).
+    def fire_action():
+        try:
+            if action_type == "multi_action":
+                actions = command_data.get("actions", [])
+                if not actions:
+                    log(state, f"[ERROR] Command '{command_name}' has no "
+                               f"'actions' list.")
+                    return
+                for sub in actions:
+                    _do_single_action(command_name, sub, backend, state=state)
+                    time.sleep(0.08)
+
+            elif action_type in ("speak", "say"):
+                pass  # speak-only: no key to send
+
+            elif action_type == "state_toggle":
+                log(state, f"[STATE] '{command_name}' (state tracking not "
+                           f"implemented in v0.0.1)")
+                if command_data.get("key"):
+                    _do_single_action(
+                        command_name,
+                        {"type": "key", "key": command_data["key"]},
+                        backend,
+                        state=state,
+                    )
+
+            elif action_type in (
+                "key", "hotkey", "hold", "mouse", "scroll",
+                "hold_combo", "unbound",
+            ):
+                _do_single_action(command_name, command_data, backend,
+                                  state=state)
+
+            else:
+                log(state, f"[ERROR] Unknown action type '{action_type}' "
+                           f"for '{command_name}'.")
+        except Exception as e:
+            log(state, f"[ERROR] Action '{command_name}' failed: {e}")
+
+    # When relay is active the order should read in-game as:
+    #   1. co-pilot acknowledges  ("Roger, Joe. Fire weapon group one.")
+    #   2. crew member replies    ("Primaries hot.")
+    #   3. THEN the keybind fires
+    # Otherwise (no relay) we keep the legacy "press first, speak after"
+    # behaviour so simple commands stay snappy.
+    relaying = bool(response) and should_relay(command_data, voice, state=state)
+    if relaying and tts_engine is not None:
+        copilot_voice = (state.get_copilot_voice() if state else None) \
+                        or getattr(config, "COPILOT_VOICE", None)
+        relay_text = build_copilot_relay(command_name, voice)
+        speak(tts_engine, relay_text, state=state, voice=copilot_voice)
         speak(tts_engine, response, state=state, voice=voice)
+        tts_engine.run_after(fire_action)
+    else:
+        fire_action()
+        if response:
+            speak(tts_engine, response, state=state, voice=voice)
 
 
-def listen_once(recognizer, microphone, state=None):
+def _speak_with_optional_relay(command_name, command_data, response, voice,
+                               tts_engine, state):
+    """Speak a response with the co-pilot relay prepended when appropriate."""
+    if should_relay(command_data, voice, state=state):
+        copilot_voice = (state.get_copilot_voice() if state else None) \
+                        or getattr(config, "COPILOT_VOICE", None)
+        relay_text = build_copilot_relay(command_name, voice)
+        speak(tts_engine, relay_text, state=state, voice=copilot_voice)
+    speak(tts_engine, response, state=state, voice=voice)
+
+
+def listen_once(recognizer, microphone, stt_engine=None, state=None):
     """Listen for a single phrase and return recognized text (or None)."""
     with microphone as source:
         debug_log(state, "[LISTEN] Waiting for speech...")
@@ -663,9 +939,15 @@ def listen_once(recognizer, microphone, state=None):
             return None
 
     try:
-        text = recognizer.recognize_google(audio)
-        debug_log(state, f"[HEARD] {text}")
-        return text
+        if stt_engine is not None:
+            text = stt_engine.transcribe(audio, recognizer)
+        else:
+            text = recognizer.recognize_google(audio)
+        if text:
+            debug_log(state, f"[HEARD] {text}")
+            return text
+        debug_log(state, "[HEARD] (unintelligible)")
+        return None
     except sr.UnknownValueError:
         debug_log(state, "[HEARD] (unintelligible)")
         return None
@@ -697,6 +979,15 @@ def listen_loop(state: AppState):
     # Expose for the GUI's "test voice" buttons
     global _TTS_ENGINE
     _TTS_ENGINE = tts_engine
+
+    # Initialize STT engine (Whisper local or Google online).
+    from stt import get_engine as get_stt_engine
+    stt_engine = get_stt_engine(
+        getattr(config, "SPEECH_ENGINE", "whisper"),
+        model_size=getattr(config, "WHISPER_MODEL", "base"),
+        device=getattr(config, "WHISPER_DEVICE", "cpu"),
+        logger=lambda m: log(state, m),
+    )
 
     # Warm *every* voice the user could possibly trigger this session:
     # active crew first (so the first reply has no hitch), then every
@@ -774,7 +1065,8 @@ def listen_loop(state: AppState):
                 time.sleep(0.2)
                 continue
 
-            heard = listen_once(recognizer, microphone, state=state)
+            heard = listen_once(recognizer, microphone,
+                                stt_engine=stt_engine, state=state)
             if not heard:
                 continue
 
@@ -796,6 +1088,14 @@ def listen_loop(state: AppState):
                     continue
                 normalized = stripped
                 debug_log(state, f"[COMMAND] {normalized}")
+
+            # Pending confirm_code (e.g. self-destruct): if active, give it
+            # first shot at the utterance. It only "consumes" the line if
+            # it matched, cancelled, or fired — otherwise we fall through
+            # to normal matching so the user can still issue commands.
+            if _handle_pending_confirm(normalized, state, tts_engine, backend):
+                last_action_time = time.time()
+                continue
 
             now = time.time()
             if now - last_action_time < config.COMMAND_COOLDOWN_SECONDS:

@@ -48,3 +48,7 @@ commands.json.bak
 # Each voice is ~63MB; we ship a script to fetch them instead of committing.
 voices/*.onnx
 voices/*.onnx.json
+
+# --- Whisper speech-recognition models (auto-downloaded on first run) -----
+# faster-whisper caches into models/whisper/<size>/...
+models/

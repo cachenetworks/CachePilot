@@ -2,6 +2,44 @@
   "_meta": {
     "category": "ship_flight"
   },
+  "self destruct": {
+    "type": "confirm_code",
+    "code_length": 4,
+    "confirm_timeout": 25,
+    "deferred_type": "hold",
+    "key": "backspace",
+    "duration": 3.0,
+    "confirm_response": [
+      "Self destructing in 30 seconds.",
+      "Confirmed. Self destruct in thirty seconds.",
+      "Detonation sequence armed. Thirty seconds.",
+      "Code accepted. Self destruct in thirty seconds."
+    ],
+    "aliases": [
+      "self destruct sequence",
+      "scuttle the ship"
+    ],
+    "action": "v_self_destruct"
+  },
+  "cancel self destruct": {
+    "type": "hold",
+    "key": "backspace",
+    "duration": 3.0,
+    "clears_pending": true,
+    "response": [
+      "Self destruct aborted.",
+      "Cancelling detonation sequence.",
+      "Belaying self destruct, Captain.",
+      "Self destruct cancelled."
+    ],
+    "aliases": [
+      "abort self destruct",
+      "stop self destruct",
+      "belay self destruct",
+      "halt self destruct"
+    ],
+    "action": "v_self_destruct"
+  },
   "flight ready": {
     "type": "key",
     "key": "r",
