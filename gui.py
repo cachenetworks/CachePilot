@@ -1038,6 +1038,136 @@ class CachePilotGUI:
             command=self._on_reload,
         ).grid(row=row, column=0, columnspan=2, padx=20, pady=20, sticky="w")
 
+        # --- SC keymap XML override panel ---
+        keymap_box = ctk.CTkFrame(parent, fg_color=COLOR_PANEL, corner_radius=12)
+        keymap_box.grid(row=2, column=0, padx=24, pady=(0, 24), sticky="ew")
+
+        ctk.CTkLabel(
+            keymap_box, text="STAR CITIZEN KEYMAP",
+            font=("Segoe UI", 11, "bold"), text_color=COLOR_ACCENT,
+        ).pack(anchor="w", padx=20, pady=(14, 0))
+        ctk.CTkLabel(
+            keymap_box,
+            text="Load an exported SC keybind XML to remap tagged commands "
+                 "automatically. CachePilot scans your StarCitizen install for "
+                 "mappings folders; pick one or browse manually.",
+            font=FONT_BODY, text_color=COLOR_DIM,
+            wraplength=720, justify="left",
+        ).pack(anchor="w", padx=20, pady=(2, 10))
+
+        # Discover files
+        try:
+            from scxml import discover_mapping_files, load_choice
+            discovered = discover_mapping_files()
+            current = load_choice()
+        except Exception:
+            discovered = []
+            current = None
+
+        # Dropdown of discovered files
+        labels = ["(none)"] + [lbl for _fp, lbl in discovered]
+        self._keymap_paths = {lbl: fp for fp, lbl in discovered}
+        self._keymap_paths["(none)"] = None
+
+        # Default selection: whatever's saved, if it's in the discovered list
+        current_label = "(none)"
+        if current:
+            for fp, lbl in discovered:
+                if os.path.abspath(fp) == os.path.abspath(current):
+                    current_label = lbl
+                    break
+            else:
+                # Saved path isn't in the discovered list — show its basename
+                cur_label = f"(custom) {os.path.basename(current)}"
+                labels.append(cur_label)
+                self._keymap_paths[cur_label] = current
+                current_label = cur_label
+
+        row_picker = ctk.CTkFrame(keymap_box, fg_color="transparent")
+        row_picker.pack(fill="x", padx=20, pady=(0, 8))
+
+        self.keymap_var = ctk.StringVar(value=current_label)
+        self.keymap_menu = ctk.CTkOptionMenu(
+            row_picker, values=labels, variable=self.keymap_var,
+            command=self._on_keymap_pick,
+            fg_color=COLOR_BG, button_color=COLOR_ACCENT_DARK,
+            button_hover_color=COLOR_ACCENT, width=420,
+        )
+        self.keymap_menu.pack(side="left")
+        ctk.CTkButton(
+            row_picker, text="Browse...", width=110,
+            fg_color=COLOR_PANEL_HI, hover_color=COLOR_BORDER,
+            command=self._on_keymap_browse,
+        ).pack(side="left", padx=(8, 0))
+        ctk.CTkButton(
+            row_picker, text="Clear", width=80,
+            fg_color=COLOR_BAD, hover_color="#dc2626",
+            command=self._on_keymap_clear,
+        ).pack(side="left", padx=(8, 0))
+
+        # Status line
+        self.keymap_status = ctk.CTkLabel(
+            keymap_box, text=self._compose_keymap_status(),
+            font=FONT_BODY, text_color=COLOR_DIM,
+            wraplength=720, justify="left",
+        )
+        self.keymap_status.pack(anchor="w", padx=20, pady=(0, 14))
+
+    def _compose_keymap_status(self):
+        try:
+            from scxml import load_choice, parse_mapping_file
+        except Exception:
+            return "scxml module not available."
+        path = load_choice()
+        if not path:
+            return "No keymap selected. Using defaults from commands/*.json."
+        try:
+            parsed = parse_mapping_file(path)
+        except Exception as e:
+            return f"Could not parse: {e}"
+        return f"Loaded: {os.path.basename(path)}  -  {len(parsed)} actions found. " \
+               f"Click Reload above to apply."
+
+    def _on_keymap_pick(self, label):
+        from scxml import save_choice
+        path = self._keymap_paths.get(label)
+        if path is None:
+            save_choice("")  # write empty so load_choice returns None
+            self.state.log("[KEYMAP] Cleared.")
+        else:
+            save_choice(path)
+            self.state.log(f"[KEYMAP] Selected {path}")
+        self.keymap_status.configure(text=self._compose_keymap_status())
+
+    def _on_keymap_browse(self):
+        from tkinter import filedialog
+        from scxml import get_default_search_folder, save_choice
+        path = filedialog.askopenfilename(
+            title="Select an SC keybind XML",
+            initialdir=get_default_search_folder(),
+            filetypes=[("SC keybind XML", "*.xml"), ("All files", "*.*")],
+        )
+        if not path:
+            return
+        save_choice(path)
+        label = f"(custom) {os.path.basename(path)}"
+        # Add to dropdown if missing
+        vals = list(self.keymap_menu.cget("values"))
+        if label not in vals:
+            vals.append(label)
+            self.keymap_menu.configure(values=vals)
+            self._keymap_paths[label] = path
+        self.keymap_var.set(label)
+        self.state.log(f"[KEYMAP] Selected {path}")
+        self.keymap_status.configure(text=self._compose_keymap_status())
+
+    def _on_keymap_clear(self):
+        from scxml import save_choice
+        save_choice("")
+        self.keymap_var.set("(none)")
+        self.state.log("[KEYMAP] Cleared.")
+        self.keymap_status.configure(text=self._compose_keymap_status())
+
     def _mk_var(self, value):
         v = ctk.StringVar(value=value)
         return v

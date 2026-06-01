@@ -1,83 +1,396 @@
 {
-  "_meta": { "category": "camera" },
+  "_meta": {
+    "category": "camera"
+  },
   "camera cycle": {
-    "type": "key", "key": "f4",
+    "type": "key",
+    "key": "f4",
     "response": [
       "Cycling camera.",
       "Next camera, Captain.",
       "Camera view switched.",
       "View toggled."
     ],
-    "aliases": ["external camera", "third person", "camera mode"]
+    "aliases": [
+      "external camera",
+      "third person",
+      "camera mode"
+    ],
+    "action": "v_view_cycle_fwd"
   },
   "look around": {
-    "type": "key", "key": "z",
+    "type": "key",
+    "key": "z",
     "response": [
       "Free look on.",
       "Looking around, Captain.",
       "Free look toggled.",
       "Head free."
     ],
-    "aliases": ["free look"]
+    "aliases": [
+      "free look"
+    ],
+    "action": "v_view_freelook_mode"
   },
   "camera move right": {
-    "type": "hold_combo", "keys": ["f4", "right"], "duration": 1.0,
-    "response": ["Camera right.", "Panning right, Captain.", "Sliding camera right.", "Right pan."],
-    "aliases": ["camera right"]
+    "type": "hold_combo",
+    "keys": [
+      "f4",
+      "right"
+    ],
+    "duration": 1.0,
+    "response": [
+      "Camera right.",
+      "Panning right, Captain.",
+      "Sliding camera right.",
+      "Right pan."
+    ],
+    "aliases": [
+      "camera right"
+    ]
   },
   "camera move left": {
-    "type": "hold_combo", "keys": ["f4", "left"], "duration": 1.0,
-    "response": ["Camera left.", "Panning left, Captain.", "Sliding camera left.", "Left pan."],
-    "aliases": ["camera left"]
+    "type": "hold_combo",
+    "keys": [
+      "f4",
+      "left"
+    ],
+    "duration": 1.0,
+    "response": [
+      "Camera left.",
+      "Panning left, Captain.",
+      "Sliding camera left.",
+      "Left pan."
+    ],
+    "aliases": [
+      "camera left"
+    ]
   },
   "camera move forward": {
-    "type": "hold_combo", "keys": ["f4", "up"], "duration": 1.0,
-    "response": ["Camera forward.", "Zooming in, Captain.", "Push the camera in.", "Forward pan."],
-    "aliases": ["camera forward"]
+    "type": "hold_combo",
+    "keys": [
+      "f4",
+      "up"
+    ],
+    "duration": 1.0,
+    "response": [
+      "Camera forward.",
+      "Zooming in, Captain.",
+      "Push the camera in.",
+      "Forward pan."
+    ],
+    "aliases": [
+      "camera forward"
+    ]
   },
   "camera move backward": {
-    "type": "hold_combo", "keys": ["f4", "down"], "duration": 1.0,
-    "response": ["Camera back.", "Pulling out, Captain.", "Camera retreating.", "Backward pan."],
-    "aliases": ["camera back"]
+    "type": "hold_combo",
+    "keys": [
+      "f4",
+      "down"
+    ],
+    "duration": 1.0,
+    "response": [
+      "Camera back.",
+      "Pulling out, Captain.",
+      "Camera retreating.",
+      "Backward pan."
+    ],
+    "aliases": [
+      "camera back"
+    ]
   },
   "camera move up": {
-    "type": "hold_combo", "keys": ["f4", "pageup"], "duration": 1.0,
-    "response": ["Camera up.", "Raising camera, Captain.", "Lifting view.", "Upward pan."],
-    "aliases": ["camera up"]
+    "type": "hold_combo",
+    "keys": [
+      "f4",
+      "pageup"
+    ],
+    "duration": 1.0,
+    "response": [
+      "Camera up.",
+      "Raising camera, Captain.",
+      "Lifting view.",
+      "Upward pan."
+    ],
+    "aliases": [
+      "camera up"
+    ]
   },
   "camera move down": {
-    "type": "hold_combo", "keys": ["f4", "pagedown"], "duration": 1.0,
-    "response": ["Camera down.", "Lowering camera, Captain.", "Dropping view.", "Downward pan."],
-    "aliases": ["camera down"]
+    "type": "hold_combo",
+    "keys": [
+      "f4",
+      "pagedown"
+    ],
+    "duration": 1.0,
+    "response": [
+      "Camera down.",
+      "Lowering camera, Captain.",
+      "Dropping view.",
+      "Downward pan."
+    ],
+    "aliases": [
+      "camera down"
+    ]
   },
-  "save camera one": { "type": "hold_combo", "keys": ["f4","num1"], "duration": 1.0, "response": ["Saving camera one.","Slot one stored, Captain.","Camera one saved.","Position one locked."] },
-  "save camera two": { "type": "hold_combo", "keys": ["f4","num2"], "duration": 1.0, "response": ["Saving camera two.","Slot two stored, Captain.","Camera two saved.","Position two locked."] },
-  "save camera three": { "type": "hold_combo", "keys": ["f4","num3"], "duration": 1.0, "response": ["Saving camera three.","Slot three stored, Captain.","Camera three saved.","Position three locked."] },
-  "save camera four": { "type": "hold_combo", "keys": ["f4","num4"], "duration": 1.0, "response": ["Saving camera four.","Slot four stored, Captain.","Camera four saved.","Position four locked."] },
-  "save camera five": { "type": "hold_combo", "keys": ["f4","num5"], "duration": 1.0, "response": ["Saving camera five.","Slot five stored, Captain.","Camera five saved.","Position five locked."] },
-  "save camera six": { "type": "hold_combo", "keys": ["f4","num6"], "duration": 1.0, "response": ["Saving camera six.","Slot six stored, Captain.","Camera six saved.","Position six locked."] },
-  "save camera seven": { "type": "hold_combo", "keys": ["f4","num7"], "duration": 1.0, "response": ["Saving camera seven.","Slot seven stored, Captain.","Camera seven saved.","Position seven locked."] },
-  "save camera eight": { "type": "hold_combo", "keys": ["f4","num8"], "duration": 1.0, "response": ["Saving camera eight.","Slot eight stored, Captain.","Camera eight saved.","Position eight locked."] },
-  "save camera nine": { "type": "hold_combo", "keys": ["f4","num9"], "duration": 1.0, "response": ["Saving camera nine.","Slot nine stored, Captain.","Camera nine saved.","Position nine locked."] },
-
-  "load camera one": { "type": "hotkey", "keys": ["f4","num1"], "response": ["Loading camera one.","Recalling slot one, Captain.","Camera one restored.","Position one loaded."] },
-  "load camera two": { "type": "hotkey", "keys": ["f4","num2"], "response": ["Loading camera two.","Recalling slot two, Captain.","Camera two restored.","Position two loaded."] },
-  "load camera three": { "type": "hotkey", "keys": ["f4","num3"], "response": ["Loading camera three.","Recalling slot three, Captain.","Camera three restored.","Position three loaded."] },
-  "load camera four": { "type": "hotkey", "keys": ["f4","num4"], "response": ["Loading camera four.","Recalling slot four, Captain.","Camera four restored.","Position four loaded."] },
-  "load camera five": { "type": "hotkey", "keys": ["f4","num5"], "response": ["Loading camera five.","Recalling slot five, Captain.","Camera five restored.","Position five loaded."] },
-  "load camera six": { "type": "hotkey", "keys": ["f4","num6"], "response": ["Loading camera six.","Recalling slot six, Captain.","Camera six restored.","Position six loaded."] },
-  "load camera seven": { "type": "hotkey", "keys": ["f4","num7"], "response": ["Loading camera seven.","Recalling slot seven, Captain.","Camera seven restored.","Position seven loaded."] },
-  "load camera eight": { "type": "hotkey", "keys": ["f4","num8"], "response": ["Loading camera eight.","Recalling slot eight, Captain.","Camera eight restored.","Position eight loaded."] },
-  "load camera nine": { "type": "hotkey", "keys": ["f4","num9"], "response": ["Loading camera nine.","Recalling slot nine, Captain.","Camera nine restored.","Position nine loaded."] },
-
+  "save camera one": {
+    "type": "hold_combo",
+    "keys": [
+      "f4",
+      "num1"
+    ],
+    "duration": 1.0,
+    "response": [
+      "Saving camera one.",
+      "Slot one stored, Captain.",
+      "Camera one saved.",
+      "Position one locked."
+    ]
+  },
+  "save camera two": {
+    "type": "hold_combo",
+    "keys": [
+      "f4",
+      "num2"
+    ],
+    "duration": 1.0,
+    "response": [
+      "Saving camera two.",
+      "Slot two stored, Captain.",
+      "Camera two saved.",
+      "Position two locked."
+    ]
+  },
+  "save camera three": {
+    "type": "hold_combo",
+    "keys": [
+      "f4",
+      "num3"
+    ],
+    "duration": 1.0,
+    "response": [
+      "Saving camera three.",
+      "Slot three stored, Captain.",
+      "Camera three saved.",
+      "Position three locked."
+    ]
+  },
+  "save camera four": {
+    "type": "hold_combo",
+    "keys": [
+      "f4",
+      "num4"
+    ],
+    "duration": 1.0,
+    "response": [
+      "Saving camera four.",
+      "Slot four stored, Captain.",
+      "Camera four saved.",
+      "Position four locked."
+    ]
+  },
+  "save camera five": {
+    "type": "hold_combo",
+    "keys": [
+      "f4",
+      "num5"
+    ],
+    "duration": 1.0,
+    "response": [
+      "Saving camera five.",
+      "Slot five stored, Captain.",
+      "Camera five saved.",
+      "Position five locked."
+    ]
+  },
+  "save camera six": {
+    "type": "hold_combo",
+    "keys": [
+      "f4",
+      "num6"
+    ],
+    "duration": 1.0,
+    "response": [
+      "Saving camera six.",
+      "Slot six stored, Captain.",
+      "Camera six saved.",
+      "Position six locked."
+    ]
+  },
+  "save camera seven": {
+    "type": "hold_combo",
+    "keys": [
+      "f4",
+      "num7"
+    ],
+    "duration": 1.0,
+    "response": [
+      "Saving camera seven.",
+      "Slot seven stored, Captain.",
+      "Camera seven saved.",
+      "Position seven locked."
+    ]
+  },
+  "save camera eight": {
+    "type": "hold_combo",
+    "keys": [
+      "f4",
+      "num8"
+    ],
+    "duration": 1.0,
+    "response": [
+      "Saving camera eight.",
+      "Slot eight stored, Captain.",
+      "Camera eight saved.",
+      "Position eight locked."
+    ]
+  },
+  "save camera nine": {
+    "type": "hold_combo",
+    "keys": [
+      "f4",
+      "num9"
+    ],
+    "duration": 1.0,
+    "response": [
+      "Saving camera nine.",
+      "Slot nine stored, Captain.",
+      "Camera nine saved.",
+      "Position nine locked."
+    ]
+  },
+  "load camera one": {
+    "type": "hotkey",
+    "keys": [
+      "f4",
+      "num1"
+    ],
+    "response": [
+      "Loading camera one.",
+      "Recalling slot one, Captain.",
+      "Camera one restored.",
+      "Position one loaded."
+    ]
+  },
+  "load camera two": {
+    "type": "hotkey",
+    "keys": [
+      "f4",
+      "num2"
+    ],
+    "response": [
+      "Loading camera two.",
+      "Recalling slot two, Captain.",
+      "Camera two restored.",
+      "Position two loaded."
+    ]
+  },
+  "load camera three": {
+    "type": "hotkey",
+    "keys": [
+      "f4",
+      "num3"
+    ],
+    "response": [
+      "Loading camera three.",
+      "Recalling slot three, Captain.",
+      "Camera three restored.",
+      "Position three loaded."
+    ]
+  },
+  "load camera four": {
+    "type": "hotkey",
+    "keys": [
+      "f4",
+      "num4"
+    ],
+    "response": [
+      "Loading camera four.",
+      "Recalling slot four, Captain.",
+      "Camera four restored.",
+      "Position four loaded."
+    ]
+  },
+  "load camera five": {
+    "type": "hotkey",
+    "keys": [
+      "f4",
+      "num5"
+    ],
+    "response": [
+      "Loading camera five.",
+      "Recalling slot five, Captain.",
+      "Camera five restored.",
+      "Position five loaded."
+    ]
+  },
+  "load camera six": {
+    "type": "hotkey",
+    "keys": [
+      "f4",
+      "num6"
+    ],
+    "response": [
+      "Loading camera six.",
+      "Recalling slot six, Captain.",
+      "Camera six restored.",
+      "Position six loaded."
+    ]
+  },
+  "load camera seven": {
+    "type": "hotkey",
+    "keys": [
+      "f4",
+      "num7"
+    ],
+    "response": [
+      "Loading camera seven.",
+      "Recalling slot seven, Captain.",
+      "Camera seven restored.",
+      "Position seven loaded."
+    ]
+  },
+  "load camera eight": {
+    "type": "hotkey",
+    "keys": [
+      "f4",
+      "num8"
+    ],
+    "response": [
+      "Loading camera eight.",
+      "Recalling slot eight, Captain.",
+      "Camera eight restored.",
+      "Position eight loaded."
+    ]
+  },
+  "load camera nine": {
+    "type": "hotkey",
+    "keys": [
+      "f4",
+      "num9"
+    ],
+    "response": [
+      "Loading camera nine.",
+      "Recalling slot nine, Captain.",
+      "Camera nine restored.",
+      "Position nine loaded."
+    ]
+  },
   "reset camera": {
-    "type": "hotkey", "keys": ["f4", "multiply"],
+    "type": "hotkey",
+    "keys": [
+      "f4",
+      "multiply"
+    ],
     "response": [
       "Resetting camera.",
       "Camera reset, Captain.",
       "View restored to default.",
       "Camera back to neutral."
     ],
-    "aliases": ["reset position"]
+    "aliases": [
+      "reset position"
+    ]
   }
 }

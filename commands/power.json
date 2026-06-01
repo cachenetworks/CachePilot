@@ -1,83 +1,116 @@
 {
-  "_meta": { "category": "power" },
+  "_meta": {
+    "category": "power"
+  },
   "power all": {
-    "type": "key", "key": "u",
+    "type": "key",
+    "key": "u",
     "response": [
       "Toggling all ship power.",
       "Cycling all power systems.",
       "Master power toggle, Captain.",
       "All power cycled."
     ],
-    "aliases": ["toggle all power"]
+    "aliases": [
+      "toggle all power"
+    ]
   },
   "power thrusters": {
-    "type": "key", "key": "i",
+    "type": "key",
+    "key": "i",
     "response": [
       "Toggling thruster power.",
       "Thruster power cycled.",
       "Drives toggled.",
       "Switching thruster state."
     ],
-    "aliases": ["thruster power"]
+    "aliases": [
+      "thruster power"
+    ],
+    "action": "v_power_thrusters_toggle"
   },
   "power shields": {
-    "type": "key", "key": "o",
+    "type": "key",
+    "key": "o",
     "response": [
       "Toggling shield power.",
       "Shield bus cycled.",
       "Shields switched, Captain.",
       "Shield power toggled."
     ],
-    "aliases": ["shield power"]
+    "aliases": [
+      "shield power"
+    ],
+    "action": "v_power_shields_toggle"
   },
   "power weapons": {
-    "type": "key", "key": "p",
+    "type": "key",
+    "key": "p",
     "response": [
       "Toggling weapon power.",
       "Weapon bus cycled.",
       "Weapons switched, Captain.",
       "Weapon power toggled."
     ],
-    "aliases": ["weapon power"]
+    "aliases": [
+      "weapon power"
+    ],
+    "action": "v_power_weapons_toggle"
   },
   "raise power weapons": {
-    "type": "key", "key": "f5",
+    "type": "key",
+    "key": "f5",
     "response": [
       "Routing power to weapons.",
       "Boosting weapon energy.",
       "Weapons priority, Captain.",
       "Diverting to guns."
     ],
-    "aliases": ["power to weapons"]
+    "aliases": [
+      "power to weapons"
+    ],
+    "action": "v_power_throttle_weapons_max"
   },
   "raise power thrusters": {
-    "type": "key", "key": "f6",
+    "type": "key",
+    "key": "f6",
     "response": [
       "Routing power to thrusters.",
       "Boosting drive output.",
       "Thrusters priority, Captain.",
       "Diverting to engines."
     ],
-    "aliases": ["power to thrusters"]
+    "aliases": [
+      "power to thrusters"
+    ],
+    "action": "v_power_throttle_thrusters_max"
   },
   "raise power shields": {
-    "type": "key", "key": "f7",
+    "type": "key",
+    "key": "f7",
     "response": [
       "Routing power to shields.",
       "Boosting shield output.",
       "Shields priority, Captain.",
       "Diverting to barriers."
     ],
-    "aliases": ["power to shields"]
+    "aliases": [
+      "power to shields"
+    ],
+    "action": "v_power_throttle_shields_max"
   },
   "reset power": {
-    "type": "key", "key": "f8",
+    "type": "key",
+    "key": "f8",
     "response": [
       "Resetting power distribution.",
       "Power balanced.",
       "Triangle reset, Captain.",
       "Even distribution restored."
     ],
-    "aliases": ["reset power distribution"]
+    "aliases": [
+      "reset power distribution"
+    ],
+    "action": "v_power_throttle_reset"
   }
 }

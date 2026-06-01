@@ -1,112 +1,162 @@
 {
-  "_meta": { "category": "targeting" },
+  "_meta": {
+    "category": "targeting"
+  },
   "lock target": {
-    "type": "key", "key": "f8",
+    "type": "key",
+    "key": "f8",
     "response": [
       "Locking target.",
       "Target locked, Captain.",
       "Reticle locked.",
       "Lock acquired."
     ],
-    "aliases": ["target lock"]
+    "aliases": [
+      "target lock"
+    ],
+    "action": "v_target_lock_selected"
   },
   "unlock target": {
-    "type": "key", "key": "f8",
+    "type": "key",
+    "key": "f8",
     "response": [
       "Unlocking target.",
       "Lock released, Captain.",
       "Target dropped.",
       "Disengaging lock."
     ],
-    "aliases": ["target unlock"]
+    "aliases": [
+      "target unlock"
+    ],
+    "action": "v_target_unlock_selected"
   },
   "select pin one": {
-    "type": "key", "key": "1",
+    "type": "key",
+    "key": "1",
     "response": [
       "Selecting pin one.",
       "Pin one active, Captain.",
       "Switching to pin one.",
       "Pin one locked."
     ],
-    "aliases": ["lock pin one"]
+    "aliases": [
+      "lock pin one"
+    ]
   },
   "select pin two": {
-    "type": "key", "key": "2",
+    "type": "key",
+    "key": "2",
     "response": [
       "Selecting pin two.",
       "Pin two active, Captain.",
       "Switching to pin two.",
       "Pin two locked."
     ],
-    "aliases": ["lock pin two"]
+    "aliases": [
+      "lock pin two"
+    ]
   },
   "select pin three": {
-    "type": "key", "key": "3",
+    "type": "key",
+    "key": "3",
     "response": [
       "Selecting pin three.",
       "Pin three active, Captain.",
       "Switching to pin three.",
       "Pin three locked."
     ],
-    "aliases": ["lock pin three"]
+    "aliases": [
+      "lock pin three"
+    ]
   },
   "pin target one": {
-    "type": "hotkey", "keys": ["leftalt", "1"],
+    "type": "hotkey",
+    "keys": [
+      "leftalt",
+      "1"
+    ],
     "response": [
       "Pinning target one.",
       "Target one pinned.",
       "Marking pin one, Captain.",
       "Pin one set."
     ],
-    "aliases": ["pin index one"]
+    "aliases": [
+      "pin index one"
+    ],
+    "action": "v_target_pinned_focus1"
   },
   "pin target two": {
-    "type": "hotkey", "keys": ["leftalt", "2"],
+    "type": "hotkey",
+    "keys": [
+      "leftalt",
+      "2"
+    ],
     "response": [
       "Pinning target two.",
       "Target two pinned.",
       "Marking pin two, Captain.",
       "Pin two set."
     ],
-    "aliases": ["pin index two"]
+    "aliases": [
+      "pin index two"
+    ],
+    "action": "v_target_pinned_focus2"
   },
   "pin target three": {
-    "type": "hotkey", "keys": ["leftalt", "3"],
+    "type": "hotkey",
+    "keys": [
+      "leftalt",
+      "3"
+    ],
     "response": [
       "Pinning target three.",
       "Target three pinned.",
       "Marking pin three, Captain.",
       "Pin three set."
     ],
-    "aliases": ["pin index three"]
+    "aliases": [
+      "pin index three"
+    ],
+    "action": "v_target_pinned_focus3"
   },
   "cycle attackers": {
-    "type": "key", "key": "4",
+    "type": "key",
+    "key": "4",
     "response": [
       "Cycling attackers.",
       "Next attacker, Captain.",
       "Switching attacker focus.",
       "Cycling hostile attackers."
-    ]
+    ],
+    "action": "v_target_cycle_attacker_fwd"
   },
   "cycle hostiles": {
-    "type": "key", "key": "5",
+    "type": "key",
+    "key": "5",
     "response": [
       "Cycling hostiles.",
       "Next hostile, Captain.",
       "Switching threat focus.",
       "Sweeping hostiles."
     ],
-    "aliases": ["hostile target"]
+    "aliases": [
+      "hostile target"
+    ],
+    "action": "v_target_cycle_hostile_fwd"
   },
   "cycle friendlies": {
-    "type": "key", "key": "6",
+    "type": "key",
+    "key": "6",
     "response": [
       "Cycling friendlies.",
       "Next friendly, Captain.",
       "Switching to allies.",
       "Sweeping allied contacts."
     ],
-    "aliases": ["friendly target"]
+    "aliases": [
+      "friendly target"
+    ],
+    "action": "v_target_cycle_friendly_fwd"
   }
 }

@@ -34,6 +34,9 @@ Desktop.ini
 # User's saved voice assignments — local to each install
 voice_assignments.json
 
+# User's SC keybind XML choice — local
+keymap_choice.json
+
 # Legacy single-file commands (kept locally as a backup)
 commands.json.legacy
 commands.json.bak

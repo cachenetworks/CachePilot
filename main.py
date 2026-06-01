@@ -334,9 +334,63 @@ def load_commands(path, state=None):
         merged.update(data)
         debug_log(state, f"[INFO] Loaded {len(data)} from {os.path.basename(fp)}")
 
+    # Apply SC keybind XML override before alias expansion so all aliases
+    # of an action inherit the new key.
+    merged, applied, total = apply_keymap_overrides(merged, state=state)
+    if total > 0:
+        log(state, f"[INFO] SC keymap: rebound {applied} of {total} "
+                   f"tagged commands.")
+
     merged = _expand_aliases(merged, state=state)
     debug_log(state, f"[INFO] Total commands (after aliases): {len(merged)}")
     return merged
+
+
+def apply_keymap_overrides(commands, state=None):
+    """
+    If a SC mapping XML is selected, override key/keys/type on every
+    command whose `action` matches a parsed action. Returns
+    (commands, applied_count, total_tagged_count).
+    """
+    try:
+        from scxml import load_choice, parse_mapping_file
+    except Exception:
+        return commands, 0, 0
+    path = load_choice()
+    if not path:
+        # Count tagged commands anyway so the GUI can report 0/N
+        total = sum(1 for v in commands.values() if v.get("action"))
+        return commands, 0, total
+    mapping = parse_mapping_file(path)
+    applied = 0
+    total = 0
+    for entry in commands.values():
+        a = entry.get("action")
+        if not a:
+            continue
+        total += 1
+        override = mapping.get(a)
+        if not override:
+            continue
+        # Wipe the old key/keys/button so the merge is clean
+        for k in ("key", "keys", "button", "direction", "amount"):
+            entry.pop(k, None)
+        # Only update type if it's a key-like override. We keep "hold"
+        # / "hold_combo" / "multi_action" types intact when SC just
+        # changes the bound key — convert hold to hold with the new key.
+        orig_type = entry.get("type")
+        if orig_type in ("hold", "hold_combo") and override["type"] in ("key", "hotkey"):
+            # User said "throttle up" should be a hold; XML says key W -> still hold W
+            if override["type"] == "key":
+                entry["type"] = "hold"
+                entry["key"] = override["key"]
+            else:  # hotkey
+                entry["type"] = "hold_combo"
+                entry["keys"] = override["keys"]
+        else:
+            entry.update(override)
+        applied += 1
+    return commands, applied, total
 
 
 # Module-level handle for the GUI's voice-test buttons. Set by listen_loop.
@@ -643,6 +697,23 @@ def listen_loop(state: AppState):
     # Expose for the GUI's "test voice" buttons
     global _TTS_ENGINE
     _TTS_ENGINE = tts_engine
+
+    # Warm *every* voice the user could possibly trigger this session:
+    # active crew first (so the first reply has no hitch), then every
+    # other available voice so the Voices tab + Force-voice + Crew
+    # dropdown switches are all instant.
+    if tts_engine is not None and state is not None:
+        priority = []
+        seen = set()
+        for v in [state.get_voice(), state.get_copilot_voice(),
+                  state.get_force_voice()]:
+            if v and v not in seen:
+                priority.append(v); seen.add(v)
+        for v in (state.get_assignments() or {}).values():
+            if v and v not in seen:
+                priority.append(v); seen.add(v)
+        background = [v for v in state.available_voices if v not in seen]
+        tts_engine.warmup(priority, background)
 
     # Initialize the configured input backend, with auto-fallback.
     backend = get_backend(

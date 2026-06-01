@@ -1,47 +1,80 @@
 {
-  "_meta": { "category": "atc" },
+  "_meta": {
+    "category": "atc"
+  },
   "request landing": {
     "type": "hotkey",
-    "keys": ["leftalt", "n"],
+    "keys": [
+      "leftalt",
+      "n"
+    ],
     "response": [
       "Requesting landing permission, Captain.",
       "Hailing tower for landing clearance.",
       "Landing request sent.",
       "Tower, we are inbound for landing."
     ],
-    "aliases": ["hail landing", "landing request", "call landing"]
+    "aliases": [
+      "hail landing",
+      "landing request",
+      "call landing"
+    ],
+    "action": "v_atc_request_landing"
   },
   "request takeoff": {
     "type": "hotkey",
-    "keys": ["leftalt", "n"],
+    "keys": [
+      "leftalt",
+      "n"
+    ],
     "response": [
       "Requesting takeoff permission.",
       "Tower, requesting departure.",
       "Sending takeoff request, Captain.",
       "Asking control for clearance to launch."
     ],
-    "aliases": ["takeoff request", "request launch"]
+    "aliases": [
+      "takeoff request",
+      "request launch"
+    ],
+    "action": "v_atc_request_takeoff"
   },
   "hail atc": {
     "type": "hotkey",
-    "keys": ["leftalt", "n"],
+    "keys": [
+      "leftalt",
+      "n"
+    ],
     "response": [
       "Hailing ATC, Captain.",
       "Comms open with control.",
       "Pinging tower, Captain.",
       "Reaching out to ATC."
     ],
-    "aliases": ["call atc", "contact atc", "radio atc"]
+    "aliases": [
+      "call atc",
+      "contact atc",
+      "radio atc"
+    ],
+    "action": "v_atc_request_hail"
   },
   "open hangar": {
     "type": "hotkey",
-    "keys": ["leftalt", "n"],
+    "keys": [
+      "leftalt",
+      "n"
+    ],
     "response": [
       "Requesting hangar doors.",
       "Asking for hangar clearance.",
       "Pinging tower for the doors.",
       "Hangar request inbound."
     ],
-    "aliases": ["open doors", "open hanger", "request doors"]
+    "aliases": [
+      "open doors",
+      "open hanger",
+      "request doors"
+    ],
+    "action": "v_atc_request_landing"
   }
 }

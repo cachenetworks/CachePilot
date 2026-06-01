@@ -1,37 +1,54 @@
 {
-  "_meta": { "category": "scanning" },
+  "_meta": {
+    "category": "scanning"
+  },
   "scanning mode": {
-    "type": "key", "key": "v",
+    "type": "key",
+    "key": "v",
     "response": [
       "Activating scanning mode.",
       "Scanner online.",
       "Switching to scan, Captain.",
       "Scan systems hot."
     ],
-    "aliases": ["scan mode"]
+    "aliases": [
+      "scan mode"
+    ],
+    "action": "v_view_mode_scanning"
   },
   "activate scanning": {
-    "type": "mouse", "button": "left",
+    "type": "mouse",
+    "button": "left",
     "response": [
       "Scanning.",
       "Scan started, Captain.",
       "Pinging contacts.",
       "Sweeping sensors."
     ],
-    "aliases": ["scan"]
+    "aliases": [
+      "scan"
+    ],
+    "action": "v_scanning_trigger"
   },
   "scanning ping": {
-    "type": "hold", "key": "v", "duration": 0.8,
+    "type": "hold",
+    "key": "v",
+    "duration": 0.8,
     "response": [
       "Scan ping out.",
       "Pinging, Captain.",
       "Wide sweep deployed.",
       "Active ping sent."
     ],
-    "aliases": ["ping", "scan ping"]
+    "aliases": [
+      "ping",
+      "scan ping"
+    ]
   },
   "increase scanning angle": {
-    "type": "scroll", "direction": "up", "amount": 3,
+    "type": "scroll",
+    "direction": "up",
+    "amount": 3,
     "response": [
       "Widening scan angle.",
       "Scan cone expanding.",
@@ -40,7 +57,9 @@
     ]
   },
   "decrease scanning angle": {
-    "type": "scroll", "direction": "down", "amount": 3,
+    "type": "scroll",
+    "direction": "down",
+    "amount": 3,
     "response": [
       "Narrowing scan angle.",
       "Scan cone tightening.",

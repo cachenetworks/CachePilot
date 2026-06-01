@@ -244,6 +244,47 @@ class VoiceFX:
         self._stop.set()
         self._queue.put(None)
 
+    def warmup(self, priority_voices, background_voices=None):
+        """
+        Load voices in two phases on a background thread:
+          1. priority_voices  — loaded first, sequentially. Use for the
+             active crew so the first ATC/tactical/etc reply has no hitch.
+          2. background_voices — loaded after, also sequentially. Use for
+             the rest of the voice catalogue so by ~2 minutes everything
+             is warm and the GUI Voice-test buttons feel instant.
+
+        Each Piper model takes ~10s to cold-load on a typical CPU.
+        Safe to call more than once; voices already cached are skipped.
+        """
+        priority = [v for v in (priority_voices or []) if v]
+        background = [v for v in (background_voices or []) if v
+                      and v not in priority]
+
+        def _run():
+            if priority:
+                self._logger(
+                    f"[TTS] Warming {len(priority)} crew voice(s) "
+                    f"(~{len(priority) * 10}s)..."
+                )
+                for v in priority:
+                    if v in self._synths:
+                        continue
+                    self._logger(f"[TTS] Warming {v} (crew)...")
+                    self._get_synth(v)
+                self._logger("[TTS] Crew warm. Ready.")
+            if background:
+                self._logger(
+                    f"[TTS] Drifting in {len(background)} extra voice(s) "
+                    f"in the background..."
+                )
+                for v in background:
+                    if v in self._synths:
+                        continue
+                    self._logger(f"[TTS] Warming {v} (background)...")
+                    self._get_synth(v)
+                self._logger("[TTS] All voices loaded.")
+        threading.Thread(target=_run, daemon=True).start()
+
     def _run(self):
         while not self._stop.is_set():
             item = self._queue.get()
